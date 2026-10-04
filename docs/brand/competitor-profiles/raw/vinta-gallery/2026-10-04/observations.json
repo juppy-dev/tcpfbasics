@@ -1,0 +1,14 @@
+{
+  "research_date": "2026-10-04",
+  "record_type": "extracted_source_observations",
+  "brand": "VINTA Gallery",
+  "sources": ["https://vintagallery.com/"],
+  "observations": [
+    "Current homepage describes a Philippine atelier chapter.",
+    "Services distinguish made-to-measure, custom modification, and couture.",
+    "Made-to-measure minimum timeline is four months; custom timeline is four to six months.",
+    "Current homepage also contains ready-to-wear clearance."
+  ],
+  "observed_prices": [],
+  "limitations": ["Older indexed pages reflect a different website chapter.", "Clearance prices excluded from normal-price comparison."]
+}

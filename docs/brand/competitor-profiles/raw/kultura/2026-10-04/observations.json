@@ -1,0 +1,15 @@
+{
+  "research_date": "2026-10-04",
+  "record_type": "extracted_source_observations",
+  "brand": "Kultura",
+  "sources": ["https://www.kulturafilipino.com/collections/filipiniana"],
+  "observations": [
+    "Filipiniana collection presents multiple brands.",
+    "Retrieved product details include materials, care, and model information."
+  ],
+  "observed_prices": [
+    {"item": "Mayumi Anahaw dress", "currency": "PHP", "amount": 8999},
+    {"item": "Raffaella cocoon top", "currency": "PHP", "amount": 8999}
+  ],
+  "limitations": ["Samples do not represent the entire market or retailer range.", "No conversion or retail-performance data collected."]
+}

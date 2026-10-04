@@ -1,0 +1,12 @@
+{
+  "research_date": "2026-10-04",
+  "record_type": "extracted_source_observations",
+  "brand": "Kaayo",
+  "sources": ["https://kaayoph.com/", "https://kaayoph.com/pages/about-us"],
+  "observations": ["Brand story identifies Mindanao, named founders, and artisan relationships."],
+  "observed_prices": [
+    {"item": "Marian top", "currency": "PHP", "amount": 3950},
+    {"item": "Nida dress", "currency": "PHP", "amount": 6500}
+  ],
+  "limitations": ["Brand impact claims were not independently audited.", "Product construction is not matched to TCPF."]
+}

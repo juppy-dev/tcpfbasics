@@ -1,0 +1,15 @@
+{
+  "research_date": "2026-10-04",
+  "record_type": "extracted_source_observations",
+  "brand": "Filibela",
+  "sources": ["https://filibela.com/", "https://filibela.com/pages/our-story-1"],
+  "observations": [
+    "Shopping navigation includes garment categories and occasion routes.",
+    "The founder story emphasizes comfortable contemporary Filipino clothing and repeat wear."
+  ],
+  "observed_prices": [
+    {"item": "Aja Boxy Barong", "currency": "PHP", "amount": 3999},
+    {"item": "Lovella Blazer", "currency": "PHP", "amount": 8499}
+  ],
+  "limitations": ["Individual prices are not a full range.", "No sales, conversion, or quantitative SEO data collected."]
+}

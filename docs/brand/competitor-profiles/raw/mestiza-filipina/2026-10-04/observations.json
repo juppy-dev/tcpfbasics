@@ -1,0 +1,13 @@
+{
+  "research_date": "2026-10-04",
+  "record_type": "extracted_source_observations",
+  "brand": "Mestiza Filipina",
+  "sources": ["https://mestizafilipina.co/en-ph/collections/modern-filipiniana"],
+  "observations": ["Collection includes contemporary Filipiniana tops, dresses, boleros, and coordinating separates."],
+  "observed_prices": [
+    {"item": "Nida floral top", "currency": "PHP", "amount": 6700},
+    {"item": "Nida floral skirt", "currency": "PHP", "amount": 2700},
+    {"item": "Love mini dress", "currency": "PHP", "amount": 7600}
+  ],
+  "limitations": ["Individual prices are not a full range.", "No customer demographics or conversion measured."]
+}

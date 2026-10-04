@@ -1,0 +1,63 @@
+# TCPF Basics — product marketing context
+
+Updated: 2026-10-05. Detailed brand system approved; phase 2 brainstorm.
+
+## Confirmed business context
+
+**Product:** Modern Filipiniana clothing carrying original paintings/artwork as prints.
+
+**Business:** TCPF / Tisha Chavez Painted Fashion, owned and operated by Tisha Chavez. Naga City base supplied by the user.
+
+**Business model:** Clothing ecommerce with bespoke inquiries. Ready-to-wear shopping leads the new website; bespoke is secondary. This priority was explicitly selected by the user.
+
+**Store:** `tcpfbasics.myshopify.com`; PHP currency confirmed by a read-only Shopify CLI query. Current records include concept products and require an accuracy audit.
+
+**Catalog decision:** Replace all six existing products. The user identifies borrowed imagery and asks for ten new sample products, each with 3–5 original AI-generated images. Create original demonstration concepts as drafts; do not attribute generated artwork to Tisha or represent invented specifications as verified inventory.
+
+**Public channels:** [Instagram](https://www.instagram.com/tcpfbasics/), [X](https://x.com/TCPFBasics), [Facebook](https://www.facebook.com/tishapaintedfashion), and a matching [Shopee shop](https://shopee.ph/tcpfbasics).
+
+## Audience and shopper jobs
+
+Exact demographics, market priorities, and customer research have not been established. Working segments for validation are occasion shoppers seeking modern Filipiniana, expressive dressers attracted to original prints, and returning followers of the artist. These are strategic hypotheses, not measured customer segments.
+
+Likely shopping questions to investigate include fit, what a set includes, artwork placement, fabric and care, delivery before an event, and styling separates. Bespoke customers also need an explanation of the commission process and timing.
+
+## Differentiation and positioning
+
+Original artwork, an identifiable artist, and the translation from painting to garment are supported by the user's brief and published founder interviews. The user selected **A — Contemporary Wearable Gallery**, developed around **original paintings made wearable through modern Filipiniana**.
+
+**Logo:** Keep the existing logo. The user supplied a 2048 px Facebook JPEG showing a gold needle/floral mark on white; it is saved intact in `docs/brand/assets/logo/`. No replacement logo is authorized. The user approved the detailed palette, Fraunces/Instrument Sans pairing, voice, headline, and imagery mood in the [brand specification](../docs/specs/2026-10-05-brand-system-design.md).
+
+The connection between art and Filipiniana exists elsewhere in the category. Do not infer that TCPF invented it or is the only brand doing it. Individual artworks and founder authorship provide a more specific story.
+
+The user selected keeping current pricing while elevating the presentation. Public marketplace prices are research observations; confirm the exact catalog prices before creating or changing Shopify products.
+
+## Competitive context
+
+Research benchmarks: Filibela, Mestiza Filipina, Kaayo, VINTA Gallery, Filip + Inna, and Kultura. They represent overlapping ready-to-wear offers, craft-focused brands, bespoke alternatives, and multibrand retail. They are not six equivalent competitors.
+
+See the [competitor comparison](../docs/brand/competitor-profiles/_summary.md) for the evidence and distinctions.
+
+## Voice and claims
+
+Approved voice: artistic, warm, assured, specific, and contemporary. Give product details in straightforward language; reserve poetic language for artwork and editorial stories. See the [voice guide](../docs/brand/04-brand-voice.md).
+
+Distinguish **printed artwork** from **directly hand-painted garments**. Identify the actual technique for each product. Do not infer material composition, handweaving, sustainability certifications, limited production, or delivery guarantees from the overall brand story.
+
+Celebrity wear including BINI was supplied by the user. Specific appearance evidence and asset credits remain to be collected before drafting a public feature.
+
+## Proof and source limitations
+
+Founder interviews and fashion coverage are recorded in the [source register](../docs/brand/research/source-register.md). They support historical creative context, not every current operating detail.
+
+Direct social-feed review is incomplete. Instagram browser access was denied; Facebook and X did not provide usable page text through web retrieval. No customer testimonials, conversion metrics, or audience statistics have been independently established.
+
+## Goals
+
+**Business goal:** Deliver a distinctive Shopify storefront the client can operate and maintain.
+
+**Primary conversion:** Purchase ready-to-wear clothing.
+
+**Secondary conversion:** Submit a suitable bespoke inquiry.
+
+**Performance evidence:** Establish a baseline and evaluate conversion after launch; no uplift is currently claimed.

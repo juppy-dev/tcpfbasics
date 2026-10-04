@@ -1,0 +1,5 @@
+.DS_Store
+.lavish/
+.env
+.env.*
+!.env.example

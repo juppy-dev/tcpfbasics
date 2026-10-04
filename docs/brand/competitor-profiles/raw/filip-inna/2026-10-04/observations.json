@@ -1,0 +1,12 @@
+{
+  "research_date": "2026-10-04",
+  "record_type": "extracted_source_observations",
+  "brand": "Filip + Inna",
+  "sources": ["https://filipinna.com/pages/about", "https://filipinna.com/pages/filip-inna-custom"],
+  "observations": [
+    "About page identifies weaving, embroidery, beadwork, and work with Indigenous artisans.",
+    "Custom page describes a client partnership for bespoke pieces."
+  ],
+  "observed_prices": [],
+  "limitations": ["No comparable garment price captured.", "Production and livelihood claims not independently audited."]
+}
