@@ -1,6 +1,6 @@
 # TCPF Basics — project brief
 
-Updated: 2026-10-05. Status: phase 1 brand system approved; phase 2 written design for review.
+Updated: 2026-10-05. Status: phase 1 and phase 2 designs approved; phase 2 implementation plan for review.
 
 ## Intended outcome
 
@@ -11,6 +11,8 @@ The user selected **ready-to-wear shopping as the primary launch journey, with b
 The selected creative direction is **A — Contemporary Wearable Gallery**. **Keep the existing logo and build the identity around it.** The user subsequently instructed us to scrap the existing Shopify products and start from scratch with ten sample products, each carrying 3–5 original AI-generated product photographs. Existing borrowed product imagery must not enter the new catalog or theme.
 
 Phase 2's category mix and architecture are also selected: **3 boleros, 2 terno sets, 2 skirts, 2 dresses, 1 top**, with a reusable artwork/garment/size library and matching-product references. The [written data and catalog design](specs/2026-10-05-shopify-data-catalog-design.md) specifies the proposed schema, exact sample lineup, upload sequence, and draft-to-preview handoff.
+
+The user approved that written design with “looks good”. The [six-task implementation plan](plans/2026-10-05-shopify-data-catalog.md) now covers schema/source preparation, artwork masters, product photography, uploads/content records, draft products, and old-catalog replacement. Its review and execution-method selection precede implementation.
 
 ## Three phases
 

@@ -1,6 +1,6 @@
 # Ten-product sample source brief
 
-2026-10-05 · Design content for review · All specifications below are invented demonstration data, not measured TCPF inventory.
+2026-10-05 · Sample design approved with the phase 2 written specification · All specifications below are invented demonstration data, not measured TCPF inventory.
 
 These values make the image brief and catalog agree before generation. Every product remains concept flagged and unavailable for purchase. The [schema design](../specs/2026-10-05-shopify-data-catalog-design.md) defines storage and relationships.
 

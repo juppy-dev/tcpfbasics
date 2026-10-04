@@ -1,6 +1,6 @@
 # TCPF Shopify data relationships
 
-2026-10-05 · Phase 2 proposed design; definitions have not yet been changed.
+2026-10-05 · Phase 2 approved design; definitions have not yet been changed.
 
 ```mermaid
 flowchart LR
@@ -34,4 +34,17 @@ stateDiagram-v2
 
 Draft samples have zero inventory, deny overselling, and carry the concept flag. Normal collections cannot render draft products, so preview publication is a separate phase 3 handoff after password protection and sample purchase guards are confirmed. A reviewed AI sample is not automatically verified merchandise.
 
-See the [phase 2 design](../specs/2026-10-05-shopify-data-catalog-design.md).
+## Phase 2 execution dependencies
+
+```mermaid
+flowchart TD
+    S[1. Source snapshot and schema refinement] --> A[2. Five artwork masters]
+    A --> P[3. Forty garment photographs]
+    P --> U[4. Upload assets and populate content library]
+    U --> C[5. Ten draft products and references]
+    C --> R[6. Delete old products and deliver handoff]
+```
+
+Each dependent mutation waits for its referenced files or records to be ready. Independent artwork families can generate in parallel; the shared store writes remain ordered.
+
+See the [phase 2 design](../specs/2026-10-05-shopify-data-catalog-design.md) and [implementation plan](../plans/2026-10-05-shopify-data-catalog.md).
