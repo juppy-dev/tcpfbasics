@@ -31,4 +31,6 @@ The [project brief](../project-brief.md) records the full three-phase request. T
 
 The written-system review is complete. These supporting documents form the approved brand guide. Continue into the custom-data and sample-assortment brainstorm; retain source limitations and distinguish sample concepts from actual inventory.
 
+The user selected matching separates and a reusable library. Continue with the [phase 2 written design](../specs/2026-10-05-shopify-data-catalog-design.md) and [complete sample brief](../data/02-sample-product-briefs.md).
+
 Research covers a useful breadth of public evidence but is not a complete customer study or direct social-feed audit. Treat the labeled hypotheses and missing evidence accordingly.

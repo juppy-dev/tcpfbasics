@@ -1,6 +1,6 @@
 # TCPF Basics — product marketing context
 
-Updated: 2026-10-05. Detailed brand system approved; phase 2 brainstorm.
+Updated: 2026-10-05. Detailed brand system approved; phase 2 written design for review.
 
 ## Confirmed business context
 
@@ -13,6 +13,8 @@ Updated: 2026-10-05. Detailed brand system approved; phase 2 brainstorm.
 **Store:** `tcpfbasics.myshopify.com`; PHP currency confirmed by a read-only Shopify CLI query. Current records include concept products and require an accuracy audit.
 
 **Catalog decision:** Replace all six existing products. The user identifies borrowed imagery and asks for ten new sample products, each with 3–5 original AI-generated images. Create original demonstration concepts as drafts; do not attribute generated artwork to Tisha or represent invented specifications as verified inventory.
+
+**Phase 2 approach:** The user selected matching separates (3 boleros, 2 sets, 2 skirts, 2 dresses, 1 top) and a reusable artwork, garment-detail, and structured sizing library. The [data/catalog design](../docs/specs/2026-10-05-shopify-data-catalog-design.md) and [sample brief](../docs/data/02-sample-product-briefs.md) are ready for written review; no store mutations have occurred.
 
 **Public channels:** [Instagram](https://www.instagram.com/tcpfbasics/), [X](https://x.com/TCPFBasics), [Facebook](https://www.facebook.com/tishapaintedfashion), and a matching [Shopee shop](https://shopee.ph/tcpfbasics).
 
