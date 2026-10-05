@@ -48,3 +48,7 @@ flowchart TD
 Each dependent mutation waits for its referenced files or records to be ready. Independent artwork families can generate in parallel. Individually accepted uploads and independent measurement records may stage while later photographs render; all forty photos and five masters must be ready before task 4 completes. Shared dependent store writes remain ordered.
 
 See the [phase 2 design](../specs/2026-10-05-shopify-data-catalog-design.md) and [implementation plan](../plans/2026-10-05-shopify-data-catalog.md).
+
+## Phase 3 consumers
+
+The proposed theme reads these typed references into artwork stories, garment facts, ordered size tables, set contents, and context-labeled recommendations. It shares the concept flag across product/card/search/cart/structured-data paths. The [theme architecture](shopify-theme-architecture.md) shows the native Horizon interfaces and protected-preview handoff; the [theme specification](../specs/2026-10-05-shopify-theme-design.md) records the shop-first composition.

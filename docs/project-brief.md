@@ -1,6 +1,6 @@
 # TCPF Basics — project brief
 
-Updated: 2026-10-05. Status: phase 1 complete; phase 2 complete; phase 3 design next.
+Updated: 2026-10-05. Status: phase 1 complete; phase 2 complete; shop-first phase 3 specification for written review.
 
 ## Intended outcome
 
@@ -48,7 +48,7 @@ The [phase diagram](diagrams/project-phases.md) shows the dependencies. Each pha
 1. Completed: review the detailed visual and verbal system for the selected wearable gallery direction, alongside the supplied existing logo.
 2. Confirmed: Philippines-first launch. Pending: exact domestic delivery and operating policies. The sample garment concepts and current-price presentation were approved.
 3. Completed: reusable custom data, replacement product lineup, and four original AI photographs per product.
-4. Template content, merchant controls, and measurable build acceptance criteria.
+4. Drafted for review: [theme specification](specs/2026-10-05-shopify-theme-design.md), with shop-first composition, custom components/templates, merchant controls, sample guards, and acceptance.
 
 ## Brand inputs supplied by the user
 

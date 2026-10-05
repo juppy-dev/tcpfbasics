@@ -1,6 +1,6 @@
 # TCPF Basics — product marketing context
 
-Updated: 2026-10-05. Brand system approved; phase 2 complete; phase 3 design next.
+Updated: 2026-10-05. Brand system approved; phase 2 complete; shop-first phase 3 specification for written review.
 
 ## Confirmed business context
 
@@ -31,6 +31,8 @@ Original artwork, an identifiable artist, and the translation from painting to g
 **Logo:** Keep the existing logo. The user supplied a 2048 px Facebook JPEG showing a gold needle/floral mark on white; it is saved intact in `docs/brand/assets/logo/`. No replacement logo is authorized. The user approved the detailed palette, Fraunces/Instrument Sans pairing, voice, headline, and imagery mood in the [brand specification](../docs/specs/2026-10-05-brand-system-design.md).
 
 The connection between art and Filipiniana exists elsewhere in the category. Do not infer that TCPF invented it or is the only brand doing it. Individual artworks and founder authorship provide a more specific story.
+
+The user selected a shop-first homepage composition: category and product browsing lead; artwork stories and a smaller bespoke invitation follow. The [theme design](../docs/specs/2026-10-05-shopify-theme-design.md) is drafted for review.
 
 The user selected keeping current pricing while elevating the presentation. Public marketplace prices are research observations; confirm the exact catalog prices before creating or changing Shopify products.
 

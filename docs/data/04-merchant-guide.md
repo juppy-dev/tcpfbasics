@@ -63,8 +63,8 @@ The separate Shopify theme CLI login has succeeded. The theme build will import 
 
 1. Confirm store password protection and the intended unpublished preview theme.
 2. Build visible sample notices and product purchase guards. Do not output fabricated sale availability or merchandise claims in structured data.
-3. Inspect the new theme's product, collection, cart, search, and recommendation paths with the sample flag in place.
-4. Then activate the required metaobjects and products and publish only to the protected preview's required channel. Keep inventory zero and overselling denied.
+3. Inspect the new theme source for product, collection, cart, search, and recommendation guards with the sample flag in place.
+4. Then activate the required metaobjects and products and publish only to the protected preview's required channel. Keep inventory zero and overselling denied, then inspect the actual protected rendered paths before client handoff.
 
 No preview publication or live-sale action was performed in phase 2. A live launch requires client-approved artwork/assets, real garment facts and measurements, actual prices and stock, delivery/returns policies, and a launch decision.
 
