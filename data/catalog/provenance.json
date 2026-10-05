@@ -503,5 +503,148 @@
       1402
     ],
     "sha256": "7080f89c6fc6d28de50e4244775c0dd0dab360ce2c67a2a303b8e583a971f16f"
+  },
+  {
+    "asset_id": "product/luntian-bolero/primary",
+    "path": "data/catalog/products/luntian-bolero/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-e0f68fe4-f5f9-4e96-94b8-7eb96b22a8fd.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-bolero, primary product photograph for an AI sample catalog.\nInput image 1: exact original textile artwork reference, not the scene or painting prop.\nPhotorealistic premium Shopify catalog photograph, warm ivory seamless gallery studio, soft broad daylight from the left, gentle real floor shadow, natural color, matte finely woven fabric, crisp seams and realistic clothing construction. Photograph, not illustration, no embroidery: the reference artwork is PRINTED on fabric. All-over modest-scale repeated print, preserving the exact flowers, leaves, brush strokes, colors and ivory ground of the artwork reference. No words, logo, tags, watermark, collage or contact sheet. One photograph, 4:5 portrait composition, enough breathing room for the entire garment and both sleeve edges.\nSubject: An anonymous adult Filipina fashion model, dark hair in a simple low bun, natural skin texture and light makeup, calm confident expression. No resemblance to a public figure. Relaxed posture, hands naturally down and away from product, no hand-in-pocket pose.\nProduct construction and framing: Waist-length open-front bolero with a softly curved open centre, structured upright Filipiniana butterfly sleeves, fully lined matte ivory inner face, single invisible concealed centre-front hook, no pockets. Clearly separate open bolero edges over a plain ivory camisole; no lapels, buttons, lace, ties or embroidery. Style with a plain ivory fitted-waist midi skirt, all supporting pieces excluded. Front-facing view, model framed head to mid thigh, full sleeves and cropped hem visible.\nKeep printed botanical motifs roughly 10–18cm across flowers in garment scale, airy ivory space, realistic continuity over fabric folds. Make the silhouette easy to evaluate. The catalog item is the specified garment only.",
+    "referenced_source_paths": [
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian bolero, front view on an anonymous model in the botanical print.",
+    "acceptance_notes": "Inspected: artwork palette/motifs preserved, correct garment silhouette, full sleeves/hem shown as applicable, natural anatomy, no text/logos.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "c15fca5cf2a79f4a38dc6cf0b41b4892980af9200d22bba48eb54d099c972e68"
+  },
+  {
+    "asset_id": "product/luntian-blouse/primary",
+    "path": "data/catalog/products/luntian-blouse/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-86396dc9-f53d-4f90-a233-47f3e9d2bfa0.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-blouse, primary AI sample product photograph.\nCreate a new premium catalog photograph of a HIP-LENGTH BLOUSE using the exact Luntian botanical printed fabric and the adult model identity in image 1. Image 2 is the exact botanical artwork. Preserve the reference green leaves, soft lavender flowers, ivory ground, print scale, matte finely woven fabric and structured upright butterfly sleeve shape. The new product is one continuous hip-length blouse about 56cm shoulder-to-hem, modest square neckline, CLOSED FRONT, slightly shaped torso with slight wearing ease, straight clean hip hem, body lined in ivory, concealed centre-back zip. Do not render the bolero/open front/camisole as the product. Wear with plain ivory A-line midi skirt, styling skirt excluded. Front-facing view, head through knees, both full sleeves and the entire longer blouse hem visible, hands relaxed down clear of garment. Warm ivory seamless gallery studio, same soft natural light and realistic skin texture as image 1. One photorealistic image in 4:5 portrait composition, breathing room around sleeves. No words, labels, logos, watermark, collage or contact sheet.",
+    "referenced_source_paths": [
+      "data/catalog/products/luntian-bolero/01-primary.png",
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian blouse, front view on an anonymous model.",
+    "acceptance_notes": "Inspected: Luntian print preserved, continuous square-neck hip-length blouse, correct sleeves and hem, natural anatomy.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "f3bec844dcc66f7f1cd5cb24736a93a200a0c0b9c7699ce9f91b628539b3b71e"
+  },
+  {
+    "asset_id": "product/luntian-bolero/silhouette",
+    "path": "data/catalog/products/luntian-bolero/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-ccb6cb42-2669-44ee-9203-ccc4129da7c6.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-bolero, silhouette AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Rear three-quarter catalog view, head to mid thigh, full upright butterfly sleeves and waist-length hem visible. Back panel closed and plain in construction; no back zip or ties. Keep the same ivory camisole and ivory skirt.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/luntian-bolero/01-primary.png",
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian bolero, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "4b995ed08d8546aa40f1aaa9981d5b369f1dbfb8969adf6e3d4fe612bfa6db59"
+  },
+  {
+    "asset_id": "product/luntian-bolero/detail",
+    "path": "data/catalog/products/luntian-bolero/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-876214cc-8622-4fc2-8439-b56139b4c0d4.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-bolero, detail AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Close detail photograph from collarbone to waist, focused on the printed butterfly sleeve, its shoulder seam and clean front bolero edge over the same ivory camisole. Face may be outside the frame. Show realistic printed brushwork on matte woven fabric, ivory lining only subtly at the edge.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. Sharp truthful textile detail; print ink on fabric, no embroidered or embossed flowers.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/luntian-bolero/01-primary.png",
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian bolero, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "f0967a1e538567ac9700c0ba8fa8bb58b535c39cc78c77b2657ecf36c8499dea"
+  },
+  {
+    "asset_id": "product/luntian-bolero/styled",
+    "path": "data/catalog/products/luntian-bolero/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-176e43f4-282d-488b-bec9-bc88bd4a51a0.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-bolero, styled AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. A lightly styled full-body editorial photograph: the SAME model takes a gentle small step in a bright warm ivory gallery doorway, with soft natural daylight and subtle architectural shadow. Same clothing and neutral ivory styling pieces as the primary, no handbag, belt or new jewellery. Three-quarter front angle, calm natural expression, arms relaxed away from the garment. Entire sleeves and hem visible, product stays clear and recognizable; no paintings or text in the background.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/luntian-bolero/01-primary.png",
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian bolero, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "eb1d4bc679902f8c756314bd98932774b0937116d66819e45ebb07c74d6ad386"
+  },
+  {
+    "asset_id": "product/luntian-blouse/silhouette",
+    "path": "data/catalog/products/luntian-blouse/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-365375e3-e42b-407c-a331-becdfc0e66a6.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-blouse, silhouette AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Straight BACK catalog view of the exact hip-length blouse, head through knees. Show the modest upper back and a discreet concealed centre-back zip, identical butterfly sleeves, slight waist shaping and straight hip-length hem. Same ivory styling skirt. No front opening, back tie or extra trims.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/luntian-blouse/01-primary.png",
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian blouse, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "9727b4b67ddf084d73819c310861f68b6fcb9484a0fdb862ccd6082fd831d2fc"
+  },
+  {
+    "asset_id": "product/luntian-blouse/detail",
+    "path": "data/catalog/products/luntian-blouse/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-444dac0c-3d54-4903-9897-47bd88f87dc9.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-blouse, detail AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Close detail photograph from collarbone to hip, focusing on the SAME modest square neckline, butterfly sleeve shoulder seam and green/lavender botanical print. Continuous closed front with no added bolero or camisole opening. Show natural printed fabric weave and the original hip-length cut.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/luntian-blouse/01-primary.png",
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian blouse, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "e28337cb8c408d8f909075df97fc709475a3ed768096ae573b8d7dc9488b76fd"
+  },
+  {
+    "asset_id": "product/luntian-blouse/styled",
+    "path": "data/catalog/products/luntian-blouse/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-58365843-dcda-4bb0-ac0f-bf8733b3fcc3.png",
+    "prompt": "Use case: product-mockup.\nAsset type: luntian-blouse, styled AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Lightly styled FULL-BODY editorial photograph of the SAME anonymous adult model taking a small natural step in a bright warm ivory gallery doorway. Keep the exact outfit/garments, botanical print, sleeves, necklines, closures and hems from the primary. Same ivory styling pieces, simple ivory footwear, no handbag, belt or new jewellery. Three-quarter front angle, calm expression, hands relaxed away from the garment. Entire sleeves and hem visible, airy architectural space and subtle daylight shadows. No paintings or text in the scene.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/luntian-blouse/01-primary.png",
+      "data/catalog/artwork/luntian/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample luntian blouse, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "9e9e39f594987afdbd4738ead15945ebe2ba54fe797b4e3a52d40cd4550d028a"
   }
 ]
