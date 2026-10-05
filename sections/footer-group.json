@@ -1,0 +1,31 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:names.footer",
+  "sections": {
+    "tcpf_footer": {
+      "type": "tcpf-footer",
+      "settings": {
+        "heading": "Original art. Worn your way.",
+        "copy": "Modern Filipiniana and painted-fashion stories from Naga City.",
+        "menu": "tcpf-footer-menu",
+        "shop_link": "/collections/ready-to-wear",
+        "story_link": "/pages/our-story",
+        "bespoke_link": "/pages/bespoke",
+        "size_link": "/pages/size-guide",
+        "contact_link": "/pages/contact"
+      }
+    }
+  },
+  "order": [
+    "tcpf_footer"
+  ]
+}

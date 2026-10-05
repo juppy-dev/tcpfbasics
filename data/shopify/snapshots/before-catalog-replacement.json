@@ -1,0 +1,3804 @@
+{
+  "captured_at": "2026-10-05T03:11:37.995994+00:00",
+  "store": "tcpfbasics.myshopify.com",
+  "api_version": "2026-10",
+  "shop": {
+    "id": "gid://shopify/Shop/79202844854",
+    "name": "tcpfbasics",
+    "currencyCode": "PHP",
+    "primaryDomain": {
+      "url": "https://tcpfbasics.myshopify.com"
+    }
+  },
+  "currentAppInstallation": {
+    "accessScopes": [
+      {
+        "handle": "write_products"
+      },
+      {
+        "handle": "write_metaobject_definitions"
+      },
+      {
+        "handle": "write_metaobjects"
+      },
+      {
+        "handle": "write_files"
+      },
+      {
+        "handle": "write_inventory"
+      },
+      {
+        "handle": "read_locations"
+      },
+      {
+        "handle": "write_publications"
+      },
+      {
+        "handle": "read_products"
+      },
+      {
+        "handle": "read_metaobject_definitions"
+      },
+      {
+        "handle": "read_metaobjects"
+      },
+      {
+        "handle": "read_files"
+      },
+      {
+        "handle": "read_inventory"
+      },
+      {
+        "handle": "read_publications"
+      }
+    ]
+  },
+  "products": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Product/15390146527414",
+        "title": "CONCEPT — Painted Bolero Top",
+        "handle": "concept-painted-bolero-top",
+        "status": "DRAFT",
+        "descriptionHtml": "<p><strong>Concept sample only — not for sale.</strong> Meet a Filipiniana bolero idea dressed in soft garden colors, sculptural sleeves and an easy-to-style cropped shape.</p><p>The artwork, materials, construction, fit, measurements, care and ₱890 benchmark are placeholders for TCPF review. This is not a finished or available product.</p>",
+        "vendor": "TCPF BASICS",
+        "productType": "Filipiniana Top",
+        "tags": [
+          "concept-sample",
+          "illustrative-data",
+          "not-for-sale",
+          "unapproved"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17851222130870",
+            "name": "Size",
+            "values": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ]
+          }
+        ],
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67574959734966",
+              "title": "XS",
+              "price": "890.00",
+              "sku": "TCPF-CPTOP-XS",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555824591030",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555824591030",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960226486",
+              "title": "S",
+              "price": "890.00",
+              "sku": "TCPF-CPTOP-S",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825082550",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825082550",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960259254",
+              "title": "M",
+              "price": "890.00",
+              "sku": "TCPF-CPTOP-M",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825115318",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825115318",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960292022",
+              "title": "L",
+              "price": "890.00",
+              "sku": "TCPF-CPTOP-L",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825148086",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825148086",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960324790",
+              "title": "XL",
+              "price": "890.00",
+              "sku": "TCPF-CPTOP-XL",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825180854",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825180854",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46381264502966",
+              "alt": "Square concept product image: Filipiniana bolero with painterly floral print.",
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-bolero-square_d0bb3887-678f-45b8-9159-d7b537f46162.jpg?v=1791115761",
+                "width": 1122,
+                "height": 1122
+              }
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Metafield/190655131517110",
+              "namespace": "tcpf",
+              "key": "apparel_details",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615264387254"
+            },
+            {
+              "id": "gid://shopify/Metafield/190655131549878",
+              "namespace": "tcpf",
+              "key": "design_concept",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615264485558"
+            },
+            {
+              "id": "gid://shopify/Metafield/190655131582646",
+              "namespace": "tcpf",
+              "key": "concept_only",
+              "type": "boolean",
+              "value": "true"
+            }
+          ]
+        },
+        "collections": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Collection/511769510070",
+              "handle": "frontpage",
+              "title": "Home page"
+            }
+          ]
+        },
+        "resourcePublicationsV2": {
+          "nodes": []
+        }
+      },
+      {
+        "id": "gid://shopify/Product/15390146560182",
+        "title": "CONCEPT — Painted Terno Set",
+        "handle": "concept-painted-terno-set",
+        "status": "DRAFT",
+        "descriptionHtml": "<p><strong>Concept sample only — not for sale.</strong> A coordinated terno idea pairs a sculptural-sleeve bolero with a matching skirt and an original coral, blush and muted teal print.</p><p>The artwork, materials, construction, fit, measurements, care and ₱1,450 benchmark are placeholders for TCPF review. This is not a finished or available product.</p>",
+        "vendor": "TCPF BASICS",
+        "productType": "Filipiniana Set",
+        "tags": [
+          "concept-sample",
+          "illustrative-data",
+          "not-for-sale",
+          "unapproved"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17851222163638",
+            "name": "Size",
+            "values": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ]
+          }
+        ],
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67574959767734",
+              "title": "XS",
+              "price": "1450.00",
+              "sku": "TCPF-CPSET-XS",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555824623798",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555824623798",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960357558",
+              "title": "S",
+              "price": "1450.00",
+              "sku": "TCPF-CPSET-S",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825213622",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825213622",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960390326",
+              "title": "M",
+              "price": "1450.00",
+              "sku": "TCPF-CPSET-M",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825246390",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825246390",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960423094",
+              "title": "L",
+              "price": "1450.00",
+              "sku": "TCPF-CPSET-L",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825279158",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825279158",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960455862",
+              "title": "XL",
+              "price": "1450.00",
+              "sku": "TCPF-CPSET-XL",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825311926",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825311926",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46381264535734",
+              "alt": "Square concept product image: Filipiniana terno set with painterly floral print.",
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-terno-square_e49c0a86-bdfe-4c70-b52b-c2cad1dc46c3.jpg?v=1791115761",
+                "width": 1122,
+                "height": 1122
+              }
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Metafield/190655131713718",
+              "namespace": "tcpf",
+              "key": "apparel_details",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615264420022"
+            },
+            {
+              "id": "gid://shopify/Metafield/190655131746486",
+              "namespace": "tcpf",
+              "key": "design_concept",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615264518326"
+            },
+            {
+              "id": "gid://shopify/Metafield/190655131779254",
+              "namespace": "tcpf",
+              "key": "concept_only",
+              "type": "boolean",
+              "value": "true"
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "resourcePublicationsV2": {
+          "nodes": []
+        }
+      },
+      {
+        "id": "gid://shopify/Product/15390146592950",
+        "title": "CONCEPT — Floral Halter Dress",
+        "handle": "concept-floral-halter-dress",
+        "status": "DRAFT",
+        "descriptionHtml": "<p><strong>Concept sample only — not for sale.</strong> This halter-dress idea pairs a high neckline with a softly flared skirt and an airy blue garden print.</p><p>The artwork, materials, construction, fit, measurements, care and ₱1,990 benchmark are placeholders for TCPF review. This is not a finished or available product.</p>",
+        "vendor": "TCPF BASICS",
+        "productType": "Printed Halter Dress",
+        "tags": [
+          "concept-sample",
+          "illustrative-data",
+          "not-for-sale",
+          "unapproved"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17851222196406",
+            "name": "Size",
+            "values": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ]
+          }
+        ],
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67574959800502",
+              "title": "XS",
+              "price": "1990.00",
+              "sku": "TCPF-CHDR-XS",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555824656566",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555824656566",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960488630",
+              "title": "S",
+              "price": "1990.00",
+              "sku": "TCPF-CHDR-S",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825344694",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825344694",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960521398",
+              "title": "M",
+              "price": "1990.00",
+              "sku": "TCPF-CHDR-M",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825377462",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825377462",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960554166",
+              "title": "L",
+              "price": "1990.00",
+              "sku": "TCPF-CHDR-L",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825410230",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825410230",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67574960586934",
+              "title": "XL",
+              "price": "1990.00",
+              "sku": "TCPF-CHDR-XL",
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555825442998",
+                "tracked": true,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555825442998",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46381264568502",
+              "alt": "Square concept product image: blue floral halter dress.",
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-halter-square_e1617160-381e-473e-bfba-0ed6ca6af85b.jpg?v=1791115761",
+                "width": 1122,
+                "height": 1122
+              }
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Metafield/190655131943094",
+              "namespace": "tcpf",
+              "key": "apparel_details",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615264452790"
+            },
+            {
+              "id": "gid://shopify/Metafield/190655131975862",
+              "namespace": "tcpf",
+              "key": "design_concept",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615264551094"
+            },
+            {
+              "id": "gid://shopify/Metafield/190655132008630",
+              "namespace": "tcpf",
+              "key": "concept_only",
+              "type": "boolean",
+              "value": "true"
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "resourcePublicationsV2": {
+          "nodes": []
+        }
+      },
+      {
+        "id": "gid://shopify/Product/15390182244534",
+        "title": "FRANCIA — Painted Filipiniana Bolero",
+        "handle": "francia-painted-filipiniana-bolero",
+        "status": "ACTIVE",
+        "descriptionHtml": "<p>Make an entrance in FRANCIA, a cropped Filipiniana bolero in vivid pink and orange. Sculptural butterfly sleeves give the classic silhouette a confident, contemporary shape. Style it over a fitted top with a long skirt or tailored trousers.</p>",
+        "vendor": "TCPF BASICS",
+        "productType": "Filipiniana Top",
+        "tags": [
+          "Bolero",
+          "Filipiniana",
+          "TCPF Basics"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17851265515702",
+            "name": "Size",
+            "values": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ]
+          }
+        ],
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67575101456566",
+              "title": "XS",
+              "price": "950.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555969392822",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555969392822",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103553718",
+              "title": "S",
+              "price": "950.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971489974",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971489974",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103586486",
+              "title": "M",
+              "price": "950.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971522742",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971522742",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103619254",
+              "title": "L",
+              "price": "950.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971555510",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971555510",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103652022",
+              "title": "XL",
+              "price": "950.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971588278",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971588278",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46356501102774",
+              "alt": "Model wearing the FRANCIA pink and orange Filipiniana bolero.",
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-81ztn-mklcbgzi3ith91_6f5c08dd-aae0-42e7-a16f-1fe8932ec661.jpg?v=1791065264",
+                "width": 1024,
+                "height": 1024
+              }
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Metafield/190656113017014",
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "A vivid Filipiniana bolero with sculptural butterfly sleeves and a cropped, contemporary silhouette."
+            },
+            {
+              "id": "gid://shopify/Metafield/190656129990838",
+              "namespace": "tcpf",
+              "key": "apparel_details",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615321600182"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130023606",
+              "namespace": "tcpf",
+              "key": "design_concept",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615321731254"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130056374",
+              "namespace": "tcpf",
+              "key": "concept_only",
+              "type": "boolean",
+              "value": "true"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656785416374",
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "FRANCIA Painted Filipiniana Bolero | TCPF Basics"
+            }
+          ]
+        },
+        "collections": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Collection/511888326838",
+              "handle": "filipiniana-tops",
+              "title": "Filipiniana"
+            }
+          ]
+        },
+        "resourcePublicationsV2": {
+          "nodes": [
+            {
+              "publication": {
+                "id": "gid://shopify/Publication/222874861750",
+                "name": "Online Store"
+              },
+              "isPublished": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "gid://shopify/Product/15390182310070",
+        "title": "FRANCIA & CLAIRE — Modern Terno Set",
+        "handle": "francia-claire-modern-terno-set",
+        "status": "ACTIVE",
+        "descriptionHtml": "<p>Meet the modern terno in FRANCIA &amp; CLAIRE: a coordinated pink and orange bolero-and-skirt look with sculptural butterfly sleeves and a graceful knee-length silhouette. Made for celebrations that call for a little more color.</p>",
+        "vendor": "TCPF BASICS",
+        "productType": "Filipiniana Set",
+        "tags": [
+          "Filipiniana",
+          "TCPF Basics",
+          "Terno"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17851265581238",
+            "name": "Size",
+            "values": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ]
+          }
+        ],
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67575101554870",
+              "title": "XS",
+              "price": "1520.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555969491126",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555969491126",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103684790",
+              "title": "S",
+              "price": "1520.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971621046",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971621046",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103717558",
+              "title": "M",
+              "price": "1520.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971653814",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971653814",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103750326",
+              "title": "L",
+              "price": "1520.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971686582",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971686582",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103783094",
+              "title": "XL",
+              "price": "1520.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971719350",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971719350",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46356501397686",
+              "alt": "Model wearing the FRANCIA & CLAIRE pink and orange terno set.",
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-7rasm-m8nmbys3ehe5a1_15914377-57c1-41f7-b536-955620004618.jpg?v=1791065265",
+                "width": 800,
+                "height": 800
+              }
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Metafield/190656113311926",
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "A coordinated pink and orange terno set with sculptural sleeves and a graceful skirt."
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130089142",
+              "namespace": "tcpf",
+              "key": "apparel_details",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615321632950"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130121910",
+              "namespace": "tcpf",
+              "key": "design_concept",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615321764022"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130154678",
+              "namespace": "tcpf",
+              "key": "concept_only",
+              "type": "boolean",
+              "value": "true"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656785678518",
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "FRANCIA & CLAIRE Modern Terno Set | TCPF Basics"
+            }
+          ]
+        },
+        "collections": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Collection/511888359606",
+              "handle": "terno-sets",
+              "title": "Terno Sets"
+            }
+          ]
+        },
+        "resourcePublicationsV2": {
+          "nodes": [
+            {
+              "publication": {
+                "id": "gid://shopify/Publication/222874861750",
+                "name": "Online Store"
+              },
+              "isPublished": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "gid://shopify/Product/15390182375606",
+        "title": "ANNELEISE — Blue Floral Halter Dress",
+        "handle": "anneleise-blue-floral-halter-dress",
+        "status": "ACTIVE",
+        "descriptionHtml": "<p>ANNELEISE pairs a blue floral print with a graceful halter neckline and softly flared midi skirt. A polished choice for weddings, celebrations, and evenings worth remembering.</p>",
+        "vendor": "TCPF BASICS",
+        "productType": "Printed Halter Dress",
+        "tags": [
+          "Dresses",
+          "Floral",
+          "TCPF Basics"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17851265646774",
+            "name": "Size",
+            "values": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ]
+          }
+        ],
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67575101620406",
+              "title": "XS",
+              "price": "1990.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555969556662",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555969556662",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103815862",
+              "title": "S",
+              "price": "1990.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971752118",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971752118",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103848630",
+              "title": "M",
+              "price": "1990.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971784886",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971784886",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103881398",
+              "title": "L",
+              "price": "1990.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971817654",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971817654",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67575103914166",
+              "title": "XL",
+              "price": "1990.00",
+              "sku": null,
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69555971850422",
+                "tracked": false,
+                "inventoryLevels": {
+                  "nodes": [
+                    {
+                      "id": "gid://shopify/InventoryLevel/130415657142?inventory_item_id=69555971850422",
+                      "location": {
+                        "id": "gid://shopify/Location/91900346550",
+                        "name": "Shop location",
+                        "isActive": true
+                      },
+                      "quantities": [
+                        {
+                          "name": "available",
+                          "quantity": 0
+                        },
+                        {
+                          "name": "on_hand",
+                          "quantity": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46356501856438",
+              "alt": "Model wearing the ANNELEISE blue floral halter dress.",
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-820lg-mnvjeaw3dbsze9_658ac09d-a1ff-4235-8531-4f2a64bfc33f.jpg?v=1791065266",
+                "width": 1024,
+                "height": 1024
+              }
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Metafield/190656113606838",
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "A blue floral halter dress with a graceful neckline and softly flared midi skirt."
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130187446",
+              "namespace": "tcpf",
+              "key": "apparel_details",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615321665718"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130220214",
+              "namespace": "tcpf",
+              "key": "design_concept",
+              "type": "metaobject_reference",
+              "value": "gid://shopify/Metaobject/615321796790"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656130252982",
+              "namespace": "tcpf",
+              "key": "concept_only",
+              "type": "boolean",
+              "value": "true"
+            },
+            {
+              "id": "gid://shopify/Metafield/190656786006198",
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "ANNELEISE Blue Floral Halter Dress | TCPF Basics"
+            }
+          ]
+        },
+        "collections": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Collection/511888392374",
+              "handle": "dresses",
+              "title": "Dresses"
+            }
+          ]
+        },
+        "resourcePublicationsV2": {
+          "nodes": [
+            {
+              "publication": {
+                "id": "gid://shopify/Publication/222874861750",
+                "name": "Online Store"
+              },
+              "isPublished": true
+            }
+          ]
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxNTM5MDE4MjM3NTYwNiwibGFzdF92YWx1ZSI6IjE1MzkwMTgyMzc1NjA2In0="
+    }
+  },
+  "metaobjectDefinitions": {
+    "nodes": [
+      {
+        "id": "gid://shopify/MetaobjectDefinition/25339527350",
+        "type": "tcpf_size_measurement",
+        "name": "TCPF Size Measurement (Concept Data)",
+        "displayNameKey": "size_label",
+        "access": {
+          "admin": "PUBLIC_READ_WRITE",
+          "storefront": "PUBLIC_READ"
+        },
+        "capabilities": {
+          "publishable": {
+            "enabled": true
+          }
+        },
+        "fieldDefinitions": [
+          {
+            "key": "size_label",
+            "name": "Size label",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "measurements_cm",
+            "name": "Measurements (cm)",
+            "required": false,
+            "type": {
+              "name": "json"
+            },
+            "validations": []
+          },
+          {
+            "key": "measurement_status",
+            "name": "Measurement status",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MetaobjectDefinition/25339560118",
+        "type": "tcpf_size_chart",
+        "name": "TCPF Size Chart (Concept Data)",
+        "displayNameKey": "unit",
+        "access": {
+          "admin": "PUBLIC_READ_WRITE",
+          "storefront": "PUBLIC_READ"
+        },
+        "capabilities": {
+          "publishable": {
+            "enabled": true
+          }
+        },
+        "fieldDefinitions": [
+          {
+            "key": "unit",
+            "name": "Unit",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "measurements",
+            "name": "Measurements",
+            "required": false,
+            "type": {
+              "name": "list.metaobject_reference"
+            },
+            "validations": [
+              {
+                "name": "metaobject_definition_id",
+                "value": "gid://shopify/MetaobjectDefinition/25339527350"
+              }
+            ]
+          },
+          {
+            "key": "chart_status",
+            "name": "Chart status",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MetaobjectDefinition/25339592886",
+        "type": "tcpf_apparel_details",
+        "name": "TCPF Apparel Details (Concept Data)",
+        "displayNameKey": "garment_category",
+        "access": {
+          "admin": "PUBLIC_READ_WRITE",
+          "storefront": "PUBLIC_READ"
+        },
+        "capabilities": {
+          "publishable": {
+            "enabled": true
+          }
+        },
+        "fieldDefinitions": [
+          {
+            "key": "garment_category",
+            "name": "Garment category",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "silhouette",
+            "name": "Silhouette",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "fit_notes",
+            "name": "Fit notes",
+            "required": false,
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "fabric",
+            "name": "Fabric",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "fiber_content",
+            "name": "Fiber content",
+            "required": false,
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "stretch",
+            "name": "Stretch",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "lining",
+            "name": "Lining",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "closure",
+            "name": "Closure",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "pockets",
+            "name": "Pockets",
+            "required": false,
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "care_instructions",
+            "name": "Care instructions",
+            "required": false,
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "size_chart",
+            "name": "Size chart",
+            "required": false,
+            "type": {
+              "name": "metaobject_reference"
+            },
+            "validations": [
+              {
+                "name": "metaobject_definition_id",
+                "value": "gid://shopify/MetaobjectDefinition/25339560118"
+              }
+            ]
+          },
+          {
+            "key": "data_status",
+            "name": "Data status",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MetaobjectDefinition/25339625654",
+        "type": "tcpf_design_concept",
+        "name": "TCPF Design Concept (Review Data)",
+        "displayNameKey": "title",
+        "access": {
+          "admin": "PUBLIC_READ_WRITE",
+          "storefront": "PUBLIC_READ"
+        },
+        "capabilities": {
+          "publishable": {
+            "enabled": true
+          }
+        },
+        "fieldDefinitions": [
+          {
+            "key": "title",
+            "name": "Title",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "reference_name",
+            "name": "Reference name",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "reference_url",
+            "name": "Reference URL",
+            "required": false,
+            "type": {
+              "name": "url"
+            },
+            "validations": []
+          },
+          {
+            "key": "story",
+            "name": "Story",
+            "required": false,
+            "type": {
+              "name": "multi_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "review_status",
+            "name": "Review status",
+            "required": false,
+            "type": {
+              "name": "single_line_text_field"
+            },
+            "validations": []
+          },
+          {
+            "key": "artwork_image",
+            "name": "Artwork image",
+            "required": true,
+            "type": {
+              "name": "file_reference"
+            },
+            "validations": [
+              {
+                "name": "file_type_options",
+                "value": "[\"Image\"]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "rows": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/615262945462",
+        "handle": "painted-bolero-xs-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XS"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":80,\"waist\":64,\"shoulder\":34,\"sleeve_length\":23,\"garment_length\":37}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263338678",
+        "handle": "painted-bolero-s-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "S"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":84,\"waist\":68,\"shoulder\":35,\"sleeve_length\":24,\"garment_length\":38}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263633590",
+        "handle": "painted-bolero-m-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "M"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":88,\"waist\":72,\"shoulder\":36,\"sleeve_length\":25,\"garment_length\":39}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263666358",
+        "handle": "painted-bolero-l-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "L"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":94,\"waist\":78,\"shoulder\":37.5,\"sleeve_length\":26,\"garment_length\":40}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263699126",
+        "handle": "painted-bolero-xl-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XL"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":100,\"waist\":84,\"shoulder\":39,\"sleeve_length\":27,\"garment_length\":41}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263731894",
+        "handle": "painted-terno-xs-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XS"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":80,\"shoulder\":34,\"sleeve_length\":23,\"top_length\":37},\"bottom\":{\"waist\":64,\"hip\":90,\"skirt_length\":62}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263764662",
+        "handle": "painted-terno-s-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "S"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":84,\"shoulder\":35,\"sleeve_length\":24,\"top_length\":38},\"bottom\":{\"waist\":68,\"hip\":94,\"skirt_length\":63}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263862966",
+        "handle": "painted-terno-m-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "M"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":88,\"shoulder\":36,\"sleeve_length\":25,\"top_length\":39},\"bottom\":{\"waist\":72,\"hip\":98,\"skirt_length\":64}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263895734",
+        "handle": "painted-terno-l-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "L"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":94,\"shoulder\":37.5,\"sleeve_length\":26,\"top_length\":40},\"bottom\":{\"waist\":78,\"hip\":104,\"skirt_length\":65}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615263961270",
+        "handle": "painted-terno-xl-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XL"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":100,\"shoulder\":39,\"sleeve_length\":27,\"top_length\":41},\"bottom\":{\"waist\":84,\"hip\":110,\"skirt_length\":66}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264026806",
+        "handle": "floral-halter-xs-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XS"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":80,\"waist\":64,\"hip\":88,\"bodice_length\":36,\"skirt_length\":78}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264059574",
+        "handle": "floral-halter-s-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "S"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":84,\"waist\":68,\"hip\":92,\"bodice_length\":37,\"skirt_length\":79}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264092342",
+        "handle": "floral-halter-m-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "M"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":88,\"waist\":72,\"hip\":96,\"bodice_length\":38,\"skirt_length\":80}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264157878",
+        "handle": "floral-halter-l-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "L"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":94,\"waist\":78,\"hip\":102,\"bodice_length\":39,\"skirt_length\":81}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264190646",
+        "handle": "floral-halter-xl-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XL"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":100,\"waist\":84,\"hip\":108,\"bodice_length\":40,\"skirt_length\":82}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615320944822",
+        "handle": "test-francia-filipiniana-bolero-xs-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XS"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":80,\"waist\":64,\"shoulder\":34,\"sleeve_length\":23,\"garment_length\":37}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615320977590",
+        "handle": "test-francia-filipiniana-bolero-s-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "S"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":84,\"waist\":68,\"shoulder\":35,\"sleeve_length\":24,\"garment_length\":38}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321010358",
+        "handle": "test-francia-filipiniana-bolero-m-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "M"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":88,\"waist\":72,\"shoulder\":36,\"sleeve_length\":25,\"garment_length\":39}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321043126",
+        "handle": "test-francia-filipiniana-bolero-l-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "L"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":94,\"waist\":78,\"shoulder\":37.5,\"sleeve_length\":26,\"garment_length\":40}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321075894",
+        "handle": "test-francia-filipiniana-bolero-xl-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XL"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":100,\"waist\":84,\"shoulder\":39,\"sleeve_length\":27,\"garment_length\":41}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321108662",
+        "handle": "test-francia-claire-terno-set-xs-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XS"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":80,\"shoulder\":34,\"sleeve_length\":23,\"top_length\":37},\"bottom\":{\"waist\":64,\"hip\":90,\"skirt_length\":62}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321141430",
+        "handle": "test-francia-claire-terno-set-s-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "S"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":84,\"shoulder\":35,\"sleeve_length\":24,\"top_length\":38},\"bottom\":{\"waist\":68,\"hip\":94,\"skirt_length\":63}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321174198",
+        "handle": "test-francia-claire-terno-set-m-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "M"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":88,\"shoulder\":36,\"sleeve_length\":25,\"top_length\":39},\"bottom\":{\"waist\":72,\"hip\":98,\"skirt_length\":64}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321206966",
+        "handle": "test-francia-claire-terno-set-l-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "L"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":94,\"shoulder\":37.5,\"sleeve_length\":26,\"top_length\":40},\"bottom\":{\"waist\":78,\"hip\":104,\"skirt_length\":65}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321239734",
+        "handle": "test-francia-claire-terno-set-xl-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XL"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"top\":{\"bust\":100,\"shoulder\":39,\"sleeve_length\":27,\"top_length\":41},\"bottom\":{\"waist\":84,\"hip\":110,\"skirt_length\":66}}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321272502",
+        "handle": "test-anneleise-halter-dress-xs-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XS"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":80,\"waist\":64,\"hip\":88,\"bodice_length\":36,\"skirt_length\":78}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321305270",
+        "handle": "test-anneleise-halter-dress-s-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "S"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":84,\"waist\":68,\"hip\":92,\"bodice_length\":37,\"skirt_length\":79}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321338038",
+        "handle": "test-anneleise-halter-dress-m-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "M"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":88,\"waist\":72,\"hip\":96,\"bodice_length\":38,\"skirt_length\":80}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321370806",
+        "handle": "test-anneleise-halter-dress-l-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "L"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":94,\"waist\":78,\"hip\":102,\"bodice_length\":39,\"skirt_length\":81}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321403574",
+        "handle": "test-anneleise-halter-dress-xl-measurements",
+        "type": "tcpf_size_measurement",
+        "fields": [
+          {
+            "key": "size_label",
+            "value": "XL"
+          },
+          {
+            "key": "measurements_cm",
+            "value": "{\"bust\":100,\"waist\":84,\"hip\":108,\"bodice_length\":40,\"skirt_length\":82}"
+          },
+          {
+            "key": "measurement_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "charts": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/615264223414",
+        "handle": "painted-bolero-size-chart",
+        "type": "tcpf_size_chart",
+        "fields": [
+          {
+            "key": "unit",
+            "value": "cm"
+          },
+          {
+            "key": "measurements",
+            "value": "[\"gid://shopify/Metaobject/615262945462\",\"gid://shopify/Metaobject/615263338678\",\"gid://shopify/Metaobject/615263633590\",\"gid://shopify/Metaobject/615263666358\",\"gid://shopify/Metaobject/615263699126\"]"
+          },
+          {
+            "key": "chart_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264256182",
+        "handle": "painted-terno-size-chart",
+        "type": "tcpf_size_chart",
+        "fields": [
+          {
+            "key": "unit",
+            "value": "cm"
+          },
+          {
+            "key": "measurements",
+            "value": "[\"gid://shopify/Metaobject/615263731894\",\"gid://shopify/Metaobject/615263764662\",\"gid://shopify/Metaobject/615263862966\",\"gid://shopify/Metaobject/615263895734\",\"gid://shopify/Metaobject/615263961270\"]"
+          },
+          {
+            "key": "chart_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264354486",
+        "handle": "floral-halter-size-chart",
+        "type": "tcpf_size_chart",
+        "fields": [
+          {
+            "key": "unit",
+            "value": "cm"
+          },
+          {
+            "key": "measurements",
+            "value": "[\"gid://shopify/Metaobject/615264026806\",\"gid://shopify/Metaobject/615264059574\",\"gid://shopify/Metaobject/615264092342\",\"gid://shopify/Metaobject/615264157878\",\"gid://shopify/Metaobject/615264190646\"]"
+          },
+          {
+            "key": "chart_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321501878",
+        "handle": "test-francia-filipiniana-bolero-size-chart",
+        "type": "tcpf_size_chart",
+        "fields": [
+          {
+            "key": "unit",
+            "value": "cm"
+          },
+          {
+            "key": "measurements",
+            "value": "[\"gid://shopify/Metaobject/615320944822\",\"gid://shopify/Metaobject/615320977590\",\"gid://shopify/Metaobject/615321010358\",\"gid://shopify/Metaobject/615321043126\",\"gid://shopify/Metaobject/615321075894\"]"
+          },
+          {
+            "key": "chart_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321534646",
+        "handle": "test-francia-claire-terno-set-size-chart",
+        "type": "tcpf_size_chart",
+        "fields": [
+          {
+            "key": "unit",
+            "value": "cm"
+          },
+          {
+            "key": "measurements",
+            "value": "[\"gid://shopify/Metaobject/615321108662\",\"gid://shopify/Metaobject/615321141430\",\"gid://shopify/Metaobject/615321174198\",\"gid://shopify/Metaobject/615321206966\",\"gid://shopify/Metaobject/615321239734\"]"
+          },
+          {
+            "key": "chart_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321567414",
+        "handle": "test-anneleise-halter-dress-size-chart",
+        "type": "tcpf_size_chart",
+        "fields": [
+          {
+            "key": "unit",
+            "value": "cm"
+          },
+          {
+            "key": "measurements",
+            "value": "[\"gid://shopify/Metaobject/615321272502\",\"gid://shopify/Metaobject/615321305270\",\"gid://shopify/Metaobject/615321338038\",\"gid://shopify/Metaobject/615321370806\",\"gid://shopify/Metaobject/615321403574\"]"
+          },
+          {
+            "key": "chart_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "garments": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/615264387254",
+        "handle": "concept-painted-bolero-top-apparel",
+        "type": "tcpf_apparel_details",
+        "fields": [
+          {
+            "key": "garment_category",
+            "value": "Filipiniana bolero"
+          },
+          {
+            "key": "silhouette",
+            "value": "Cropped open-front bolero with sculptural butterfly sleeves, styled over a light base layer."
+          },
+          {
+            "key": "fit_notes",
+            "value": "Illustrative fit profile: shaped at the shoulders with an open front and a cropped waist. The XS–XL sample chart is a design reference, not a graded production pattern."
+          },
+          {
+            "key": "fabric",
+            "value": "Printed non-stretch woven with a smooth hand (illustrative sample)."
+          },
+          {
+            "key": "fiber_content",
+            "value": "Polyester (illustrative sample composition)."
+          },
+          {
+            "key": "stretch",
+            "value": "No stretch (illustrative sample)."
+          },
+          {
+            "key": "lining",
+            "value": "Unlined body (illustrative sample)."
+          },
+          {
+            "key": "closure",
+            "value": "Single pearl-style center-front button (illustrative sample)."
+          },
+          {
+            "key": "pockets",
+            "value": "No pockets (illustrative sample)."
+          },
+          {
+            "key": "care_instructions",
+            "value": "Hand wash cold with like colors; do not wring; line dry in shade; cool iron on reverse (illustrative sample care)."
+          },
+          {
+            "key": "size_chart",
+            "value": "gid://shopify/Metaobject/615264223414"
+          },
+          {
+            "key": "data_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264420022",
+        "handle": "concept-painted-terno-set-apparel",
+        "type": "tcpf_apparel_details",
+        "fields": [
+          {
+            "key": "garment_category",
+            "value": "Filipiniana two-piece terno set"
+          },
+          {
+            "key": "silhouette",
+            "value": "Cropped bolero with sculptural sleeves paired with a high-waisted, straight knee-length skirt."
+          },
+          {
+            "key": "fit_notes",
+            "value": "Illustrative fit profile: a shaped cropped top with an easy open front, paired with a close high-waisted skirt. The XS–XL sample chart is a design reference, not a graded production pattern."
+          },
+          {
+            "key": "fabric",
+            "value": "Printed satin-like woven (illustrative sample)."
+          },
+          {
+            "key": "fiber_content",
+            "value": "Polyester (illustrative sample composition)."
+          },
+          {
+            "key": "stretch",
+            "value": "No stretch (illustrative sample)."
+          },
+          {
+            "key": "lining",
+            "value": "Partial top lining; skirt unlined (illustrative sample)."
+          },
+          {
+            "key": "closure",
+            "value": "Bolero: pearl-style front button; skirt: concealed side zipper (illustrative sample)."
+          },
+          {
+            "key": "pockets",
+            "value": "In-seam pockets at the skirt (illustrative sample)."
+          },
+          {
+            "key": "care_instructions",
+            "value": "Hand wash pieces separately in cold water; do not wring; line dry in shade; cool iron on reverse (illustrative sample care)."
+          },
+          {
+            "key": "size_chart",
+            "value": "gid://shopify/Metaobject/615264256182"
+          },
+          {
+            "key": "data_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264452790",
+        "handle": "concept-floral-halter-dress-apparel",
+        "type": "tcpf_apparel_details",
+        "fields": [
+          {
+            "key": "garment_category",
+            "value": "Blue floral halter midi dress"
+          },
+          {
+            "key": "silhouette",
+            "value": "Sleeveless high-neck halter bodice with a shaped waist and softly flared midi skirt."
+          },
+          {
+            "key": "fit_notes",
+            "value": "Illustrative fit profile: shaped through the bodice with a softly flared skirt. The XS–XL sample chart is a design reference, not a graded production pattern."
+          },
+          {
+            "key": "fabric",
+            "value": "Lightweight floral-printed woven (illustrative sample)."
+          },
+          {
+            "key": "fiber_content",
+            "value": "Polyester (illustrative sample composition)."
+          },
+          {
+            "key": "stretch",
+            "value": "No stretch (illustrative sample)."
+          },
+          {
+            "key": "lining",
+            "value": "Lined bodice with an unlined skirt (illustrative sample)."
+          },
+          {
+            "key": "closure",
+            "value": "Adjustable back-neck tie with concealed side zipper (illustrative sample)."
+          },
+          {
+            "key": "pockets",
+            "value": "In-seam pockets (illustrative sample)."
+          },
+          {
+            "key": "care_instructions",
+            "value": "Hand wash cold with like colors; do not wring; line dry in shade; cool iron on reverse (illustrative sample care)."
+          },
+          {
+            "key": "size_chart",
+            "value": "gid://shopify/Metaobject/615264354486"
+          },
+          {
+            "key": "data_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321600182",
+        "handle": "test-francia-filipiniana-bolero-apparel",
+        "type": "tcpf_apparel_details",
+        "fields": [
+          {
+            "key": "garment_category",
+            "value": "Filipiniana bolero"
+          },
+          {
+            "key": "silhouette",
+            "value": "Cropped open-front bolero with sculptural butterfly sleeves, styled over a light base layer."
+          },
+          {
+            "key": "fit_notes",
+            "value": "Illustrative fit profile: shaped at the shoulders with an open front and a cropped waist. The XS–XL sample chart is a design reference, not a graded production pattern."
+          },
+          {
+            "key": "fabric",
+            "value": "Printed non-stretch woven with a smooth hand (illustrative sample)."
+          },
+          {
+            "key": "fiber_content",
+            "value": "Polyester (illustrative sample composition)."
+          },
+          {
+            "key": "stretch",
+            "value": "No stretch (illustrative sample)."
+          },
+          {
+            "key": "lining",
+            "value": "Unlined body (illustrative sample)."
+          },
+          {
+            "key": "closure",
+            "value": "Single pearl-style center-front button (illustrative sample)."
+          },
+          {
+            "key": "pockets",
+            "value": "No pockets (illustrative sample)."
+          },
+          {
+            "key": "care_instructions",
+            "value": "Hand wash cold with like colors; do not wring; line dry in shade; cool iron on reverse (illustrative sample care)."
+          },
+          {
+            "key": "size_chart",
+            "value": "gid://shopify/Metaobject/615321501878"
+          },
+          {
+            "key": "data_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321632950",
+        "handle": "test-francia-claire-terno-set-apparel",
+        "type": "tcpf_apparel_details",
+        "fields": [
+          {
+            "key": "garment_category",
+            "value": "Filipiniana two-piece terno set"
+          },
+          {
+            "key": "silhouette",
+            "value": "Cropped bolero with sculptural sleeves paired with a high-waisted, straight knee-length skirt."
+          },
+          {
+            "key": "fit_notes",
+            "value": "Illustrative fit profile: a shaped cropped top with an easy open front, paired with a close high-waisted skirt. The XS–XL sample chart is a design reference, not a graded production pattern."
+          },
+          {
+            "key": "fabric",
+            "value": "Printed satin-like woven (illustrative sample)."
+          },
+          {
+            "key": "fiber_content",
+            "value": "Polyester (illustrative sample composition)."
+          },
+          {
+            "key": "stretch",
+            "value": "No stretch (illustrative sample)."
+          },
+          {
+            "key": "lining",
+            "value": "Partial top lining; skirt unlined (illustrative sample)."
+          },
+          {
+            "key": "closure",
+            "value": "Bolero: pearl-style front button; skirt: concealed side zipper (illustrative sample)."
+          },
+          {
+            "key": "pockets",
+            "value": "In-seam pockets at the skirt (illustrative sample)."
+          },
+          {
+            "key": "care_instructions",
+            "value": "Hand wash pieces separately in cold water; do not wring; line dry in shade; cool iron on reverse (illustrative sample care)."
+          },
+          {
+            "key": "size_chart",
+            "value": "gid://shopify/Metaobject/615321534646"
+          },
+          {
+            "key": "data_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321665718",
+        "handle": "test-anneleise-halter-dress-apparel",
+        "type": "tcpf_apparel_details",
+        "fields": [
+          {
+            "key": "garment_category",
+            "value": "Blue floral halter midi dress"
+          },
+          {
+            "key": "silhouette",
+            "value": "Sleeveless high-neck halter bodice with a shaped waist and softly flared midi skirt."
+          },
+          {
+            "key": "fit_notes",
+            "value": "Illustrative fit profile: shaped through the bodice with a softly flared skirt. The XS–XL sample chart is a design reference, not a graded production pattern."
+          },
+          {
+            "key": "fabric",
+            "value": "Lightweight floral-printed woven (illustrative sample)."
+          },
+          {
+            "key": "fiber_content",
+            "value": "Polyester (illustrative sample composition)."
+          },
+          {
+            "key": "stretch",
+            "value": "No stretch (illustrative sample)."
+          },
+          {
+            "key": "lining",
+            "value": "Lined bodice with an unlined skirt (illustrative sample)."
+          },
+          {
+            "key": "closure",
+            "value": "Adjustable back-neck tie with concealed side zipper (illustrative sample)."
+          },
+          {
+            "key": "pockets",
+            "value": "In-seam pockets (illustrative sample)."
+          },
+          {
+            "key": "care_instructions",
+            "value": "Hand wash cold with like colors; do not wring; line dry in shade; cool iron on reverse (illustrative sample care)."
+          },
+          {
+            "key": "size_chart",
+            "value": "gid://shopify/Metaobject/615321567414"
+          },
+          {
+            "key": "data_status",
+            "value": "illustrative"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "artworks": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metaobject/615264485558",
+        "handle": "concept-painted-bolero-top-design",
+        "type": "tcpf_design_concept",
+        "fields": [
+          {
+            "key": "title",
+            "value": "Petals at Dusk"
+          },
+          {
+            "key": "reference_name",
+            "value": "FRANCIA — Modern Filipiniana Bolero"
+          },
+          {
+            "key": "reference_url",
+            "value": "https://shopee.ph/Modern-Filipiniana-Bolero-%28FRANCIA%29-TCPF-BASICS-i.284180383.22444504299"
+          },
+          {
+            "key": "story",
+            "value": "An original oil-painted garden turns sculptural Filipiniana sleeves into a moving canvas. Coral and rose blooms, golden-orange light, and soft periwinkle brushwork frame a light base layer, carrying TCPF’s painterly point of view from canvas to occasionwear."
+          },
+          {
+            "key": "review_status",
+            "value": "unapproved"
+          },
+          {
+            "key": "artwork_image",
+            "value": "gid://shopify/MediaImage/46381264404662"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264518326",
+        "handle": "concept-painted-terno-set-design",
+        "type": "tcpf_design_concept",
+        "fields": [
+          {
+            "key": "title",
+            "value": "The Garden Set"
+          },
+          {
+            "key": "reference_name",
+            "value": "FRANCIA & CLAIRE — Pink and Orange Terno Set"
+          },
+          {
+            "key": "reference_url",
+            "value": "https://shopee.ph/Modern-Filipiniana-Bolero-and-Skirt-Terno-%28FRANCIA-AND-CLAIRE%29-TCPF-Basics-%28Pink-Orange%29-i.284180383.29883717088"
+          },
+          {
+            "key": "story",
+            "value": "A coordinated look carries expressive blooms across a sculptural bolero and a clean-lined skirt. Coral, blush and blue-green brushwork keep the silhouette celebratory while the painted textile remains the focus."
+          },
+          {
+            "key": "review_status",
+            "value": "unapproved"
+          },
+          {
+            "key": "artwork_image",
+            "value": "gid://shopify/MediaImage/46381264437430"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615264551094",
+        "handle": "concept-floral-halter-dress-design",
+        "type": "tcpf_design_concept",
+        "fields": [
+          {
+            "key": "title",
+            "value": "Blue Garden Reverie"
+          },
+          {
+            "key": "reference_name",
+            "value": "ANNELEISE — Blue Floral Halter Dress"
+          },
+          {
+            "key": "reference_url",
+            "value": "https://shopee.ph/Blue-Floral-Halter-Dress-%28ANNELEISE%29-Formal-Attire-for-Wedding-TCPF-BASICS-i.284180383.48109979525"
+          },
+          {
+            "key": "story",
+            "value": "Small cornflower blooms drift across a pale-blue ground, bringing an airy rhythm to the halter neckline and flowing skirt. Delicate botanical scale meets an occasion-ready silhouette in a quiet, painterly TCPF direction."
+          },
+          {
+            "key": "review_status",
+            "value": "unapproved"
+          },
+          {
+            "key": "artwork_image",
+            "value": "gid://shopify/MediaImage/46381264470198"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "DRAFT"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321731254",
+        "handle": "test-francia-filipiniana-bolero-design",
+        "type": "tcpf_design_concept",
+        "fields": [
+          {
+            "key": "title",
+            "value": "Petals at Dusk — concept"
+          },
+          {
+            "key": "reference_name",
+            "value": "FRANCIA — Modern Filipiniana Bolero"
+          },
+          {
+            "key": "reference_url",
+            "value": "https://shopee.ph/Modern-Filipiniana-Bolero-%28FRANCIA%29-TCPF-BASICS-i.284180383.22444504299"
+          },
+          {
+            "key": "story",
+            "value": "An original oil-painted garden turns sculptural Filipiniana sleeves into a moving canvas. Coral and rose blooms, golden-orange light, and soft periwinkle brushwork frame a light base layer, carrying TCPF’s painterly point of view from canvas to occasionwear. This companion record is the approved demo concept pairing for the active look."
+          },
+          {
+            "key": "review_status",
+            "value": "unapproved"
+          },
+          {
+            "key": "artwork_image",
+            "value": "gid://shopify/MediaImage/46381264404662"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321764022",
+        "handle": "test-francia-claire-terno-set-design",
+        "type": "tcpf_design_concept",
+        "fields": [
+          {
+            "key": "title",
+            "value": "The Garden Set — concept"
+          },
+          {
+            "key": "reference_name",
+            "value": "FRANCIA & CLAIRE — Pink and Orange Terno Set"
+          },
+          {
+            "key": "reference_url",
+            "value": "https://shopee.ph/Modern-Filipiniana-Bolero-and-Skirt-Terno-%28FRANCIA-AND-CLAIRE%29-TCPF-Basics-%28Pink-Orange%29-i.284180383.29883717088"
+          },
+          {
+            "key": "story",
+            "value": "A coordinated look carries expressive blooms across a sculptural bolero and a clean-lined skirt. Coral, blush and blue-green brushwork keep the silhouette celebratory while the painted textile remains the focus. This companion record is the approved demo concept pairing for the active look."
+          },
+          {
+            "key": "review_status",
+            "value": "unapproved"
+          },
+          {
+            "key": "artwork_image",
+            "value": "gid://shopify/MediaImage/46381264437430"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Metaobject/615321796790",
+        "handle": "test-anneleise-halter-dress-design",
+        "type": "tcpf_design_concept",
+        "fields": [
+          {
+            "key": "title",
+            "value": "Blue Garden Reverie — concept"
+          },
+          {
+            "key": "reference_name",
+            "value": "ANNELEISE — Blue Floral Halter Dress"
+          },
+          {
+            "key": "reference_url",
+            "value": "https://shopee.ph/Blue-Floral-Halter-Dress-%28ANNELEISE%29-Formal-Attire-for-Wedding-TCPF-BASICS-i.284180383.48109979525"
+          },
+          {
+            "key": "story",
+            "value": "Small cornflower blooms drift across a pale-blue ground, bringing an airy rhythm to the halter neckline and flowing skirt. Delicate botanical scale meets an occasion-ready silhouette in a quiet, painterly TCPF direction. This companion record is the approved demo concept pairing for the active look."
+          },
+          {
+            "key": "review_status",
+            "value": "unapproved"
+          },
+          {
+            "key": "artwork_image",
+            "value": "gid://shopify/MediaImage/46381264470198"
+          }
+        ],
+        "capabilities": {
+          "publishable": {
+            "status": "ACTIVE"
+          }
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "productDefinitions": {
+    "nodes": [
+      {
+        "id": "gid://shopify/MetafieldDefinition/297238790326",
+        "name": "TCPF Apparel Details",
+        "namespace": "tcpf",
+        "key": "apparel_details",
+        "type": {
+          "name": "metaobject_reference"
+        },
+        "validations": [
+          {
+            "name": "metaobject_definition_id",
+            "value": "gid://shopify/MetaobjectDefinition/25339592886"
+          }
+        ],
+        "access": {
+          "admin": "PUBLIC_READ_WRITE",
+          "storefront": "PUBLIC_READ"
+        }
+      },
+      {
+        "id": "gid://shopify/MetafieldDefinition/297238823094",
+        "name": "TCPF Design Concept",
+        "namespace": "tcpf",
+        "key": "design_concept",
+        "type": {
+          "name": "metaobject_reference"
+        },
+        "validations": [
+          {
+            "name": "metaobject_definition_id",
+            "value": "gid://shopify/MetaobjectDefinition/25339625654"
+          }
+        ],
+        "access": {
+          "admin": "PUBLIC_READ_WRITE",
+          "storefront": "PUBLIC_READ"
+        }
+      },
+      {
+        "id": "gid://shopify/MetafieldDefinition/297238855862",
+        "name": "TCPF Concept Only",
+        "namespace": "tcpf",
+        "key": "concept_only",
+        "type": {
+          "name": "boolean"
+        },
+        "validations": [],
+        "access": {
+          "admin": "PUBLIC_READ_WRITE",
+          "storefront": "PUBLIC_READ"
+        }
+      }
+    ]
+  },
+  "collectionDefinitions": {
+    "nodes": []
+  },
+  "collections": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Collection/511769510070",
+        "handle": "frontpage",
+        "title": "Home page",
+        "descriptionHtml": "",
+        "products": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Product/15390146527414",
+              "handle": "concept-painted-bolero-top"
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": []
+        }
+      },
+      {
+        "id": "gid://shopify/Collection/511888326838",
+        "handle": "filipiniana-tops",
+        "title": "Filipiniana",
+        "descriptionHtml": "<p>Modern Filipiniana shapes meet expressive color and statement sleeves.</p>",
+        "products": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Product/15390182244534",
+              "handle": "francia-painted-filipiniana-bolero"
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "TEST LISTINGS — Filipiniana Tops"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Test listings only. Not for sale. Prices, size labels, and garment measurements are temporary placeholders; all inventory is zero."
+            }
+          ]
+        }
+      },
+      {
+        "id": "gid://shopify/Collection/511888359606",
+        "handle": "terno-sets",
+        "title": "Terno Sets",
+        "descriptionHtml": "<p>A contemporary take on the terno, styled as a coordinated statement look.</p>",
+        "products": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Product/15390182310070",
+              "handle": "francia-claire-modern-terno-set"
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "TEST LISTINGS — Terno Sets"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Test listings only. Not for sale. Prices, size labels, and garment measurements are temporary placeholders; all inventory is zero."
+            }
+          ]
+        }
+      },
+      {
+        "id": "gid://shopify/Collection/511888392374",
+        "handle": "dresses",
+        "title": "Dresses",
+        "descriptionHtml": "<p>Expressive silhouettes for celebrations, evenings, and everything worth dressing for.</p>",
+        "products": {
+          "nodes": [
+            {
+              "id": "gid://shopify/Product/15390182375606",
+              "handle": "anneleise-blue-floral-halter-dress"
+            }
+          ]
+        },
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "TEST LISTINGS — Dresses"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Test listings only. Not for sale. Prices, size labels, and garment measurements are temporary placeholders; all inventory is zero."
+            }
+          ]
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "files": {
+    "nodes": [
+      {
+        "id": "gid://shopify/MediaImage/46356181778614",
+        "alt": "Model wearing a concept Filipiniana bolero with sculptural sleeves and an original blush, periwinkle and sage abstract garden print over an ivory outfit.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/01-painted-bolero.jpg?v=1791055430",
+          "width": 1122,
+          "height": 1402
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356181811382",
+        "alt": "Model wearing a concept Filipiniana terno with a sculptural-sleeve bolero and coordinating knee-length skirt in an original coral, blush and muted teal print.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/02-painted-terno-set.jpg?v=1791055432",
+          "width": 1122,
+          "height": 1402
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356181844150",
+        "alt": "Model wearing a concept pale-blue floral halter midi dress with a fitted bodice and softly flared skirt, shown against a warm-white studio background.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/03-floral-halter-dress.jpg?v=1791055434",
+          "width": 1122,
+          "height": 1402
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356442742966",
+        "alt": "Model wearing the TCPF Basics FRANCIA Filipiniana bolero",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-81ztn-mklcbgzi3ith91.jpg?v=1791064333",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356484587702",
+        "alt": "Model wearing the TCPF Basics FRANCIA Filipiniana bolero. Test listing; details pending confirmation.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-81ztn-mklcbgzi3ith91_8cb13352-997b-4b0d-aab2-7007d587ae29.jpg?v=1791065044",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356484620470",
+        "alt": "Model wearing the TCPF Basics FRANCIA & CLAIRE bolero and skirt terno. Test listing; details pending confirmation.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-7rasm-m8nmbys3ehe5a1.jpg?v=1791065044",
+          "width": 800,
+          "height": 800
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356484653238",
+        "alt": "Model wearing the TCPF Basics ANNELEISE blue floral halter dress. Test listing; details pending confirmation.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-820lg-mnvjeaw3dbsze9.jpg?v=1791065046",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356501102774",
+        "alt": "Model wearing the FRANCIA pink and orange Filipiniana bolero.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-81ztn-mklcbgzi3ith91_6f5c08dd-aae0-42e7-a16f-1fe8932ec661.jpg?v=1791065264",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356501397686",
+        "alt": "Model wearing the FRANCIA & CLAIRE pink and orange terno set.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-7rasm-m8nmbys3ehe5a1_15914377-57c1-41f7-b536-955620004618.jpg?v=1791065265",
+          "width": 800,
+          "height": 800
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46356501856438",
+        "alt": "Model wearing the ANNELEISE blue floral halter dress.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-820lg-mnvjeaw3dbsze9_658ac09d-a1ff-4235-8531-4f2a64bfc33f.jpg?v=1791065266",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381261881526",
+        "alt": "Original TCPF painted garden artwork for the FRANCIA Filipiniana bolero; generated square textile print concept.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-garden-bolero-artwork.png?v=1791115727",
+          "width": 1254,
+          "height": 1254
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381261914294",
+        "alt": "Original TCPF hibiscus garden artwork for the FRANCIA & CLAIRE terno set; generated square textile print concept.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-terno-garden-artwork.png?v=1791115727",
+          "width": 1254,
+          "height": 1254
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381261947062",
+        "alt": "Original TCPF blue botanical artwork for the ANNELEISE halter dress; generated square textile print concept.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-blue-botanical-halter-artwork.png?v=1791115727",
+          "width": 1254,
+          "height": 1254
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381261979830",
+        "alt": "Square concept product image: Filipiniana bolero with painterly floral print.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-bolero-square.jpg?v=1791115725",
+          "width": 1122,
+          "height": 1122
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381262012598",
+        "alt": "Square concept product image: Filipiniana terno set with painterly floral print.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-terno-square.jpg?v=1791115726",
+          "width": 1122,
+          "height": 1122
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381262045366",
+        "alt": "Square concept product image: blue floral halter dress.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-halter-square.jpg?v=1791115726",
+          "width": 1122,
+          "height": 1122
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381264404662",
+        "alt": "Original TCPF painted garden artwork for the FRANCIA Filipiniana bolero; generated square textile print concept.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-garden-bolero-artwork_6f82357b-839c-40e6-bb49-06ecf2e1df11.png?v=1791115763",
+          "width": 1254,
+          "height": 1254
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381264437430",
+        "alt": "Original TCPF hibiscus garden artwork for the FRANCIA & CLAIRE terno set; generated square textile print concept.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-terno-garden-artwork_c619137b-31a9-4900-b793-952511fe948f.png?v=1791115763",
+          "width": 1254,
+          "height": 1254
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381264470198",
+        "alt": "Original TCPF blue botanical artwork for the ANNELEISE halter dress; generated square textile print concept.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-blue-botanical-halter-artwork_f1e3448b-270e-410d-9c4b-0724cb800ac9.png?v=1791115763",
+          "width": 1254,
+          "height": 1254
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381264502966",
+        "alt": "Square concept product image: Filipiniana bolero with painterly floral print.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-bolero-square_d0bb3887-678f-45b8-9159-d7b537f46162.jpg?v=1791115761",
+          "width": 1122,
+          "height": 1122
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381264535734",
+        "alt": "Square concept product image: Filipiniana terno set with painterly floral print.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-terno-square_e49c0a86-bdfe-4c70-b52b-c2cad1dc46c3.jpg?v=1791115761",
+          "width": 1122,
+          "height": 1122
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381264568502",
+        "alt": "Square concept product image: blue floral halter dress.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-halter-square_e1617160-381e-473e-bfba-0ed6ca6af85b.jpg?v=1791115761",
+          "width": 1122,
+          "height": 1122
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46381420216502",
+        "alt": "Three Filipina models wearing painterly floral TCPF pieces: a Filipiniana bolero, a modern terno set, and a powder-blue halter dress.",
+        "fileStatus": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-shop-the-look-campaign.jpg?v=1791117657",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false
+    }
+  },
+  "locations": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Location/91900346550",
+        "name": "Shop location",
+        "isActive": true,
+        "fulfillsOnlineOrders": true
+      }
+    ]
+  },
+  "publications": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Publication/222874861750",
+        "name": "Online Store"
+      },
+      {
+        "id": "gid://shopify/Publication/222874927286",
+        "name": "Point of Sale"
+      },
+      {
+        "id": "gid://shopify/Publication/222874960054",
+        "name": "Shop"
+      }
+    ]
+  }
+}

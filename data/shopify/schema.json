@@ -1,0 +1,557 @@
+{
+  "store": "tcpfbasics.myshopify.com",
+  "api_version": "2026-10",
+  "metaobject_definitions": [
+    {
+      "id": "gid://shopify/MetaobjectDefinition/25339527350",
+      "type": "tcpf_size_measurement",
+      "name": "TCPF Size Measurement",
+      "displayNameKey": "title",
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      },
+      "capabilities": {
+        "publishable": {
+          "enabled": true
+        }
+      },
+      "fieldDefinitions": [
+        {
+          "key": "size_label",
+          "name": "Size label",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "measurements_cm",
+          "name": "Measurements (cm)",
+          "required": false,
+          "type": "json",
+          "validations": []
+        },
+        {
+          "key": "measurement_status",
+          "name": "Measurement status",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "title",
+          "name": "Title",
+          "type": "single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "max",
+              "value": "100"
+            }
+          ]
+        },
+        {
+          "key": "bust_cm",
+          "name": "Bust cm",
+          "type": "number_decimal",
+          "required": false,
+          "validations": [
+            {
+              "name": "min",
+              "value": "0.01"
+            }
+          ]
+        },
+        {
+          "key": "waist_cm",
+          "name": "Waist cm",
+          "type": "number_decimal",
+          "required": false,
+          "validations": [
+            {
+              "name": "min",
+              "value": "0.01"
+            }
+          ]
+        },
+        {
+          "key": "hip_cm",
+          "name": "Hip cm",
+          "type": "number_decimal",
+          "required": false,
+          "validations": [
+            {
+              "name": "min",
+              "value": "0.01"
+            }
+          ]
+        },
+        {
+          "key": "length_cm",
+          "name": "Length cm",
+          "type": "number_decimal",
+          "required": false,
+          "validations": [
+            {
+              "name": "min",
+              "value": "0.01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/MetaobjectDefinition/25339560118",
+      "type": "tcpf_size_chart",
+      "name": "TCPF Size Guide",
+      "displayNameKey": "title",
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      },
+      "capabilities": {
+        "publishable": {
+          "enabled": true
+        }
+      },
+      "fieldDefinitions": [
+        {
+          "key": "unit",
+          "name": "Unit",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "measurements",
+          "name": "Measurements",
+          "required": false,
+          "type": "list.metaobject_reference",
+          "validations": [
+            {
+              "name": "metaobject_definition_id",
+              "value": "gid://shopify/MetaobjectDefinition/25339527350"
+            }
+          ]
+        },
+        {
+          "key": "chart_status",
+          "name": "Chart status",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "title",
+          "name": "Title",
+          "type": "single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "max",
+              "value": "100"
+            }
+          ]
+        },
+        {
+          "key": "measurement_kind",
+          "name": "Measurement kind",
+          "type": "single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"garment\",\"body\"]"
+            }
+          ]
+        },
+        {
+          "key": "notes",
+          "name": "Notes",
+          "type": "multi_line_text_field",
+          "required": false,
+          "validations": []
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/MetaobjectDefinition/25339592886",
+      "type": "tcpf_apparel_details",
+      "name": "TCPF Garment Details",
+      "displayNameKey": "title",
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      },
+      "capabilities": {
+        "publishable": {
+          "enabled": true
+        }
+      },
+      "fieldDefinitions": [
+        {
+          "key": "garment_category",
+          "name": "Garment category",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "silhouette",
+          "name": "Silhouette",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "fit_notes",
+          "name": "Fit notes",
+          "required": false,
+          "type": "multi_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "fabric",
+          "name": "Fabric",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "fiber_content",
+          "name": "Fiber content",
+          "required": false,
+          "type": "multi_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "stretch",
+          "name": "Stretch",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "lining",
+          "name": "Lining",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "closure",
+          "name": "Closure",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "pockets",
+          "name": "Pockets",
+          "required": false,
+          "type": "multi_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "care_instructions",
+          "name": "Care instructions",
+          "required": false,
+          "type": "multi_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "size_chart",
+          "name": "Size chart",
+          "required": false,
+          "type": "metaobject_reference",
+          "validations": [
+            {
+              "name": "metaobject_definition_id",
+              "value": "gid://shopify/MetaobjectDefinition/25339560118"
+            }
+          ]
+        },
+        {
+          "key": "data_status",
+          "name": "Data status",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "title",
+          "name": "Title",
+          "type": "single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "max",
+              "value": "160"
+            }
+          ]
+        },
+        {
+          "key": "included_items",
+          "name": "Included items",
+          "type": "multi_line_text_field",
+          "required": false,
+          "validations": []
+        },
+        {
+          "key": "size_charts",
+          "name": "Size charts",
+          "type": "list.metaobject_reference",
+          "required": false,
+          "validations": [
+            {
+              "name": "metaobject_definition_id",
+              "value": "gid://shopify/MetaobjectDefinition/25339560118"
+            },
+            {
+              "name": "list.max",
+              "value": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/MetaobjectDefinition/25339625654",
+      "type": "tcpf_design_concept",
+      "name": "TCPF Artwork",
+      "displayNameKey": "title",
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      },
+      "capabilities": {
+        "publishable": {
+          "enabled": true
+        }
+      },
+      "fieldDefinitions": [
+        {
+          "key": "title",
+          "name": "Title",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "reference_name",
+          "name": "Reference name",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "reference_url",
+          "name": "Reference URL",
+          "required": false,
+          "type": "url",
+          "validations": []
+        },
+        {
+          "key": "story",
+          "name": "Story",
+          "required": false,
+          "type": "multi_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "review_status",
+          "name": "Review status",
+          "required": false,
+          "type": "single_line_text_field",
+          "validations": []
+        },
+        {
+          "key": "artwork_image",
+          "name": "Artwork image",
+          "required": true,
+          "type": "file_reference",
+          "validations": [
+            {
+              "name": "file_type_options",
+              "value": "[\"Image\"]"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "name": "Origin",
+          "type": "single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"ai_concept\",\"human_original\"]"
+            }
+          ]
+        },
+        {
+          "key": "attribution",
+          "name": "Attribution",
+          "type": "single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "max",
+              "value": "160"
+            }
+          ]
+        },
+        {
+          "key": "medium",
+          "name": "Medium",
+          "type": "single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "max",
+              "value": "160"
+            }
+          ]
+        },
+        {
+          "key": "palette",
+          "name": "Palette",
+          "type": "list.single_line_text_field",
+          "required": false,
+          "validations": [
+            {
+              "name": "list.max",
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_metafield_definitions": [
+    {
+      "ownerType": "PRODUCT",
+      "namespace": "tcpf",
+      "key": "related_products",
+      "name": "Related products",
+      "type": "list.product_reference",
+      "validations": [
+        {
+          "name": "list.max",
+          "value": "4"
+        }
+      ],
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      }
+    },
+    {
+      "ownerType": "PRODUCT",
+      "namespace": "tcpf",
+      "key": "related_products_context",
+      "name": "Related product context",
+      "type": "single_line_text_field",
+      "validations": [
+        {
+          "name": "choices",
+          "value": "[\"outfit\",\"same_artwork\"]"
+        }
+      ],
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      }
+    },
+    {
+      "ownerType": "PRODUCT",
+      "namespace": "tcpf",
+      "key": "set_components",
+      "name": "Set components",
+      "type": "list.product_reference",
+      "validations": [
+        {
+          "name": "list.min",
+          "value": "2"
+        },
+        {
+          "name": "list.max",
+          "value": "2"
+        }
+      ],
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      }
+    },
+    {
+      "ownerType": "COLLECTION",
+      "namespace": "tcpf",
+      "key": "artworks",
+      "name": "Artwork stories",
+      "type": "list.metaobject_reference",
+      "validations": [
+        {
+          "name": "metaobject_definition_id",
+          "value": "gid://shopify/MetaobjectDefinition/25339625654"
+        }
+      ],
+      "access": {
+        "admin": "PUBLIC_READ_WRITE",
+        "storefront": "PUBLIC_READ"
+      }
+    }
+  ],
+  "source_contract": {
+    "required_new_records": [
+      "title",
+      "status specific to record type"
+    ],
+    "positive_measurements": true,
+    "legacy_fields_unchanged": true,
+    "artwork": {
+      "title_max": 100,
+      "story_max": 1200,
+      "review_status": [
+        "pending",
+        "approved"
+      ]
+    },
+    "garment": {
+      "silhouette_max": 200,
+      "fit_notes_max": 1000,
+      "fabric_max": 200,
+      "fiber_content_max": 500,
+      "care_instructions_max": 1000,
+      "garment_category": [
+        "bolero",
+        "terno_set",
+        "skirt",
+        "dress",
+        "top"
+      ],
+      "data_status": [
+        "sample",
+        "verified"
+      ]
+    },
+    "chart": {
+      "unit": "cm",
+      "rows": 5,
+      "chart_status": [
+        "sample",
+        "verified"
+      ]
+    },
+    "row": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "measurement_status": "sample"
+    }
+  }
+}

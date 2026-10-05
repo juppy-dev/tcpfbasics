@@ -1,0 +1,10 @@
+{% doc %}
+  Displays the unavailable sample state from the product’s typed concept flag.
+  @param {product} product - Product to identify.
+{% enddoc %}
+{% if product.metafields.tcpf.concept_only.value %}
+  <div class="tcpf-concept-notice" data-tcpf-concept="true">
+    <p class="tcpf-eyebrow">{{ 'tcpf.not_for_sale' | t }}</p>
+    <p>{{ 'tcpf.sample_notice' | t }}</p>
+  </div>
+{% endif %}

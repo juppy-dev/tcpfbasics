@@ -1,0 +1,5032 @@
+[
+  {
+    "operation": "refine-definitions",
+    "response": {
+      "u0": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339527350",
+          "type": "tcpf_size_measurement",
+          "name": "TCPF Size Measurement",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "u1": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339560118",
+          "type": "tcpf_size_chart",
+          "name": "TCPF Size Guide",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "u2": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339592886",
+          "type": "tcpf_apparel_details",
+          "name": "TCPF Garment Details",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "u3": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339625654",
+          "type": "tcpf_design_concept",
+          "name": "TCPF Artwork",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "m0": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      },
+      "m1": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      },
+      "m2": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      },
+      "m3": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "operation": "create-metafield-definitions-default-merchant-access",
+    "response": {
+      "m0": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539043510",
+          "namespace": "tcpf",
+          "key": "related_products",
+          "ownerType": "PRODUCT"
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539076278",
+          "namespace": "tcpf",
+          "key": "related_products_context",
+          "ownerType": "PRODUCT"
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539109046",
+          "namespace": "tcpf",
+          "key": "set_components",
+          "ownerType": "PRODUCT"
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539141814",
+          "namespace": "tcpf",
+          "key": "artworks",
+          "ownerType": "COLLECTION"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:40:33.765217+00:00",
+    "operation": "create-files-0",
+    "response": {
+      "fileCreate": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/46390347759798",
+            "alt": "AI-generated amihan garden botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347792566",
+            "alt": "AI-generated dapithapon botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347825334",
+            "alt": "AI-generated luntian botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347858102",
+            "alt": "AI-generated hiraya bloom botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347890870",
+            "alt": "AI-generated sinag field botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347923638",
+            "alt": "Sample amihan bolero, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347956406",
+            "alt": "Sample dapithapon bolero, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347989174",
+            "alt": "Sample luntian bolero, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348021942",
+            "alt": "Sample amihan midi skirt, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348054710",
+            "alt": "Sample dapithapon midi skirt, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348087478",
+            "alt": "Sample hiraya halter dress, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348120246",
+            "alt": "Sample sinag wrap dress, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348153014",
+            "alt": "Sample amihan terno set, front view on an anonymous model.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348185782",
+            "alt": "Sample luntian blouse, front view on an anonymous model.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348218550",
+            "alt": "Sample Dapithapon Modern Terno Set, matching bolero and midi skirt in coral botanical print, front view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348251318",
+            "alt": "Sample amihan bolero, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348284086",
+            "alt": "Sample amihan bolero, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348316854",
+            "alt": "Sample amihan bolero, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348349622",
+            "alt": "Sample dapithapon bolero, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348382390",
+            "alt": "Sample dapithapon bolero, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348415158",
+            "alt": "Sample dapithapon bolero, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348447926",
+            "alt": "Sample luntian bolero, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348480694",
+            "alt": "Sample luntian bolero, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348513462",
+            "alt": "Sample luntian bolero, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348546230",
+            "alt": "Sample amihan midi skirt, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348578998",
+            "alt": "Sample amihan midi skirt, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348611766",
+            "alt": "Sample amihan midi skirt, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348644534",
+            "alt": "Sample dapithapon midi skirt, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348677302",
+            "alt": "Sample dapithapon midi skirt, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348710070",
+            "alt": "Sample dapithapon midi skirt, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348742838",
+            "alt": "Sample hiraya halter dress, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348775606",
+            "alt": "Sample hiraya halter dress, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348808374",
+            "alt": "Sample hiraya halter dress, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348841142",
+            "alt": "Sample sinag wrap dress, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348873910",
+            "alt": "Sample sinag wrap dress, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348906678",
+            "alt": "Sample sinag wrap dress, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          }
+        ],
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:43:47.944743+00:00",
+    "operation": "populate-measurement_rows",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090075318",
+          "handle": "sample-bolero-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "84.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "40.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090108086",
+          "handle": "sample-bolero-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "41.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090140854",
+          "handle": "sample-bolero-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "42.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090173622",
+          "handle": "sample-bolero-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "43.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090206390",
+          "handle": "sample-bolero-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "104.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "44.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090239158",
+          "handle": "sample-skirt-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "66.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "75.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090271926",
+          "handle": "sample-skirt-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "70.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "98.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "76.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090304694",
+          "handle": "sample-skirt-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "74.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "102.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "77.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090337462",
+          "handle": "sample-skirt-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "78.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "106.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "78.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090370230",
+          "handle": "sample-skirt-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "82.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "110.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "79.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m10": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090402998",
+          "handle": "sample-halter-dress-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "84.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "66.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "112.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m11": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090435766",
+          "handle": "sample-halter-dress-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "70.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "98.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "113.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m12": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090468534",
+          "handle": "sample-halter-dress-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "74.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "102.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "114.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m13": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090501302",
+          "handle": "sample-halter-dress-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "78.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "106.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "115.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m14": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090534070",
+          "handle": "sample-halter-dress-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "82.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "110.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "116.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m15": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090566838",
+          "handle": "sample-wrap-dress-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "68.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "110.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m16": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090599606",
+          "handle": "sample-wrap-dress-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "72.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "111.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m17": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090632374",
+          "handle": "sample-wrap-dress-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "76.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "104.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "112.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m18": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090665142",
+          "handle": "sample-wrap-dress-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "80.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "108.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "113.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m19": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090697910",
+          "handle": "sample-wrap-dress-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "104.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "84.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "112.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "114.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m20": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090730678",
+          "handle": "sample-blouse-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "90.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "78.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "56.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m21": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090763446",
+          "handle": "sample-blouse-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "82.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "57.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m22": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090796214",
+          "handle": "sample-blouse-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "98.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "86.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "58.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m23": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090861750",
+          "handle": "sample-blouse-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "102.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "90.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "59.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m24": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090894518",
+          "handle": "sample-blouse-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "106.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "60.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:43:51.812001+00:00",
+    "operation": "populate-size_charts",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090927286",
+          "handle": "sample-bolero",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090075318\",\"gid://shopify/Metaobject/616090108086\",\"gid://shopify/Metaobject/616090140854\",\"gid://shopify/Metaobject/616090173622\",\"gid://shopify/Metaobject/616090206390\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090960054",
+          "handle": "sample-skirt",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090239158\",\"gid://shopify/Metaobject/616090271926\",\"gid://shopify/Metaobject/616090304694\",\"gid://shopify/Metaobject/616090337462\",\"gid://shopify/Metaobject/616090370230\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from waistband top to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090992822",
+          "handle": "sample-halter-dress",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090402998\",\"gid://shopify/Metaobject/616090435766\",\"gid://shopify/Metaobject/616090468534\",\"gid://shopify/Metaobject/616090501302\",\"gid://shopify/Metaobject/616090534070\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from centre-front neckline edge to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091025590",
+          "handle": "sample-wrap-dress",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090566838\",\"gid://shopify/Metaobject/616090599606\",\"gid://shopify/Metaobject/616090632374\",\"gid://shopify/Metaobject/616090665142\",\"gid://shopify/Metaobject/616090697910\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock. Circumferences use the nominal tied-closed position."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091058358",
+          "handle": "sample-blouse",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090730678\",\"gid://shopify/Metaobject/616090763446\",\"gid://shopify/Metaobject/616090796214\",\"gid://shopify/Metaobject/616090861750\",\"gid://shopify/Metaobject/616090894518\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:43:56.762146+00:00",
+    "operation": "populate-artworks",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091189430",
+          "handle": "amihan-garden",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Amihan Garden"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented botanical composition with airy stems and loose lilac brushwork on a light canvas. Created as an AI textile concept for this demonstration collection."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347759798"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Ivory\",\"Plum\",\"Periwinkle\",\"Restrained leaf\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091222198",
+          "handle": "dapithapon",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Dapithapon"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented floral composition with warm rose and coral forms against ivory. Created as an AI textile concept, with no founder-provided memory or source painting claimed."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347792566"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Petal\",\"Coral\",\"Muted plum\",\"Ivory\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091254966",
+          "handle": "luntian",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Luntian"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented botanical rhythm of green leaves and light lavender accents. Generated for the sample collection rather than attributed to a physical painting."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347825334"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Ivory\",\"Leaf\",\"Soft lavender\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091287734",
+          "handle": "hiraya-bloom",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Hiraya Bloom"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented airy blue floral print with generous light space. Generated as a textile direction for the sample halter dress."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347858102"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Powder blue\",\"Ivory\",\"Soft slate\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091320502",
+          "handle": "sinag-field",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Sinag Field"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented meadow-like print with soft flowers and warm light. Generated as the artwork source for the sample wrap dress."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347890870"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Warm ivory\",\"Ochre\",\"Soft rose\",\"Muted green\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:44:01.839759+00:00",
+    "operation": "populate-garments",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091353270",
+          "handle": "sample-amihan-bolero",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "bolero"
+            },
+            {
+              "key": "silhouette",
+              "value": "Waist-length open-front bolero with structured upright butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Single concealed hook at centre front."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Amihan Printed Bolero details"
+            },
+            {
+              "key": "included_items",
+              "value": "Bolero only. Styling camisole, skirt, and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091386038",
+          "handle": "sample-dapithapon-bolero",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "bolero"
+            },
+            {
+              "key": "silhouette",
+              "value": "Waist-length open-front bolero with structured upright butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Single concealed hook at centre front."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Dapithapon Printed Bolero details"
+            },
+            {
+              "key": "included_items",
+              "value": "Bolero only. Styling camisole, skirt, and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091418806",
+          "handle": "sample-luntian-bolero",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "bolero"
+            },
+            {
+              "key": "silhouette",
+              "value": "Waist-length open-front bolero with structured upright butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Single concealed hook at centre front."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Luntian Printed Bolero details"
+            },
+            {
+              "key": "included_items",
+              "value": "Bolero only. Styling camisole, skirt, and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091451574",
+          "handle": "sample-amihan-terno-set",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "terno_set"
+            },
+            {
+              "key": "silhouette",
+              "value": "Matching waist-length butterfly-sleeve bolero and A-line midi skirt."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Both pieces fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Bolero: single concealed centre-front hook. Skirt: concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Amihan Modern Terno Set details"
+            },
+            {
+              "key": "included_items",
+              "value": "One bolero and one matching midi skirt. Inner camisole and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\",\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091484342",
+          "handle": "sample-dapithapon-terno-set",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "terno_set"
+            },
+            {
+              "key": "silhouette",
+              "value": "Matching waist-length butterfly-sleeve bolero and A-line midi skirt."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Both pieces fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Bolero: single concealed centre-front hook. Skirt: concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Dapithapon Modern Terno Set details"
+            },
+            {
+              "key": "included_items",
+              "value": "One bolero and one matching midi skirt. Inner camisole and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\",\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091517110",
+          "handle": "sample-amihan-midi-skirt",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "skirt"
+            },
+            {
+              "key": "silhouette",
+              "value": "A-line midi skirt with a fitted waistband and gentle flare."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Amihan Printed Midi Skirt details"
+            },
+            {
+              "key": "included_items",
+              "value": "Skirt only. Styling top and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091549878",
+          "handle": "sample-dapithapon-midi-skirt",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "skirt"
+            },
+            {
+              "key": "silhouette",
+              "value": "A-line midi skirt with a fitted waistband and gentle flare."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Dapithapon Printed Midi Skirt details"
+            },
+            {
+              "key": "included_items",
+              "value": "Skirt only. Styling top and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091582646",
+          "handle": "sample-hiraya-halter-dress",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "dress"
+            },
+            {
+              "key": "silhouette",
+              "value": "Halter-neck midi dress with fitted bodice and softly flared skirt."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Back neck tie and concealed centre-back zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Hiraya Floral Halter Dress details"
+            },
+            {
+              "key": "included_items",
+              "value": "Dress only. Accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090992822\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091648182",
+          "handle": "sample-sinag-wrap-dress",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "dress"
+            },
+            {
+              "key": "silhouette",
+              "value": "Midi wrap dress with defined waist and short softly structured butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Unlined."
+            },
+            {
+              "key": "closure",
+              "value": "Functional side waist tie and internal securing tie."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Sinag Printed Wrap Dress details"
+            },
+            {
+              "key": "included_items",
+              "value": "Dress and attached ties. Accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616091025590\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091680950",
+          "handle": "sample-luntian-blouse",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "top"
+            },
+            {
+              "key": "silhouette",
+              "value": "Hip-length blouse with a modest square neckline and structured butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Body lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Concealed centre-back zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Luntian Printed Blouse details"
+            },
+            {
+              "key": "included_items",
+              "value": "Blouse only. Styling skirt or trousers and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616091058358\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:51:06.056674+00:00",
+    "operation": "create-files-36",
+    "response": {
+      "fileCreate": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/46390495707318",
+            "alt": "Sample amihan terno set, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495740086",
+            "alt": "Sample amihan terno set, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495772854",
+            "alt": "Sample amihan terno set, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495805622",
+            "alt": "Sample dapithapon terno set, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495838390",
+            "alt": "Sample dapithapon terno set, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495871158",
+            "alt": "Sample dapithapon terno set, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495903926",
+            "alt": "Sample luntian blouse, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495936694",
+            "alt": "Sample luntian blouse, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495969462",
+            "alt": "Sample luntian blouse, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          }
+        ],
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:14.887988+00:00",
+    "operation": "import-collection-ready-to-wear",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928238262",
+          "handle": "ready-to-wear"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:19.083790+00:00",
+    "operation": "import-collection-boleros",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928271030",
+          "handle": "boleros"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:23.175820+00:00",
+    "operation": "import-collection-terno-sets",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511888359606",
+          "handle": "terno-sets"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:27.492352+00:00",
+    "operation": "import-collection-skirts",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928303798",
+          "handle": "skirts"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:31.697986+00:00",
+    "operation": "import-collection-dresses",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511888392374",
+          "handle": "dresses"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:35.855778+00:00",
+    "operation": "import-collection-tops",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928336566",
+          "handle": "tops"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:40.464576+00:00",
+    "operation": "import-collection-amihan-garden",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928369334",
+          "handle": "amihan-garden"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:44.687605+00:00",
+    "operation": "import-collection-dapithapon",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928402102",
+          "handle": "dapithapon"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:47.914454+00:00",
+    "operation": "import-product-amihan-bolero",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866894006",
+          "handle": "amihan-bolero",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386484918",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564354953398"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386517686",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564354986166"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386550454",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355018934"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386583222",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355051702"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386615990",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355084470"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:50.565771+00:00",
+    "operation": "import-product-dapithapon-bolero",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866926774",
+          "handle": "dapithapon-bolero",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386648758",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355117238"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386681526",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355150006"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386714294",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355182774"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386747062",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355215542"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386779830",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355248310"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:53.220606+00:00",
+    "operation": "import-product-luntian-bolero",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866959542",
+          "handle": "luntian-bolero",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386812598",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355281078"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386845366",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355313846"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386878134",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355346614"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386910902",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355379382"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386943670",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355412150"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:57.048908+00:00",
+    "operation": "import-product-amihan-terno-set",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866992310",
+          "handle": "amihan-terno-set",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386976438",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355444918"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387009206",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355477686"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387041974",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355510454"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387074742",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355543222"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387107510",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355575990"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:00.264206+00:00",
+    "operation": "import-product-dapithapon-terno-set",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867025078",
+          "handle": "dapithapon-terno-set",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387140278",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355608758"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387173046",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355641526"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387205814",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355674294"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387238582",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355707062"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387271350",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355739830"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:03.128201+00:00",
+    "operation": "import-product-amihan-midi-skirt",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867057846",
+          "handle": "amihan-midi-skirt",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387304118",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355772598"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387336886",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355805366"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387369654",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355838134"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387402422",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355870902"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387435190",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355903670"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:05.867376+00:00",
+    "operation": "import-product-dapithapon-midi-skirt",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867090614",
+          "handle": "dapithapon-midi-skirt",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387467958",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355936438"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387500726",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355969206"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387533494",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356001974"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387566262",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356034742"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387599030",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356067510"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:08.543204+00:00",
+    "operation": "import-product-hiraya-halter-dress",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867123382",
+          "handle": "hiraya-halter-dress",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387631798",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356100278"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387664566",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356133046"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387697334",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356165814"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387730102",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356198582"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387762870",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356231350"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:11.185337+00:00",
+    "operation": "import-product-sinag-wrap-dress",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867156150",
+          "handle": "sinag-wrap-dress",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387795638",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356264118"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387828406",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356296886"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387861174",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356329654"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387893942",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356362422"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387926710",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356395190"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:14.018729+00:00",
+    "operation": "import-product-luntian-blouse",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867188918",
+          "handle": "luntian-blouse",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387959478",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356427958"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387992246",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356460726"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583388025014",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356493494"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583388057782",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356526262"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583388090550",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356559030"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:16.408690+00:00",
+    "operation": "import-product-links",
+    "response": {
+      "metafieldsSet": {
+        "metafields": [
+          {
+            "id": "gid://shopify/Metafield/190685608181942",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392867057846\",\"gid://shopify/Product/15392866992310\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608214710",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608247478",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392867090614\",\"gid://shopify/Product/15392867025078\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608280246",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608313014",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392867188918\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608345782",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "same_artwork"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608378550",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866894006\",\"gid://shopify/Product/15392867057846\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608411318",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608444086",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "set_components",
+            "value": "[\"gid://shopify/Product/15392866894006\",\"gid://shopify/Product/15392867057846\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608476854",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866926774\",\"gid://shopify/Product/15392867090614\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608509622",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608542390",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "set_components",
+            "value": "[\"gid://shopify/Product/15392866926774\",\"gid://shopify/Product/15392867090614\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608575158",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866894006\",\"gid://shopify/Product/15392866992310\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608607926",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608640694",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866926774\",\"gid://shopify/Product/15392867025078\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608673462",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608706230",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866959542\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608738998",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "same_artwork"
+          }
+        ],
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:12.156608+00:00",
+    "operation": "delete-old-product-15390146527414",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390146527414",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:14.191050+00:00",
+    "operation": "delete-old-product-15390146560182",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390146560182",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:16.165264+00:00",
+    "operation": "delete-old-product-15390146592950",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390146592950",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:18.196893+00:00",
+    "operation": "delete-old-product-15390182244534",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390182244534",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:20.260875+00:00",
+    "operation": "delete-old-product-15390182310070",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390182310070",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:22.340642+00:00",
+    "operation": "delete-old-product-15390182375606",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390182375606",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:27.949844+00:00",
+    "operation": "delete-old-content-615264387254",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264387254",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:29.892676+00:00",
+    "operation": "delete-old-content-615264420022",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264420022",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:31.776424+00:00",
+    "operation": "delete-old-content-615264452790",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264452790",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:34.075263+00:00",
+    "operation": "delete-old-content-615321600182",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321600182",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:36.016469+00:00",
+    "operation": "delete-old-content-615321632950",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321632950",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:37.777703+00:00",
+    "operation": "delete-old-content-615321665718",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321665718",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:41.730630+00:00",
+    "operation": "delete-old-content-615264485558",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264485558",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:43.524052+00:00",
+    "operation": "delete-old-content-615264518326",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264518326",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:45.758033+00:00",
+    "operation": "delete-old-content-615264551094",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264551094",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:47.580492+00:00",
+    "operation": "delete-old-content-615321731254",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321731254",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:49.339835+00:00",
+    "operation": "delete-old-content-615321764022",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321764022",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:51.122381+00:00",
+    "operation": "delete-old-content-615321796790",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321796790",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:54.684623+00:00",
+    "operation": "delete-old-content-615264223414",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264223414",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:56.506568+00:00",
+    "operation": "delete-old-content-615264256182",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264256182",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:58.285740+00:00",
+    "operation": "delete-old-content-615264354486",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264354486",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:00.096712+00:00",
+    "operation": "delete-old-content-615321501878",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321501878",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:01.846665+00:00",
+    "operation": "delete-old-content-615321534646",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321534646",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:03.822792+00:00",
+    "operation": "delete-old-content-615321567414",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321567414",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:07.577182+00:00",
+    "operation": "delete-old-content-615262945462",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615262945462",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:09.541940+00:00",
+    "operation": "delete-old-content-615263338678",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263338678",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:11.372097+00:00",
+    "operation": "delete-old-content-615263633590",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263633590",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:13.301238+00:00",
+    "operation": "delete-old-content-615263666358",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263666358",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:15.070635+00:00",
+    "operation": "delete-old-content-615263699126",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263699126",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:16.903526+00:00",
+    "operation": "delete-old-content-615263731894",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263731894",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:18.659062+00:00",
+    "operation": "delete-old-content-615263764662",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263764662",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:20.484266+00:00",
+    "operation": "delete-old-content-615263862966",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263862966",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:22.272535+00:00",
+    "operation": "delete-old-content-615263895734",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263895734",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:23.960048+00:00",
+    "operation": "delete-old-content-615263961270",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263961270",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:25.830939+00:00",
+    "operation": "delete-old-content-615264026806",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264026806",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:27.867727+00:00",
+    "operation": "delete-old-content-615264059574",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264059574",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:29.597521+00:00",
+    "operation": "delete-old-content-615264092342",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264092342",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:31.338641+00:00",
+    "operation": "delete-old-content-615264157878",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264157878",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:33.148251+00:00",
+    "operation": "delete-old-content-615264190646",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264190646",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:34.829359+00:00",
+    "operation": "delete-old-content-615320944822",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615320944822",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:36.545068+00:00",
+    "operation": "delete-old-content-615320977590",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615320977590",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:38.432881+00:00",
+    "operation": "delete-old-content-615321010358",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321010358",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:40.099252+00:00",
+    "operation": "delete-old-content-615321043126",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321043126",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:42.045037+00:00",
+    "operation": "delete-old-content-615321075894",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321075894",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:44.184056+00:00",
+    "operation": "delete-old-content-615321108662",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321108662",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:45.923349+00:00",
+    "operation": "delete-old-content-615321141430",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321141430",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:47.781507+00:00",
+    "operation": "delete-old-content-615321174198",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321174198",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:49.591900+00:00",
+    "operation": "delete-old-content-615321206966",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321206966",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:51.280834+00:00",
+    "operation": "delete-old-content-615321239734",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321239734",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:53.070373+00:00",
+    "operation": "delete-old-content-615321272502",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321272502",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:54.786647+00:00",
+    "operation": "delete-old-content-615321305270",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321305270",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:56.499371+00:00",
+    "operation": "delete-old-content-615321338038",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321338038",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:58.320920+00:00",
+    "operation": "delete-old-content-615321370806",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321370806",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:05:00.196657+00:00",
+    "operation": "delete-old-content-615321403574",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321403574",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:59:21.566720+00:00",
+    "operation": "theme-logo-create",
+    "response": {
+      "fileCreate": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/46391212769462",
+            "fileStatus": "UPLOADED"
+          }
+        ],
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:32:25.074212+00:00",
+    "operation": "theme-page-create-our-story",
+    "response": {
+      "pageCreate": {
+        "page": {
+          "id": "gid://shopify/Page/165268422838",
+          "title": "Our story",
+          "handle": "our-story",
+          "body": "<h2>A painted-fashion point of view</h2><p>TCPF stands for Tisha Chavez Painted Fashion. Based in Naga City, the boutique brings original paintings and artworks into modern Filipiniana clothing.</p><p>Expressive color and brushwork carry into garments, connecting an artwork with the way a piece is worn. Explore ready-to-wear pieces and matching separates, or begin a bespoke conversation around a personal idea.</p>",
+          "templateSuffix": null,
+          "isPublished": false
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:32:28.963324+00:00",
+    "operation": "theme-page-create-bespoke",
+    "response": {
+      "pageCreate": {
+        "page": {
+          "id": "gid://shopify/Page/165268455606",
+          "title": "Bespoke",
+          "handle": "bespoke",
+          "body": "<h2>Bring an idea to the conversation</h2><p>Tell TCPF about the garment, occasion, or artwork direction you have in mind. An inquiry starts a conversation; it does not confirm an order, a price, or a production date.</p><p>Share your idea and any occasion date below. Design possibilities, measurements, pricing, and practical timing can be discussed before a commitment.</p>",
+          "templateSuffix": null,
+          "isPublished": false
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:32:34.522025+00:00",
+    "operation": "theme-page-create-size-guide",
+    "response": {
+      "pageCreate": {
+        "page": {
+          "id": "gid://shopify/Page/165268488374",
+          "title": "Size guide",
+          "handle": "size-guide",
+          "body": "",
+          "templateSuffix": null,
+          "isPublished": false
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:32:38.570084+00:00",
+    "operation": "theme-menu-create-tcpf-main-menu",
+    "response": {
+      "menuCreate": {
+        "menu": {
+          "id": "gid://shopify/Menu/273590026422",
+          "title": "TCPF Main Menu",
+          "handle": "tcpf-main-menu",
+          "items": [
+            {
+              "title": "Shop",
+              "type": "COLLECTION",
+              "url": "/collections/ready-to-wear",
+              "resourceId": "gid://shopify/Collection/511928238262",
+              "items": [
+                {
+                  "title": "Ready-to-wear",
+                  "type": "COLLECTION",
+                  "url": "/collections/ready-to-wear",
+                  "resourceId": "gid://shopify/Collection/511928238262"
+                },
+                {
+                  "title": "Boleros",
+                  "type": "COLLECTION",
+                  "url": "/collections/boleros",
+                  "resourceId": "gid://shopify/Collection/511928271030"
+                },
+                {
+                  "title": "Terno sets",
+                  "type": "COLLECTION",
+                  "url": "/collections/terno-sets",
+                  "resourceId": "gid://shopify/Collection/511888359606"
+                },
+                {
+                  "title": "Skirts",
+                  "type": "COLLECTION",
+                  "url": "/collections/skirts",
+                  "resourceId": "gid://shopify/Collection/511928303798"
+                },
+                {
+                  "title": "Dresses",
+                  "type": "COLLECTION",
+                  "url": "/collections/dresses",
+                  "resourceId": "gid://shopify/Collection/511888392374"
+                },
+                {
+                  "title": "Tops",
+                  "type": "COLLECTION",
+                  "url": "/collections/tops",
+                  "resourceId": "gid://shopify/Collection/511928336566"
+                }
+              ]
+            },
+            {
+              "title": "Our story",
+              "type": "PAGE",
+              "url": "/pages/our-story",
+              "resourceId": "gid://shopify/Page/165268422838",
+              "items": []
+            },
+            {
+              "title": "Bespoke",
+              "type": "PAGE",
+              "url": "/pages/bespoke",
+              "resourceId": "gid://shopify/Page/165268455606",
+              "items": []
+            },
+            {
+              "title": "Contact",
+              "type": "PAGE",
+              "url": "/pages/contact",
+              "resourceId": "gid://shopify/Page/165215273142",
+              "items": []
+            }
+          ]
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:32:42.315121+00:00",
+    "operation": "theme-menu-create-tcpf-footer-menu",
+    "response": {
+      "menuCreate": {
+        "menu": {
+          "id": "gid://shopify/Menu/273590091958",
+          "title": "TCPF Footer Menu",
+          "handle": "tcpf-footer-menu",
+          "items": [
+            {
+              "title": "Ready-to-wear",
+              "type": "COLLECTION",
+              "url": "/collections/ready-to-wear",
+              "resourceId": "gid://shopify/Collection/511928238262",
+              "items": []
+            },
+            {
+              "title": "Our story",
+              "type": "PAGE",
+              "url": "/pages/our-story",
+              "resourceId": "gid://shopify/Page/165268422838",
+              "items": []
+            },
+            {
+              "title": "Bespoke",
+              "type": "PAGE",
+              "url": "/pages/bespoke",
+              "resourceId": "gid://shopify/Page/165268455606",
+              "items": []
+            },
+            {
+              "title": "Size guide",
+              "type": "PAGE",
+              "url": "/pages/size-guide",
+              "resourceId": "gid://shopify/Page/165268488374",
+              "items": []
+            },
+            {
+              "title": "Contact",
+              "type": "PAGE",
+              "url": "/pages/contact",
+              "resourceId": "gid://shopify/Page/165215273142",
+              "items": []
+            }
+          ]
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:40:53.332420+00:00",
+    "operation": "theme-activate-content",
+    "response": {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090075318",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090108086",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090140854",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090173622",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090206390",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090239158",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090271926",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090304694",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090337462",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090370230",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e10": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090402998",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e11": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090435766",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e12": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090468534",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e13": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090501302",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e14": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090534070",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e15": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090566838",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e16": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090599606",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e17": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090632374",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e18": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090665142",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e19": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090697910",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e20": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090730678",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e21": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090763446",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e22": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090796214",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e23": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090861750",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e24": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090894518",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e25": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090927286",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e26": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090960054",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e27": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090992822",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e28": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091025590",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e29": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091058358",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e30": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091189430",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e31": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091222198",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e32": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091254966",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e33": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091287734",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e34": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091320502",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e35": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091353270",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e36": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091386038",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e37": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091418806",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e38": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091451574",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e39": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091484342",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e40": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091517110",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e41": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091549878",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e42": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091582646",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e43": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091648182",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e44": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091680950",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:40:58.718302+00:00",
+    "operation": "theme-activate-products",
+    "response": {
+      "p0": {
+        "product": {
+          "id": "gid://shopify/Product/15392866894006",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p1": {
+        "product": {
+          "id": "gid://shopify/Product/15392866926774",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p2": {
+        "product": {
+          "id": "gid://shopify/Product/15392866959542",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p3": {
+        "product": {
+          "id": "gid://shopify/Product/15392866992310",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p4": {
+        "product": {
+          "id": "gid://shopify/Product/15392867025078",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p5": {
+        "product": {
+          "id": "gid://shopify/Product/15392867057846",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p6": {
+        "product": {
+          "id": "gid://shopify/Product/15392867090614",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p7": {
+        "product": {
+          "id": "gid://shopify/Product/15392867123382",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p8": {
+        "product": {
+          "id": "gid://shopify/Product/15392867156150",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p9": {
+        "product": {
+          "id": "gid://shopify/Product/15392867188918",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:02.926716+00:00",
+    "operation": "theme-publish-protected-products",
+    "response": {
+      "p0": {
+        "userErrors": []
+      },
+      "p1": {
+        "userErrors": []
+      },
+      "p2": {
+        "userErrors": []
+      },
+      "p3": {
+        "userErrors": []
+      },
+      "p4": {
+        "userErrors": []
+      },
+      "p5": {
+        "userErrors": []
+      },
+      "p6": {
+        "userErrors": []
+      },
+      "p7": {
+        "userErrors": []
+      },
+      "p8": {
+        "userErrors": []
+      },
+      "p9": {
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:04.678167+00:00",
+    "operation": "theme-page-preview-our-story",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165268422838",
+          "handle": "our-story",
+          "templateSuffix": "story",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:06.368105+00:00",
+    "operation": "theme-page-preview-bespoke",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165268455606",
+          "handle": "bespoke",
+          "templateSuffix": "bespoke",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:08.166302+00:00",
+    "operation": "theme-page-preview-contact",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165215273142",
+          "handle": "contact",
+          "templateSuffix": "contact",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:09.831109+00:00",
+    "operation": "theme-page-preview-size-guide",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165268488374",
+          "handle": "size-guide",
+          "templateSuffix": "size-guide",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:11.628327+00:00",
+    "operation": "theme-artwork-template-amihan-garden",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928369334",
+          "handle": "amihan-garden",
+          "templateSuffix": "artwork"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:13.438025+00:00",
+    "operation": "theme-artwork-template-dapithapon",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928402102",
+          "handle": "dapithapon",
+          "templateSuffix": "artwork"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:45:12.683623+00:00",
+    "operation": "theme-publish-protected-collections",
+    "response": {
+      "c0": {
+        "userErrors": []
+      },
+      "c1": {
+        "userErrors": []
+      },
+      "c3": {
+        "userErrors": []
+      },
+      "c5": {
+        "userErrors": []
+      },
+      "c6": {
+        "userErrors": []
+      },
+      "c7": {
+        "userErrors": []
+      }
+    }
+  }
+]

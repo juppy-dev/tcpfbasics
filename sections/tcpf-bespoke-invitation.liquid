@@ -1,0 +1,52 @@
+<section class="tcpf-section tcpf-wrap tcpf-bespoke-invitation">
+  <div><p class="tcpf-eyebrow">{{ section.settings.eyebrow | escape }}</p><h2 class="tcpf-heading">{{ section.settings.heading | escape }}</h2></div>
+  <div><p class="tcpf-copy">{{ section.settings.copy | escape }}</p>{% if section.settings.link != blank %}<a class="tcpf-button" href="{{ section.settings.link }}">{{ section.settings.link_label | escape }}</a>{% endif %}</div>
+</section>
+{% stylesheet %}
+  .tcpf-bespoke-invitation { display: grid; grid-template-columns: minmax(0,1.3fr) minmax(0,1fr); gap: 40px; align-items: center; }
+  .tcpf-bespoke-invitation > * { min-width: 0; }
+  .tcpf-bespoke-invitation .tcpf-heading { max-width: 17ch; }
+  .tcpf-bespoke-invitation .tcpf-copy { margin-top: 0; }
+  @media(max-width:749px) { .tcpf-bespoke-invitation { grid-template-columns: minmax(0,1fr); gap: 24px; } }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "TCPF bespoke invitation",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Something personal"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your idea. A conversation to begin."
+    },
+    {
+      "type": "textarea",
+      "id": "copy",
+      "label": "Invitation",
+      "default": "Have an occasion, a silhouette, or an artwork in mind? Tell us what you’re imagining and start a bespoke inquiry."
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Inquiry link"
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Link label",
+      "default": "Explore bespoke"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TCPF bespoke invitation"
+    }
+  ]
+}
+{% endschema %}

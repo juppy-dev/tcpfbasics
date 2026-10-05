@@ -1,0 +1,93 @@
+<div class="tcpf-footer">
+  <div class="tcpf-wrap">
+    <div class="tcpf-footer__grid">
+      <div class="tcpf-footer__identity">
+        <p class="tcpf-eyebrow">TCPF Basics · Naga City</p>
+        <h2 class="tcpf-footer__heading">{{ section.settings.heading | escape }}</h2>
+        <p class="tcpf-copy">{{ section.settings.copy | escape }}</p>
+      </div>
+      <nav aria-label="Footer shopping and help">
+        <p class="tcpf-eyebrow">Explore</p>
+        <ul class="tcpf-footer__links">
+          {% for link in section.settings.menu.links %}
+            <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
+          {% else %}
+            <li><a href="{{ section.settings.shop_link }}">Ready-to-wear</a></li>
+            <li><a href="{{ section.settings.story_link }}">Our story</a></li>
+            <li><a href="{{ section.settings.bespoke_link }}">Bespoke</a></li>
+            <li><a href="{{ section.settings.size_link }}">Size guide</a></li>
+            <li><a href="{{ section.settings.contact_link }}">Contact</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <nav aria-label="Store policies">
+        {% if shop.policies != empty %}<p class="tcpf-eyebrow">Good to know</p>{% endif %}
+        <ul class="tcpf-footer__links">
+          {% for policy in shop.policies %}
+            {% if policy.body != blank %}<li><a href="{{ policy.url }}">{{ policy.title | escape }}</a></li>{% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    <div class="tcpf-footer__bottom">© {{ 'now' | date: '%Y' }} {{ shop.name | escape }} · Tisha Chavez Painted Fashion</div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "TCPF footer",
+  "enabled_on": {
+    "groups": [
+      "footer"
+    ]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Original art. Worn your way."
+    },
+    {
+      "type": "textarea",
+      "id": "copy",
+      "label": "Introduction",
+      "default": "Modern Filipiniana and painted-fashion stories from Naga City."
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Footer menu"
+    },
+    {
+      "type": "url",
+      "id": "shop_link",
+      "label": "Shop fallback"
+    },
+    {
+      "type": "url",
+      "id": "story_link",
+      "label": "Story fallback"
+    },
+    {
+      "type": "url",
+      "id": "bespoke_link",
+      "label": "Bespoke fallback"
+    },
+    {
+      "type": "url",
+      "id": "size_link",
+      "label": "Size guide fallback"
+    },
+    {
+      "type": "url",
+      "id": "contact_link",
+      "label": "Contact fallback"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TCPF footer"
+    }
+  ]
+}
+{% endschema %}

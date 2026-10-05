@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "gid://shopify/Collection/511928238262",
+      "handle": "ready-to-wear",
+      "title": "Ready-to-wear",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 10
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/511928271030",
+      "handle": "boleros",
+      "title": "Printed Boleros",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 3
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/511888359606",
+      "handle": "terno-sets",
+      "title": "Modern Terno Sets",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 2
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/511928303798",
+      "handle": "skirts",
+      "title": "Printed Skirts",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 2
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/511888392374",
+      "handle": "dresses",
+      "title": "Printed Dresses",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 2
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/511928336566",
+      "handle": "tops",
+      "title": "Printed Tops",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 1
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/511928369334",
+      "handle": "amihan-garden",
+      "title": "Amihan Garden",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 3
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/511928402102",
+      "handle": "dapithapon",
+      "title": "Dapithapon",
+      "publishedOnPublication": true,
+      "productsCount": {
+        "count": 3
+      }
+    }
+  ]
+}

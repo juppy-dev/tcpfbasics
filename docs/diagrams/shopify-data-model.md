@@ -1,6 +1,6 @@
 # TCPF Shopify data relationships
 
-2026-10-05 · Phase 2 approved design; definitions have not yet been changed.
+2026-10-05 · Phase 2 schema and sample catalog implemented; phase 3 entries/products are active only for the protected demonstration.
 
 ```mermaid
 flowchart LR
@@ -9,8 +9,8 @@ flowchart LR
     A --> P[10 Shopify sample products]
     IMG --> M[Native Shopify product media]
     M --> P
-    R[Typed measurement rows] --> S[Reusable size charts]
-    S --> G[Garment detail metaobjects]
+    R[25 typed measurement rows] --> S[5 reusable size charts]
+    S --> G[10 garment detail metaobjects]
     G --> P
     P --> V[Native XS–XL variants and reference prices]
     P --> L[Matching-product and set-component references]
@@ -27,12 +27,12 @@ flowchart LR
 stateDiagram-v2
     [*] --> DraftSample: Upload and populate
     DraftSample --> ReviewedSample: Product and image review
-    ReviewedSample --> ProtectedPreview: Later theme preview safeguards ready
+    ReviewedSample --> ProtectedPreview: Confirmed theme safeguards and password
     ProtectedPreview --> VerifiedMerchandise: Replace concept assets and confirm real facts
     VerifiedMerchandise --> LiveSale: Client launch decision
 ```
 
-Draft samples have zero inventory, deny overselling, and carry the concept flag. Normal collections cannot render draft products, so preview publication is a separate phase 3 handoff after password protection and sample purchase guards are confirmed. A reviewed AI sample is not automatically verified merchandise.
+Samples retain zero tracked inventory, DENY overselling, and the concept flag. After confirmed password protection and source guards, the user-authorized phase 3 demonstration activated the required data and published products/collections only to Online Store. A reviewed AI sample is not automatically verified merchandise.
 
 ## Phase 2 execution dependencies
 
@@ -45,6 +45,10 @@ flowchart TD
     C --> R[6. Delete old products and deliver handoff]
 ```
 
-Each dependent mutation waits for its referenced files or records to be ready. Independent artwork families can generate in parallel; the shared store writes remain ordered.
+Each dependent mutation waits for its referenced files or records to be ready. Independent artwork families can generate in parallel. Individually accepted uploads and independent measurement records may stage while later photographs render; all forty photos and five masters must be ready before task 4 completes. Shared dependent store writes remain ordered.
 
 See the [phase 2 design](../specs/2026-10-05-shopify-data-catalog-design.md) and [implementation plan](../plans/2026-10-05-shopify-data-catalog.md).
+
+## Phase 3 consumers
+
+The implemented theme reads these typed references into artwork stories, garment facts, ordered size tables, set contents, and context-labeled recommendations. It shares the concept flag across product/card/search/cart/structured-data paths. The [theme architecture](shopify-theme-architecture.md) shows the native Horizon interfaces and protected-preview handoff; the [theme specification](../specs/2026-10-05-shopify-theme-design.md) records the shop-first composition.

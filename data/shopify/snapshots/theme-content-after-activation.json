@@ -1,0 +1,509 @@
+{
+  "nodes": [
+    {
+      "id": "gid://shopify/Metaobject/616090075318",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-bolero-xs",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090108086",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-bolero-s",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090140854",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-bolero-m",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090173622",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-bolero-l",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090206390",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-bolero-xl",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090239158",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-skirt-xs",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090271926",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-skirt-s",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090304694",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-skirt-m",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090337462",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-skirt-l",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090370230",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-skirt-xl",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090402998",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-halter-dress-xs",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090435766",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-halter-dress-s",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090468534",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-halter-dress-m",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090501302",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-halter-dress-l",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090534070",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-halter-dress-xl",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090566838",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-wrap-dress-xs",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090599606",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-wrap-dress-s",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090632374",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-wrap-dress-m",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090665142",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-wrap-dress-l",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090697910",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-wrap-dress-xl",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090730678",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-blouse-xs",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090763446",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-blouse-s",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090796214",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-blouse-m",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090861750",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-blouse-l",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090894518",
+      "type": "tcpf_size_measurement",
+      "handle": "sample-blouse-xl",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090927286",
+      "type": "tcpf_size_chart",
+      "handle": "sample-bolero",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090960054",
+      "type": "tcpf_size_chart",
+      "handle": "sample-skirt",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616090992822",
+      "type": "tcpf_size_chart",
+      "handle": "sample-halter-dress",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091025590",
+      "type": "tcpf_size_chart",
+      "handle": "sample-wrap-dress",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091058358",
+      "type": "tcpf_size_chart",
+      "handle": "sample-blouse",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091189430",
+      "type": "tcpf_design_concept",
+      "handle": "amihan-garden",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": {
+        "value": "pending"
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091222198",
+      "type": "tcpf_design_concept",
+      "handle": "dapithapon",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": {
+        "value": "pending"
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091254966",
+      "type": "tcpf_design_concept",
+      "handle": "luntian",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": {
+        "value": "pending"
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091287734",
+      "type": "tcpf_design_concept",
+      "handle": "hiraya-bloom",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": {
+        "value": "pending"
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091320502",
+      "type": "tcpf_design_concept",
+      "handle": "sinag-field",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": {
+        "value": "pending"
+      }
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091353270",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-amihan-bolero",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091386038",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-dapithapon-bolero",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091418806",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-luntian-bolero",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091451574",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-amihan-terno-set",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091484342",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-dapithapon-terno-set",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091517110",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-amihan-midi-skirt",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091549878",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-dapithapon-midi-skirt",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091582646",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-hiraya-halter-dress",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091648182",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-sinag-wrap-dress",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    },
+    {
+      "id": "gid://shopify/Metaobject/616091680950",
+      "type": "tcpf_apparel_details",
+      "handle": "sample-luntian-blouse",
+      "capabilities": {
+        "publishable": {
+          "status": "ACTIVE"
+        }
+      },
+      "field": null
+    }
+  ]
+}

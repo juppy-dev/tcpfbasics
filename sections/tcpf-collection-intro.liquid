@@ -1,0 +1,68 @@
+<section class="tcpf-wrap tcpf-collection-intro">
+  <p class="tcpf-eyebrow">{{ section.settings.eyebrow | escape }}</p>
+  <div class="tcpf-section-head">
+    <h1 class="tcpf-heading">{{ collection.title | escape }}</h1>
+    {% if collection.products_count > 0 %}<p class="tcpf-note">{{ collection.products_count }} {% if collection.products_count == 1 %}piece{% else %}pieces{% endif %}</p>{% endif %}
+  </div>
+  {% if collection.description != blank %}<div class="tcpf-copy">{{ collection.description }}</div>{% endif %}
+  <nav aria-label="Shop by garment">
+    <ul class="tcpf-category-links" role="list">
+      {% for category in section.settings.categories %}
+        <li><a href="{{ category.url }}" {% if category.id == collection.id %}aria-current="page"{% endif %}>{{ category.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  {% if section.settings.show_artwork %}
+    {% for artwork in collection.metafields.tcpf.artworks.value %}
+      {% liquid
+        assign paired_image = blank
+        for piece in collection.products
+          if piece.metafields.tcpf.design_concept.value.system.id == artwork.system.id and piece.featured_image != blank
+            assign paired_image = piece.featured_image
+            break
+          endif
+        endfor
+      %}
+      <article class="tcpf-collection-artwork">
+        <div class="tcpf-collection-artwork__images{% if paired_image == blank %} tcpf-collection-artwork__images--single{% endif %}">
+        {% if paired_image != blank %}
+          {{ paired_image | image_url: width: 640 | image_tag: widths: '240,360,480,640', sizes: '(max-width: 749px) 52vw, 230px', loading: 'eager', class: 'tcpf-collection-artwork__garment', alt: paired_image.alt }}
+        {% endif %}
+        {% if artwork.artwork_image.value != blank %}
+          {{ artwork.artwork_image.value | image_url: width: 360 | image_tag: widths: '160,240,360', sizes: '(max-width: 749px) 28vw, 150px', loading: 'eager', class: 'tcpf-collection-artwork__master', alt: artwork.artwork_image.value.alt }}
+        {% endif %}
+        </div>
+        <div>
+          <h2>{{ artwork.title.value | escape }}</h2>
+          {% if artwork.story.value != blank %}<p class="tcpf-copy">{{ artwork.story.value | escape | newline_to_br }}</p>{% endif %}
+          {% if artwork.origin.value == 'ai_concept' %}<p class="tcpf-note">AI-generated sample artwork · demonstration collection</p>{% elsif artwork.attribution.value != blank %}<p class="tcpf-note">{{ artwork.attribution.value | escape }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  {% endif %}
+</section>
+{% stylesheet %}
+  .tcpf-collection-intro { padding-block: 48px 20px; }
+  .tcpf-collection-intro .tcpf-section-head { margin-bottom: 20px; }
+  .tcpf-category-links { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 0; margin: 22px 0 0; }
+  .tcpf-category-links a { display: inline-flex; min-height: 44px; align-items: center; color: inherit; text-underline-offset: 6px; font-size: 15px; }
+  .tcpf-category-links a[aria-current] { color: var(--tcpf-plum); font-weight: 600; }
+  .tcpf-collection-artwork { display: grid; grid-template-columns: minmax(0,360px) minmax(0,1fr); gap: 40px; align-items: center; max-width: 1000px; margin-block: 32px 12px; }
+  .tcpf-collection-artwork__images { display: flex; align-items: center; min-width: 0; }
+  .tcpf-collection-artwork__garment { display: block; width: 65%; height: auto; }
+  .tcpf-collection-artwork__master { display: block; width: 42%; height: auto; margin-left: -7%; border: 6px solid var(--color-background); }
+  .tcpf-collection-artwork__images--single .tcpf-collection-artwork__master { width: 70%; margin-left: 0; border: 0; }
+  .tcpf-collection-artwork h2 { font: 400 30px/1.2 var(--font-heading--family); margin: 0; }
+  @media(max-width:749px) { .tcpf-collection-intro { padding-top: 32px; } .tcpf-collection-artwork { grid-template-columns: minmax(0,1fr); gap: 24px; } .tcpf-collection-artwork__images { max-width: 360px; } }
+{% endstylesheet %}
+{% schema %}
+{
+  "name":"TCPF collection intro",
+  "enabled_on":{"templates":["collection"]},
+  "settings":[
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"The TCPF wardrobe"},
+    {"type":"collection_list","id":"categories","label":"Category navigation","limit":6},
+    {"type":"checkbox","id":"show_artwork","label":"Show referenced artwork stories","default":false}
+  ]
+}
+{% endschema %}

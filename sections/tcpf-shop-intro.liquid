@@ -1,0 +1,75 @@
+<section class="tcpf-shop-intro tcpf-wrap" aria-labelledby="tcpf-intro-{{ section.id }}">
+  <div class="tcpf-shop-intro__head">
+    <div>
+      <p class="tcpf-eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      <h1 id="tcpf-intro-{{ section.id }}">{{ section.settings.heading | escape }}</h1>
+    </div>
+    <div class="tcpf-shop-intro__copy">
+      <p>{{ section.settings.copy | escape }}</p>
+      {% if section.settings.shop != blank %}<a class="tcpf-link" href="{{ section.settings.shop.url }}">Shop ready-to-wear</a>{% endif %}
+    </div>
+  </div>
+  <ul class="tcpf-categories" role="list">
+    {% for block in section.blocks %}
+      {% assign category = block.settings.collection %}
+      {% assign category_image = block.settings.image | default: category.image %}
+      {% if category != blank %}
+        <li {{ block.shopify_attributes }}>
+          <a class="tcpf-category" href="{{ category.url }}">
+            {% if category_image != blank %}
+              {% if forloop.first %}
+                {{ category_image | image_url: width: 640 | image_tag: widths: '160,240,360,480,640', sizes: '(max-width: 749px) 128px, (max-width: 1440px) 18vw, 260px', loading: 'eager', fetchpriority: 'high', class: 'tcpf-category__image', alt: '' }}
+              {% else %}
+                {{ category_image | image_url: width: 640 | image_tag: widths: '160,240,360,480,640', sizes: '(max-width: 749px) 128px, (max-width: 1440px) 18vw, 260px', loading: 'eager', class: 'tcpf-category__image', alt: '' }}
+              {% endif %}
+            {% endif %}
+            <span>{{ block.settings.label | default: category.title | escape }} <span aria-hidden="true">↗</span></span>
+          </a>
+        </li>
+      {% elsif request.design_mode %}
+        <li class="tcpf-empty" {{ block.shopify_attributes }}>Choose a category collection.</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+{% stylesheet %}
+  .tcpf-shop-intro { padding-block: 42px 24px; }
+  .tcpf-shop-intro__head { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 40px; align-items: end; margin-bottom: 30px; }
+  .tcpf-shop-intro__head > * { min-width: 0; }
+  .tcpf-shop-intro h1 { font: var(--font-heading--weight) clamp(36px, 4.5vw, 64px)/1.08 var(--font-heading--family); letter-spacing: -.035em; max-width: 20ch; margin: 0; text-wrap: balance; }
+  .tcpf-shop-intro__copy { max-width: 40ch; font-size: 15px; line-height: 1.6; }
+  .tcpf-shop-intro__copy p { margin: 0; }
+  .tcpf-categories { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; list-style: none; padding: 0; margin: 0; }
+  .tcpf-categories li { min-width: 0; }
+  .tcpf-category { display: block; color: inherit; text-decoration: none; }
+  .tcpf-category__image { width: 100%; height: auto; aspect-ratio: 4/5; max-height: 245px; object-fit: cover; }
+  .tcpf-category > span { display: flex; justify-content: space-between; gap: 8px; min-height: 44px; align-items: center; font-size: 15px; }
+  .tcpf-category:hover > span { color: var(--tcpf-plum); }
+  @media (max-width: 749px) {
+    .tcpf-shop-intro { padding-top: 28px; }
+    .tcpf-shop-intro__head { grid-template-columns: minmax(0, 1fr); gap: 16px; margin-bottom: 24px; }
+    .tcpf-shop-intro .tcpf-eyebrow { margin-bottom: 10px; }
+    .tcpf-categories { display: flex; overflow-x: auto; gap: 12px; padding: 4px 4px 12px; margin-inline: -4px; scroll-snap-type: x proximity; }
+    .tcpf-categories li { flex: 0 0 128px; scroll-snap-align: start; }
+    .tcpf-category__image { height: 150px; }
+    .tcpf-category > span { font-size: 14px; }
+  }
+{% endstylesheet %}
+{% schema %}
+{
+  "name":"TCPF shop introduction",
+  "settings":[
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"TCPF Basics · Modern Filipiniana"},
+    {"type":"text","id":"heading","label":"Heading","default":"Original art. A new way to wear Filipiniana."},
+    {"type":"textarea","id":"copy","label":"Introduction","default":"Discover expressive prints, familiar silhouettes, and pieces to make your own."},
+    {"type":"collection","id":"shop","label":"Ready-to-wear collection"}
+  ],
+  "blocks":[{"type":"category","name":"Category","settings":[
+    {"type":"collection","id":"collection","label":"Collection"},
+    {"type":"image_picker","id":"image","label":"Category photograph","info":"Falls back to the collection image."},
+    {"type":"text","id":"label","label":"Label","info":"Falls back to the collection title."}
+  ]}],
+  "max_blocks":5,
+  "presets":[{"name":"TCPF shop introduction","blocks":[{"type":"category"},{"type":"category"},{"type":"category"},{"type":"category"},{"type":"category"}]}]
+}
+{% endschema %}

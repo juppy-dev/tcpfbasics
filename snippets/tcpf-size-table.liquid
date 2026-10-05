@@ -1,0 +1,53 @@
+{% doc %}
+  Renders a typed size guide without assuming body measurements or missing values.
+  @param {metaobject} guide - TCPF size guide.
+  @param {string} id_prefix - Unique section/block prefix for caption associations.
+{% enddoc %}
+{% liquid
+  assign rows = guide.measurements.value
+  assign has_bust = false
+  assign has_waist = false
+  assign has_hip = false
+  assign has_length = false
+  for row in rows
+    if row.bust_cm.value > 0
+      assign has_bust = true
+    endif
+    if row.waist_cm.value > 0
+      assign has_waist = true
+    endif
+    if row.hip_cm.value > 0
+      assign has_hip = true
+    endif
+    if row.length_cm.value > 0
+      assign has_length = true
+    endif
+  endfor
+  assign caption_id = id_prefix | append: '-' | append: guide.system.handle | append: '-caption'
+%}
+{% if guide != blank and rows != blank %}
+  <div class="tcpf-size-guide">
+    <div class="tcpf-size-scroll" tabindex="0" role="region" aria-labelledby="{{ caption_id }}">
+      <table class="tcpf-size-table">
+        <caption id="{{ caption_id }}">{{ guide.title.value | escape }} · {{ guide.unit.value | default: 'cm' | escape }}</caption>
+        <thead><tr><th scope="col">Size</th>{% if has_bust %}<th scope="col">Bust</th>{% endif %}{% if has_waist %}<th scope="col">Waist</th>{% endif %}{% if has_hip %}<th scope="col">Hip</th>{% endif %}{% if has_length %}<th scope="col">Length</th>{% endif %}</tr></thead>
+        <tbody>
+          {% for row in rows %}
+            {% if row.size_label.value != blank %}
+              <tr>
+                <th scope="row">{{ row.size_label.value | escape }}</th>
+                {% if has_bust %}<td>{% if row.bust_cm.value > 0 %}{{ row.bust_cm.value }}{% else %}—{% endif %}</td>{% endif %}
+                {% if has_waist %}<td>{% if row.waist_cm.value > 0 %}{{ row.waist_cm.value }}{% else %}—{% endif %}</td>{% endif %}
+                {% if has_hip %}<td>{% if row.hip_cm.value > 0 %}{{ row.hip_cm.value }}{% else %}—{% endif %}</td>{% endif %}
+                {% if has_length %}<td>{% if row.length_cm.value > 0 %}{{ row.length_cm.value }}{% else %}—{% endif %}</td>{% endif %}
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if guide.measurement_kind.value == 'garment' %}<p class="tcpf-note">Garment measurements in centimetres. Bust, waist, and hip are circumferences. Compare with a similar garment you own.</p>{% endif %}
+    {% if guide.notes.value != blank %}<p class="tcpf-note">{{ guide.notes.value | escape | newline_to_br }}</p>{% endif %}
+    {% if guide.chart_status.value == 'sample' %}<p class="tcpf-note"><strong>Demonstration guide:</strong> these values have not been verified on physical stock.</p>{% endif %}
+  </div>
+{% endif %}

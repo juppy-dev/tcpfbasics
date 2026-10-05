@@ -1,0 +1,26 @@
+{% if settings.tcpf_use_brand_fonts %}
+  {{ 'tcpf-instrumentsans.woff2' | asset_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
+  {{ 'tcpf-fraunces.woff2' | asset_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
+  {% style %}
+    @font-face { font-family: 'TCPF Instrument Sans'; src: url('{{ 'tcpf-instrumentsans.woff2' | asset_url }}') format('woff2'); font-weight: 400 600; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'TCPF Fraunces'; src: url('{{ 'tcpf-fraunces.woff2' | asset_url }}') format('woff2'); font-weight: 400 500; font-style: normal; font-display: swap; }
+    :root {
+      --font-body--family: 'TCPF Instrument Sans', sans-serif;
+      --font-subheading--family: 'TCPF Instrument Sans', sans-serif;
+      --font-heading--family: 'TCPF Fraunces', Georgia, serif;
+      --font-accent--family: 'TCPF Instrument Sans', sans-serif;
+      --font-body--weight: 400; --font-subheading--weight: 500; --font-heading--weight: 400; --font-accent--weight: 600;
+      --font-body--style: normal; --font-subheading--style: normal; --font-heading--style: normal; --font-accent--style: normal;
+    }
+  {% endstyle %}
+{% endif %}
+{% style %}
+  :root {
+    --tcpf-plum: {{ settings.color_palette.color1 | default: '#5D426F' }};
+    --tcpf-lilac: {{ settings.color_palette.color2 | default: '#B7ACE0' }};
+    --tcpf-line: {{ settings.color_palette.color3 | default: '#D8D0C7' }};
+    --tcpf-petal: {{ settings.color_palette.color4 | default: '#F0DED8' }};
+    --tcpf-muted: {{ settings.color_palette.color5 | default: '#6B625A' }};
+  }
+{% endstyle %}
+{{ 'tcpf-brand.css' | asset_url | stylesheet_tag }}

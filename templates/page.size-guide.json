@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "intro": {
+      "type": "tcpf-page-header",
+      "settings": {
+        "eyebrow": "Size and fit",
+        "heading": "Get to know the fit.",
+        "introduction": "<p>Compare garment measurements with a similar piece you own. Sample guides are demonstration values and require physical verification before sale.</p>",
+        "show_page_content": true
+      }
+    },
+    "guides": {
+      "type": "tcpf-size-guides",
+      "settings": {
+        "guides": [
+          "sample-bolero",
+          "sample-skirt",
+          "sample-halter-dress",
+          "sample-wrap-dress",
+          "sample-blouse"
+        ]
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "guides"
+  ]
+}

@@ -1,0 +1,1484 @@
+{
+  "nodes": [
+    {
+      "id": "gid://shopify/Product/15392866894006",
+      "handle": "amihan-bolero",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583386484918",
+            "sku": "TCPF-SAMPLE-AMIHAN-BOLERO-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386517686",
+            "sku": "TCPF-SAMPLE-AMIHAN-BOLERO-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386550454",
+            "sku": "TCPF-SAMPLE-AMIHAN-BOLERO-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386583222",
+            "sku": "TCPF-SAMPLE-AMIHAN-BOLERO-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386615990",
+            "sku": "TCPF-SAMPLE-AMIHAN-BOLERO-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392866926774",
+      "handle": "dapithapon-bolero",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583386648758",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-BOLERO-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386681526",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-BOLERO-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386714294",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-BOLERO-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386747062",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-BOLERO-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386779830",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-BOLERO-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392866959542",
+      "handle": "luntian-bolero",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583386812598",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BOLERO-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386845366",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BOLERO-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386878134",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BOLERO-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386910902",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BOLERO-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583386943670",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BOLERO-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392866992310",
+      "handle": "amihan-terno-set",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583386976438",
+            "sku": "TCPF-SAMPLE-AMIHAN-TERNO-SET-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387009206",
+            "sku": "TCPF-SAMPLE-AMIHAN-TERNO-SET-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387041974",
+            "sku": "TCPF-SAMPLE-AMIHAN-TERNO-SET-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387074742",
+            "sku": "TCPF-SAMPLE-AMIHAN-TERNO-SET-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387107510",
+            "sku": "TCPF-SAMPLE-AMIHAN-TERNO-SET-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392867025078",
+      "handle": "dapithapon-terno-set",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583387140278",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-TERNO-SET-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387173046",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-TERNO-SET-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387205814",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-TERNO-SET-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387238582",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-TERNO-SET-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387271350",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-TERNO-SET-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392867057846",
+      "handle": "amihan-midi-skirt",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583387304118",
+            "sku": "TCPF-SAMPLE-AMIHAN-MIDI-SKIRT-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387336886",
+            "sku": "TCPF-SAMPLE-AMIHAN-MIDI-SKIRT-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387369654",
+            "sku": "TCPF-SAMPLE-AMIHAN-MIDI-SKIRT-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387402422",
+            "sku": "TCPF-SAMPLE-AMIHAN-MIDI-SKIRT-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387435190",
+            "sku": "TCPF-SAMPLE-AMIHAN-MIDI-SKIRT-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392867090614",
+      "handle": "dapithapon-midi-skirt",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583387467958",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-MIDI-SKIRT-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387500726",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-MIDI-SKIRT-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387533494",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-MIDI-SKIRT-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387566262",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-MIDI-SKIRT-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387599030",
+            "sku": "TCPF-SAMPLE-DAPITHAPON-MIDI-SKIRT-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392867123382",
+      "handle": "hiraya-halter-dress",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583387631798",
+            "sku": "TCPF-SAMPLE-HIRAYA-HALTER-DRESS-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387664566",
+            "sku": "TCPF-SAMPLE-HIRAYA-HALTER-DRESS-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387697334",
+            "sku": "TCPF-SAMPLE-HIRAYA-HALTER-DRESS-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387730102",
+            "sku": "TCPF-SAMPLE-HIRAYA-HALTER-DRESS-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387762870",
+            "sku": "TCPF-SAMPLE-HIRAYA-HALTER-DRESS-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392867156150",
+      "handle": "sinag-wrap-dress",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583387795638",
+            "sku": "TCPF-SAMPLE-SINAG-WRAP-DRESS-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387828406",
+            "sku": "TCPF-SAMPLE-SINAG-WRAP-DRESS-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387861174",
+            "sku": "TCPF-SAMPLE-SINAG-WRAP-DRESS-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387893942",
+            "sku": "TCPF-SAMPLE-SINAG-WRAP-DRESS-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387926710",
+            "sku": "TCPF-SAMPLE-SINAG-WRAP-DRESS-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15392867188918",
+      "handle": "luntian-blouse",
+      "status": "DRAFT",
+      "metafield": {
+        "type": "boolean",
+        "value": "true"
+      },
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67583387959478",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BLOUSE-XS",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583387992246",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BLOUSE-S",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583388025014",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BLOUSE-M",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583388057782",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BLOUSE-L",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67583388090550",
+            "sku": "TCPF-SAMPLE-LUNTIAN-BLOUSE-XL",
+            "inventoryPolicy": "DENY",
+            "inventoryItem": {
+              "tracked": true,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/91900346550"
+                    },
+                    "quantities": [
+                      {
+                        "name": "available",
+                        "quantity": 0
+                      },
+                      {
+                        "name": "on_hand",
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

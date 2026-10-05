@@ -1,0 +1,16 @@
+<section class="tcpf-section tcpf-wrap tcpf-page-header">
+  {% if section.settings.eyebrow != blank %}<p class="tcpf-eyebrow">{{ section.settings.eyebrow | escape }}</p>{% endif %}
+  <h1 class="tcpf-heading">{{ section.settings.heading | default: page.title | escape }}</h1>
+  {% if section.settings.introduction != blank %}<div class="tcpf-copy">{{ section.settings.introduction }}</div>{% endif %}
+  {% if section.settings.show_page_content and page.content != blank %}<div class="tcpf-copy tcpf-page-content">{{ page.content }}</div>{% endif %}
+</section>
+{% stylesheet %}
+  .tcpf-page-header { padding-bottom: 36px; }
+  .tcpf-page-header h1 { max-width: 20ch; font-size: clamp(42px,6vw,80px); }
+  .tcpf-page-header .tcpf-copy { margin-top: 28px; }
+  .tcpf-page-content { max-width: 70ch; }
+  .tcpf-page-content :is(h2,h3) { margin-block: 36px 18px; }
+{% endstylesheet %}
+{% schema %}
+{"name":"TCPF page introduction","enabled_on":{"templates":["page"]},"settings":[{"type":"text","id":"eyebrow","label":"Eyebrow"},{"type":"text","id":"heading","label":"Heading override","info":"Leave blank to use the native page title."},{"type":"richtext","id":"introduction","label":"Introduction"},{"type":"checkbox","id":"show_page_content","label":"Show native page content","default":true}]}
+{% endschema %}

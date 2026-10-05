@@ -1,0 +1,655 @@
+{
+  "at": "2026-10-05T04:05:01.970495+00:00",
+  "deleted_products": [
+    "gid://shopify/Product/15390146527414",
+    "gid://shopify/Product/15390146560182",
+    "gid://shopify/Product/15390146592950",
+    "gid://shopify/Product/15390182244534",
+    "gid://shopify/Product/15390182310070",
+    "gid://shopify/Product/15390182375606"
+  ],
+  "deleted_metaobjects": [
+    {
+      "id": "gid://shopify/Metaobject/615264387254",
+      "handle": "concept-painted-bolero-top-apparel",
+      "type": "tcpf_apparel_details"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264420022",
+      "handle": "concept-painted-terno-set-apparel",
+      "type": "tcpf_apparel_details"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264452790",
+      "handle": "concept-floral-halter-dress-apparel",
+      "type": "tcpf_apparel_details"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321600182",
+      "handle": "test-francia-filipiniana-bolero-apparel",
+      "type": "tcpf_apparel_details"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321632950",
+      "handle": "test-francia-claire-terno-set-apparel",
+      "type": "tcpf_apparel_details"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321665718",
+      "handle": "test-anneleise-halter-dress-apparel",
+      "type": "tcpf_apparel_details"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264485558",
+      "handle": "concept-painted-bolero-top-design",
+      "type": "tcpf_design_concept"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264518326",
+      "handle": "concept-painted-terno-set-design",
+      "type": "tcpf_design_concept"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264551094",
+      "handle": "concept-floral-halter-dress-design",
+      "type": "tcpf_design_concept"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321731254",
+      "handle": "test-francia-filipiniana-bolero-design",
+      "type": "tcpf_design_concept"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321764022",
+      "handle": "test-francia-claire-terno-set-design",
+      "type": "tcpf_design_concept"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321796790",
+      "handle": "test-anneleise-halter-dress-design",
+      "type": "tcpf_design_concept"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264223414",
+      "handle": "painted-bolero-size-chart",
+      "type": "tcpf_size_chart"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264256182",
+      "handle": "painted-terno-size-chart",
+      "type": "tcpf_size_chart"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264354486",
+      "handle": "floral-halter-size-chart",
+      "type": "tcpf_size_chart"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321501878",
+      "handle": "test-francia-filipiniana-bolero-size-chart",
+      "type": "tcpf_size_chart"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321534646",
+      "handle": "test-francia-claire-terno-set-size-chart",
+      "type": "tcpf_size_chart"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321567414",
+      "handle": "test-anneleise-halter-dress-size-chart",
+      "type": "tcpf_size_chart"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615262945462",
+      "handle": "painted-bolero-xs-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263338678",
+      "handle": "painted-bolero-s-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263633590",
+      "handle": "painted-bolero-m-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263666358",
+      "handle": "painted-bolero-l-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263699126",
+      "handle": "painted-bolero-xl-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263731894",
+      "handle": "painted-terno-xs-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263764662",
+      "handle": "painted-terno-s-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263862966",
+      "handle": "painted-terno-m-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263895734",
+      "handle": "painted-terno-l-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615263961270",
+      "handle": "painted-terno-xl-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264026806",
+      "handle": "floral-halter-xs-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264059574",
+      "handle": "floral-halter-s-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264092342",
+      "handle": "floral-halter-m-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264157878",
+      "handle": "floral-halter-l-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615264190646",
+      "handle": "floral-halter-xl-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615320944822",
+      "handle": "test-francia-filipiniana-bolero-xs-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615320977590",
+      "handle": "test-francia-filipiniana-bolero-s-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321010358",
+      "handle": "test-francia-filipiniana-bolero-m-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321043126",
+      "handle": "test-francia-filipiniana-bolero-l-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321075894",
+      "handle": "test-francia-filipiniana-bolero-xl-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321108662",
+      "handle": "test-francia-claire-terno-set-xs-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321141430",
+      "handle": "test-francia-claire-terno-set-s-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321174198",
+      "handle": "test-francia-claire-terno-set-m-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321206966",
+      "handle": "test-francia-claire-terno-set-l-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321239734",
+      "handle": "test-francia-claire-terno-set-xl-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321272502",
+      "handle": "test-anneleise-halter-dress-xs-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321305270",
+      "handle": "test-anneleise-halter-dress-s-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321338038",
+      "handle": "test-anneleise-halter-dress-m-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321370806",
+      "handle": "test-anneleise-halter-dress-l-measurements",
+      "type": "tcpf_size_measurement"
+    },
+    {
+      "id": "gid://shopify/Metaobject/615321403574",
+      "handle": "test-anneleise-halter-dress-xl-measurements",
+      "type": "tcpf_size_measurement"
+    }
+  ],
+  "retained_metaobjects": [],
+  "retained_file_ids": [
+    "gid://shopify/MediaImage/46356181778614",
+    "gid://shopify/MediaImage/46356181811382",
+    "gid://shopify/MediaImage/46356181844150",
+    "gid://shopify/MediaImage/46356442742966",
+    "gid://shopify/MediaImage/46356484587702",
+    "gid://shopify/MediaImage/46356484620470",
+    "gid://shopify/MediaImage/46356484653238",
+    "gid://shopify/MediaImage/46381261881526",
+    "gid://shopify/MediaImage/46381261914294",
+    "gid://shopify/MediaImage/46381261947062",
+    "gid://shopify/MediaImage/46381261979830",
+    "gid://shopify/MediaImage/46381262012598",
+    "gid://shopify/MediaImage/46381262045366",
+    "gid://shopify/MediaImage/46381264404662",
+    "gid://shopify/MediaImage/46381264437430",
+    "gid://shopify/MediaImage/46381264470198",
+    "gid://shopify/MediaImage/46381420216502"
+  ],
+  "file_cleanup_reason": "Seventeen pre-existing Files still resolve. A separate authenticated theme CLI read inspected Liquid, JSON, JavaScript and CSS in all five themes without downloading image binaries: three remaining files have explicit theme references; fourteen have no text matches. No general Files usage connection or exhaustive other-content usage audit is available, so all seventeen are retained. Six old IDs no longer resolve after cleanup; no fileDelete was requested. None is used in the replacement catalog.",
+  "old_file_ids_no_longer_resolving": [
+    "gid://shopify/MediaImage/46356501102774",
+    "gid://shopify/MediaImage/46356501397686",
+    "gid://shopify/MediaImage/46356501856438",
+    "gid://shopify/MediaImage/46381264502966",
+    "gid://shopify/MediaImage/46381264535734",
+    "gid://shopify/MediaImage/46381264568502"
+  ],
+  "old_file_readback": [
+    {
+      "id": "gid://shopify/MediaImage/46356181778614",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/01-painted-bolero.jpg?v=1791055430"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46356181811382",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/02-painted-terno-set.jpg?v=1791055432"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46356181844150",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/03-floral-halter-dress.jpg?v=1791055434"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46356442742966",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-81ztn-mklcbgzi3ith91.jpg?v=1791064333"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46356484587702",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-81ztn-mklcbgzi3ith91_8cb13352-997b-4b0d-aab2-7007d587ae29.jpg?v=1791065044"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46356484620470",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-7rasm-m8nmbys3ehe5a1.jpg?v=1791065044"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46356484653238",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/ph-11134207-820lg-mnvjeaw3dbsze9.jpg?v=1791065046"
+      }
+    },
+    null,
+    null,
+    null,
+    {
+      "id": "gid://shopify/MediaImage/46381261881526",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-garden-bolero-artwork.png?v=1791115727"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381261914294",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-terno-garden-artwork.png?v=1791115727"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381261947062",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-blue-botanical-halter-artwork.png?v=1791115727"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381261979830",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-bolero-square.jpg?v=1791115725"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381262012598",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-terno-square.jpg?v=1791115726"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381262045366",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-concept-halter-square.jpg?v=1791115726"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381264404662",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-garden-bolero-artwork_6f82357b-839c-40e6-bb49-06ecf2e1df11.png?v=1791115763"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381264437430",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-painted-terno-garden-artwork_c619137b-31a9-4900-b793-952511fe948f.png?v=1791115763"
+      }
+    },
+    {
+      "id": "gid://shopify/MediaImage/46381264470198",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-blue-botanical-halter-artwork_f1e3448b-270e-410d-9c4b-0724cb800ac9.png?v=1791115763"
+      }
+    },
+    null,
+    null,
+    null,
+    {
+      "id": "gid://shopify/MediaImage/46381420216502",
+      "fileStatus": "READY",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-shop-the-look-campaign.jpg?v=1791117657"
+      }
+    }
+  ],
+  "theme_text_audit": {
+    "themes": [
+      {
+        "id": 188630696118,
+        "name": "tcpf-basics/main",
+        "processing": false,
+        "createdAtRuntime": false,
+        "role": "live"
+      },
+      {
+        "id": 188630433974,
+        "name": "Horizon",
+        "processing": false,
+        "createdAtRuntime": false,
+        "role": "unpublished"
+      },
+      {
+        "id": 188657959094,
+        "name": "TCPF Client Demo",
+        "processing": false,
+        "createdAtRuntime": false,
+        "role": "unpublished"
+      },
+      {
+        "id": 188664479926,
+        "name": "TCPF Wearable Art Demo",
+        "processing": false,
+        "createdAtRuntime": false,
+        "role": "unpublished"
+      },
+      {
+        "id": 188654321846,
+        "name": "Development (54337d-juppy)",
+        "processing": false,
+        "createdAtRuntime": false,
+        "role": "development"
+      }
+    ],
+    "files": [
+      {
+        "file_id": "gid://shopify/MediaImage/46356181778614",
+        "filename": "01-painted-bolero.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356181811382",
+        "filename": "02-painted-terno-set.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356181844150",
+        "filename": "03-floral-halter-dress.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356442742966",
+        "filename": "ph-11134207-81ztn-mklcbgzi3ith91.jpg",
+        "still_resolves": true,
+        "text_references": [
+          {
+            "theme_id": 188657959094,
+            "theme_name": "TCPF Client Demo",
+            "path": "templates/index.json",
+            "lines": [
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356484587702",
+        "filename": "ph-11134207-81ztn-mklcbgzi3ith91_8cb13352-997b-4b0d-aab2-7007d587ae29.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356484620470",
+        "filename": "ph-11134207-7rasm-m8nmbys3ehe5a1.jpg",
+        "still_resolves": true,
+        "text_references": [
+          {
+            "theme_id": 188630696118,
+            "theme_name": "tcpf-basics/main",
+            "path": "templates/collection.json",
+            "lines": [
+              142
+            ]
+          },
+          {
+            "theme_id": 188630696118,
+            "theme_name": "tcpf-basics/main",
+            "path": "templates/index.json",
+            "lines": [
+              79
+            ]
+          },
+          {
+            "theme_id": 188657959094,
+            "theme_name": "TCPF Client Demo",
+            "path": "templates/collection.json",
+            "lines": [
+              226
+            ]
+          },
+          {
+            "theme_id": 188657959094,
+            "theme_name": "TCPF Client Demo",
+            "path": "templates/index.json",
+            "lines": [
+              139
+            ]
+          },
+          {
+            "theme_id": 188664479926,
+            "theme_name": "TCPF Wearable Art Demo",
+            "path": "templates/collection.json",
+            "lines": [
+              142
+            ]
+          },
+          {
+            "theme_id": 188664479926,
+            "theme_name": "TCPF Wearable Art Demo",
+            "path": "templates/index.json",
+            "lines": [
+              79
+            ]
+          }
+        ]
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356484653238",
+        "filename": "ph-11134207-820lg-mnvjeaw3dbsze9.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356501102774",
+        "filename": "ph-11134207-81ztn-mklcbgzi3ith91_6f5c08dd-aae0-42e7-a16f-1fe8932ec661.jpg",
+        "still_resolves": false,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356501397686",
+        "filename": "ph-11134207-7rasm-m8nmbys3ehe5a1_15914377-57c1-41f7-b536-955620004618.jpg",
+        "still_resolves": false,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46356501856438",
+        "filename": "ph-11134207-820lg-mnvjeaw3dbsze9_658ac09d-a1ff-4235-8531-4f2a64bfc33f.jpg",
+        "still_resolves": false,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381261881526",
+        "filename": "tcpf-painted-garden-bolero-artwork.png",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381261914294",
+        "filename": "tcpf-painted-terno-garden-artwork.png",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381261947062",
+        "filename": "tcpf-blue-botanical-halter-artwork.png",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381261979830",
+        "filename": "tcpf-concept-bolero-square.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381262012598",
+        "filename": "tcpf-concept-terno-square.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381262045366",
+        "filename": "tcpf-concept-halter-square.jpg",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381264404662",
+        "filename": "tcpf-painted-garden-bolero-artwork_6f82357b-839c-40e6-bb49-06ecf2e1df11.png",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381264437430",
+        "filename": "tcpf-painted-terno-garden-artwork_c619137b-31a9-4900-b793-952511fe948f.png",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381264470198",
+        "filename": "tcpf-blue-botanical-halter-artwork_f1e3448b-270e-410d-9c4b-0724cb800ac9.png",
+        "still_resolves": true,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381264502966",
+        "filename": "tcpf-concept-bolero-square_d0bb3887-678f-45b8-9159-d7b537f46162.jpg",
+        "still_resolves": false,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381264535734",
+        "filename": "tcpf-concept-terno-square_e49c0a86-bdfe-4c70-b52b-c2cad1dc46c3.jpg",
+        "still_resolves": false,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381264568502",
+        "filename": "tcpf-concept-halter-square_e1617160-381e-473e-bfba-0ed6ca6af85b.jpg",
+        "still_resolves": false,
+        "text_references": []
+      },
+      {
+        "file_id": "gid://shopify/MediaImage/46381420216502",
+        "filename": "tcpf-shop-the-look-campaign.jpg",
+        "still_resolves": true,
+        "text_references": [
+          {
+            "theme_id": 188664479926,
+            "theme_name": "TCPF Wearable Art Demo",
+            "path": "templates/index.json",
+            "lines": [
+              133
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

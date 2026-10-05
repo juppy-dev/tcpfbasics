@@ -12,7 +12,7 @@
 
 **Dependencies:** [Maintained data and execution diagram](../diagrams/shopify-data-model.md).
 
-**Status:** Ready for plan review. No execution method has been selected; no tasks have begun.
+**Status:** Approved by the user’s “yes, proceed” response on 2026-10-05. Native execution complete; independent review finding corrected and authenticated recovery recorded.
 
 ## Global Constraints
 
@@ -27,6 +27,8 @@
 - No borrowed image files enter the project or new catalog. Retain their IDs/reference metadata only for cleanup evidence.
 - Stage intended files explicitly and use atomic Conventional Commits without attribution trailers.
 - Completion evidence consists of image inspection, source comparisons, mutation receipts, and authenticated store readback. Theme work and preview publication belong to phase 3.
+
+**Execution note:** Uploads of individually accepted assets and independent content records overlap the final photograph generation. References wait for readiness; task 4 completes only after all forty product photos and five masters are accepted and ready.
 
 ## Review Focus
 
@@ -77,14 +79,14 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes the approved spec and sample brief. Produces complete source records, an ownership snapshot, and the definition-ID map used by tasks 4–5.
 
-- [ ] Read current products, definitions, relevant entries, file references, collections, publications, locations, and granted scopes through CLI 2026-10; capture sanitized metadata in the snapshot.
-- [ ] Populate `schema.json` and `catalog.json` from the approved documents, including all descriptions, five chart tables, contents, related contexts, and eight native manual collections: ready-to-wear, five categories, Amihan Garden, Dapithapon.
-- [ ] Compare source counts and references: 10 products, 5 artworks, 10 garment records, 5 charts, 25 rows, 50 expanded variants; two sets with matching bolero/skirt links; Luntian uses `same_artwork`; dresses have no related-product claims.
-- [ ] Confirm target handles are available or already belong to this import. Resolve an existing owned record through the state/snapshot map; do not overwrite a handle belonging to unrelated content.
-- [ ] Update the four existing definitions additively, using the exact fields and merchant/display names in the spec. Preserve legacy field types, required flags, and validations. Give new fields their specified choices/length/list/reference constraints; enforce positive measurements and all required new-record content in source acceptance without invalidating legacy records.
-- [ ] Create the three new PRODUCT definitions (`related_products`, `related_products_context`, `set_components`) and COLLECTION `artworks` definition under `tcpf`; make intended theme fields storefront readable and references constrained to the relevant types.
-- [ ] Read definitions back and compare every target key, type, access setting, display key, and new validation with `schema.json`; resolve mutation errors before continuing.
-- [ ] Commit intended source/schema/snapshot files with `feat(data): define reusable Shopify catalog schema`.
+- [x] Read current products, definitions, relevant entries, file references, collections, publications, locations, and granted scopes through CLI 2026-10; capture sanitized metadata in the snapshot.
+- [x] Populate `schema.json` and `catalog.json` from the approved documents, including all descriptions, five chart tables, contents, related contexts, and eight native manual collections: ready-to-wear, five categories, Amihan Garden, Dapithapon.
+- [x] Compare source counts and references: 10 products, 5 artworks, 10 garment records, 5 charts, 25 rows, 50 expanded variants; two sets with matching bolero/skirt links; Luntian uses `same_artwork`; dresses have no related-product claims.
+- [x] Confirm target handles are available or already belong to this import. Resolve an existing owned record through the state/snapshot map; do not overwrite a handle belonging to unrelated content.
+- [x] Update the four existing definitions additively, using the exact fields and merchant/display names in the spec. Preserve legacy field types, required flags, and validations. Give new fields their specified choices/length/list/reference constraints; enforce positive measurements and all required new-record content in source acceptance without invalidating legacy records.
+- [x] Create the three new PRODUCT definitions (`related_products`, `related_products_context`, `set_components`) and COLLECTION `artworks` definition under `tcpf`; make intended theme fields storefront readable and references constrained to the relevant types.
+- [x] Read definitions back and compare every target key, type, access setting, display key, and new validation with `schema.json`; resolve mutation errors before continuing.
+- [x] Commit intended source/schema/snapshot files with `feat(data): define reusable Shopify catalog schema`.
 
 ## Task 2: Generate Five Original Artwork Masters
 
@@ -92,12 +94,12 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes the five artwork names, colors, and stories. Produces five visually inspected master paths for task 3 and asset IDs for task 4.
 
-- [ ] Write one precise prompt per artwork from the approved botanical/meadow brief, with a flat square composition, no words/logos, and no imitation of a known painting.
-- [ ] Generate the five masters through the built-in tool. Independent artwork calls may overlap; record every returned path without printing image payloads.
-- [ ] Inspect each master for the specified palette and painterly character. Revise a failed candidate through the image tool before selecting its final master.
-- [ ] Copy accepted originals to their workspace paths; record exact prompts, mode, dimensions/checksum, and acceptance notes. Attribute all five as AI concepts.
-- [ ] Compare the five files and source references; confirm no asset is borrowed or credited to Tisha and that each artwork handle has exactly one accepted master.
-- [ ] Commit accepted artwork assets and provenance with `feat(catalog): create five original sample artwork masters`.
+- [x] Write one precise prompt per artwork from the approved botanical/meadow brief, with a flat square composition, no words/logos, and no imitation of a known painting.
+- [x] Generate the five masters through the built-in tool. Independent artwork calls may overlap; record every returned path without printing image payloads.
+- [x] Inspect each master for the specified palette and painterly character. Revise a failed candidate through the image tool before selecting its final master.
+- [x] Copy accepted originals to their workspace paths; record exact prompts, mode, dimensions/checksum, and acceptance notes. Attribute all five as AI concepts.
+- [x] Compare the five files and source references; confirm no asset is borrowed or credited to Tisha and that each artwork handle has exactly one accepted master.
+- [x] Commit accepted artwork assets and provenance with `feat(catalog): create five original sample artwork masters`.
 
 ## Task 3: Generate Forty Consistent Product Photographs
 
@@ -105,13 +107,13 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes artwork masters and exact garment/styling specifications. Produces four accepted views per product for tasks 4–5.
 
-- [ ] Prepare the ten primary-image prompts, specifying garment cut, print, included pieces, fastenings, lining appearance, soft ivory studio light, anonymous model, and full sleeves/hem. Aim for 4:5 portrait framing with crop room.
-- [ ] Generate Amihan bolero and skirt primary references, then its set using both references and the same artwork. Repeat for Dapithapon. Generate Luntian bolero, then its blouse using the same print reference; generate Hiraya and Sinag dress primaries from their masters. Independent families may overlap.
-- [ ] Inspect the ten primaries, especially identical garments between sets/separates. Correct print, construction, anatomical, or framing defects before generating further views.
-- [ ] Generate silhouette, detail, and styled photographs for each product, referencing its accepted primary and artwork master. Each photograph is a separate output, not a contact-sheet crop.
-- [ ] Compare all four views per product for color, sleeve shape, hem, closures, print scale, model/styling consistency, and set contents. Correct individual failed views through targeted image-tool edits.
-- [ ] Copy forty accepted originals to the defined paths; write view-specific alt text and exact prompt/reference provenance. Confirm `4 × 10 = 40` accepted photos and that a set matches its individual garments.
-- [ ] Commit photo assets/source/provenance in logical artwork-family commits, using `feat(catalog): add {family} sample product photography`.
+- [x] Prepare the ten primary-image prompts, specifying garment cut, print, included pieces, fastenings, lining appearance, soft ivory studio light, anonymous model, and full sleeves/hem. Aim for 4:5 portrait framing with crop room.
+- [x] Generate Amihan bolero and skirt primary references, then its set using both references and the same artwork. Repeat for Dapithapon. Generate Luntian bolero, then its blouse using the same print reference; generate Hiraya and Sinag dress primaries from their masters. Independent families may overlap.
+- [x] Inspect the ten primaries, especially identical garments between sets/separates. Correct print, construction, anatomical, or framing defects before generating further views.
+- [x] Generate silhouette, detail, and styled photographs for each product, referencing its accepted primary and artwork master. Each photograph is a separate output, not a contact-sheet crop.
+- [x] Compare all four views per product for color, sleeve shape, hem, closures, print scale, model/styling consistency, and set contents. Correct individual failed views through targeted image-tool edits.
+- [x] Copy forty accepted originals to the defined paths; write view-specific alt text and exact prompt/reference provenance. Confirm `4 × 10 = 40` accepted photos and that a set matches its individual garments.
+- [x] Commit photo assets/source/provenance in logical artwork-family commits, using `feat(catalog): add {family} sample product photography`.
 
 ## Task 4: Upload Assets and Populate the Content Library
 
@@ -119,13 +121,13 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes 45 accepted assets and target definitions. Produces 45 ready file IDs/CDN URLs and 45 staged content entries: 25 rows, 5 charts, 5 artworks, 10 garment records.
 
-- [ ] Check each asset ID against state and its unique filename (`tcpf-sample-{asset-id-with-slashes-replaced-by-hyphens}-v1.png`). Reuse a proven completed upload; recover uncertain requests by querying their exact filename/ID before retrying.
-- [ ] Create staged upload targets through CLI `stagedUploadsCreate`, then upload the local bytes using a temporary multipart command. Keep signed parameters in temporary files and out of logs/receipts.
-- [ ] Call `fileCreate` with staged resource URLs, unique filenames, and alt text. Persist returned IDs and poll file status until every selected file is `READY`; resolve `FAILED` processing before referencing it.
-- [ ] Upsert new measurement rows, charts, artwork records, and garment records in dependency order. Resolve handles to definition/entry/file IDs and set publishable status `DRAFT`.
-- [ ] With API 2026-10, `metaobjectUpsert(values:)` replaces all values on an existing entry. Supply the complete source value map only to owned records; manage staged publishable status separately through the supported capability input/update. Do not combine mutually exclusive upsert arguments. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/metaobjectUpsert).
-- [ ] Read each new entry back and compare values/references with source: no zero placeholders for absent measures, correct row ordering, two charts on sets, AI origin/attribution, staged status, and ready image targets.
-- [ ] Record upload/entry completion in state and sanitized receipts; commit with `feat(data): upload sample assets and populate content library`.
+- [x] Check each asset ID against state and its unique filename (`tcpf-sample-{asset-id-with-slashes-replaced-by-hyphens}-v1.png`). Reuse a proven completed upload; recover uncertain requests by querying their exact filename/ID before retrying.
+- [x] Create staged upload targets through CLI `stagedUploadsCreate`, then upload the local bytes using a temporary multipart command. Keep signed parameters in temporary files and out of logs/receipts.
+- [x] Call `fileCreate` with staged resource URLs, unique filenames, and alt text. Persist returned IDs and poll file status until every selected file is `READY`; resolve `FAILED` processing before referencing it.
+- [x] Upsert new measurement rows, charts, artwork records, and garment records in dependency order. Resolve handles to definition/entry/file IDs and set publishable status `DRAFT`.
+- [x] With API 2026-10, `metaobjectUpsert(values:)` replaces all values on an existing entry. Supply the complete source value map only to owned records; manage staged publishable status separately through the supported capability input/update. Do not combine mutually exclusive upsert arguments. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/metaobjectUpsert).
+- [x] Read each new entry back and compare values/references with source: no zero placeholders for absent measures, correct row ordering, two charts on sets, AI origin/attribution, staged status, and ready image targets.
+- [x] Record upload/entry completion in state and sanitized receipts; commit with `feat(data): upload sample assets and populate content library`.
 
 ## Task 5: Create Ten Draft Products and Connect the Catalog
 
@@ -133,14 +135,14 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes native source records, ready media IDs, and content-entry IDs. Produces ten complete draft products with fifty variants, references, inventory safeguards, and eight manual collections.
 
-- [ ] Create or resolve the eight target manual collections with source titles, copy, SEO, images from the ready asset CDN URLs, and their permitted artwork references. Record IDs; preserve unrelated collections and memberships.
-- [ ] Use synchronous `productSet` on each owned product to supply the complete five-variant option list, native fields, intended metafields, and four ordered file associations. Include ready file IDs rather than uploading a second copy.
-- [ ] Supply full lists deliberately: `productSet` can remove list items omitted from its input. Use `metafieldsSet` for the later reference-only patch rather than an incomplete product synchronization. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/productSet).
-- [ ] Set each product `DRAFT`, `tcpf.concept_only = true`, and unpublished. Each variant uses source price/SKU, tracked inventory, and `DENY` policy; assign new inventory items to the recorded active store location and retain zero availability at every active inventory level.
-- [ ] If setting quantities is needed, read prior quantities and call `inventorySetQuantities` with `compareQuantity`, target zero, and a persisted unique `@idempotent(key: ...)` value. API 2026-10 requires this directive; retain the same key for a retry of the same operation. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/inventorySetQuantities).
-- [ ] Resolve `related_products`, `related_products_context`, `set_components`, artwork/garment fields, collection artwork fields, and manual membership after all ten product IDs exist.
-- [ ] Read all products/variants/media/metafields/collections/inventory back. Compare 10 products, 50 sizes, 40 usable product images in order, exact prices/SKUs, two component pairs, intended labels, zero stock, draft status, and no sales-channel publication.
-- [ ] Resolve errors or mismatched fields before marking the replacement set complete. Commit source/state/receipts/report with `feat(catalog): import ten complete draft sample products`.
+- [x] Create or resolve the eight target manual collections with source titles, copy, SEO, images from the ready asset CDN URLs, and their permitted artwork references. Record IDs; preserve unrelated collections and memberships.
+- [x] Use synchronous `productSet` on each owned product to supply the complete five-variant option list, native fields, intended metafields, and four ordered file associations. Include ready file IDs rather than uploading a second copy.
+- [x] Supply full lists deliberately: `productSet` can remove list items omitted from its input. Use `metafieldsSet` for the later reference-only patch rather than an incomplete product synchronization. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/productSet).
+- [x] Set each product `DRAFT`, `tcpf.concept_only = true`, and unpublished. Each variant uses source price/SKU, tracked inventory, and `DENY` policy; assign new inventory items to the recorded active store location and retain zero availability at every active inventory level.
+- [x] If setting quantities is needed, read prior quantities and call `inventorySetQuantities` with `compareQuantity`, target zero, and a persisted unique `@idempotent(key: ...)` value. API 2026-10 requires this directive; retain the same key for a retry of the same operation. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/inventorySetQuantities).
+- [x] Resolve `related_products`, `related_products_context`, `set_components`, artwork/garment fields, collection artwork fields, and manual membership after all ten product IDs exist.
+- [x] Read all products/variants/media/metafields/collections/inventory back. Compare 10 products, 50 sizes, 40 usable product images in order, exact prices/SKUs, two component pairs, intended labels, zero stock, draft status, and no sales-channel publication.
+- [x] Resolve errors or mismatched fields before marking the replacement set complete. Commit source/state/receipts/report with `feat(catalog): import ten complete draft sample products`.
 
 ## Task 6: Replace the Old Catalog and Deliver the Handoff
 
@@ -148,14 +150,14 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes task 5's completed readback and the old-ID snapshot. Produces the ten-product replacement catalog, deletion evidence, and client editing instructions.
 
-- [ ] Confirm the replacement acceptance checks in task 5 have passed, then re-read the six old records against the snapshot. Delete only these authorized Product IDs: `15390146527414`, `15390146560182`, `15390146592950`, `15390182244534`, `15390182310070`, `15390182375606`.
-- [ ] Record each `productDelete` request/result using the full Shopify GID and confirm the old IDs no longer resolve. Do not interpret missing response data as deletion success without readback.
-- [ ] Inspect the old associated metaobject and file references. Remove superseded entries and borrowed files only where usage is established to belong to the removed set and no surviving reference is found. Record uncertain/shared usage in the report, including theme usage not visible with current scopes.
-- [ ] Read the final catalog and references again. Confirm ten intended samples remain, all concept flagged/draft/unpublished, no new record references an old product or borrowed file, and every asset/measurement count matches source.
-- [ ] Write merchant instructions for native product edits, shared artwork stories, garment facts, typed measurements, set contents, related-product contexts, and keeping real verified data distinct from samples.
-- [ ] Document the phase 3 handoff: theme CLI authentication; store password protection; sample notices/purchase guards; then protected preview publication. No preview-publication or live-sale action is part of this plan.
-- [ ] Finish the import report with actual IDs/counts, inspection/readback evidence, deletion results, and any precise manual follow-up. Mark phase 2 complete only when its catalog/schema/image requirements are met.
-- [ ] Commit handoff/state/report changes with `docs(shopify): record catalog replacement and merchant handoff`.
+- [x] Confirm the replacement acceptance checks in task 5 have passed, then re-read the six old records against the snapshot. Delete only these authorized Product IDs: `15390146527414`, `15390146560182`, `15390146592950`, `15390182244534`, `15390182310070`, `15390182375606`.
+- [x] Record each `productDelete` request/result using the full Shopify GID and confirm the old IDs no longer resolve. Do not interpret missing response data as deletion success without readback.
+- [x] Inspect the old associated metaobject and file references. Remove superseded entries and borrowed files only where usage is established to belong to the removed set and no surviving reference is found. Record uncertain/shared usage in the report, including theme usage not visible with current scopes.
+- [x] Read the final catalog and references again. Confirm ten intended samples remain, all concept flagged/draft/unpublished, no new record references an old product or borrowed file, and every asset/measurement count matches source.
+- [x] Write merchant instructions for native product edits, shared artwork stories, garment facts, typed measurements, set contents, related-product contexts, and keeping real verified data distinct from samples.
+- [x] Document the phase 3 handoff: theme CLI authentication; store password protection; sample notices/purchase guards; then protected preview publication. No preview-publication or live-sale action is part of this plan.
+- [x] Finish the import report with actual IDs/counts, inspection/readback evidence, deletion results, and any precise manual follow-up. Mark phase 2 complete only when its catalog/schema/image requirements are met.
+- [x] Commit handoff/state/report changes with `docs(shopify): record catalog replacement and merchant handoff`.
 
 ## Plan Review and Execution Choice
 
