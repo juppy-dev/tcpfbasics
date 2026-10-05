@@ -1,18 +1,31 @@
 # Editing the TCPF storefront
 
-Use **TCPF Shop-first Preview**, theme **188681584822**, in Online Store → Themes → Customize. The existing live theme is separate. [Open the protected preview](https://tcpfbasics.myshopify.com/?preview_theme_id=188681584822).
+Use **TCPF Hero and Header Preview**, theme **188685779126**, for the latest homepage/header revision in Online Store → Themes → Customize. [Open the protected preview](https://tcpfbasics.myshopify.com/?preview_theme_id=188685779126). The earlier Shop-first Preview and the GitHub-connected themes remain separate.
 
 ## Homepage
 
 | Section | Edit in the theme editor |
 | --- | --- |
-| TCPF shop introduction | Headline, introduction, RTW collection; five category blocks with a native collection, optional image and label. |
+| TCPF hotspot hero | Two-line headline, introduction, button, featured product, outfit image, matching artwork collection and separate hotspot position sliders. Artwork image/story comes from the product's TCPF Artwork reference. |
+| TCPF shop introduction | Category heading, RTW collection and five category blocks. Keep **H2 — below the hero** and the compact heading enabled when using the hero above it. |
 | TCPF ready-to-wear edit | Native collection, product count and heading. Product order comes from the collection. Its card blocks retain native image/title/price controls. |
 | TCPF artwork edits | Two artwork collection blocks and garment images. Paintings and attribution come from each collection’s TCPF artwork reference. |
 | TCPF story panel | Approved story, image, caption and link. Keep AI sample attribution with demonstration art. |
 | TCPF bespoke invitation | Secondary inquiry heading, copy and link. |
 
 Reorder sections with the native editor controls. Category images remain within a contained horizontal row on mobile; the RTW edit uses two columns. Do not add urgency, reviews, artist/celebrity claims or delivery promises without real evidence.
+
+The hero starts with the Amihan Modern Terno Set and its existing styled photograph. When changing the product, choose a matching photograph and artwork collection. The artwork is always taken from that product; the collection picker only sets the **Explore the print** destination. Leaving the collection empty links to the artwork on the product page. Position the product hotspot relative to the outfit photograph and the artwork hotspot relative to the square artwork panel. Both use percentage coordinates and retain their position when the layout scales. Keep controls clear of faces and important garment details.
+
+Hotspots open one detail panel at a time. Close returns focus to the trigger; Escape also closes the panel. Desktop panels overlay the composition; mobile panels appear underneath. Without JavaScript, the detail cards and destination links remain visible. A missing artwork reference hides its panel/hotspot; an absent custom photograph falls back to the product's featured image. Sample prices, concept status and AI artwork attribution remain visible in the corresponding cards.
+
+## Header
+
+The original gold logo is retained in a compact white header. **Header → Logo** controls the adjacent brand name and caption; clear those fields to show only the supplied mark. Native theme logo-height controls still apply, with smaller mobile limits for navigation space.
+
+**Header → Menu → TCPF artwork feature** controls the dropdown feature. The parent menu title defaults to **Shop** and must match a native menu item with child links. Choose an artwork collection and an outfit photograph from that collection. Its shared artwork supplies the smaller image. Clear the featured collection to return to the native menu presentation. The feature is shown on larger desktop layouts; narrow screens use the native navigation drawer.
+
+Native menu destinations, search, account, cart and scroll-up sticky behavior remain in Horizon. Desktop menu placement is centered; mobile uses the familiar menu/identity/actions layout. No new announcement bar or promotional claim is added.
 
 ## Shared product information
 
