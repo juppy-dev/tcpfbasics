@@ -1,0 +1,104 @@
+{% liquid
+  assign featured = section.settings.product
+  assign photograph = section.settings.image | default: featured.featured_image
+  assign artwork = featured.metafields.tcpf.design_concept.value
+  assign master = artwork.artwork_image.value
+  assign sample = featured.metafields.tcpf.concept_only.value
+  assign artwork_url = section.settings.artwork_collection.url
+  if artwork_url == blank and featured != blank
+    assign artwork_url = featured.url | append: '#tcpf-product-artwork'
+  endif
+%}
+
+{{ 'tcpf-hotspot-hero.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'tcpf-hotspot-hero.js' | asset_url }}" type="module" fetchpriority="low"></script>
+
+<section class="tcpf-hero tcpf-wrap" aria-labelledby="tcpf-hero-heading-{{ section.id }}">
+  <div class="tcpf-hero__copy">
+    <p class="tcpf-eyebrow"><span class="tcpf-hero__rule" aria-hidden="true"></span>{{ section.settings.eyebrow | escape }}</p>
+    <h1 id="tcpf-hero-heading-{{ section.id }}">{{ section.settings.heading | escape }} <span>{{ section.settings.heading_accent | escape }}</span></h1>
+    <p class="tcpf-hero__description">{{ section.settings.copy | escape }}</p>
+    {% if section.settings.shop != blank %}
+      <a class="tcpf-button tcpf-hero__cta" href="{{ section.settings.shop.url }}">{{ section.settings.button_label | escape }}<span aria-hidden="true">↗</span></a>
+    {% endif %}
+    <div class="tcpf-hero__signature"><span>Modern Filipiniana</span><span aria-hidden="true">/</span><span>By TCPF Basics</span></div>
+  </div>
+
+  <tcpf-hotspot-hero class="tcpf-hero__visual">
+    <div class="tcpf-hero__composition">
+      <div class="tcpf-hero__photo">
+        {% if photograph != blank %}
+          {{ photograph | image_url: width: 1500 | image_tag: widths: '360,540,750,1000,1250,1500', sizes: '(max-width: 749px) 82vw, (max-width: 1199px) 44vw, 520px', loading: 'eager', fetchpriority: 'high', class: 'tcpf-hero__image', alt: photograph.alt }}
+          {% if featured != blank %}
+            <button class="tcpf-hero__hotspot" type="button" hidden data-hotspot="piece" aria-expanded="false" aria-controls="tcpf-hero-piece-{{ section.id }}" style="--hotspot-x: {{ section.settings.product_x }}%; --hotspot-y: {{ section.settings.product_y }}%;">
+              <span class="tcpf-hero__hotspot-dot" aria-hidden="true">+</span><span class="tcpf-hero__hotspot-label">The piece</span>
+            </button>
+          {% endif %}
+        {% elsif request.design_mode %}
+          <div class="tcpf-hero__placeholder tcpf-empty">Choose a featured product and a photograph.</div>
+        {% endif %}
+      </div>
+      {% if master != blank %}
+        <div class="tcpf-hero__art">
+          {{ master | image_url: width: 600 | image_tag: widths: '180,300,450,600', sizes: '(max-width: 749px) 32vw, 230px', loading: 'eager', class: 'tcpf-hero__art-image', alt: master.alt }}
+          <button class="tcpf-hero__hotspot" type="button" hidden data-hotspot="artwork" aria-expanded="false" aria-controls="tcpf-hero-artwork-{{ section.id }}" style="--hotspot-x: {{ section.settings.artwork_x }}%; --hotspot-y: {{ section.settings.artwork_y }}%;">
+            <span class="tcpf-hero__hotspot-dot" aria-hidden="true">+</span><span class="tcpf-hero__hotspot-label">The artwork</span>
+          </button>
+          <span class="tcpf-hero__art-caption" aria-hidden="true">From canvas to clothing</span>
+        </div>
+      {% endif %}
+    </div>
+    {% if featured != blank %}
+      <div class="tcpf-hero__caption"><span>{{ artwork.title.value | default: featured.title | escape }}</span><span>{% if sample %}AI-generated sample{% else %}{{ section.settings.caption | escape }}{% endif %}</span></div>
+      <div class="tcpf-hero__panels">
+        <article class="tcpf-hero__panel" id="tcpf-hero-piece-{{ section.id }}" data-panel="piece" aria-labelledby="tcpf-hero-piece-title-{{ section.id }}">
+          <button type="button" class="tcpf-hero__close" data-close hidden aria-label="Close product details">×</button>
+          <p class="tcpf-eyebrow">The piece</p>
+          <h2 id="tcpf-hero-piece-title-{{ section.id }}" tabindex="-1">{{ featured.title | escape }}</h2>
+          <p class="tcpf-hero__price">{% if sample %}<span>Sample price · </span>{% endif %}{% if featured.price_varies %}From {% endif %}{{ featured.price | money }}</p>
+          {% if sample %}<p class="tcpf-note">Concept preview · not available to purchase.</p>{% endif %}
+          <a class="tcpf-link" href="{{ featured.url }}">View the piece</a>
+        </article>
+        {% if master != blank %}
+          <article class="tcpf-hero__panel" id="tcpf-hero-artwork-{{ section.id }}" data-panel="artwork" aria-labelledby="tcpf-hero-artwork-title-{{ section.id }}">
+            <button type="button" class="tcpf-hero__close" data-close hidden aria-label="Close artwork details">×</button>
+            <p class="tcpf-eyebrow">The artwork</p>
+            <h2 id="tcpf-hero-artwork-title-{{ section.id }}" tabindex="-1">{{ artwork.title.value | escape }}</h2>
+            <div class="tcpf-hero__art-detail">{{ master | image_url: width: 700 | image_tag: widths: '280,420,700', sizes: '(max-width: 749px) 85vw, 320px', loading: 'lazy', alt: master.alt }}</div>
+            {% if artwork.story.value != blank %}<p class="tcpf-hero__story">{{ artwork.story.value | escape }}</p>{% endif %}
+            {% if artwork.origin.value == 'ai_concept' %}<p class="tcpf-note">AI-generated sample artwork.</p>{% elsif artwork.attribution.value != blank %}<p class="tcpf-note">{{ artwork.attribution.value | escape }}</p>{% endif %}
+            {% if artwork_url != blank %}<a class="tcpf-link" href="{{ artwork_url }}">Explore the print</a>{% endif %}
+          </article>
+        {% endif %}
+      </div>
+    {% endif %}
+  </tcpf-hotspot-hero>
+</section>
+
+{% schema %}
+{
+  "name": "TCPF hotspot hero",
+  "enabled_on": {"templates": ["index"]},
+  "limit": 1,
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"From canvas to clothing"},
+    {"type":"text","id":"heading","label":"Heading, first line","default":"Art you"},
+    {"type":"text","id":"heading_accent","label":"Heading, second line","default":"can wear."},
+    {"type":"textarea","id":"copy","label":"Introduction","default":"Expressive prints. Distinctly Filipiniana. Discover pieces that bring a little art into the way you dress."},
+    {"type":"collection","id":"shop","label":"Shopping destination"},
+    {"type":"text","id":"button_label","label":"Button label","default":"Shop ready-to-wear"},
+    {"type":"header","content":"Featured piece and artwork"},
+    {"type":"product","id":"product","label":"Featured product","info":"The artwork is read from this product’s TCPF Artwork reference."},
+    {"type":"image_picker","id":"image","label":"Outfit photograph","info":"Use a portrait showing the selected product. Falls back to its featured image. The entire image is preserved on mobile."},
+    {"type":"collection","id":"artwork_collection","label":"Matching artwork collection","info":"Choose the collection for this product’s artwork. If empty, the link opens the artwork on the product page."},
+    {"type":"text","id":"caption","label":"Photograph caption","default":"A closer look at wearable art"},
+    {"type":"header","content":"Product hotspot position"},
+    {"type":"range","id":"product_x","label":"Horizontal position","min":15,"max":85,"step":1,"unit":"%","default":68},
+    {"type":"range","id":"product_y","label":"Vertical position","min":10,"max":90,"step":1,"unit":"%","default":48},
+    {"type":"header","content":"Artwork hotspot position"},
+    {"type":"range","id":"artwork_x","label":"Horizontal position","min":25,"max":75,"step":1,"unit":"%","default":50},
+    {"type":"range","id":"artwork_y","label":"Vertical position","min":25,"max":75,"step":1,"unit":"%","default":54}
+  ],
+  "presets": [{"name":"TCPF hotspot hero"}]
+}
+{% endschema %}

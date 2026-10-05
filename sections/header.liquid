@@ -1,3 +1,4 @@
+{{ 'tcpf-header.css' | asset_url | stylesheet_tag }}
 {% liquid
   assign order = 'logo,menu,localization,search,drawer_search,actions'
 
@@ -193,7 +194,7 @@
     assign collapse_header_paddings_class = 'header--collapse-row-paddings'
   endif
 
-  assign class = 'header'
+  assign class = 'header tcpf-header'
 
   if header_height_class
     assign class = class | append: ' ' | append: header_height_class

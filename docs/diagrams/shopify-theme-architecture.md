@@ -12,6 +12,13 @@ flowchart TD
     G[Garment details + size guides + rows] --> UI
     R[Related products + ordered set components] --> UI
     E[Theme editor + four pages + two native menus] --> UI
+    P --> HERO[Hotspot hero: product picker + outfit photograph]
+    A --> HERO
+    HERO --> DETAIL[Product and artwork detail panels]
+    DETAIL --> T
+    E --> HEADER[Branded native header + artwork menu feature]
+    A --> HEADER
+    HEADER --> C
     UI --> T[Homepage, collection, product, story, bespoke, contact, size guide]
     N --> C[Native cart, search, filters, variants, contact backend]
     S[Concept flag + zero stock + DENY] --> GUARD[Sample notices and purchase guards]
@@ -35,5 +42,7 @@ stateDiagram-v2
 The sample guard covers product/card/featured/recommendation/search/cart/structured-data paths. It is accompanied by store inventory safeguards; it is not a server-side checkout extension. Existing themes and uncertain old Files remain separate from the fresh-Horizon build.
 
 See the [theme specification](../specs/2026-10-05-shopify-theme-design.md) and [data architecture](shopify-data-model.md).
+
+Homepage/header revision: approved in conversation on 2026-10-05 and uploaded to separate unpublished preview **188685779126**. The hero reads `product.metafields.tcpf.design_concept`; the menu feature reads the selected collection's `tcpf.artworks`. Both reuse the hosted catalog images. Hotspot JavaScript progressively enhances server-rendered detail cards and cleans up its event listeners when a section is replaced in the editor. No schema migration is required.
 
 Current preview state: ten active concepts, 45 active entries, eight Online Store collections; tracked zero stock and DENY; client artwork approval pending. Size-guide picker selections use handles in their declared type, while API state records GIDs. All planned page views and final source review are recorded in [build evidence](../theme/05-build-report.md). Client launch remains pending.

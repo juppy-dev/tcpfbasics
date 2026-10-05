@@ -93,6 +93,13 @@
 
     {% capture children %}
       {% for link in block_settings.menu.links %}
+        {% liquid
+          assign tcpf_feature = false
+          assign tcpf_feature_handle = block_settings.tcpf_feature_menu | handleize
+          if link.handle == tcpf_feature_handle and block_settings.tcpf_feature_collection != blank
+            assign tcpf_feature = true
+          endif
+        %}
         <li
           class="menu-list__list-item"
           on:blur="/deactivate"
@@ -145,7 +152,8 @@
                 style="{% render 'submenu-font-styles', settings: block_settings %}"
               >
                 {% assign list_id = 'MegaMenuList-' | append: forloop.index %}
-                <div class="mega-menu section section--full-width-margin section--{{ section.settings.section_width }}">
+                <div class="mega-menu section section--full-width-margin section--{{ section.settings.section_width }}{% if tcpf_feature %} tcpf-mega-menu{% endif %}">
+                  {% if tcpf_feature %}<div class="tcpf-mega-menu__layout"><div class="tcpf-mega-menu__navigation"><p class="tcpf-eyebrow">Find your next piece</p>{% endif %}
                   <div
                     class="mega-menu__grid"
                     data-menu-grid-id="{{ list_id }}"
@@ -162,6 +170,11 @@
                       image_border_radius: image_border_radius
                     %}
                   </div>
+                  {% if tcpf_feature %}
+                    </div>
+                    {% render 'tcpf-menu-feature', collection: block_settings.tcpf_feature_collection, image: block_settings.tcpf_feature_image %}
+                    </div>
+                  {% endif %}
                 </div>
               </div>
             </div>
@@ -819,6 +832,28 @@
   "name": "t:names.menu",
   "tag": null,
   "settings": [
+    {
+      "type": "header",
+      "content": "TCPF artwork feature"
+    },
+    {
+      "type": "text",
+      "id": "tcpf_feature_menu",
+      "label": "Parent menu title",
+      "default": "Shop",
+      "info": "Add the feature to the dropdown with this title. It must have child links."
+    },
+    {
+      "type": "collection",
+      "id": "tcpf_feature_collection",
+      "label": "Featured artwork collection"
+    },
+    {
+      "type": "image_picker",
+      "id": "tcpf_feature_image",
+      "label": "Feature outfit photograph",
+      "info": "Choose a garment in the selected collection. The artwork comes from the collection’s TCPF artwork reference."
+    },
     {
       "type": "link_list",
       "id": "menu",

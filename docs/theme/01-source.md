@@ -30,6 +30,7 @@ Compressed source sizes: Fraunces 360,440 → 85,300 bytes; Instrument Sans 194,
 
 - Main/password layouts: one brand/font asset entry and an optional preview notice. Native font generation/preload honors the brand-font toggle; font pickers remain available when disabled.
 - Header: store-name H1 becomes a span because the custom homepage owns its H1. Header/footer groups reference the new menus and retained logo.
+- Approved header/hero revision: `tcpf-header.css` scopes the masthead and menu treatment; the native logo block adds editable brand text, and the menu block adds an optional collection/artwork feature through `tcpf-menu-feature`. Native menu event handlers and commerce components remain intact. `tcpf-hotspot-hero` owns the homepage H1; the category introduction supports H2. The product artwork article exposes a stable anchor for the hero's fallback artwork link.
 - Product information and both featured-product sections: omit sample Product JSON-LD; product sticky purchase suppressed for samples.
 - Buy buttons, standalone add, accelerated checkout, quick add and quick order: typed concept guards, with native real-product branches retained.
 - Native price/card/resource-card/gallery/price block: sample labels, no sample compare-at/instalment presentation, compatible refs/events.

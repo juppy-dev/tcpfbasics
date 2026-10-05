@@ -31,6 +31,8 @@ See [the approved build plan](docs/plans/2026-10-05-shopify-theme.md), [source/l
 
 The new [protected preview](https://tcpfbasics.myshopify.com/?preview_theme_id=188681584822) is unpublished theme 188681584822. The current live theme remains 188630696118. [Theme editing guide](docs/theme/04-merchant-guide.md), [build evidence](docs/theme/05-build-report.md), and [store setup](docs/theme/03-store-setup.md) describe the completed configuration and remaining client launch facts.
 
+The approved homepage/header revision is available separately in [TCPF Hero and Header Preview](https://tcpfbasics.myshopify.com/?preview_theme_id=188685779126), unpublished theme `188685779126`. It adds garment/artwork hotspots and the refreshed native header. The historical live-theme ID above records the original handoff; at this revision's upload, Shopify reported `188630433974` as live, and that theme was not an upload target.
+
 Final source review and execution decisions are recorded in [review and decisions](docs/theme/06-review-and-decisions.md). Theme Check reports zero errors and six unchanged upstream warnings. Source and preview observations do not establish transaction, accessibility, performance or conversion certification.
 
 A portable [visual build handoff](docs/theme/tcpf-build-handoff.html) includes preview links, deliverables, evidence limits and execution decisions. It uses the approved TCPF identity and opens without the local review server.

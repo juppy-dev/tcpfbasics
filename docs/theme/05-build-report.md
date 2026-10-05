@@ -65,3 +65,23 @@ No automated tests were added or run. Earlier implementation followed the then-a
 ## Before live launch
 
 Client creative and merchandise approval, actual stock/measurements/material/care facts, verified artwork attribution, contact details, bespoke process, operating policies and commercial Shopify setup remain client decisions. The development store’s protected preview is not a live launch. Independent source review found no Critical/Important issues. Its one Minor finding, missing bespoke example imagery, was completed using an existing section and attributed sample asset. See [review and decisions](06-review-and-decisions.md) for scope, evidence limits and execution rulings.
+
+## Hero and header revision — 2026-10-05
+
+The user approved the “From canvas to clothing” direction for the requested hotspot hero and header refresh. This revision is on `feat/hotspot-hero-header`, tracked by Linear DEV-201 and DEV-202.
+
+### Delivered
+
+- A new homepage hero pairs an oversized plum Fraunces heading with the Amihan outfit and its overlapping artwork. The product and artwork hotspots disclose live product information and the shared artwork story; ready-to-wear shopping remains the primary action, with silhouette categories immediately below.
+- Product, photograph, destination collections, copy and hotspot positions are editable in the theme editor. Artwork content comes from the existing product reference. The product-page artwork has a stable anchor for the collection-link fallback.
+- Scoped JavaScript handles disclosure state, focus, Escape, closing and section teardown. Without JavaScript, the detail content and destination links remain available. Mobile cards flow below the photograph; motion respects the reduced-motion preference.
+- The header retains the original logo and adds TCPF Basics typography, centered desktop navigation, plum accents, visible disclosure controls and a Shop menu with two category columns and an artwork/outfit feature. Native Horizon search, account, cart, drawer and sticky-header code is retained.
+- Existing Shopify CDN imagery is reused. No raster originals or additional frameworks were added. Sample labels and purchase guards remain in place.
+
+### Preview and observations
+
+Uploaded successfully to unpublished theme **188685779126**, **TCPF Hero and Header Preview**: [preview](https://tcpfbasics.myshopify.com/?preview_theme_id=188685779126), [editor](https://admin.shopify.com/store/tcpfbasics/themes/188685779126/editor). At this revision, Shopify listed **188630433974** as live; that theme was not an upload target. Earlier theme IDs above describe the original handoff.
+
+Native Arc storefront and Shopify editor observations covered the desktop composition, both hotspot cards, focus moving to card headings, Escape closing a card and returning focus, the final two-column Shop dropdown, mobile hero reflow, the mobile product card beneath the photograph, mobile artwork disclosure and the native mobile navigation drawer. The category heading was refined to “Find your silhouette.” Screenshots were reviewed in the conversation and are not repository artifacts.
+
+Both uploads used `shopify theme push --strict`. The final upload completed successfully with **0 Theme Check errors and 6 unchanged upstream warnings**, and Shopify returned the theme role as `unpublished`. No automated tests, performance benchmark, screen-reader audit or cross-browser certification was performed. These observations do not replace the remaining launch evaluation recorded in Linear. Merchant guidance, the design amendment and the existing architecture diagram were updated together.

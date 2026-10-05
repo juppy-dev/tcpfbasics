@@ -12,7 +12,12 @@
     "intro": {
       "type": "tcpf-shop-intro",
       "settings": {
-        "shop": "ready-to-wear"
+        "shop": "ready-to-wear",
+        "heading_level": "h2",
+        "compact": true,
+        "eyebrow": "Shop by silhouette",
+        "heading": "Find your silhouette.",
+        "copy": ""
       },
       "blocks": {
         "boleros": {
@@ -187,9 +192,19 @@
       "settings": {
         "link": "/pages/bespoke"
       }
+    },
+    "hero": {
+      "type": "tcpf-hotspot-hero",
+      "settings": {
+        "product": "amihan-terno-set",
+        "image": "shopify://shop_images/tcpf-sample-product-amihan-terno-set-styled-v1.png",
+        "shop": "ready-to-wear",
+        "artwork_collection": "amihan-garden"
+      }
     }
   },
   "order": [
+    "hero",
     "intro",
     "edit",
     "art",
