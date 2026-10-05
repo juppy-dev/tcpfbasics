@@ -1,0 +1,10 @@
+{% assign garment = closest.product.metafields.tcpf.apparel_details.value %}
+{% if garment.included_items.value != blank %}
+  <div class="tcpf-included" {{ block.shopify_attributes }}>
+    <p class="tcpf-eyebrow">{{ block.settings.heading | escape }}</p>
+    <p>{{ garment.included_items.value | escape | newline_to_br }}</p>
+  </div>
+{% elsif request.design_mode %}<p class="tcpf-note" {{ block.shopify_attributes }}>Add included items to the product’s TCPF Garment Details.</p>{% endif %}
+{% schema %}
+{"name":"TCPF included pieces","tag":null,"settings":[{"type":"text","id":"heading","label":"Heading","default":"What’s included"}],"presets":[{"name":"TCPF included pieces"}]}
+{% endschema %}

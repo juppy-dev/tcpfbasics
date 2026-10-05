@@ -24,6 +24,19 @@ body { font-optical-sizing: auto; }
 .tcpf-product-card { --product-card-gap: 8px; }
 .tcpf-product-card .text-block { line-height: 1.45; }
 .tcpf-card-notice { font: 400 12px/1.5 var(--font-body--family); color: var(--tcpf-muted); margin: 2px 0 0; }
+.tcpf-included { padding: 18px 20px; background: var(--tcpf-petal); font-size: 14px; line-height: 1.6; width: 100%; }
+.tcpf-included p { margin: 0; }
+.tcpf-included .tcpf-eyebrow { margin-bottom: 8px; }
+.tcpf-size-disclosure { width: 100%; border-block: 1px solid var(--tcpf-line); }
+.tcpf-size-disclosure > summary { display: list-item; cursor: pointer; min-height: 48px; padding: 14px 4px; font-size: 15px; font-weight: 500; }
+.tcpf-size-disclosure__content { padding-bottom: 20px; }
+.tcpf-size-guide + .tcpf-size-guide { margin-top: 28px; }
+.tcpf-size-scroll { max-width: 100%; overflow-x: auto; }
+.tcpf-size-table { width: 100%; min-width: 320px; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.tcpf-size-table caption { text-align: left; font-weight: 600; padding-block: 12px; }
+.tcpf-size-table :is(th,td) { text-align: left; border-bottom: 1px solid var(--tcpf-line); padding: 12px 14px 12px 0; }
+.tcpf-size-table thead th { font-weight: 500; }
+.tcpf-size-table .tcpf-note { font-size: 12px; }
 .header-logo { background: #fff; }
 .tcpf-footer { background: var(--color-foreground); color: var(--color-background); padding-block: 64px 28px; }
 .tcpf-footer__grid { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr) minmax(0, 1fr); gap: 40px; }

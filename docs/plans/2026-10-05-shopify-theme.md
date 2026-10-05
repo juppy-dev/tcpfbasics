@@ -116,12 +116,12 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Retains native product media/title/price/variant/product-form blocks. New content receives the current Product; size-table receives one typed guide plus a unique ID prefix. Related/set cards use the compatible card interface from task 4.
 
-- [ ] Compose the native commerce layout with a prominent gallery, sticky desktop information, and media-first mobile DOM order. Add included-items summary and size guidance beside variants; preserve native price/availability update interfaces.
-- [ ] Render garment fields `silhouette`, `fit_notes`, `fabric`, `fiber_content`, `stretch`, `lining`, `closure`, `pockets`, `care_instructions`, and `included_items` from the typed garment entry. Empty optional details hide cleanly.
-- [ ] Render ordered `size_charts` and `measurements` in semantic tables with captions, row/column headers, cm/garment explanation, positive typed measurements, and absent irrelevant columns. Sets show bolero and skirt guides separately. A dialog, if used, keeps a no-JavaScript route and native focus/Escape/return behavior.
-- [ ] Render artwork title/master/story/origin/attribution and set components bolero-first/skirt-second. Related lists use `outfit` → “Complete the look” and `same_artwork` → “More in this print”, exclude self, and skip unavailable references.
-- [ ] Inspect field keys against `schema.json`, guide/set ordering against catalog source, null handling, unique IDs and DOM order. Expected: all ten source records fit the same template; no body/model measurements inferred; no zero placeholders. Static lint has no introduced errors.
-- [ ] Commit `feat(theme): connect product artwork facts and size guidance`.
+- [x] Compose the native commerce layout with a prominent gallery, sticky desktop information, and media-first mobile DOM order. Add included-items summary and size guidance beside variants; preserve native price/availability update interfaces.
+- [x] Render garment fields `silhouette`, `fit_notes`, `fabric`, `fiber_content`, `stretch`, `lining`, `closure`, `pockets`, `care_instructions`, and `included_items` from the typed garment entry. Empty optional details hide cleanly.
+- [x] Render ordered `size_charts` and `measurements` in semantic tables with captions, row/column headers, cm/garment explanation, positive typed measurements, and absent irrelevant columns. Sets show bolero and skirt guides separately. A dialog, if used, keeps a no-JavaScript route and native focus/Escape/return behavior.
+- [x] Render artwork title/master/story/origin/attribution and set components bolero-first/skirt-second. Related lists use `outfit` → “Complete the look” and `same_artwork` → “More in this print”, exclude self, and skip unavailable references.
+- [x] Inspect field keys against `schema.json`, guide/set ordering against catalog source, null handling, unique IDs and DOM order. Expected: all ten source records fit the same template; no body/model measurements inferred; no zero placeholders. Static lint has no introduced errors.
+- [x] Commit `feat(theme): connect product artwork facts and size guidance`.
 
 ## Task 6: Build Editorial and Inquiry Pages
 
