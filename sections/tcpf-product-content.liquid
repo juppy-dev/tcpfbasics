@@ -49,7 +49,7 @@
       </div>
     {% endif %}
     {% if artwork != blank %}
-      <article class="tcpf-product-artwork">
+      <article class="tcpf-product-artwork" id="tcpf-product-artwork">
         {% if artwork.artwork_image.value != blank %}<figure>{{ artwork.artwork_image.value | image_url: width: 800 | image_tag: widths: '320,480,640,800', sizes: '(max-width: 749px) 90vw, 40vw', loading: 'lazy', class: 'tcpf-image', alt: artwork.artwork_image.value.alt }}{% if artwork.attribution.value != blank %}<figcaption class="tcpf-note">{{ artwork.attribution.value | escape }}</figcaption>{% endif %}</figure>{% endif %}
         <div>
           <p class="tcpf-eyebrow">The artwork behind the print</p><h2 class="tcpf-heading">{{ artwork.title.value | escape }}</h2>
