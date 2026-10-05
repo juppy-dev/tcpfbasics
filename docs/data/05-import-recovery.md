@@ -40,6 +40,8 @@ Example variable: `{"query":"handle:amihan-bolero"}`. This small query resolves 
 
 ## File and content recovery
 
+Catalog PNG originals are excluded from the current Git branch to keep the GitHub theme import small. Their generation provenance and Shopify ID/CDN mappings remain tracked. Use [asset storage and recovery](../../data/catalog/README.md) to recover exact original bytes from the local archive or preserved Git revision before any genuinely necessary re-upload.
+
 - New file names are `tcpf-sample-{asset-id-with-slashes-replaced-by-hyphens}-v1.png`. Resolve an uncertain upload by its exact filename or returned MediaImage ID, compare its alt text/dimensions and recorded source checksum, then wait for `READY`. Never create a duplicate or replace a different file to clear an error. A checksum in local state proves the intended local bytes, not an independent hash of Shopify's processed image.
 - Retain a processing file's ID and poll it. An existing unrecorded filename requires ownership recovery before the temporary uploader continues. Private signing parameters stay outside receipts and Git.
 - Metaobject handles are stable and type-specific. Resolve the existing owned entry and compare its full field map with source before upserting. References wait for their files/entries to be ready. Keep entries DRAFT.

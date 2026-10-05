@@ -3,3 +3,7 @@
 .env
 .env.*
 !.env.example
+
+# Shopify Files serves these originals; excluding local copies keeps GitHub imports below the theme limit.
+/data/catalog/artwork/**/*.png
+/data/catalog/products/**/*.png

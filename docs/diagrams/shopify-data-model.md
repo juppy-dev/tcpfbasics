@@ -47,6 +47,8 @@ flowchart TD
 
 Each dependent mutation waits for its referenced files or records to be ready. Independent artwork families can generate in parallel. Individually accepted uploads and independent measurement records may stage while later photographs render; all forty photos and five masters must be ready before task 4 completes. Shared dependent store writes remain ordered.
 
+Shopify Files hosts the 45 catalog images consumed above. The connected Git branch retains asset IDs, CDN mappings and provenance; PNG originals stay in ignored local paths and a separate archive. See [asset storage and recovery](../../data/catalog/README.md) for the preserved source revision and checksum procedure.
+
 See the [phase 2 design](../specs/2026-10-05-shopify-data-catalog-design.md) and [implementation plan](../plans/2026-10-05-shopify-data-catalog.md).
 
 ## Phase 3 consumers

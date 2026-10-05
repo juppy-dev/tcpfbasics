@@ -6,7 +6,7 @@ Custom merchant theme based on Shopify Horizon, with the approved Contemporary W
 
 - Native Shopify theme directories at the repository root.
 - `docs/brand/`: researched brand system and retained identity assets.
-- `data/catalog/`: 40 original AI sample photographs and five artwork masters with provenance.
+- `data/catalog/`: tracked provenance for 40 original AI sample photographs and five artwork masters; the PNG originals are hosted on Shopify Files and retained locally as ignored copies. See [asset storage and recovery](data/catalog/README.md).
 - `data/shopify/`: reusable custom schema, source catalog, native ID maps and readback evidence.
 - `docs/theme/`: source record, merchant editing and preview handoff.
 
@@ -15,6 +15,8 @@ Custom merchant theme based on Shopify Horizon, with the approved Contemporary W
 Project delivery and remaining launch work are tracked in [TCPF Basics — Shopify storefront on Linear](https://linear.app/juppy-dev/project/tcpf-basics-shopify-storefront-e76388d3c34d). Completed brand, catalog and theme tasks have evidence; client approvals, production readiness, validation and conditional follow-ups remain open.
 
 Use Shopify CLI with store `tcpfbasics.myshopify.com`. Upload only to the recorded unpublished preview theme. The live theme must not be overwritten or published by the development workflow.
+
+The GitHub-connected branch excludes catalog PNG originals to stay below Shopify's 50 MB import limit. Keep source checksums, CDN mappings and provenance in Git. Theme templates and product/metaobject references already resolve the hosted images; an ordinary theme checkout needs no image re-upload. See [asset storage and recovery](data/catalog/README.md) before restoring or adding originals.
 
 ```sh
 shopify theme dev --store tcpfbasics.myshopify.com
