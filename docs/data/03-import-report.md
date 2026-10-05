@@ -1,6 +1,6 @@
 # Phase 2 — Shopify import report
 
-Updated: 2026-10-05. Status: phase 2 import and cleanup complete; independent review pending.
+Updated: 2026-10-05. Status: phase 2 complete; independent review finding corrected and authenticated recovery recorded.
 
 ## Accepted replacement
 
@@ -92,4 +92,4 @@ Separate theme CLI authentication succeeded. Phase 3 needs latest-Horizon import
 
 ## Independent review
 
-Pending fresh whole-branch review after the phase 2 handoff commit. No tests were added or run; completion evidence consists of inspection, source comparison, mutation receipts, and authenticated readback, as directed by the developer instructions.
+The fresh whole-branch reviewer found no Critical/Minor issues and one Important interruption-recovery gap in the temporary importer. The gap was corrected through fresh ownership/source checks and receipt-ID recovery. An authenticated recovery-only operation rebuilt all 8 collection, 10 product, and 50 variant mappings with no state differences or Shopify mutations. See [review decisions](06-review-and-decisions.md) and the [recovery procedure](05-import-recovery.md). No tests were added or run; completion evidence consists of inspection, source comparison, mutation receipts, and authenticated readback, as directed by the developer instructions.

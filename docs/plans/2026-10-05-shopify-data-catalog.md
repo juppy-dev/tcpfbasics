@@ -12,7 +12,7 @@
 
 **Dependencies:** [Maintained data and execution diagram](../diagrams/shopify-data-model.md).
 
-**Status:** Approved by the user’s “yes, proceed” response on 2026-10-05. Native execution in progress.
+**Status:** Approved by the user’s “yes, proceed” response on 2026-10-05. Native execution complete; independent review finding corrected and authenticated recovery recorded.
 
 ## Global Constraints
 

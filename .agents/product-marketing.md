@@ -1,6 +1,6 @@
 # TCPF Basics — product marketing context
 
-Updated: 2026-10-05. Brand system approved; phase 2 imported and cleaned up, independent review pending.
+Updated: 2026-10-05. Brand system approved; phase 2 complete; phase 3 design next.
 
 ## Confirmed business context
 
@@ -20,7 +20,7 @@ Updated: 2026-10-05. Brand system approved; phase 2 imported and cleaned up, ind
 
 ## Audience and shopper jobs
 
-Exact demographics, market priorities, and customer research have not been established. Working segments for validation are occasion shoppers seeking modern Filipiniana, expressive dressers attracted to original prints, and returning followers of the artist. These are strategic hypotheses, not measured customer segments.
+The user confirmed a Philippines-first launch. Exact demographics, customer research, and domestic operating policies have not been established. Working segments for validation are occasion shoppers seeking modern Filipiniana, expressive dressers attracted to original prints, and returning followers of the artist. These are strategic hypotheses, not measured customer segments.
 
 Likely shopping questions to investigate include fit, what a set includes, artwork placement, fabric and care, delivery before an event, and styling separates. Bespoke customers also need an explanation of the commission process and timing.
 

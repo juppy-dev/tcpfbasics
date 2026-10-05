@@ -1,6 +1,6 @@
 # TCPF Shopify data and sample catalog design
 
-2026-10-05 · Version 1.1 · Written design approved with “looks good”; Native implementation approved with “yes, proceed”. Catalog imported and cleaned up; final independent review pending.
+2026-10-05 · Version 1.1 · Written design approved with “looks good”; Native implementation approved with “yes, proceed”. Catalog imported and cleaned up; independent review finding corrected and authenticated recovery recorded.
 
 ## Intent and approved decisions
 

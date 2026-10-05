@@ -1,6 +1,6 @@
 # TCPF Basics — project brief
 
-Updated: 2026-10-05. Status: phase 1 complete; phase 2 catalog imported and cleanup completed, final review pending.
+Updated: 2026-10-05. Status: phase 1 complete; phase 2 complete; phase 3 design next.
 
 ## Intended outcome
 
@@ -12,7 +12,7 @@ The selected creative direction is **A — Contemporary Wearable Gallery**. **Ke
 
 Phase 2's category mix and architecture are also selected: **3 boleros, 2 terno sets, 2 skirts, 2 dresses, 1 top**, with a reusable artwork/garment/size library and matching-product references. The [written data and catalog design](specs/2026-10-05-shopify-data-catalog-design.md) specifies the proposed schema, exact sample lineup, upload sequence, and draft-to-preview handoff.
 
-The user approved that written design with “looks good”. The [six-task implementation plan](plans/2026-10-05-shopify-data-catalog.md) now covers schema/source preparation, artwork masters, product photography, uploads/content records, draft products, and old-catalog replacement. The user approved Native execution with “yes, proceed”. Its six tasks have populated the reusable data library and ten draft products with four original AI photographs each; the old six products have been removed. Final independent review follows.
+The user approved that written design with “looks good”. The [six-task implementation plan](plans/2026-10-05-shopify-data-catalog.md) now covers schema/source preparation, artwork masters, product photography, uploads/content records, draft products, and old-catalog replacement. The user approved Native execution with “yes, proceed”. Its six tasks have populated the reusable data library and ten draft products with four original AI photographs each; the old six products have been removed. Independent review and its recovery correction are recorded in the [review decisions](data/06-review-and-decisions.md).
 
 ## Three phases
 
@@ -46,7 +46,7 @@ The [phase diagram](diagrams/project-phases.md) shows the dependencies. Each pha
 ## Discovery decisions to resolve in order
 
 1. Completed: review the detailed visual and verbal system for the selected wearable gallery direction, alongside the supplied existing logo.
-2. Pending for launch: shipping markets and operating policies. The sample garment concepts and current-price presentation were approved.
+2. Confirmed: Philippines-first launch. Pending: exact domestic delivery and operating policies. The sample garment concepts and current-price presentation were approved.
 3. Completed: reusable custom data, replacement product lineup, and four original AI photographs per product.
 4. Template content, merchant controls, and measurable build acceptance criteria.
 

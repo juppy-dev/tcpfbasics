@@ -35,5 +35,5 @@ The [cleanup snapshot](../../../data/shopify/snapshots/catalog-cleanup.json) rec
 - Use the approved TCPF palette, Fraunces/Instrument Sans fonts, supplied logo, and new sample imagery as the design basis.
 - Build custom editorial sections and reusable artwork, garment, sizing, and matching-piece components while retaining Horizon's Shopify commerce interfaces where applicable.
 - Keep product facts server rendered from the approved data model. Sample notices and purchase guards must cover product, card, search, recommendations, cart, and structured-data paths.
-- Shipping markets and operating policies are not yet confirmed. PHP and a Philippine business base are known; no dispatch promise or overseas delivery claim should be invented.
+- The user confirmed a Philippines-first launch. PHP and a Philippine business base are known; exact domestic delivery and operating policies remain unconfirmed. No dispatch promise or overseas delivery claim should be invented.
 - Theme design, merchant controls, template composition, and acceptance criteria still need the phase 3 specification and plan review required by the brainstorming workflow.
