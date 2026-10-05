@@ -288,5 +288,220 @@
       1402
     ],
     "sha256": "7dc798d1b71f0ff6882b3362cb24818bec216b77a59fa851a97be84ea8236501"
+  },
+  {
+    "asset_id": "product/dapithapon-bolero/primary",
+    "path": "data/catalog/products/dapithapon-bolero/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-622ff51c-9463-42df-a29b-ba8798fadeba.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-bolero, primary product photograph for an AI sample catalog.\nInput image 1: exact original textile artwork reference, not the scene or painting prop.\nPhotorealistic premium Shopify catalog photograph, warm ivory seamless gallery studio, soft broad daylight from the left, gentle real floor shadow, natural color, matte finely woven fabric, crisp seams and realistic clothing construction. Photograph, not illustration, no embroidery: the reference artwork is PRINTED on fabric. All-over modest-scale repeated print, preserving the exact flowers, leaves, brush strokes, colors and ivory ground of the artwork reference. No words, logo, tags, watermark, collage or contact sheet. One photograph, 4:5 portrait composition, enough breathing room for the entire garment and both sleeve edges.\nSubject: An anonymous adult Filipina fashion model, dark hair in a simple low bun, natural skin texture and light makeup, calm confident expression. No resemblance to a public figure. Relaxed posture, hands naturally down and away from product, no hand-in-pocket pose.\nProduct construction and framing: Waist-length open-front bolero with a softly curved open centre, structured upright Filipiniana butterfly sleeves, fully lined matte ivory inner face, single invisible concealed centre-front hook, no pockets. Clearly separate open bolero edges over a plain ivory camisole; no lapels, buttons, lace, ties or embroidery. Style with a plain ivory fitted-waist midi skirt, all supporting pieces excluded. Front-facing view, model framed head to mid thigh, full sleeves and cropped hem visible.\nKeep printed botanical motifs roughly 10–18cm across flowers in garment scale, airy ivory space, realistic continuity over fabric folds. Make the silhouette easy to evaluate. The catalog item is the specified garment only.",
+    "referenced_source_paths": [
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon bolero, front view on an anonymous model in the botanical print.",
+    "acceptance_notes": "Inspected: artwork palette/motifs preserved, correct garment silhouette, full sleeves/hem shown as applicable, natural anatomy, no text/logos.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "ac05bc8829c47580b148e0e46e545ca786be1bdd559f98af02d0832d136fb01a"
+  },
+  {
+    "asset_id": "product/dapithapon-midi-skirt/primary",
+    "path": "data/catalog/products/dapithapon-midi-skirt/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-ce55f7a4-0827-4324-8704-20628eaf7e3d.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-midi-skirt, primary product photograph for an AI sample catalog.\nInput image 1: exact original textile artwork reference, not the scene or painting prop.\nPhotorealistic premium Shopify catalog photograph, warm ivory seamless gallery studio, soft broad daylight from the left, gentle real floor shadow, natural color, matte finely woven fabric, crisp seams and realistic clothing construction. Photograph, not illustration, no embroidery: the reference artwork is PRINTED on fabric. All-over modest-scale repeated print, preserving the exact flowers, leaves, brush strokes, colors and ivory ground of the artwork reference. No words, logo, tags, watermark, collage or contact sheet. One photograph, 4:5 portrait composition, enough breathing room for the entire garment and both sleeve edges.\nSubject: An anonymous adult Filipina fashion model, dark hair in a simple low bun, natural skin texture and light makeup, calm confident expression. No resemblance to a public figure. Relaxed posture, hands naturally down and away from product, no hand-in-pocket pose.\nProduct construction and framing: A-line midi skirt in the exact reference botanical print, fitted clean waistband about 3cm deep, gentle flare, smooth paneled construction, calf-length hem, fully lined in ivory, concealed side zip, no pockets, slits, gathers, buttons or ties. Model wears a simple plain ivory sleeveless modest-neck top tucked into waistband and minimal ivory sandals; supporting pieces excluded. Front-facing full-body view, whole waistband and hem visible; skirt is hero and takes most of the frame.\nKeep printed botanical motifs roughly 10–18cm across flowers in garment scale, airy ivory space, realistic continuity over fabric folds. Make the silhouette easy to evaluate. The catalog item is the specified garment only.",
+    "referenced_source_paths": [
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon midi skirt, front view on an anonymous model in the botanical print.",
+    "acceptance_notes": "Inspected: artwork palette/motifs preserved, correct garment silhouette, full sleeves/hem shown as applicable, natural anatomy, no text/logos.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "cb59ab59dd95d22a8cba42bb3e87f0b93cd08936456ba80790e3dc0f6779f783"
+  },
+  {
+    "asset_id": "product/dapithapon-terno-set/primary",
+    "path": "data/catalog/products/dapithapon-terno-set/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-9f8624dd-83d1-4416-a92c-9a039bf58c29.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-terno-set, primary AI sample product photograph.\nCreate one photorealistic premium catalog photograph of a MATCHING TWO-PIECE SET. Input 1 is the exact bolero and adult model/studio reference. Input 2 is the exact A-line midi skirt. Input 3 is the artwork print master. Dress the model from image 1 in the IDENTICAL bolero from image 1 AND IDENTICAL skirt from image 2. Preserve construction, floral motifs and placement, coral/petal/plum colors, ivory ground and print scale. Bolero waist-length open front over ivory camisole, upright structured Filipiniana butterfly sleeves, invisible centre-front hook and ivory lining. Skirt fitted narrow waistband, gentle A-line calf-length flare, concealed side zip, ivory lining. No pockets, slits, gathers, new seam details, buttons or belt. Make both pieces clearly separate; no one-piece dress. Model wears ivory camisole and ivory sandals only, excluded styling pieces. Front-facing full-body portrait with full sleeves and hem, 4:5 composition with breathing room. Same warm ivory gallery studio, soft broad daylight, realistic matte woven fabric and natural skin as image 1. Relaxed hands clear of clothing. No words, logos, label, watermark, contact sheet or collage. One photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-bolero/01-primary.png",
+      "data/catalog/products/dapithapon-midi-skirt/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample Dapithapon Modern Terno Set, matching bolero and midi skirt in coral botanical print, front view.",
+    "acceptance_notes": "Inspected: matching bolero and skirt design/print, distinct two-piece construction, full sleeves and midi hem, natural anatomy.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "bd40b5a28b8d9b9307ff30eee2a039e0fca3d1e78a40c8cc02943587962b8d9a"
+  },
+  {
+    "asset_id": "product/dapithapon-bolero/silhouette",
+    "path": "data/catalog/products/dapithapon-bolero/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-33ab34d5-62c2-4e54-b0f9-e997d481aae9.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-bolero, silhouette AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Rear three-quarter catalog view, head to mid thigh, full upright butterfly sleeves and waist-length hem visible. Back panel closed and plain in construction; no back zip or ties. Keep the same ivory camisole and ivory skirt.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-bolero/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon bolero, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "7435c1ccd4d2ebe407803c4562c566cd525418d58fc358efedcb31f45645917c"
+  },
+  {
+    "asset_id": "product/dapithapon-bolero/detail",
+    "path": "data/catalog/products/dapithapon-bolero/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-a015b68e-42d1-417f-bacc-f49c46dfb861.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-bolero, detail AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Close detail photograph from collarbone to waist, focused on the printed butterfly sleeve, its shoulder seam and clean front bolero edge over the same ivory camisole. Face may be outside the frame. Show realistic printed brushwork on matte woven fabric, ivory lining only subtly at the edge.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. Sharp truthful textile detail; print ink on fabric, no embroidered or embossed flowers.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-bolero/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon bolero, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "2a10cd2c1818f26e433dbd9c55ded07a48c5ba620b5f1a54e5002e78e4130799"
+  },
+  {
+    "asset_id": "product/dapithapon-bolero/styled",
+    "path": "data/catalog/products/dapithapon-bolero/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-3551a5a0-1288-4545-b6d6-e7e4bb028cc8.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-bolero, styled AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. A lightly styled full-body editorial photograph: the SAME model takes a gentle small step in a bright warm ivory gallery doorway, with soft natural daylight and subtle architectural shadow. Same clothing and neutral ivory styling pieces as the primary, no handbag, belt or new jewellery. Three-quarter front angle, calm natural expression, arms relaxed away from the garment. Entire sleeves and hem visible, product stays clear and recognizable; no paintings or text in the background.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-bolero/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon bolero, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "9d89eee7c48d5b03f07609f010b81db97d271ff0939511d95305d2f8bf45a193"
+  },
+  {
+    "asset_id": "product/dapithapon-midi-skirt/silhouette",
+    "path": "data/catalog/products/dapithapon-midi-skirt/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-b754ed97-d000-4a7d-a49f-994fadb9f66b.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-midi-skirt, silhouette AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Left-side rear three-quarter full-body view showing the fitted waistband, natural A-line flare and calf-length hem. Concealed zip is on the wearer's left side; no centre-back fastening or pockets. Same ivory sleeveless top and sandals.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-midi-skirt/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon midi skirt, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "4b85e2a092689f3a861ca789c775102dc2aa6a11a0a3de9e0ae7c80c061311f1"
+  },
+  {
+    "asset_id": "product/dapithapon-midi-skirt/detail",
+    "path": "data/catalog/products/dapithapon-midi-skirt/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-26d454a5-196d-4a2d-aef3-5faa5dee9064.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-midi-skirt, detail AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Close detail photograph from the lower torso to mid-skirt, focused on the fitted narrow waistband, precise side seam and botanical print. Same tucked-in ivory top just above waistband. No added fastening, pockets, gathers or belt.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. Sharp truthful textile detail; print ink on fabric, no embroidered or embossed flowers.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-midi-skirt/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon midi skirt, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "a5dd35a049b1e01caf597356876f2fa3af1a57a5729363898c94789e0bd129c6"
+  },
+  {
+    "asset_id": "product/dapithapon-midi-skirt/styled",
+    "path": "data/catalog/products/dapithapon-midi-skirt/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-d17a5102-aebe-4463-98d0-c669d0fbfe87.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-midi-skirt, styled AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. A lightly styled full-body editorial photograph: the SAME model takes a gentle small step in a bright warm ivory gallery doorway, with soft natural daylight and subtle architectural shadow. Same clothing and neutral ivory styling pieces as the primary, no handbag, belt or new jewellery. Three-quarter front angle, calm natural expression, arms relaxed away from the garment. Entire sleeves and hem visible, product stays clear and recognizable; no paintings or text in the background.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-midi-skirt/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon midi skirt, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "eb2121e832a896d00eeca8a8a140e6603f7ffefbaa2097d9374e4ef969540ec7"
+  },
+  {
+    "asset_id": "product/dapithapon-terno-set/silhouette",
+    "path": "data/catalog/products/dapithapon-terno-set/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-77e2f9e9-7b8f-4025-b28d-d642391a7efb.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-terno-set, silhouette AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Rear three-quarter FULL-BODY catalog view of the exact matching two-piece outfit, whole butterfly sleeves and calf-length skirt hem visible. Preserve the waist-length closed bolero back panel with no back zip, narrow fitted skirt waistband, A-line flare and concealed skirt side zip. No pockets or slit. Keep both pieces distinct.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-terno-set/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon terno set, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "fcfdcf2521adbc847a50fb7a237b927c0ed59cff12a1db4d07ae7916735dd3de"
+  },
+  {
+    "asset_id": "product/dapithapon-terno-set/detail",
+    "path": "data/catalog/products/dapithapon-terno-set/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-eb385070-0885-4b3c-9274-99dc364b29db.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-terno-set, detail AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Close detail photograph from the shoulder to upper thighs showing the SAME printed bolero edge over ivory camisole and the matching skirt waistband. Both separate pieces visible together; exact florals, print scale, open front curves and waist-length crop. Crisp natural seams and matte printed woven fabric, no embroidery or belt.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-terno-set/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon terno set, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "d5d658f713004231e45ae0e250feed74b9c52f554b551d1634ddd1048e6b357c"
+  },
+  {
+    "asset_id": "product/dapithapon-terno-set/styled",
+    "path": "data/catalog/products/dapithapon-terno-set/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-3634da7b-c95a-4b5d-8c0e-7ec59ffa52ba.png",
+    "prompt": "Use case: product-mockup.\nAsset type: dapithapon-terno-set, styled AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Lightly styled FULL-BODY editorial photograph of the SAME anonymous adult model taking a small natural step in a bright warm ivory gallery doorway. Keep the exact outfit/garments, botanical print, sleeves, necklines, closures and hems from the primary. Same ivory styling pieces, simple ivory footwear, no handbag, belt or new jewellery. Three-quarter front angle, calm expression, hands relaxed away from the garment. Entire sleeves and hem visible, airy architectural space and subtle daylight shadows. No paintings or text in the scene.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/dapithapon-terno-set/01-primary.png",
+      "data/catalog/artwork/dapithapon/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample dapithapon terno set, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "7080f89c6fc6d28de50e4244775c0dd0dab360ce2c67a2a303b8e583a971f16f"
   }
 ]
