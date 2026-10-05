@@ -1,4 +1,5 @@
 {% style %}
+  {% unless settings.tcpf_use_brand_fonts %}
   {%- liquid
     assign rendered_fonts = ''
 
@@ -122,6 +123,8 @@
       assign rendered_fonts = rendered_fonts | append: accent_font_bold_italic_face_id
     endunless
   %}
+
+  {% endunless %}
 
   :root {
     /* Safe area insets — non-zero on notched devices because meta-tags.liquid sets viewport-fit=cover */

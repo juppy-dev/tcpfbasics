@@ -4105,5 +4105,20 @@
         "userErrors": []
       }
     }
+  },
+  {
+    "at": "2026-10-05T04:59:21.566720+00:00",
+    "operation": "theme-logo-create",
+    "response": {
+      "fileCreate": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/46391212769462",
+            "fileStatus": "UPLOADED"
+          }
+        ],
+        "userErrors": []
+      }
+    }
   }
 ]

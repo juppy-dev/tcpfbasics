@@ -65,12 +65,12 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Produces the current upstream source and revision record for all subsequent tasks. Brand/data paths remain available unchanged.
 
-- [ ] Read the approved spec/plan and current Git status; create `feat/shop-first-theme` from the reviewed documentation state in this directory.
-- [ ] Refresh the temporary Horizon checkout through the preferred GitHub workflow; read applicable upstream instructions and license, record SHA/date/version. Import the eight native theme directories and required source/config metadata without replacing project documents or Git history.
-- [ ] Confirm the imported revision's product/card/gallery/filter/cart/contact interfaces still match the observed 4.2.0 basis. Record any current-main differences before consuming them.
-- [ ] Write a client-project README and source/import record, including how to identify upstream changes. Create `theme-state.json` with store/API identity and empty preview/setup mappings.
-- [ ] Inspect native folder presence and imported revision provenance. Expected: all eight folders and license present; existing 45 asset sources/data/documents intact; no borrowed image binary or existing-store theme copied into the new source.
-- [ ] Commit `chore(theme): import latest Shopify Horizon foundation`.
+- [x] Read the approved spec/plan and current Git status; create `feat/shop-first-theme` from the reviewed documentation state in this directory.
+- [x] Refresh the temporary Horizon checkout through the preferred GitHub workflow; read applicable upstream instructions and license, record SHA/date/version. Import the eight native theme directories and required source/config metadata without replacing project documents or Git history.
+- [x] Confirm the imported revision's product/card/gallery/filter/cart/contact interfaces still match the observed 4.2.0 basis. Record any current-main differences before consuming them.
+- [x] Write a client-project README and source/import record, including how to identify upstream changes. Create `theme-state.json` with store/API identity and empty preview/setup mappings.
+- [x] Inspect native folder presence and imported revision provenance. Expected: all eight folders and license present; existing 45 asset sources/data/documents intact; no borrowed image binary or existing-store theme copied into the new source.
+- [x] Commit `chore(theme): import latest Shopify Horizon foundation`.
 
 ## Task 2: Apply the Brand and Global Layout
 
@@ -78,12 +78,12 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Produces shared `tcpf-` presentation classes and brand assets. Native content/color/font controls remain meaningful. Later sections consume shared spacing/button/type conventions.
 
-- [ ] Compress the approved source fonts to WOFF2 retaining needed glyphs; record source/output sizes and licenses. Upload or resolve the unmodified supplied logo through Files with exact-filename/ID recovery; record it separately from the 45 catalog assets.
-- [ ] Add `tcpf-brand-assets` once in the head after native variable generation. Wire the approved typography and solid palette defaults into native presets and custom classes; avoid duplicate default-font loading. Keep editor font/color selections meaningful rather than masking them with unconditional overrides.
-- [ ] Configure the retained white-background logo, practical header/menu/search/cart controls, and branded footer. Keep navigation destinations editable, include size/help/policy slots, and expose missing setup in the merchant guide rather than the shopper UI.
-- [ ] Set visible focus, 44–48 px practical targets, readable body/labels/prices, logical spacing, reduced-motion behavior, and contained grids. Initial content is never held at zero opacity for a reveal.
-- [ ] Run static `shopify theme check --path /Users/juppy/Projects/tcpf-basics`; compare diagnostics with the unmodified imported source baseline. Expected: no introduced syntax/schema errors; any upstream diagnostic recorded, not silently refactored away.
-- [ ] Commit `feat(theme): apply TCPF identity and global navigation`.
+- [x] Compress the approved source fonts to WOFF2 retaining needed glyphs; record source/output sizes and licenses. Upload or resolve the unmodified supplied logo through Files with exact-filename/ID recovery; record it separately from the 45 catalog assets.
+- [x] Add `tcpf-brand-assets` once in the head after native variable generation. Wire the approved typography and solid palette defaults into native presets and custom classes; avoid duplicate default-font loading. Keep editor font/color selections meaningful rather than masking them with unconditional overrides.
+- [x] Configure the retained white-background logo, practical header/menu/search/cart controls, and branded footer. Keep navigation destinations editable, include size/help/policy slots, and expose missing setup in the merchant guide rather than the shopper UI.
+- [x] Set visible focus, 44–48 px practical targets, readable body/labels/prices, logical spacing, reduced-motion behavior, and contained grids. Initial content is never held at zero opacity for a reveal.
+- [x] Run static `shopify theme check --path /Users/juppy/Projects/tcpf-basics`; compare diagnostics with the unmodified imported source baseline. Expected: no introduced syntax/schema errors; any upstream diagnostic recorded, not silently refactored away.
+- [x] Commit `feat(theme): apply TCPF identity and global navigation`.
 
 ## Task 3: Build the Shop-first Homepage
 

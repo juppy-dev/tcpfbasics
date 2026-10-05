@@ -19,3 +19,9 @@ Compare native changes against the recorded upstream revision before importing l
 ## TCPF integration register
 
 The implementation report records each modified native renderer. Custom components use a `tcpf-` prefix. The original source can be found at [Shopify/horizon](https://github.com/Shopify/horizon/tree/5acd1b6b66c02f61d3216e3adace5dd9e0404fc9).
+
+## Font assets
+
+WOFF2 subsets retain Latin, Latin Extended, combining marks, common punctuation/currencies (including ₱), arrows, and trademark. Fraunces weight 400–500, SOFT 25, WONK 0; Instrument Sans 400–600. The original source fonts and OFL licenses remain in docs/brand/assets/fonts; licenses are also shipped in theme assets. Brand font mode skips native font-face/preload output; disabling it exposes and uses the original Shopify font pickers.
+
+Compressed source sizes: Fraunces 360,440 → 85,300 bytes; Instrument Sans 194,336 → 61,112 bytes. Task 2 static Theme Check: zero errors, six unchanged upstream warnings (header settings count and divider doc parameters). Original logo File gid://shopify/MediaImage/46391212769462 is READY and stored separately from catalog media.

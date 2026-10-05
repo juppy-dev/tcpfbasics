@@ -7,7 +7,18 @@
     "importedAt": "2026-10-05"
   },
   "preview": null,
-  "brandFiles": {},
+  "brandFiles": {
+    "originalLogo": {
+      "id": "gid://shopify/MediaImage/46391212769462",
+      "filename": "tcpf-original-logo-v1.jpg",
+      "status": "READY",
+      "cdnUrl": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-original-logo-v1.jpg?v=1791176362",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    }
+  },
   "pages": {},
   "menus": {},
   "protection": {
