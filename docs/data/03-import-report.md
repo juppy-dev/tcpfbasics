@@ -1,5 +1,7 @@
 # Phase 2 — Shopify import report
 
+> Phase 2 records the initial draft import. Phase 3 subsequently activated the reviewed concepts only for the protected demonstration; current statuses and safeguards are recorded in [the theme build report](../theme/05-build-report.md).
+
 Updated: 2026-10-05. Status: phase 2 complete; independent review finding corrected and authenticated recovery recorded.
 
 ## Accepted replacement

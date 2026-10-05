@@ -247,7 +247,9 @@
             },
             "tcpf-sizing": {
               "type": "tcpf-size-guidance",
-              "settings": {}
+              "settings": {
+                "link": "/pages/size-guide"
+              }
             }
           },
           "block_order": [

@@ -25,3 +25,16 @@ The implementation report records each modified native renderer. Custom componen
 WOFF2 subsets retain Latin, Latin Extended, combining marks, common punctuation/currencies (including ₱), arrows, and trademark. Fraunces weight 400–500, SOFT 25, WONK 0; Instrument Sans 400–600. The original source fonts and OFL licenses remain in docs/brand/assets/fonts; licenses are also shipped in theme assets. Brand font mode skips native font-face/preload output; disabling it exposes and uses the original Shopify font pickers.
 
 Compressed source sizes: Fraunces 360,440 → 85,300 bytes; Instrument Sans 194,336 → 61,112 bytes. Task 2 static Theme Check: zero errors, six unchanged upstream warnings (header settings count and divider doc parameters). Original logo File gid://shopify/MediaImage/46391212769462 is READY and stored separately from catalog media.
+
+## Native integrations implemented
+
+- Main/password layouts: one brand/font asset entry and an optional preview notice. Native font generation/preload honors the brand-font toggle; font pickers remain available when disabled.
+- Header: store-name H1 becomes a span because the custom homepage owns its H1. Header/footer groups reference the new menus and retained logo.
+- Product information and both featured-product sections: omit sample Product JSON-LD; product sticky purchase suppressed for samples.
+- Buy buttons, standalone add, accelerated checkout, quick add and quick order: typed concept guards, with native real-product branches retained.
+- Native price/card/resource-card/gallery/price block: sample labels, no sample compare-at/instalment presentation, compatible refs/events.
+- Cart summary/products: concept line notice, quantity disabled, native removal retained, checkout withheld while a concept remains.
+- Product grid: empty collection has an RTW route.
+- English TCPF launch labels added as fallbacks to all native locale files; other-language storefronts require translation of custom content before enabling them.
+
+Template resource serialization: native collection/page/image picker references; size-guide `metaobject_list` stores entry handles in the context of its declared type. Admin GIDs remain the API identity map.

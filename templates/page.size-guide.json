@@ -13,11 +13,11 @@
       "type": "tcpf-size-guides",
       "settings": {
         "guides": [
-          "gid://shopify/Metaobject/616090927286",
-          "gid://shopify/Metaobject/616090960054",
-          "gid://shopify/Metaobject/616090992822",
-          "gid://shopify/Metaobject/616091025590",
-          "gid://shopify/Metaobject/616091058358"
+          "sample-bolero",
+          "sample-skirt",
+          "sample-halter-dress",
+          "sample-wrap-dress",
+          "sample-blouse"
         ]
       }
     }

@@ -178,12 +178,15 @@
       "type": "tcpf-story-panel",
       "settings": {
         "image": "shopify://shop_images/tcpf-sample-artwork-luntian-v1.png",
-        "caption": "Illustration: AI-generated Luntian sample artwork. Product concepts are shown for demonstration."
+        "caption": "Illustration: AI-generated Luntian sample artwork. Product concepts are shown for demonstration.",
+        "link": "/pages/our-story"
       }
     },
     "bespoke": {
       "type": "tcpf-bespoke-invitation",
-      "settings": {}
+      "settings": {
+        "link": "/pages/bespoke"
+      }
     }
   },
   "order": [

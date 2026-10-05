@@ -16,7 +16,12 @@
       "settings": {
         "heading": "Original art. Worn your way.",
         "copy": "Modern Filipiniana and painted-fashion stories from Naga City.",
-        "menu": "tcpf-footer-menu"
+        "menu": "tcpf-footer-menu",
+        "shop_link": "/collections/ready-to-wear",
+        "story_link": "/pages/our-story",
+        "bespoke_link": "/pages/bespoke",
+        "size_link": "/pages/size-guide",
+        "contact_link": "/pages/contact"
       }
     }
   },

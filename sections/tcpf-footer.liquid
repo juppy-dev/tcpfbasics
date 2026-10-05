@@ -35,17 +35,59 @@
 {% schema %}
 {
   "name": "TCPF footer",
-  "enabled_on": {"groups": ["footer"]},
+  "enabled_on": {
+    "groups": [
+      "footer"
+    ]
+  },
   "settings": [
-    {"type":"text","id":"heading","label":"Heading","default":"Original art. Worn your way."},
-    {"type":"textarea","id":"copy","label":"Introduction","default":"Modern Filipiniana and painted-fashion stories from Naga City."},
-    {"type":"link_list","id":"menu","label":"Footer menu"},
-    {"type":"url","id":"shop_link","label":"Shop fallback","default":"/collections/ready-to-wear"},
-    {"type":"url","id":"story_link","label":"Story fallback","default":"/pages/our-story"},
-    {"type":"url","id":"bespoke_link","label":"Bespoke fallback","default":"/pages/bespoke"},
-    {"type":"url","id":"size_link","label":"Size guide fallback","default":"/pages/size-guide"},
-    {"type":"url","id":"contact_link","label":"Contact fallback","default":"/pages/contact"}
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Original art. Worn your way."
+    },
+    {
+      "type": "textarea",
+      "id": "copy",
+      "label": "Introduction",
+      "default": "Modern Filipiniana and painted-fashion stories from Naga City."
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Footer menu"
+    },
+    {
+      "type": "url",
+      "id": "shop_link",
+      "label": "Shop fallback"
+    },
+    {
+      "type": "url",
+      "id": "story_link",
+      "label": "Story fallback"
+    },
+    {
+      "type": "url",
+      "id": "bespoke_link",
+      "label": "Bespoke fallback"
+    },
+    {
+      "type": "url",
+      "id": "size_link",
+      "label": "Size guide fallback"
+    },
+    {
+      "type": "url",
+      "id": "contact_link",
+      "label": "Contact fallback"
+    }
   ],
-  "presets":[{"name":"TCPF footer"}]
+  "presets": [
+    {
+      "name": "TCPF footer"
+    }
+  ]
 }
 {% endschema %}

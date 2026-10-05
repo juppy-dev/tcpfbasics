@@ -12,5 +12,26 @@
   </details>
 {% elsif request.design_mode %}<p class="tcpf-note" {{ block.shopify_attributes }}>Add size-guide references to the product’s TCPF Garment Details.</p>{% endif %}
 {% schema %}
-{"name":"TCPF size guidance","tag":null,"settings":[{"type":"text","id":"heading","label":"Heading","default":"Size and fit guide"},{"type":"url","id":"link","label":"Full guide page","default":"/pages/size-guide"}],"presets":[{"name":"TCPF size guidance"}]}
+{
+  "name": "TCPF size guidance",
+  "tag": null,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Size and fit guide"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Full guide page"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TCPF size guidance"
+    }
+  ]
+}
 {% endschema %}

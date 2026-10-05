@@ -4303,5 +4303,730 @@
         "userErrors": []
       }
     }
+  },
+  {
+    "at": "2026-10-05T05:40:53.332420+00:00",
+    "operation": "theme-activate-content",
+    "response": {
+      "e0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090075318",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090108086",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090140854",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090173622",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090206390",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090239158",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090271926",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090304694",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090337462",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090370230",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e10": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090402998",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e11": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090435766",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e12": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090468534",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e13": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090501302",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e14": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090534070",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e15": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090566838",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e16": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090599606",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e17": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090632374",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e18": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090665142",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e19": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090697910",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e20": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090730678",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e21": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090763446",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e22": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090796214",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e23": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090861750",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e24": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090894518",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e25": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090927286",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e26": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090960054",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e27": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090992822",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e28": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091025590",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e29": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091058358",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e30": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091189430",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e31": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091222198",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e32": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091254966",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e33": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091287734",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e34": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091320502",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e35": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091353270",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e36": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091386038",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e37": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091418806",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e38": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091451574",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e39": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091484342",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e40": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091517110",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e41": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091549878",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e42": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091582646",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e43": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091648182",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "e44": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091680950",
+          "capabilities": {
+            "publishable": {
+              "status": "ACTIVE"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:40:58.718302+00:00",
+    "operation": "theme-activate-products",
+    "response": {
+      "p0": {
+        "product": {
+          "id": "gid://shopify/Product/15392866894006",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p1": {
+        "product": {
+          "id": "gid://shopify/Product/15392866926774",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p2": {
+        "product": {
+          "id": "gid://shopify/Product/15392866959542",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p3": {
+        "product": {
+          "id": "gid://shopify/Product/15392866992310",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p4": {
+        "product": {
+          "id": "gid://shopify/Product/15392867025078",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p5": {
+        "product": {
+          "id": "gid://shopify/Product/15392867057846",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p6": {
+        "product": {
+          "id": "gid://shopify/Product/15392867090614",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p7": {
+        "product": {
+          "id": "gid://shopify/Product/15392867123382",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p8": {
+        "product": {
+          "id": "gid://shopify/Product/15392867156150",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      },
+      "p9": {
+        "product": {
+          "id": "gid://shopify/Product/15392867188918",
+          "status": "ACTIVE"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:02.926716+00:00",
+    "operation": "theme-publish-protected-products",
+    "response": {
+      "p0": {
+        "userErrors": []
+      },
+      "p1": {
+        "userErrors": []
+      },
+      "p2": {
+        "userErrors": []
+      },
+      "p3": {
+        "userErrors": []
+      },
+      "p4": {
+        "userErrors": []
+      },
+      "p5": {
+        "userErrors": []
+      },
+      "p6": {
+        "userErrors": []
+      },
+      "p7": {
+        "userErrors": []
+      },
+      "p8": {
+        "userErrors": []
+      },
+      "p9": {
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:04.678167+00:00",
+    "operation": "theme-page-preview-our-story",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165268422838",
+          "handle": "our-story",
+          "templateSuffix": "story",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:06.368105+00:00",
+    "operation": "theme-page-preview-bespoke",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165268455606",
+          "handle": "bespoke",
+          "templateSuffix": "bespoke",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:08.166302+00:00",
+    "operation": "theme-page-preview-contact",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165215273142",
+          "handle": "contact",
+          "templateSuffix": "contact",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:09.831109+00:00",
+    "operation": "theme-page-preview-size-guide",
+    "response": {
+      "pageUpdate": {
+        "page": {
+          "id": "gid://shopify/Page/165268488374",
+          "handle": "size-guide",
+          "templateSuffix": "size-guide",
+          "isPublished": true
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:11.628327+00:00",
+    "operation": "theme-artwork-template-amihan-garden",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928369334",
+          "handle": "amihan-garden",
+          "templateSuffix": "artwork"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:41:13.438025+00:00",
+    "operation": "theme-artwork-template-dapithapon",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928402102",
+          "handle": "dapithapon",
+          "templateSuffix": "artwork"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T05:45:12.683623+00:00",
+    "operation": "theme-publish-protected-collections",
+    "response": {
+      "c0": {
+        "userErrors": []
+      },
+      "c1": {
+        "userErrors": []
+      },
+      "c3": {
+        "userErrors": []
+      },
+      "c5": {
+        "userErrors": []
+      },
+      "c6": {
+        "userErrors": []
+      },
+      "c7": {
+        "userErrors": []
+      }
+    }
   }
 ]

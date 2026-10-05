@@ -6,7 +6,43 @@
     "version": "4.2.0",
     "importedAt": "2026-10-05"
   },
-  "preview": null,
+  "preview": {
+    "id": 188681584822,
+    "name": "TCPF Shop-first Preview",
+    "role": "unpublished",
+    "editor_url": "https://tcpfbasics.myshopify.com/admin/themes/188681584822/editor",
+    "preview_url": "https://tcpfbasics.myshopify.com?preview_theme_id=188681584822",
+    "uploadStatus": "complete",
+    "firstUploadErrors": {
+      "blocks/tcpf-size-guidance.liquid": [
+        "Invalid schema: setting with id=\"link\" default must be a string or datasource access path"
+      ],
+      "sections/tcpf-footer.liquid": [
+        "Invalid schema: setting with id=\"contact_link\" default must be a string or datasource access path"
+      ],
+      "sections/tcpf-story-panel.liquid": [
+        "Invalid schema: setting with id=\"link\" default must be a string or datasource access path"
+      ],
+      "sections/tcpf-bespoke-invitation.liquid": [
+        "Invalid schema: setting with id=\"link\" default must be a string or datasource access path"
+      ],
+      "sections/footer-group.json": [
+        "Section type 'tcpf-footer' does not refer to an existing section file"
+      ],
+      "templates/index.json": [
+        "Section type 'tcpf-bespoke-invitation' does not refer to an existing section file"
+      ],
+      "templates/page.story.json": [
+        "Section type 'tcpf-bespoke-invitation' does not refer to an existing section file"
+      ],
+      "templates/product.json": [
+        "Invalid value for type in block 'tcpf-sizing'. The given theme block type must be defined in the theme blocks folder."
+      ]
+    },
+    "sampleCatalogVisible": true,
+    "publicationId": "gid://shopify/Publication/222874861750",
+    "clientCreativeApproval": "pending"
+  },
   "brandFiles": {
     "originalLogo": {
       "id": "gid://shopify/MediaImage/46391212769462",
@@ -24,14 +60,14 @@
       "id": "gid://shopify/Page/165268422838",
       "title": "Our story",
       "templateSuffix": "story",
-      "isPublished": false,
+      "isPublished": true,
       "createdForPreview": true
     },
     "bespoke": {
       "id": "gid://shopify/Page/165268455606",
       "title": "Bespoke",
       "templateSuffix": "bespoke",
-      "isPublished": false,
+      "isPublished": true,
       "createdForPreview": true
     },
     "contact": {
@@ -45,7 +81,7 @@
       "id": "gid://shopify/Page/165268488374",
       "title": "Size guide",
       "templateSuffix": "size-guide",
-      "isPublished": false,
+      "isPublished": true,
       "createdForPreview": true
     }
   },
@@ -60,10 +96,15 @@
     }
   },
   "protection": {
-    "verified": false
+    "verified": true,
+    "adminObserved": "Restrict access to visitors with the password, currently on; development store restriction is enforced.",
+    "anonymousObserved": "HTTP 200 at https://tcpfbasics.myshopify.com/password",
+    "observedAt": "2026-10-05",
+    "passwordStored": false
   },
   "setupAccess": {
     "contentAndNavigationScopesVerified": true,
     "authorizationDate": "2026-10-05"
-  }
+  },
+  "liveThemeBeforePreview": 188630696118
 }

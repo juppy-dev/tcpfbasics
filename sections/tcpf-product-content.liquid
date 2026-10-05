@@ -19,7 +19,16 @@
 {% assign component_cards = component_cards | strip %}
 {% capture related_cards %}
   {% for piece in related %}
-    {% if piece != blank and piece.id != product.id %}<div>{% content_for 'block', type: '_product-card', id: 'tcpf-related-card', closest.product: piece, product_view_context: 'product' %}</div>{% endif %}
+    {% liquid
+      assign included_component = false
+      for component in components
+        if component.id == piece.id
+          assign included_component = true
+          break
+        endif
+      endfor
+    %}
+    {% if piece != blank and piece.id != product.id and included_component == false %}<div>{% content_for 'block', type: '_product-card', id: 'tcpf-related-card', closest.product: piece, product_view_context: 'product' %}</div>{% endif %}
   {% endfor %}
 {% endcapture %}
 {% assign related_cards = related_cards | strip %}

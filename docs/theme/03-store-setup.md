@@ -11,7 +11,7 @@ Store: tcpfbasics.myshopify.com. Content/navigation scopes were authorized by th
 | Contact | contact | contact | 02-page-copy.md / Contact |
 | Size guide | size-guide | size-guide | 02-page-copy.md / Size guide |
 
-Our story, Bespoke, and Size guide were created as unpublished pages. The existing empty Contact page was reused and left intact. Intended suffixes are assigned after the new theme is uploaded. Exact IDs are saved in data/shopify/theme-state.json; before/after setup snapshots preserve the original state.
+Our story, Bespoke, and Size guide were created as unpublished pages. The existing empty Contact page was reused and left intact. The intended suffixes are assigned and the pages are published for the protected preview. Exact IDs are saved in data/shopify/theme-state.json; before/after setup snapshots preserve the original state.
 
 ## Navigation
 
@@ -19,11 +19,11 @@ Created `TCPF Main Menu` (handle `tcpf-main-menu`): Shop → Ready-to-wear, Bole
 
 ## Collections
 
-Assign the `artwork` template suffix to Amihan Garden and Dapithapon. Other collections use the default template. Do not alter membership or catalog IDs.
+Assigned the `artwork` template suffix to Amihan Garden and Dapithapon. Other collections use the default template. Do not alter membership or catalog IDs.
 
 ## Protection
 
-Anonymous read on 2026-10-05 returned HTTP 200 at /password. Admin confirmation of protection is still pending; do not save or expose the password. Concept content remains DRAFT until the task 8 preview conditions are met.
+Anonymous read on 2026-10-05 returned HTTP 200 at /password. Admin Preferences confirmed password protection on, enforced for this development store. The task 8 conditions were met; concept products/content are ACTIVE for the protected demonstration, tracked at zero with DENY. No password is saved.
 
 ## Client facts before launch
 

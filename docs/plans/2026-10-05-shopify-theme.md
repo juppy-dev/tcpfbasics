@@ -155,12 +155,13 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Consumes completed source guards and template/data resources. Produces an unpublished theme ID/preview URL and actual rendered-source/state observations. Live-theme ID must never be the upload target.
 
-- [ ] Re-read theme list and record the live ID and intended new unpublished preview ID. Upload the complete theme using `shopify theme push --unpublished` or its exact recorded unpublished ID; persist results. Recover an uncertain response by exact ID/name before another creation.
-- [ ] Inspect source/metadata results and authenticate any needed page/menu/template assignment. Verify password protection through Admin and an unauthenticated storefront read; do not save or disclose the password. If protection is unavailable, keep the catalog DRAFT and record the exact manual setup required.
-- [ ] Once source guards/password and authorized sample demonstration review are established, activate the required 45 entries and ten products and publish only to the required protected channel. Keep `concept_only`, zero tracked inventory, DENY, and client `review_status` pending unless the client explicitly approves it. Read actual status/publication/inventory back.
+- [x] Re-read theme list and record the live ID and intended new unpublished preview ID. Upload the complete theme using `shopify theme push --unpublished` or its exact recorded unpublished ID; persist results. Recover an uncertain response by exact ID/name before another creation.
+- [x] Inspect source/metadata results and authenticate any needed page/menu/template assignment. Verify password protection through Admin and an unauthenticated storefront read; do not save or disclose the password. If protection is unavailable, keep the catalog DRAFT and record the exact manual setup required.
+- [x] Once source guards/password and authorized sample demonstration review are established, activate the required 45 entries and ten products and publish only to the required protected channel. Keep `concept_only`, zero tracked inventory, DENY, and client `review_status` pending unless the client explicitly approves it. Read actual status/publication/inventory back.
 - [ ] Inspect actual rendered home/category/artwork/product/story/bespoke/contact/size-guide/search/cart/password/404 paths and desktop/mobile presentation without sending messages or exercising purchase submissions. Record screenshots/HTML observations and any visible Liquid errors or missing data; correct required integration problems.
-- [ ] Run final static Theme Check and document introduced versus upstream findings. Expected: no introduced syntax/schema errors; guarded, correctly linked protected preview where setup permits; live theme unchanged; factual report of any setup limitation. Do not claim tested conversion/performance/a11y certification.
+- [x] Run final static Theme Check and document introduced versus upstream findings. Expected: no introduced syntax/schema errors; guarded, correctly linked protected preview where setup permits; live theme unchanged; factual report of any setup limitation. Do not claim tested conversion/performance/a11y certification.
 - [ ] Commit `feat(theme): configure protected TCPF preview and record integration`.
+
 
 ## Task 9: Deliver Theme Editing Guidance and Whole-branch Review
 

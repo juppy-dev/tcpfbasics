@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "gid://shopify/Product/15392866894006",
+      "handle": "amihan-bolero",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392866926774",
+      "handle": "dapithapon-bolero",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392866959542",
+      "handle": "luntian-bolero",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392866992310",
+      "handle": "amihan-terno-set",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392867025078",
+      "handle": "dapithapon-terno-set",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392867057846",
+      "handle": "amihan-midi-skirt",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392867090614",
+      "handle": "dapithapon-midi-skirt",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392867123382",
+      "handle": "hiraya-halter-dress",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392867156150",
+      "handle": "sinag-wrap-dress",
+      "online": true,
+      "pos": false,
+      "shop": false
+    },
+    {
+      "id": "gid://shopify/Product/15392867188918",
+      "handle": "luntian-blouse",
+      "online": true,
+      "pos": false,
+      "shop": false
+    }
+  ]
+}

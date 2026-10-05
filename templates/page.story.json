@@ -23,7 +23,9 @@
     },
     "bespoke": {
       "type": "tcpf-bespoke-invitation",
-      "settings": {}
+      "settings": {
+        "link": "/pages/bespoke"
+      }
     }
   },
   "order": [
