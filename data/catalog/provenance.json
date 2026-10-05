@@ -717,5 +717,76 @@
       1402
     ],
     "sha256": "0a4f89d4558cded05a3d144d29be6308d57d154a79ffd441ece9ae3d6a8acfd5"
+  },
+  {
+    "asset_id": "product/sinag-wrap-dress/primary",
+    "path": "data/catalog/products/sinag-wrap-dress/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-d6fa8546-2856-48d5-a3de-0d1e1db04819.png",
+    "prompt": "Use case: product-mockup.\nAsset type: sinag-wrap-dress, primary product photograph for an AI sample catalog.\nInput image 1: exact original textile artwork reference, not the scene or painting prop.\nPhotorealistic premium Shopify catalog photograph, warm ivory seamless gallery studio, soft broad daylight from the left, gentle real floor shadow, natural color, matte finely woven fabric, crisp seams and realistic clothing construction. Photograph, not illustration, no embroidery: the reference artwork is PRINTED on fabric. All-over modest-scale repeated print, preserving the exact flowers, leaves, brush strokes, colors and ivory ground of the artwork reference. No words, logo, tags, watermark, collage or contact sheet. One photograph, 4:5 portrait composition, enough breathing room for the entire garment and both sleeve edges.\nSubject: An anonymous adult Filipina fashion model, dark hair in a simple low bun, natural skin texture and light makeup, calm confident expression. No resemblance to a public figure. Relaxed posture, hands naturally down and away from product, no hand-in-pocket pose.\nProduct construction and framing: A true functional midi wrap dress in the exact ivory/rose/ochre/green reference meadow print: modest overlapping V neckline, defined waist with fabric side tie at the wearer's LEFT, concealed internal securing tie, short softly structured Filipiniana butterfly sleeves, soft A-line calf-length hem, unlined opaque lightweight woven fabric. No pockets, buttons, belt buckle or slit beyond natural wrap overlap. Minimal ivory sandals. Front-facing full-body view, entire sleeves, side tie and hem visible with crop room.\nKeep printed botanical motifs roughly 10–18cm across flowers in garment scale, airy ivory space, realistic continuity over fabric folds. Make the silhouette easy to evaluate. The catalog item is the specified garment only.",
+    "referenced_source_paths": [
+      "data/catalog/artwork/sinag-field/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample sinag wrap dress, front view on an anonymous model in the botanical print.",
+    "acceptance_notes": "Inspected: artwork palette/motifs preserved, correct garment silhouette, full sleeves/hem shown as applicable, natural anatomy, no text/logos.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "ad0f4856917ec87203751ab9fedd5fe2d0f9bd2efea8eb045e68bbef4791f304"
+  },
+  {
+    "asset_id": "product/sinag-wrap-dress/silhouette",
+    "path": "data/catalog/products/sinag-wrap-dress/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-12a271d5-a62e-4310-b55c-9913577ba54d.png",
+    "prompt": "Use case: product-mockup.\nAsset type: sinag-wrap-dress, silhouette AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Rear-left three-quarter full-body view of the SAME wrap dress, with the waist tie on the wearer's left still visible at the side. Closed wrap skirt, identical softly structured short butterfly sleeves and calf-length hem. Smooth closed back, no zipper or new closure.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/sinag-wrap-dress/01-primary.png",
+      "data/catalog/artwork/sinag-field/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample sinag wrap dress, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "8c628400678f712bb7f38a3940b58bfea5ed0a600fe330c25d0198d3881bcd26"
+  },
+  {
+    "asset_id": "product/sinag-wrap-dress/detail",
+    "path": "data/catalog/products/sinag-wrap-dress/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-9275b3a1-3bb8-4f69-8307-a8d67d3eb194.png",
+    "prompt": "Use case: product-mockup.\nAsset type: sinag-wrap-dress, detail AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Close detail photograph from collarbone to upper thighs focused on the SAME modest wrap overlap and fabric bow at the wearer's left waist, with a portion of the softly structured butterfly sleeve. Preserve the print colors and closure construction.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. Sharp truthful textile detail; print ink on fabric, no embroidered or embossed flowers.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/sinag-wrap-dress/01-primary.png",
+      "data/catalog/artwork/sinag-field/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample sinag wrap dress, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "4c26bf60815b14b5513d198772ddf22cd8b8ee2b8224d9834c02d43751c43da4"
+  },
+  {
+    "asset_id": "product/sinag-wrap-dress/styled",
+    "path": "data/catalog/products/sinag-wrap-dress/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-6f78e6d1-70e0-42cc-8ea0-bebb958ee4a0.png",
+    "prompt": "Use case: product-mockup.\nAsset type: sinag-wrap-dress, styled AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. A lightly styled full-body editorial photograph: the SAME model takes a gentle small step in a bright warm ivory gallery doorway, with soft natural daylight and subtle architectural shadow. Same clothing and neutral ivory styling pieces as the primary, no handbag, belt or new jewellery. Three-quarter front angle, calm natural expression, arms relaxed away from the garment. Entire sleeves and hem visible, product stays clear and recognizable; no paintings or text in the background.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/sinag-wrap-dress/01-primary.png",
+      "data/catalog/artwork/sinag-field/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample sinag wrap dress, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "cb6bac54b6ea62c6befde943d27e5c501518e711d583b414f888b23cef089ef5"
   }
 ]
