@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo_height": 88,
-    "logo_height_mobile": 64,
+    "logo_height": 64,
+    "logo_height_mobile": 48,
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
     "type_heading_font": "inter_n7",

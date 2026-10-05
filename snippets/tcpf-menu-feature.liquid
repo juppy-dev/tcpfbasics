@@ -1,0 +1,22 @@
+{% doc %}
+  Pairs a collection's garment photograph with its shared artwork in the native menu.
+
+  @param {collection} collection - The featured artwork collection.
+  @param {image} [image] - An optional outfit photograph from the collection.
+{% enddoc %}
+{% liquid
+  assign artwork = collection.metafields.tcpf.artworks.value | first
+  assign photograph = image | default: collection.image
+%}
+<a class="tcpf-menu-feature" href="{{ collection.url }}">
+  <div class="tcpf-menu-feature__images">
+    {% if photograph != blank %}{{ photograph | image_url: width: 480 | image_tag: widths: '180,300,480', sizes: '200px', loading: 'lazy', class: 'tcpf-menu-feature__garment', alt: '' }}{% endif %}
+    {% if artwork.artwork_image.value != blank %}{{ artwork.artwork_image.value | image_url: width: 280 | image_tag: widths: '140,280', sizes: '110px', loading: 'lazy', class: 'tcpf-menu-feature__art', alt: '' }}{% endif %}
+  </div>
+  <div class="tcpf-menu-feature__copy">
+    <span class="tcpf-eyebrow">From artwork to outfit</span>
+    <span class="tcpf-menu-feature__title">{{ collection.title | escape }}</span>
+    <span class="tcpf-menu-feature__link">Explore the print <span aria-hidden="true">↗</span></span>
+    {% if artwork.origin.value == 'ai_concept' %}<span class="tcpf-note">AI-generated sample</span>{% endif %}
+  </div>
+</a>

@@ -30,6 +30,7 @@
     data-hidden-on-home-page
   {% endif %}
   href="{{ routes.root_url }}"
+  aria-label="{{ alt_text_fallback | escape }}"
   class="size-style spacing-style header-logo"
   style="
     {% render 'size-style', settings: block_settings %}
@@ -78,6 +79,12 @@
         text_fallback: shop.name,
         style: inverse_logo_style
       %}
+    </span>
+  {% endif %}
+  {% if block_settings.tcpf_brand_name != blank %}
+    <span class="tcpf-header__identity" aria-hidden="true">
+      <span class="tcpf-header__name">{{ block_settings.tcpf_brand_name | escape }}</span>
+      {% if block_settings.tcpf_brand_caption != blank %}<span class="tcpf-header__caption">{{ block_settings.tcpf_brand_caption | escape }}</span>{% endif %}
     </span>
   {% endif %}
 </a>
@@ -146,6 +153,18 @@
   "tag": null,
   "class": "header-logo",
   "settings": [
+    {
+      "type": "text",
+      "id": "tcpf_brand_name",
+      "label": "Brand name beside logo",
+      "default": "TCPF Basics"
+    },
+    {
+      "type": "text",
+      "id": "tcpf_brand_caption",
+      "label": "Brand caption",
+      "default": "Painted fashion"
+    },
     {
       "type": "paragraph",
       "content": "t:content.edit_logo_in_theme_settings"
