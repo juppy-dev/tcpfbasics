@@ -92,12 +92,12 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes the five artwork names, colors, and stories. Produces five visually inspected master paths for task 3 and asset IDs for task 4.
 
-- [ ] Write one precise prompt per artwork from the approved botanical/meadow brief, with a flat square composition, no words/logos, and no imitation of a known painting.
-- [ ] Generate the five masters through the built-in tool. Independent artwork calls may overlap; record every returned path without printing image payloads.
-- [ ] Inspect each master for the specified palette and painterly character. Revise a failed candidate through the image tool before selecting its final master.
-- [ ] Copy accepted originals to their workspace paths; record exact prompts, mode, dimensions/checksum, and acceptance notes. Attribute all five as AI concepts.
-- [ ] Compare the five files and source references; confirm no asset is borrowed or credited to Tisha and that each artwork handle has exactly one accepted master.
-- [ ] Commit accepted artwork assets and provenance with `feat(catalog): create five original sample artwork masters`.
+- [x] Write one precise prompt per artwork from the approved botanical/meadow brief, with a flat square composition, no words/logos, and no imitation of a known painting.
+- [x] Generate the five masters through the built-in tool. Independent artwork calls may overlap; record every returned path without printing image payloads.
+- [x] Inspect each master for the specified palette and painterly character. Revise a failed candidate through the image tool before selecting its final master.
+- [x] Copy accepted originals to their workspace paths; record exact prompts, mode, dimensions/checksum, and acceptance notes. Attribute all five as AI concepts.
+- [x] Compare the five files and source references; confirm no asset is borrowed or credited to Tisha and that each artwork handle has exactly one accepted master.
+- [x] Commit accepted artwork assets and provenance with `feat(catalog): create five original sample artwork masters`.
 
 ## Task 3: Generate Forty Consistent Product Photographs
 
