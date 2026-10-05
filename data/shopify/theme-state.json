@@ -19,9 +19,51 @@
       ]
     }
   },
-  "pages": {},
-  "menus": {},
+  "pages": {
+    "our-story": {
+      "id": "gid://shopify/Page/165268422838",
+      "title": "Our story",
+      "templateSuffix": "story",
+      "isPublished": false,
+      "createdForPreview": true
+    },
+    "bespoke": {
+      "id": "gid://shopify/Page/165268455606",
+      "title": "Bespoke",
+      "templateSuffix": "bespoke",
+      "isPublished": false,
+      "createdForPreview": true
+    },
+    "contact": {
+      "id": "gid://shopify/Page/165215273142",
+      "title": "Contact",
+      "templateSuffix": "contact",
+      "isPublished": true,
+      "createdForPreview": false
+    },
+    "size-guide": {
+      "id": "gid://shopify/Page/165268488374",
+      "title": "Size guide",
+      "templateSuffix": "size-guide",
+      "isPublished": false,
+      "createdForPreview": true
+    }
+  },
+  "menus": {
+    "tcpf-main-menu": {
+      "id": "gid://shopify/Menu/273590026422",
+      "title": "TCPF Main Menu"
+    },
+    "tcpf-footer-menu": {
+      "id": "gid://shopify/Menu/273590091958",
+      "title": "TCPF Footer Menu"
+    }
+  },
   "protection": {
     "verified": false
+  },
+  "setupAccess": {
+    "contentAndNavigationScopesVerified": true,
+    "authorizationDate": "2026-10-05"
   }
 }

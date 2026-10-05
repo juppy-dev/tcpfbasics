@@ -1,8 +1,8 @@
 # Store setup record
 
-Store: tcpfbasics.myshopify.com. Existing Admin app lacks content/navigation scopes. Theme CLI access works. Browser automation is currently unavailable: Chrome interface has no selected page; native Chrome observation timed out.
+Store: tcpfbasics.myshopify.com. Content/navigation scopes were authorized by the user and confirmed by fresh authenticated reads on 2026-10-05. Theme CLI access works. Native Arc admin access is now available; the Chrome wrapper still has no selected page.
 
-## Pages to create or update after exact-handle readback
+## Pages resolved through exact-handle readback
 
 | Title | Handle | Template suffix | Body source |
 | --- | --- | --- | --- |
@@ -11,11 +11,11 @@ Store: tcpfbasics.myshopify.com. Existing Admin app lacks content/navigation sco
 | Contact | contact | contact | 02-page-copy.md / Contact |
 | Size guide | size-guide | size-guide | 02-page-copy.md / Size guide |
 
-Create native pages with the prepared body copy. Assign the template suffix only after the new theme is uploaded. Record each exact ID/handle before retrying an uncertain creation.
+Our story, Bespoke, and Size guide were created as unpublished pages. The existing empty Contact page was reused and left intact. Intended suffixes are assigned after the new theme is uploaded. Exact IDs are saved in data/shopify/theme-state.json; before/after setup snapshots preserve the original state.
 
 ## Navigation
 
-Create `TCPF Main Menu` (handle `tcpf-main-menu`): Shop → Ready-to-wear, Boleros, Terno sets, Skirts, Dresses, Tops; Our story; Bespoke; Contact. Create `TCPF Footer Menu` (`tcpf-footer-menu`): Ready-to-wear, Our story, Bespoke, Size guide, Contact. Use actual collection/page resources. These handles are already selected in theme groups.
+Created `TCPF Main Menu` (handle `tcpf-main-menu`): Shop → Ready-to-wear, Boleros, Terno sets, Skirts, Dresses, Tops; Our story; Bespoke; Contact. Created `TCPF Footer Menu` (`tcpf-footer-menu`): Ready-to-wear, Our story, Bespoke, Size guide, Contact. Use actual collection/page resources. These handles are already selected in theme groups.
 
 ## Collections
 
