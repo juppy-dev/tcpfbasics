@@ -2,3 +2,10 @@ docs/
 data/
 README.md
 LICENSE.md
+
+.agents/
+.DS_Store
+.git/
+.gitignore
+.lavish/
+.superpowers/
