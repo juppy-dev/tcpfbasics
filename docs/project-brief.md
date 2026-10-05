@@ -1,6 +1,6 @@
 # TCPF Basics — project brief
 
-Updated: 2026-10-05. Status: phase 1 and phase 2 designs approved; phase 2 implementation plan for review.
+Updated: 2026-10-05. Status: phase 1 complete; phase 2 catalog imported and cleanup completed, final review pending.
 
 ## Intended outcome
 
@@ -12,7 +12,7 @@ The selected creative direction is **A — Contemporary Wearable Gallery**. **Ke
 
 Phase 2's category mix and architecture are also selected: **3 boleros, 2 terno sets, 2 skirts, 2 dresses, 1 top**, with a reusable artwork/garment/size library and matching-product references. The [written data and catalog design](specs/2026-10-05-shopify-data-catalog-design.md) specifies the proposed schema, exact sample lineup, upload sequence, and draft-to-preview handoff.
 
-The user approved that written design with “looks good”. The [six-task implementation plan](plans/2026-10-05-shopify-data-catalog.md) now covers schema/source preparation, artwork masters, product photography, uploads/content records, draft products, and old-catalog replacement. Its review and execution-method selection precede implementation.
+The user approved that written design with “looks good”. The [six-task implementation plan](plans/2026-10-05-shopify-data-catalog.md) now covers schema/source preparation, artwork masters, product photography, uploads/content records, draft products, and old-catalog replacement. The user approved Native execution with “yes, proceed”. Its six tasks have populated the reusable data library and ten draft products with four original AI photographs each; the old six products have been removed. Final independent review follows.
 
 ## Three phases
 
@@ -29,7 +29,7 @@ The [phase diagram](diagrams/project-phases.md) shows the dependencies. Each pha
 - This directory was empty and was not a Git repository at the start of discovery.
 - Shopify CLI 4.8.4 is installed. Its `store execute` command supports authenticated Admin GraphQL queries and mutations. [Official documentation](https://shopify.dev/docs/api/shopify-cli/store/store-execute).
 - Stored CLI authentication exists for `tcpfbasics.myshopify.com`. A successful read returned shop name `tcpfbasics`, a Shopify primary domain, and currency `PHP`.
-- The first five catalog records include three titles prefixed `CONCEPT` and two named FRANCIA products. Existing records require a fuller audit before catalog population; their presence does not establish their factual accuracy.
+- The six pre-existing product records were snapshotted and removed after replacement readback. Their factual accuracy was not established.
 - A subsequent read found six products total: three drafts and three active records. Observed active price points were PHP 950, 1,520, and 1,990. These are reference values, not independently verified client prices. The [catalog replacement decision](brand/research/catalog-replacement.md) records scope and reference values.
 - No logo was found among the 23 accessible Shopify file records. Reading theme settings was denied because the stored connection lacks `read_themes`. The user subsequently supplied a 2048 px Facebook JPEG of the gold needle/floral mark, saved intact in [brand assets](brand/assets/logo/tcpf-facebook-source.jpg).
 - Horizon is the requested theme foundation. Its main branch can contain unreleased features; the imported source and deployed-store compatibility will be recorded when work begins. [Shopify Horizon](https://github.com/Shopify/horizon).
@@ -46,8 +46,8 @@ The [phase diagram](diagrams/project-phases.md) shows the dependencies. Each pha
 ## Discovery decisions to resolve in order
 
 1. Completed: review the detailed visual and verbal system for the selected wearable gallery direction, alongside the supplied existing logo.
-2. Launch audience and shipping markets, sample garment concepts, and operating policies.
-3. Custom-data needs and the replacement catalog's product and image specifications.
+2. Pending for launch: shipping markets and operating policies. The sample garment concepts and current-price presentation were approved.
+3. Completed: reusable custom data, replacement product lineup, and four original AI photographs per product.
 4. Template content, merchant controls, and measurable build acceptance criteria.
 
 ## Brand inputs supplied by the user
@@ -57,4 +57,4 @@ The [phase diagram](diagrams/project-phases.md) shows the dependencies. Each pha
 - [Facebook](https://www.facebook.com/tishapaintedfashion)
 - Client reports national attention and garments worn by celebrities including BINI. Specific looks, dates, and credits have not yet been corroborated in the research.
 
-Continue with the [brand research index](brand/README.md).
+See the [brand research index](brand/README.md), [import report](data/03-import-report.md), and [merchant guide](data/04-merchant-guide.md).

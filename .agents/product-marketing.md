@@ -1,6 +1,6 @@
 # TCPF Basics — product marketing context
 
-Updated: 2026-10-05. Brand system and phase 2 written design approved; phase 2 implementation plan for review.
+Updated: 2026-10-05. Brand system approved; phase 2 imported and cleaned up, independent review pending.
 
 ## Confirmed business context
 
@@ -10,11 +10,11 @@ Updated: 2026-10-05. Brand system and phase 2 written design approved; phase 2 i
 
 **Business model:** Clothing ecommerce with bespoke inquiries. Ready-to-wear shopping leads the new website; bespoke is secondary. This priority was explicitly selected by the user.
 
-**Store:** `tcpfbasics.myshopify.com`; PHP currency confirmed by a read-only Shopify CLI query. Current records include concept products and require an accuracy audit.
+**Store:** `tcpfbasics.myshopify.com`; PHP currency confirmed by a read-only Shopify CLI query. The current catalog contains ten unpublished draft AI sample products; no real merchandise is claimed.
 
 **Catalog decision:** Replace all six existing products. The user identifies borrowed imagery and asks for ten new sample products, each with 3–5 original AI-generated images. Create original demonstration concepts as drafts; do not attribute generated artwork to Tisha or represent invented specifications as verified inventory.
 
-**Phase 2 approach:** The user selected matching separates (3 boleros, 2 sets, 2 skirts, 2 dresses, 1 top) and a reusable artwork, garment-detail, and structured sizing library. The user approved the [data/catalog design](../docs/specs/2026-10-05-shopify-data-catalog-design.md) and [sample brief](../docs/data/02-sample-product-briefs.md) with “looks good”. The [implementation plan](../docs/plans/2026-10-05-shopify-data-catalog.md) awaits review and execution-method selection; no store mutations have occurred.
+**Phase 2 approach:** The user selected matching separates (3 boleros, 2 sets, 2 skirts, 2 dresses, 1 top) and a reusable artwork, garment-detail, and structured sizing library. The user approved the [data/catalog design](../docs/specs/2026-10-05-shopify-data-catalog-design.md) and [sample brief](../docs/data/02-sample-product-briefs.md) with “looks good”. The user approved Native execution with “yes, proceed”. The CLI import created ten drafts, fifty variants, forty original product photos, five artwork masters, forty-five staged content records, and eight manual collections. The six old products and forty-eight unused old metaobjects were removed after readback. Seventeen old Files remain pending theme usage audit. See the [import report](../docs/data/03-import-report.md).
 
 **Public channels:** [Instagram](https://www.instagram.com/tcpfbasics/), [X](https://x.com/TCPFBasics), [Facebook](https://www.facebook.com/tishapaintedfashion), and a matching [Shopee shop](https://shopee.ph/tcpfbasics).
 

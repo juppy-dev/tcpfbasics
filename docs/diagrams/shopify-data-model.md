@@ -1,6 +1,6 @@
 # TCPF Shopify data relationships
 
-2026-10-05 · Phase 2 approved design; definitions have not yet been changed.
+2026-10-05 · Phase 2 schema and sample catalog implemented; entries/products remain drafts.
 
 ```mermaid
 flowchart LR
@@ -9,8 +9,8 @@ flowchart LR
     A --> P[10 Shopify sample products]
     IMG --> M[Native Shopify product media]
     M --> P
-    R[Typed measurement rows] --> S[Reusable size charts]
-    S --> G[Garment detail metaobjects]
+    R[25 typed measurement rows] --> S[5 reusable size charts]
+    S --> G[10 garment detail metaobjects]
     G --> P
     P --> V[Native XS–XL variants and reference prices]
     P --> L[Matching-product and set-component references]

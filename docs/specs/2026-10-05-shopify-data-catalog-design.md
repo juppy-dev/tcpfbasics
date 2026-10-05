@@ -1,6 +1,6 @@
 # TCPF Shopify data and sample catalog design
 
-2026-10-05 · Version 1.0 · Written design approved by the user's “looks good” response. Implementation plan review follows; no mutations performed.
+2026-10-05 · Version 1.1 · Written design approved with “looks good”; Native implementation approved with “yes, proceed”. Catalog imported and cleaned up; final independent review pending.
 
 ## Intent and approved decisions
 
@@ -205,4 +205,4 @@ Use authenticated Shopify CLI Admin GraphQL pinned to **2026-10**, which succeed
 
 Primary references: [definition updates](https://shopify.dev/docs/api/admin-graphql/latest/mutations/metaobjectDefinitionUpdate), [metaobject capabilities](https://shopify.dev/docs/apps/build/metaobjects/use-metaobject-capabilities), [staged uploads](https://shopify.dev/docs/api/admin-graphql/latest/mutations/stagedUploadsCreate), [file creation](https://shopify.dev/docs/api/admin-graphql/latest/mutations/fileCreate), [product synchronization](https://shopify.dev/docs/api/admin-graphql/latest/mutations/productSet). Refer to each mutation's current input type when writing the execution queries.
 
-The user approved this written schema, exact sample lineup, and replacement/preview sequence with “looks good”. Continue with the [implementation plan](../plans/2026-10-05-shopify-data-catalog.md) and execution-method selection. No data mutations or catalog-image generation have begun.
+The user approved this written schema, exact sample lineup, and replacement/preview sequence with “looks good”. Native execution of the [implementation plan](../plans/2026-10-05-shopify-data-catalog.md) created the approved catalog and original assets. See the [import report](../data/03-import-report.md) and [merchant guide](../data/04-merchant-guide.md) for actual results and the phase 3 handoff.

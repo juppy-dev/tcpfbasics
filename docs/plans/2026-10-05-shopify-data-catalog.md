@@ -150,14 +150,14 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes task 5's completed readback and the old-ID snapshot. Produces the ten-product replacement catalog, deletion evidence, and client editing instructions.
 
-- [ ] Confirm the replacement acceptance checks in task 5 have passed, then re-read the six old records against the snapshot. Delete only these authorized Product IDs: `15390146527414`, `15390146560182`, `15390146592950`, `15390182244534`, `15390182310070`, `15390182375606`.
-- [ ] Record each `productDelete` request/result using the full Shopify GID and confirm the old IDs no longer resolve. Do not interpret missing response data as deletion success without readback.
-- [ ] Inspect the old associated metaobject and file references. Remove superseded entries and borrowed files only where usage is established to belong to the removed set and no surviving reference is found. Record uncertain/shared usage in the report, including theme usage not visible with current scopes.
-- [ ] Read the final catalog and references again. Confirm ten intended samples remain, all concept flagged/draft/unpublished, no new record references an old product or borrowed file, and every asset/measurement count matches source.
-- [ ] Write merchant instructions for native product edits, shared artwork stories, garment facts, typed measurements, set contents, related-product contexts, and keeping real verified data distinct from samples.
-- [ ] Document the phase 3 handoff: theme CLI authentication; store password protection; sample notices/purchase guards; then protected preview publication. No preview-publication or live-sale action is part of this plan.
-- [ ] Finish the import report with actual IDs/counts, inspection/readback evidence, deletion results, and any precise manual follow-up. Mark phase 2 complete only when its catalog/schema/image requirements are met.
-- [ ] Commit handoff/state/report changes with `docs(shopify): record catalog replacement and merchant handoff`.
+- [x] Confirm the replacement acceptance checks in task 5 have passed, then re-read the six old records against the snapshot. Delete only these authorized Product IDs: `15390146527414`, `15390146560182`, `15390146592950`, `15390182244534`, `15390182310070`, `15390182375606`.
+- [x] Record each `productDelete` request/result using the full Shopify GID and confirm the old IDs no longer resolve. Do not interpret missing response data as deletion success without readback.
+- [x] Inspect the old associated metaobject and file references. Remove superseded entries and borrowed files only where usage is established to belong to the removed set and no surviving reference is found. Record uncertain/shared usage in the report, including theme usage not visible with current scopes.
+- [x] Read the final catalog and references again. Confirm ten intended samples remain, all concept flagged/draft/unpublished, no new record references an old product or borrowed file, and every asset/measurement count matches source.
+- [x] Write merchant instructions for native product edits, shared artwork stories, garment facts, typed measurements, set contents, related-product contexts, and keeping real verified data distinct from samples.
+- [x] Document the phase 3 handoff: theme CLI authentication; store password protection; sample notices/purchase guards; then protected preview publication. No preview-publication or live-sale action is part of this plan.
+- [x] Finish the import report with actual IDs/counts, inspection/readback evidence, deletion results, and any precise manual follow-up. Mark phase 2 complete only when its catalog/schema/image requirements are met.
+- [x] Commit handoff/state/report changes with `docs(shopify): record catalog replacement and merchant handoff`.
 
 ## Plan Review and Execution Choice
 

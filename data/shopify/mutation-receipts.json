@@ -3565,5 +3565,545 @@
         "userErrors": []
       }
     }
+  },
+  {
+    "at": "2026-10-05T04:03:12.156608+00:00",
+    "operation": "delete-old-product-15390146527414",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390146527414",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:14.191050+00:00",
+    "operation": "delete-old-product-15390146560182",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390146560182",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:16.165264+00:00",
+    "operation": "delete-old-product-15390146592950",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390146592950",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:18.196893+00:00",
+    "operation": "delete-old-product-15390182244534",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390182244534",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:20.260875+00:00",
+    "operation": "delete-old-product-15390182310070",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390182310070",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:22.340642+00:00",
+    "operation": "delete-old-product-15390182375606",
+    "response": {
+      "productDelete": {
+        "deletedProductId": "gid://shopify/Product/15390182375606",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:27.949844+00:00",
+    "operation": "delete-old-content-615264387254",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264387254",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:29.892676+00:00",
+    "operation": "delete-old-content-615264420022",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264420022",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:31.776424+00:00",
+    "operation": "delete-old-content-615264452790",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264452790",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:34.075263+00:00",
+    "operation": "delete-old-content-615321600182",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321600182",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:36.016469+00:00",
+    "operation": "delete-old-content-615321632950",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321632950",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:37.777703+00:00",
+    "operation": "delete-old-content-615321665718",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321665718",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:41.730630+00:00",
+    "operation": "delete-old-content-615264485558",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264485558",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:43.524052+00:00",
+    "operation": "delete-old-content-615264518326",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264518326",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:45.758033+00:00",
+    "operation": "delete-old-content-615264551094",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264551094",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:47.580492+00:00",
+    "operation": "delete-old-content-615321731254",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321731254",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:49.339835+00:00",
+    "operation": "delete-old-content-615321764022",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321764022",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:51.122381+00:00",
+    "operation": "delete-old-content-615321796790",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321796790",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:54.684623+00:00",
+    "operation": "delete-old-content-615264223414",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264223414",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:56.506568+00:00",
+    "operation": "delete-old-content-615264256182",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264256182",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:03:58.285740+00:00",
+    "operation": "delete-old-content-615264354486",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264354486",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:00.096712+00:00",
+    "operation": "delete-old-content-615321501878",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321501878",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:01.846665+00:00",
+    "operation": "delete-old-content-615321534646",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321534646",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:03.822792+00:00",
+    "operation": "delete-old-content-615321567414",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321567414",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:07.577182+00:00",
+    "operation": "delete-old-content-615262945462",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615262945462",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:09.541940+00:00",
+    "operation": "delete-old-content-615263338678",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263338678",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:11.372097+00:00",
+    "operation": "delete-old-content-615263633590",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263633590",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:13.301238+00:00",
+    "operation": "delete-old-content-615263666358",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263666358",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:15.070635+00:00",
+    "operation": "delete-old-content-615263699126",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263699126",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:16.903526+00:00",
+    "operation": "delete-old-content-615263731894",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263731894",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:18.659062+00:00",
+    "operation": "delete-old-content-615263764662",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263764662",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:20.484266+00:00",
+    "operation": "delete-old-content-615263862966",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263862966",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:22.272535+00:00",
+    "operation": "delete-old-content-615263895734",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263895734",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:23.960048+00:00",
+    "operation": "delete-old-content-615263961270",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615263961270",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:25.830939+00:00",
+    "operation": "delete-old-content-615264026806",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264026806",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:27.867727+00:00",
+    "operation": "delete-old-content-615264059574",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264059574",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:29.597521+00:00",
+    "operation": "delete-old-content-615264092342",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264092342",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:31.338641+00:00",
+    "operation": "delete-old-content-615264157878",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264157878",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:33.148251+00:00",
+    "operation": "delete-old-content-615264190646",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615264190646",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:34.829359+00:00",
+    "operation": "delete-old-content-615320944822",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615320944822",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:36.545068+00:00",
+    "operation": "delete-old-content-615320977590",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615320977590",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:38.432881+00:00",
+    "operation": "delete-old-content-615321010358",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321010358",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:40.099252+00:00",
+    "operation": "delete-old-content-615321043126",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321043126",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:42.045037+00:00",
+    "operation": "delete-old-content-615321075894",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321075894",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:44.184056+00:00",
+    "operation": "delete-old-content-615321108662",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321108662",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:45.923349+00:00",
+    "operation": "delete-old-content-615321141430",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321141430",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:47.781507+00:00",
+    "operation": "delete-old-content-615321174198",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321174198",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:49.591900+00:00",
+    "operation": "delete-old-content-615321206966",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321206966",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:51.280834+00:00",
+    "operation": "delete-old-content-615321239734",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321239734",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:53.070373+00:00",
+    "operation": "delete-old-content-615321272502",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321272502",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:54.786647+00:00",
+    "operation": "delete-old-content-615321305270",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321305270",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:56.499371+00:00",
+    "operation": "delete-old-content-615321338038",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321338038",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:04:58.320920+00:00",
+    "operation": "delete-old-content-615321370806",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321370806",
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:05:00.196657+00:00",
+    "operation": "delete-old-content-615321403574",
+    "response": {
+      "metaobjectDelete": {
+        "deletedId": "gid://shopify/Metaobject/615321403574",
+        "userErrors": []
+      }
+    }
   }
 ]

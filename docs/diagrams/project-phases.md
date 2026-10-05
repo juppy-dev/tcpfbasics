@@ -1,6 +1,6 @@
 # TCPF Basics — phase dependencies
 
-Updated: 2026-10-05. This describes the agreed project order, not a completed implementation.
+Updated: 2026-10-05. Brand and sample catalog are implemented; the Horizon theme build is next.
 
 ```mermaid
 flowchart TD
@@ -20,6 +20,6 @@ flowchart TD
 
 Ready-to-wear shopping is the primary journey. Bespoke commissions are a secondary offer. The selected direction is Contemporary Wearable Gallery, retaining the existing logo. Brand decisions determine both the information architecture and the visual treatment of the storefront.
 
-The user authorized replacing existing products because they carry borrowed imagery. Phase 2 will preserve reference prices, generate fresh sample assets, and replace the catalog. Samples remain drafts while their concepts are reviewed; generated paintings are not attributed to Tisha Chavez.
+The user authorized replacing existing products because they carry borrowed imagery. Phase 2 preserved reference prices, generated fresh sample assets, and replaced the catalog. Samples remain drafts while their concepts are reviewed; generated paintings are not attributed to Tisha Chavez.
 
 See the [project brief](../project-brief.md) for deliverables and current observations.
