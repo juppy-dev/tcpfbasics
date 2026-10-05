@@ -12,7 +12,7 @@
 
 **Diagram:** [Theme architecture](../diagrams/shopify-theme-architecture.md).
 
-**Status:** Written specification approved; this implementation plan is for review. Native execution carries forward from phase 2. A portable [plan review page](tcpf-theme-plan-review.html) presents this plan in the approved TCPF identity.
+**Status:** Written specification and implementation plan approved through the review page; Native implementation is in progress. Native execution carries forward from phase 2. A portable [plan review page](tcpf-theme-plan-review.html) presents this plan in the approved TCPF identity.
 
 ## Global Constraints
 

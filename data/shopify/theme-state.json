@@ -1,0 +1,16 @@
+{
+  "store": "tcpfbasics.myshopify.com",
+  "apiVersion": "2026-10",
+  "horizon": {
+    "revision": "5acd1b6b66c02f61d3216e3adace5dd9e0404fc9",
+    "version": "4.2.0",
+    "importedAt": "2026-10-05"
+  },
+  "preview": null,
+  "brandFiles": {},
+  "pages": {},
+  "menus": {},
+  "protection": {
+    "verified": false
+  }
+}
