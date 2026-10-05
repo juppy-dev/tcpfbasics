@@ -12,6 +12,8 @@ Custom merchant theme based on Shopify Horizon, with the approved Contemporary W
 
 ## Local workflow
 
+Project delivery and remaining launch work are tracked in [TCPF Basics — Shopify storefront on Linear](https://linear.app/juppy-dev/project/tcpf-basics-shopify-storefront-e76388d3c34d). Completed brand, catalog and theme tasks have evidence; client approvals, production readiness, validation and conditional follow-ups remain open.
+
 Use Shopify CLI with store `tcpfbasics.myshopify.com`. Upload only to the recorded unpublished preview theme. The live theme must not be overwritten or published by the development workflow.
 
 ```sh
