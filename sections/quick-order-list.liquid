@@ -36,6 +36,9 @@
     {%- render 'gap-style', value: section.settings.gap -%}
   "
 >
+  {% if product.metafields.tcpf.concept_only.value %}
+    {% render 'tcpf-concept-notice', product: product %}
+  {% else %}
   <quick-order-list-component
     class="quick-order-list"
     data-section-id="{{ section.id }}"
@@ -473,6 +476,7 @@
       </div>
     </div>
   </quick-order-list-component>
+  {% endif %}
 </div>
 
 {% stylesheet %}

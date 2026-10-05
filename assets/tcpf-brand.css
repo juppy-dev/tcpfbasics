@@ -24,6 +24,11 @@ body { font-optical-sizing: auto; }
 .tcpf-product-card { --product-card-gap: 8px; }
 .tcpf-product-card .text-block { line-height: 1.45; }
 .tcpf-card-notice { font: 400 12px/1.5 var(--font-body--family); color: var(--tcpf-muted); margin: 2px 0 0; }
+.tcpf-sample-price-label { font-size: .8em; font-weight: 400; }
+.tcpf-concept-notice { padding: 20px; border: 1px solid var(--tcpf-line); background: var(--tcpf-petal); font-size: 14px; line-height: 1.65; width: 100%; }
+.tcpf-concept-notice p { margin: 0; }
+.tcpf-concept-notice .tcpf-eyebrow { margin-bottom: 10px; }
+.tcpf-cart-guard { padding: 16px; background: var(--tcpf-petal); font-size: 14px; line-height: 1.6; }
 .tcpf-included { padding: 18px 20px; background: var(--tcpf-petal); font-size: 14px; line-height: 1.6; width: 100%; }
 .tcpf-included p { margin: 0; }
 .tcpf-included .tcpf-eyebrow { margin-bottom: 8px; }

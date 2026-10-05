@@ -12,6 +12,10 @@
 
 {%- liquid
   assign default_add_to_cart_text = 'actions.add_to_cart' | t
+  if product.metafields.tcpf.concept_only.value
+    assign can_add_to_cart = false
+    assign add_to_cart_text = 'tcpf.not_for_sale' | t
+  endif
   assign product_variant_media = product.selected_or_first_available_variant.featured_media.preview_image | image_url: width: 100
   if product.selected_or_first_available_variant.featured_media.preview_image == blank
     assign product_variant_media = product.featured_media.preview_image | image_url: width: 100

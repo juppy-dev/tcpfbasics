@@ -15,6 +15,9 @@
 {% render 'add-to-cart-button-styles' %}
 {% render 'fly-to-cart-styles' %}
 
+{% if closest.product.metafields.tcpf.concept_only.value %}
+  {% render 'tcpf-concept-notice', product: closest.product %}
+{% else %}
 <span
   {{ block.shopify_attributes }}
   style="--add-to-cart-font-case: {{ settings.button_text_case }};"
@@ -29,6 +32,7 @@
     data_testid: 'standalone-add-to-cart'
   %}
 </span>
+{% endif %}
 
 {% schema %}
 {

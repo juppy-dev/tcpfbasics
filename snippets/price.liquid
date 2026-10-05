@@ -75,6 +75,9 @@
 -%}
 
 <div ref="priceContainer">
+  {% if product_resource.metafields.tcpf.concept_only.value %}
+    <span class="tcpf-sample-price-label">{{ 'tcpf.sample_price' | t }} · </span>
+  {% endif %}
   {% if has_volume_pricing %}
     {% comment %} Volume pricing display {% endcomment %}
     {% if show_compare_price %}

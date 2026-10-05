@@ -142,12 +142,12 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Typed sample decision is `product.metafields.tcpf.concept_only.value`. Guards preserve native commerce for real products and use native cart-removal controls; store zero/DENY remains a separate safeguard.
 
-- [ ] Inventory every renderer capable of a purchase action or product structured-data output using `rg`. Apply visible sample notices, sample-price context, unavailable purchase state, and accelerated-checkout/quick-add suppression in product, card, featured, search/predictive, and recommendation paths.
-- [ ] Handle any existing concept cart line with a clear notice and native removal action. Suppress checkout while a concept remains; real-only carts retain native behavior. Do not claim this is a server-side checkout extension.
-- [ ] Suppress fictional sample Product/Offer metadata in product and featured-product contexts. Retain factual native structured data for real merchandise; avoid duplicate output or fabricated ratings/reviews.
-- [ ] Apply coherent brand and useful states to search/cart/password/404/policy surfaces. Keep checkout/customer accounts native. Ensure a page-level protected-preview notice does not interfere with focus or sticky controls.
-- [ ] Inspect the complete renderer inventory and conditional branches, including missing flags, mixed carts, unavailable products, and native events. Expected: all sample paths covered, real-product paths preserved, no introduced static lint errors. No tests or form/cart submissions are performed without a request.
-- [ ] Commit `feat(theme): guard sample purchases across storefront paths`.
+- [x] Inventory every renderer capable of a purchase action or product structured-data output using `rg`. Apply visible sample notices, sample-price context, unavailable purchase state, and accelerated-checkout/quick-add suppression in product, card, featured, search/predictive, and recommendation paths.
+- [x] Handle any existing concept cart line with a clear notice and native removal action. Suppress checkout while a concept remains; real-only carts retain native behavior. Do not claim this is a server-side checkout extension.
+- [x] Suppress fictional sample Product/Offer metadata in product and featured-product contexts. Retain factual native structured data for real merchandise; avoid duplicate output or fabricated ratings/reviews.
+- [x] Apply coherent brand and useful states to search/cart/password/404/policy surfaces. Keep checkout/customer accounts native. Ensure a page-level protected-preview notice does not interfere with focus or sticky controls.
+- [x] Inspect the complete renderer inventory and conditional branches, including missing flags, mixed carts, unavailable products, and native events. Expected: all sample paths covered, real-product paths preserved, no introduced static lint errors. No tests or form/cart submissions are performed without a request.
+- [x] Commit `feat(theme): guard sample purchases across storefront paths`.
 
 ## Task 8: Configure the Protected Preview and Record Rendered Evidence
 

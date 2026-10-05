@@ -1,6 +1,8 @@
+{% unless closest.product.metafields.tcpf.concept_only.value %}
 <script type="application/ld+json">
   {{ closest.product | structured_data }}
 </script>
+{% endunless %}
 
 {% capture media_gallery %}
   {%- content_for 'block',
@@ -25,7 +27,7 @@
 {% render 'deferred-media-product-model-styles' %}
 {% render 'deferred-media-video-styles' %}
 
-{% if section.settings.enable_sticky_add_to_cart %}
+{% if section.settings.enable_sticky_add_to_cart and product.metafields.tcpf.concept_only.value != true %}
   {% render 'fly-to-cart-styles' %}
 
   {% liquid

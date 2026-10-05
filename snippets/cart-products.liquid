@@ -212,6 +212,7 @@
                         mode: 'trigger'
                       %}
                     </div>
+                    {% render 'tcpf-concept-notice', product: item.product %}
                     {% if item.product.vendor and block_settings.vendor %}
                       <p>
                         <bdi>{{ item.product.vendor }}</bdi>
@@ -345,6 +346,7 @@
                   {% assign can_update_quantity = item.instructions.can_update_quantity
                     | default: true, allow_false: true
                   %}
+                  {% if item.product.metafields.tcpf.concept_only.value %}{% assign can_update_quantity = false %}{% endif %}
                   <div class="cart-items__quantity-controls">
                     {% render 'volume-pricing-info',
                       variant: item.variant,

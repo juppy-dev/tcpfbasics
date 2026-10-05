@@ -257,6 +257,18 @@
   </div>
 </div>
 
+{% liquid
+  assign cart_has_concepts = false
+  for line in cart.items
+    if line.product.metafields.tcpf.concept_only.value
+      assign cart_has_concepts = true
+      break
+    endif
+  endfor
+%}
+{% if cart_has_concepts %}
+  <p class="tcpf-cart-guard" role="status">{{ 'tcpf.remove_samples' | t }}</p>
+{% else %}
 <div class="cart__ctas">
   <button
     type="submit"
@@ -284,6 +296,7 @@
     </div>
   {% endif %}
 </div>
+{% endif %}
 
 {% stylesheet %}
   .cart-actions {

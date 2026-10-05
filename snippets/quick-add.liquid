@@ -77,6 +77,7 @@
   card can add to cart directly (render_add). The Choose button never submits a form - it opens the
   quick-add modal via quick-add-component/handleClick - so it lives outside the form.
 {% endcomment %}
+{% unless product.metafields.tcpf.concept_only.value %}
 <quick-add-component
   class="quick-add custom-color-quick-add"
   ref="quickAdd"
@@ -143,6 +144,7 @@
     </button>
   {% endif %}
 </quick-add-component>
+{% endunless %}
 
 {% render 'add-to-cart-button-styles' %}
 {% render 'checkbox-styles' %}

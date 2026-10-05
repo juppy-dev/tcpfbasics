@@ -156,6 +156,7 @@
 
     {% if resource_type == 'product' %}
       {% render 'price', product_resource: resource, show_unit_price: true %}
+      {% if resource.metafields.tcpf.concept_only.value %}<p class="tcpf-card-notice">Sample concept · {{ 'tcpf.not_for_sale' | t }}</p>{% endif %}
     {% elsif resource_type == 'collection' and single_thumbnail_collection == false %}
       <p class="resource-card__subtext paragraph">
         {{- 'content.search_results_resource_products_count' | t: count: resource.all_products_count -}}

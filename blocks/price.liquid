@@ -57,7 +57,7 @@
     show_sale_price_first: block_settings.show_sale_price_first
   %}
 
-  {% if block_settings.show_tax_info %}
+  {% if block_settings.show_tax_info and product_resource.metafields.tcpf.concept_only.value != true %}
     <div class="tax-note">
       {%- if cart.duties_included and cart.taxes_included -%}
         {{ 'content.duties_and_taxes_included' | t }}
@@ -73,7 +73,7 @@
     </div>
   {% endif %}
 
-  {%- if selected_variant != blank and block_settings.show_installments -%}
+  {%- if selected_variant != blank and block_settings.show_installments and product_resource.metafields.tcpf.concept_only.value != true -%}
     <div class="installments">
       {%- assign product_form_installment_id = 'product-form-installment-' | append: block.id -%}
       {%- form 'product', product_resource, id: product_form_installment_id, class: 'payment-terms' -%}

@@ -1,6 +1,8 @@
+{% unless section.settings.product.metafields.tcpf.concept_only.value %}
 <script type="application/ld+json">
   {{ section.settings.product | structured_data }}
 </script>
+{% endunless %}
 
 {% capture media_gallery %}
   {% content_for 'block',
