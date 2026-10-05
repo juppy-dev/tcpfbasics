@@ -1,0 +1,32 @@
+{
+  "store": "tcpfbasics.myshopify.com",
+  "api_version": "2026-10",
+  "definitions": {
+    "tcpf_size_measurement": "gid://shopify/MetaobjectDefinition/25339527350",
+    "tcpf_size_chart": "gid://shopify/MetaobjectDefinition/25339560118",
+    "tcpf_apparel_details": "gid://shopify/MetaobjectDefinition/25339592886",
+    "tcpf_design_concept": "gid://shopify/MetaobjectDefinition/25339625654"
+  },
+  "metafield_definitions": {
+    "PRODUCT/tcpf.apparel_details": "gid://shopify/MetafieldDefinition/297238790326",
+    "PRODUCT/tcpf.design_concept": "gid://shopify/MetafieldDefinition/297238823094",
+    "PRODUCT/tcpf.concept_only": "gid://shopify/MetafieldDefinition/297238855862",
+    "PRODUCT/tcpf.related_products": "gid://shopify/MetafieldDefinition/297539043510",
+    "PRODUCT/tcpf.related_products_context": "gid://shopify/MetafieldDefinition/297539076278",
+    "PRODUCT/tcpf.set_components": "gid://shopify/MetafieldDefinition/297539109046",
+    "COLLECTION/tcpf.artworks": "gid://shopify/MetafieldDefinition/297539141814"
+  },
+  "entries": {},
+  "files": {},
+  "products": {},
+  "variants": {},
+  "collections": {},
+  "locations": [
+    {
+      "id": "gid://shopify/Location/91900346550",
+      "name": "Shop location",
+      "isActive": true,
+      "fulfillsOnlineOrders": true
+    }
+  ]
+}

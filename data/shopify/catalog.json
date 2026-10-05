@@ -1,0 +1,1142 @@
+{
+  "store": "tcpfbasics.myshopify.com",
+  "api_version": "2026-10",
+  "currency": "PHP",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "artworks": [
+    {
+      "handle": "amihan-garden",
+      "values": {
+        "title": "Amihan Garden",
+        "story": "An invented botanical composition with airy stems and loose lilac brushwork on a light canvas. Created as an AI textile concept for this demonstration collection.",
+        "origin": "ai_concept",
+        "attribution": "AI-generated sample artwork",
+        "medium": "AI-generated digital painterly textile concept",
+        "palette": [
+          "Ivory",
+          "Plum",
+          "Periwinkle",
+          "Restrained leaf"
+        ],
+        "review_status": "pending"
+      },
+      "artwork_asset_id": "artwork/amihan-garden"
+    },
+    {
+      "handle": "dapithapon",
+      "values": {
+        "title": "Dapithapon",
+        "story": "An invented floral composition with warm rose and coral forms against ivory. Created as an AI textile concept, with no founder-provided memory or source painting claimed.",
+        "origin": "ai_concept",
+        "attribution": "AI-generated sample artwork",
+        "medium": "AI-generated digital painterly textile concept",
+        "palette": [
+          "Petal",
+          "Coral",
+          "Muted plum",
+          "Ivory"
+        ],
+        "review_status": "pending"
+      },
+      "artwork_asset_id": "artwork/dapithapon"
+    },
+    {
+      "handle": "luntian",
+      "values": {
+        "title": "Luntian",
+        "story": "An invented botanical rhythm of green leaves and light lavender accents. Generated for the sample collection rather than attributed to a physical painting.",
+        "origin": "ai_concept",
+        "attribution": "AI-generated sample artwork",
+        "medium": "AI-generated digital painterly textile concept",
+        "palette": [
+          "Ivory",
+          "Leaf",
+          "Soft lavender"
+        ],
+        "review_status": "pending"
+      },
+      "artwork_asset_id": "artwork/luntian"
+    },
+    {
+      "handle": "hiraya-bloom",
+      "values": {
+        "title": "Hiraya Bloom",
+        "story": "An invented airy blue floral print with generous light space. Generated as a textile direction for the sample halter dress.",
+        "origin": "ai_concept",
+        "attribution": "AI-generated sample artwork",
+        "medium": "AI-generated digital painterly textile concept",
+        "palette": [
+          "Powder blue",
+          "Ivory",
+          "Soft slate"
+        ],
+        "review_status": "pending"
+      },
+      "artwork_asset_id": "artwork/hiraya-bloom"
+    },
+    {
+      "handle": "sinag-field",
+      "values": {
+        "title": "Sinag Field",
+        "story": "An invented meadow-like print with soft flowers and warm light. Generated as the artwork source for the sample wrap dress.",
+        "origin": "ai_concept",
+        "attribution": "AI-generated sample artwork",
+        "medium": "AI-generated digital painterly textile concept",
+        "palette": [
+          "Warm ivory",
+          "Ochre",
+          "Soft rose",
+          "Muted green"
+        ],
+        "review_status": "pending"
+      },
+      "artwork_asset_id": "artwork/sinag-field"
+    }
+  ],
+  "measurement_rows": [
+    {
+      "handle": "sample-bolero-xs",
+      "values": {
+        "title": "Bolero — XS",
+        "size_label": "XS",
+        "measurement_status": "sample",
+        "bust_cm": 88,
+        "waist_cm": 84,
+        "length_cm": 40
+      }
+    },
+    {
+      "handle": "sample-bolero-s",
+      "values": {
+        "title": "Bolero — S",
+        "size_label": "S",
+        "measurement_status": "sample",
+        "bust_cm": 92,
+        "waist_cm": 88,
+        "length_cm": 41
+      }
+    },
+    {
+      "handle": "sample-bolero-m",
+      "values": {
+        "title": "Bolero — M",
+        "size_label": "M",
+        "measurement_status": "sample",
+        "bust_cm": 96,
+        "waist_cm": 92,
+        "length_cm": 42
+      }
+    },
+    {
+      "handle": "sample-bolero-l",
+      "values": {
+        "title": "Bolero — L",
+        "size_label": "L",
+        "measurement_status": "sample",
+        "bust_cm": 100,
+        "waist_cm": 96,
+        "length_cm": 43
+      }
+    },
+    {
+      "handle": "sample-bolero-xl",
+      "values": {
+        "title": "Bolero — XL",
+        "size_label": "XL",
+        "measurement_status": "sample",
+        "bust_cm": 104,
+        "waist_cm": 100,
+        "length_cm": 44
+      }
+    },
+    {
+      "handle": "sample-skirt-xs",
+      "values": {
+        "title": "Midi skirt — XS",
+        "size_label": "XS",
+        "measurement_status": "sample",
+        "waist_cm": 66,
+        "hip_cm": 94,
+        "length_cm": 75
+      }
+    },
+    {
+      "handle": "sample-skirt-s",
+      "values": {
+        "title": "Midi skirt — S",
+        "size_label": "S",
+        "measurement_status": "sample",
+        "waist_cm": 70,
+        "hip_cm": 98,
+        "length_cm": 76
+      }
+    },
+    {
+      "handle": "sample-skirt-m",
+      "values": {
+        "title": "Midi skirt — M",
+        "size_label": "M",
+        "measurement_status": "sample",
+        "waist_cm": 74,
+        "hip_cm": 102,
+        "length_cm": 77
+      }
+    },
+    {
+      "handle": "sample-skirt-l",
+      "values": {
+        "title": "Midi skirt — L",
+        "size_label": "L",
+        "measurement_status": "sample",
+        "waist_cm": 78,
+        "hip_cm": 106,
+        "length_cm": 78
+      }
+    },
+    {
+      "handle": "sample-skirt-xl",
+      "values": {
+        "title": "Midi skirt — XL",
+        "size_label": "XL",
+        "measurement_status": "sample",
+        "waist_cm": 82,
+        "hip_cm": 110,
+        "length_cm": 79
+      }
+    },
+    {
+      "handle": "sample-halter-dress-xs",
+      "values": {
+        "title": "Halter dress — XS",
+        "size_label": "XS",
+        "measurement_status": "sample",
+        "bust_cm": 84,
+        "waist_cm": 66,
+        "hip_cm": 94,
+        "length_cm": 112
+      }
+    },
+    {
+      "handle": "sample-halter-dress-s",
+      "values": {
+        "title": "Halter dress — S",
+        "size_label": "S",
+        "measurement_status": "sample",
+        "bust_cm": 88,
+        "waist_cm": 70,
+        "hip_cm": 98,
+        "length_cm": 113
+      }
+    },
+    {
+      "handle": "sample-halter-dress-m",
+      "values": {
+        "title": "Halter dress — M",
+        "size_label": "M",
+        "measurement_status": "sample",
+        "bust_cm": 92,
+        "waist_cm": 74,
+        "hip_cm": 102,
+        "length_cm": 114
+      }
+    },
+    {
+      "handle": "sample-halter-dress-l",
+      "values": {
+        "title": "Halter dress — L",
+        "size_label": "L",
+        "measurement_status": "sample",
+        "bust_cm": 96,
+        "waist_cm": 78,
+        "hip_cm": 106,
+        "length_cm": 115
+      }
+    },
+    {
+      "handle": "sample-halter-dress-xl",
+      "values": {
+        "title": "Halter dress — XL",
+        "size_label": "XL",
+        "measurement_status": "sample",
+        "bust_cm": 100,
+        "waist_cm": 82,
+        "hip_cm": 110,
+        "length_cm": 116
+      }
+    },
+    {
+      "handle": "sample-wrap-dress-xs",
+      "values": {
+        "title": "Wrap dress — XS",
+        "size_label": "XS",
+        "measurement_status": "sample",
+        "bust_cm": 88,
+        "waist_cm": 68,
+        "hip_cm": 96,
+        "length_cm": 110
+      }
+    },
+    {
+      "handle": "sample-wrap-dress-s",
+      "values": {
+        "title": "Wrap dress — S",
+        "size_label": "S",
+        "measurement_status": "sample",
+        "bust_cm": 92,
+        "waist_cm": 72,
+        "hip_cm": 100,
+        "length_cm": 111
+      }
+    },
+    {
+      "handle": "sample-wrap-dress-m",
+      "values": {
+        "title": "Wrap dress — M",
+        "size_label": "M",
+        "measurement_status": "sample",
+        "bust_cm": 96,
+        "waist_cm": 76,
+        "hip_cm": 104,
+        "length_cm": 112
+      }
+    },
+    {
+      "handle": "sample-wrap-dress-l",
+      "values": {
+        "title": "Wrap dress — L",
+        "size_label": "L",
+        "measurement_status": "sample",
+        "bust_cm": 100,
+        "waist_cm": 80,
+        "hip_cm": 108,
+        "length_cm": 113
+      }
+    },
+    {
+      "handle": "sample-wrap-dress-xl",
+      "values": {
+        "title": "Wrap dress — XL",
+        "size_label": "XL",
+        "measurement_status": "sample",
+        "bust_cm": 104,
+        "waist_cm": 84,
+        "hip_cm": 112,
+        "length_cm": 114
+      }
+    },
+    {
+      "handle": "sample-blouse-xs",
+      "values": {
+        "title": "Blouse — XS",
+        "size_label": "XS",
+        "measurement_status": "sample",
+        "bust_cm": 90,
+        "waist_cm": 78,
+        "length_cm": 56
+      }
+    },
+    {
+      "handle": "sample-blouse-s",
+      "values": {
+        "title": "Blouse — S",
+        "size_label": "S",
+        "measurement_status": "sample",
+        "bust_cm": 94,
+        "waist_cm": 82,
+        "length_cm": 57
+      }
+    },
+    {
+      "handle": "sample-blouse-m",
+      "values": {
+        "title": "Blouse — M",
+        "size_label": "M",
+        "measurement_status": "sample",
+        "bust_cm": 98,
+        "waist_cm": 86,
+        "length_cm": 58
+      }
+    },
+    {
+      "handle": "sample-blouse-l",
+      "values": {
+        "title": "Blouse — L",
+        "size_label": "L",
+        "measurement_status": "sample",
+        "bust_cm": 102,
+        "waist_cm": 90,
+        "length_cm": 59
+      }
+    },
+    {
+      "handle": "sample-blouse-xl",
+      "values": {
+        "title": "Blouse — XL",
+        "size_label": "XL",
+        "measurement_status": "sample",
+        "bust_cm": 106,
+        "waist_cm": 94,
+        "length_cm": 60
+      }
+    }
+  ],
+  "size_charts": [
+    {
+      "handle": "sample-bolero",
+      "values": {
+        "title": "Bolero sample size guide",
+        "unit": "cm",
+        "measurement_kind": "garment",
+        "notes": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock.",
+        "chart_status": "sample"
+      },
+      "measurement_handles": [
+        "sample-bolero-xs",
+        "sample-bolero-s",
+        "sample-bolero-m",
+        "sample-bolero-l",
+        "sample-bolero-xl"
+      ]
+    },
+    {
+      "handle": "sample-skirt",
+      "values": {
+        "title": "Midi skirt sample size guide",
+        "unit": "cm",
+        "measurement_kind": "garment",
+        "notes": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from waistband top to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock.",
+        "chart_status": "sample"
+      },
+      "measurement_handles": [
+        "sample-skirt-xs",
+        "sample-skirt-s",
+        "sample-skirt-m",
+        "sample-skirt-l",
+        "sample-skirt-xl"
+      ]
+    },
+    {
+      "handle": "sample-halter-dress",
+      "values": {
+        "title": "Halter dress sample size guide",
+        "unit": "cm",
+        "measurement_kind": "garment",
+        "notes": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from centre-front neckline edge to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock.",
+        "chart_status": "sample"
+      },
+      "measurement_handles": [
+        "sample-halter-dress-xs",
+        "sample-halter-dress-s",
+        "sample-halter-dress-m",
+        "sample-halter-dress-l",
+        "sample-halter-dress-xl"
+      ]
+    },
+    {
+      "handle": "sample-wrap-dress",
+      "values": {
+        "title": "Wrap dress sample size guide",
+        "unit": "cm",
+        "measurement_kind": "garment",
+        "notes": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock. Circumferences use the nominal tied-closed position.",
+        "chart_status": "sample"
+      },
+      "measurement_handles": [
+        "sample-wrap-dress-xs",
+        "sample-wrap-dress-s",
+        "sample-wrap-dress-m",
+        "sample-wrap-dress-l",
+        "sample-wrap-dress-xl"
+      ]
+    },
+    {
+      "handle": "sample-blouse",
+      "values": {
+        "title": "Blouse sample size guide",
+        "unit": "cm",
+        "measurement_kind": "garment",
+        "notes": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock.",
+        "chart_status": "sample"
+      },
+      "measurement_handles": [
+        "sample-blouse-xs",
+        "sample-blouse-s",
+        "sample-blouse-m",
+        "sample-blouse-l",
+        "sample-blouse-xl"
+      ]
+    }
+  ],
+  "garments": [
+    {
+      "handle": "sample-amihan-bolero",
+      "values": {
+        "title": "Amihan Printed Bolero details",
+        "garment_category": "bolero",
+        "silhouette": "Waist-length open-front bolero with structured upright butterfly sleeves.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Fully lined in ivory 100% polyester.",
+        "closure": "Single concealed hook at centre front.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Bolero only. Styling camisole, skirt, and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-bolero"
+      ]
+    },
+    {
+      "handle": "sample-dapithapon-bolero",
+      "values": {
+        "title": "Dapithapon Printed Bolero details",
+        "garment_category": "bolero",
+        "silhouette": "Waist-length open-front bolero with structured upright butterfly sleeves.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Fully lined in ivory 100% polyester.",
+        "closure": "Single concealed hook at centre front.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Bolero only. Styling camisole, skirt, and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-bolero"
+      ]
+    },
+    {
+      "handle": "sample-luntian-bolero",
+      "values": {
+        "title": "Luntian Printed Bolero details",
+        "garment_category": "bolero",
+        "silhouette": "Waist-length open-front bolero with structured upright butterfly sleeves.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Fully lined in ivory 100% polyester.",
+        "closure": "Single concealed hook at centre front.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Bolero only. Styling camisole, skirt, and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-bolero"
+      ]
+    },
+    {
+      "handle": "sample-amihan-terno-set",
+      "values": {
+        "title": "Amihan Modern Terno Set details",
+        "garment_category": "terno_set",
+        "silhouette": "Matching waist-length butterfly-sleeve bolero and A-line midi skirt.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Both pieces fully lined in ivory 100% polyester.",
+        "closure": "Bolero: single concealed centre-front hook. Skirt: concealed side zip.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "One bolero and one matching midi skirt. Inner camisole and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-bolero",
+        "sample-skirt"
+      ]
+    },
+    {
+      "handle": "sample-dapithapon-terno-set",
+      "values": {
+        "title": "Dapithapon Modern Terno Set details",
+        "garment_category": "terno_set",
+        "silhouette": "Matching waist-length butterfly-sleeve bolero and A-line midi skirt.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Both pieces fully lined in ivory 100% polyester.",
+        "closure": "Bolero: single concealed centre-front hook. Skirt: concealed side zip.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "One bolero and one matching midi skirt. Inner camisole and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-bolero",
+        "sample-skirt"
+      ]
+    },
+    {
+      "handle": "sample-amihan-midi-skirt",
+      "values": {
+        "title": "Amihan Printed Midi Skirt details",
+        "garment_category": "skirt",
+        "silhouette": "A-line midi skirt with a fitted waistband and gentle flare.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Fully lined in ivory 100% polyester.",
+        "closure": "Concealed side zip.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Skirt only. Styling top and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-skirt"
+      ]
+    },
+    {
+      "handle": "sample-dapithapon-midi-skirt",
+      "values": {
+        "title": "Dapithapon Printed Midi Skirt details",
+        "garment_category": "skirt",
+        "silhouette": "A-line midi skirt with a fitted waistband and gentle flare.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Fully lined in ivory 100% polyester.",
+        "closure": "Concealed side zip.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Skirt only. Styling top and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-skirt"
+      ]
+    },
+    {
+      "handle": "sample-hiraya-halter-dress",
+      "values": {
+        "title": "Hiraya Floral Halter Dress details",
+        "garment_category": "dress",
+        "silhouette": "Halter-neck midi dress with fitted bodice and softly flared skirt.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Fully lined in ivory 100% polyester.",
+        "closure": "Back neck tie and concealed centre-back zip.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Dress only. Accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-halter-dress"
+      ]
+    },
+    {
+      "handle": "sample-sinag-wrap-dress",
+      "values": {
+        "title": "Sinag Printed Wrap Dress details",
+        "garment_category": "dress",
+        "silhouette": "Midi wrap dress with defined waist and short softly structured butterfly sleeves.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Unlined.",
+        "closure": "Functional side waist tie and internal securing tie.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Dress and attached ties. Accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-wrap-dress"
+      ]
+    },
+    {
+      "handle": "sample-luntian-blouse",
+      "values": {
+        "title": "Luntian Printed Blouse details",
+        "garment_category": "top",
+        "silhouette": "Hip-length blouse with a modest square neckline and structured butterfly sleeves.",
+        "fit_notes": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock.",
+        "fabric": "Sample lightweight woven fabric.",
+        "fiber_content": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester.",
+        "stretch": "No stretch (demonstration specification).",
+        "lining": "Body lined in ivory 100% polyester.",
+        "closure": "Concealed centre-back zip.",
+        "pockets": "No pockets (sample specification).",
+        "care_instructions": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods.",
+        "included_items": "Blouse only. Styling skirt or trousers and accessories are excluded.",
+        "data_status": "sample"
+      },
+      "size_chart_handles": [
+        "sample-blouse"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "handle": "amihan-bolero",
+      "title": "Amihan Printed Bolero",
+      "description_html": "<p>A cropped bolero with upright butterfly sleeves and airy plum-and-periwinkle botanical print. Pair it with a simple skirt or its matching sample piece. This listing includes the bolero only.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Bolero",
+      "seo": {
+        "title": "Amihan Printed Bolero | TCPF Basics",
+        "description": "A cropped bolero with upright butterfly sleeves and airy plum-and-periwinkle botanical print. Pair it with a simple skirt or its matching sample."
+      },
+      "price": "950.00",
+      "sku_prefix": "TCPF-SAMPLE-AMIHAN-BOLERO",
+      "artwork_handle": "amihan-garden",
+      "garment_handle": "sample-amihan-bolero",
+      "related_handles": [
+        "amihan-midi-skirt",
+        "amihan-terno-set"
+      ],
+      "related_products_context": "outfit",
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "boleros",
+        "amihan-garden"
+      ],
+      "image_asset_ids": [
+        "product/amihan-bolero/primary",
+        "product/amihan-bolero/silhouette",
+        "product/amihan-bolero/detail",
+        "product/amihan-bolero/styled"
+      ]
+    },
+    {
+      "handle": "dapithapon-bolero",
+      "title": "Dapithapon Printed Bolero",
+      "description_html": "<p>Warm coral and rose brushwork brings color to a cropped butterfly-sleeve bolero. Wear it over a light inner top, or explore the matching sample outfit. Bolero only.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Bolero",
+      "seo": {
+        "title": "Dapithapon Printed Bolero | TCPF Basics",
+        "description": "Warm coral and rose brushwork brings color to a cropped butterfly-sleeve bolero. Wear it over a light inner top, or explore the matching sample."
+      },
+      "price": "950.00",
+      "sku_prefix": "TCPF-SAMPLE-DAPITHAPON-BOLERO",
+      "artwork_handle": "dapithapon",
+      "garment_handle": "sample-dapithapon-bolero",
+      "related_handles": [
+        "dapithapon-midi-skirt",
+        "dapithapon-terno-set"
+      ],
+      "related_products_context": "outfit",
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "boleros",
+        "dapithapon"
+      ],
+      "image_asset_ids": [
+        "product/dapithapon-bolero/primary",
+        "product/dapithapon-bolero/silhouette",
+        "product/dapithapon-bolero/detail",
+        "product/dapithapon-bolero/styled"
+      ]
+    },
+    {
+      "handle": "luntian-bolero",
+      "title": "Luntian Printed Bolero",
+      "description_html": "<p>Green leaves and soft lavender accents on a light, cropped bolero. Structured sleeves give the botanical print a clear silhouette. Bolero only; supporting styling pieces are excluded.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Bolero",
+      "seo": {
+        "title": "Luntian Printed Bolero | TCPF Basics",
+        "description": "Green leaves and soft lavender accents on a light, cropped bolero. Structured sleeves give the botanical print a clear silhouette. Bolero only;."
+      },
+      "price": "950.00",
+      "sku_prefix": "TCPF-SAMPLE-LUNTIAN-BOLERO",
+      "artwork_handle": "luntian",
+      "garment_handle": "sample-luntian-bolero",
+      "related_handles": [
+        "luntian-blouse"
+      ],
+      "related_products_context": "same_artwork",
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "boleros"
+      ],
+      "image_asset_ids": [
+        "product/luntian-bolero/primary",
+        "product/luntian-bolero/silhouette",
+        "product/luntian-bolero/detail",
+        "product/luntian-bolero/styled"
+      ]
+    },
+    {
+      "handle": "amihan-terno-set",
+      "title": "Amihan Modern Terno Set",
+      "description_html": "<p>An airy botanical print across a structured-sleeve bolero and matching A-line midi skirt. The sample set includes both pieces; the inner camisole and accessories are excluded.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Terno Set",
+      "seo": {
+        "title": "Amihan Modern Terno Set | TCPF Basics",
+        "description": "An airy botanical print across a structured-sleeve bolero and matching A-line midi skirt. The sample set includes both pieces; the inner camisole and."
+      },
+      "price": "1520.00",
+      "sku_prefix": "TCPF-SAMPLE-AMIHAN-TERNO-SET",
+      "artwork_handle": "amihan-garden",
+      "garment_handle": "sample-amihan-terno-set",
+      "related_handles": [
+        "amihan-bolero",
+        "amihan-midi-skirt"
+      ],
+      "related_products_context": "outfit",
+      "set_component_handles": [
+        "amihan-bolero",
+        "amihan-midi-skirt"
+      ],
+      "collection_handles": [
+        "ready-to-wear",
+        "terno-sets",
+        "amihan-garden"
+      ],
+      "image_asset_ids": [
+        "product/amihan-terno-set/primary",
+        "product/amihan-terno-set/silhouette",
+        "product/amihan-terno-set/detail",
+        "product/amihan-terno-set/styled"
+      ]
+    },
+    {
+      "handle": "dapithapon-terno-set",
+      "title": "Dapithapon Modern Terno Set",
+      "description_html": "<p>A coordinated bolero and A-line midi skirt in warm coral, petal, and plum. The sample set includes both printed pieces, with simple styling that lets the color lead.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Terno Set",
+      "seo": {
+        "title": "Dapithapon Modern Terno Set | TCPF Basics",
+        "description": "A coordinated bolero and A-line midi skirt in warm coral, petal, and plum. The sample set includes both printed pieces, with simple styling that lets."
+      },
+      "price": "1520.00",
+      "sku_prefix": "TCPF-SAMPLE-DAPITHAPON-TERNO-SET",
+      "artwork_handle": "dapithapon",
+      "garment_handle": "sample-dapithapon-terno-set",
+      "related_handles": [
+        "dapithapon-bolero",
+        "dapithapon-midi-skirt"
+      ],
+      "related_products_context": "outfit",
+      "set_component_handles": [
+        "dapithapon-bolero",
+        "dapithapon-midi-skirt"
+      ],
+      "collection_handles": [
+        "ready-to-wear",
+        "terno-sets",
+        "dapithapon"
+      ],
+      "image_asset_ids": [
+        "product/dapithapon-terno-set/primary",
+        "product/dapithapon-terno-set/silhouette",
+        "product/dapithapon-terno-set/detail",
+        "product/dapithapon-terno-set/styled"
+      ]
+    },
+    {
+      "handle": "amihan-midi-skirt",
+      "title": "Amihan Printed Midi Skirt",
+      "description_html": "<p>An A-line midi skirt with a fitted waistband and light botanical print in plum and periwinkle. Explore the matching bolero, or style the sample skirt with a simple top.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Skirt",
+      "seo": {
+        "title": "Amihan Printed Midi Skirt | TCPF Basics",
+        "description": "An A-line midi skirt with a fitted waistband and light botanical print in plum and periwinkle. Explore the matching bolero, or style the sample skirt."
+      },
+      "price": "950.00",
+      "sku_prefix": "TCPF-SAMPLE-AMIHAN-MIDI-SKIRT",
+      "artwork_handle": "amihan-garden",
+      "garment_handle": "sample-amihan-midi-skirt",
+      "related_handles": [
+        "amihan-bolero",
+        "amihan-terno-set"
+      ],
+      "related_products_context": "outfit",
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "skirts",
+        "amihan-garden"
+      ],
+      "image_asset_ids": [
+        "product/amihan-midi-skirt/primary",
+        "product/amihan-midi-skirt/silhouette",
+        "product/amihan-midi-skirt/detail",
+        "product/amihan-midi-skirt/styled"
+      ]
+    },
+    {
+      "handle": "dapithapon-midi-skirt",
+      "title": "Dapithapon Printed Midi Skirt",
+      "description_html": "<p>Soft flare and warm floral brushwork give this sample midi skirt its character. Pair the fitted waistband with a tucked-in top or the matching printed bolero.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Skirt",
+      "seo": {
+        "title": "Dapithapon Printed Midi Skirt | TCPF Basics",
+        "description": "Soft flare and warm floral brushwork give this sample midi skirt its character. Pair the fitted waistband with a tucked-in top or the matching."
+      },
+      "price": "950.00",
+      "sku_prefix": "TCPF-SAMPLE-DAPITHAPON-MIDI-SKIRT",
+      "artwork_handle": "dapithapon",
+      "garment_handle": "sample-dapithapon-midi-skirt",
+      "related_handles": [
+        "dapithapon-bolero",
+        "dapithapon-terno-set"
+      ],
+      "related_products_context": "outfit",
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "skirts",
+        "dapithapon"
+      ],
+      "image_asset_ids": [
+        "product/dapithapon-midi-skirt/primary",
+        "product/dapithapon-midi-skirt/silhouette",
+        "product/dapithapon-midi-skirt/detail",
+        "product/dapithapon-midi-skirt/styled"
+      ]
+    },
+    {
+      "handle": "hiraya-halter-dress",
+      "title": "Hiraya Floral Halter Dress",
+      "description_html": "<p>An airy blue-and-ivory floral halter dress with a fitted bodice and softly flared midi skirt. The neckline ties at the back; a concealed zip completes the sample design.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Dress",
+      "seo": {
+        "title": "Hiraya Floral Halter Dress | TCPF Basics",
+        "description": "An airy blue-and-ivory floral halter dress with a fitted bodice and softly flared midi skirt. The neckline ties at the back; a concealed zip."
+      },
+      "price": "1990.00",
+      "sku_prefix": "TCPF-SAMPLE-HIRAYA-HALTER-DRESS",
+      "artwork_handle": "hiraya-bloom",
+      "garment_handle": "sample-hiraya-halter-dress",
+      "related_handles": [],
+      "related_products_context": null,
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "dresses"
+      ],
+      "image_asset_ids": [
+        "product/hiraya-halter-dress/primary",
+        "product/hiraya-halter-dress/silhouette",
+        "product/hiraya-halter-dress/detail",
+        "product/hiraya-halter-dress/styled"
+      ]
+    },
+    {
+      "handle": "sinag-wrap-dress",
+      "title": "Sinag Printed Wrap Dress",
+      "description_html": "<p>A warm meadow print on a midi wrap dress with a defined waist and softly structured butterfly sleeves. The sample design closes with a side tie and an internal securing tie.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Dress",
+      "seo": {
+        "title": "Sinag Printed Wrap Dress | TCPF Basics",
+        "description": "A warm meadow print on a midi wrap dress with a defined waist and softly structured butterfly sleeves. The sample design closes with a side tie and."
+      },
+      "price": "1990.00",
+      "sku_prefix": "TCPF-SAMPLE-SINAG-WRAP-DRESS",
+      "artwork_handle": "sinag-field",
+      "garment_handle": "sample-sinag-wrap-dress",
+      "related_handles": [],
+      "related_products_context": null,
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "dresses"
+      ],
+      "image_asset_ids": [
+        "product/sinag-wrap-dress/primary",
+        "product/sinag-wrap-dress/silhouette",
+        "product/sinag-wrap-dress/detail",
+        "product/sinag-wrap-dress/styled"
+      ]
+    },
+    {
+      "handle": "luntian-blouse",
+      "title": "Luntian Printed Blouse",
+      "description_html": "<p>A longer blouse with a modest square neckline, structured sleeves, and green botanical brushwork. Style the sample top with simple separates to keep the print visible. Blouse only.</p><p><strong>Sample concept:</strong> AI-generated artwork and photography. Garment specifications, measurements, and price are demonstration data. Unavailable for purchase.</p>",
+      "vendor": "TCPF BASICS",
+      "product_type": "Top",
+      "seo": {
+        "title": "Luntian Printed Blouse | TCPF Basics",
+        "description": "A longer blouse with a modest square neckline, structured sleeves, and green botanical brushwork. Style the sample top with simple separates to keep."
+      },
+      "price": "950.00",
+      "sku_prefix": "TCPF-SAMPLE-LUNTIAN-BLOUSE",
+      "artwork_handle": "luntian",
+      "garment_handle": "sample-luntian-blouse",
+      "related_handles": [
+        "luntian-bolero"
+      ],
+      "related_products_context": "same_artwork",
+      "set_component_handles": [],
+      "collection_handles": [
+        "ready-to-wear",
+        "tops"
+      ],
+      "image_asset_ids": [
+        "product/luntian-blouse/primary",
+        "product/luntian-blouse/silhouette",
+        "product/luntian-blouse/detail",
+        "product/luntian-blouse/styled"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "handle": "ready-to-wear",
+      "title": "Ready-to-wear",
+      "description_html": "<p>Explore the ready-to-wear sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Ready-to-wear | TCPF Basics",
+        "description": "Explore the ready-to-wear sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront.."
+      },
+      "image_asset_id": "product/amihan-terno-set/primary",
+      "product_handles": [
+        "amihan-bolero",
+        "dapithapon-bolero",
+        "luntian-bolero",
+        "amihan-terno-set",
+        "dapithapon-terno-set",
+        "amihan-midi-skirt",
+        "dapithapon-midi-skirt",
+        "hiraya-halter-dress",
+        "sinag-wrap-dress",
+        "luntian-blouse"
+      ],
+      "artwork_handles": []
+    },
+    {
+      "handle": "boleros",
+      "title": "Printed Boleros",
+      "description_html": "<p>Explore the printed boleros sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Printed Boleros | TCPF Basics",
+        "description": "Explore the printed boleros sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront.."
+      },
+      "image_asset_id": "product/amihan-bolero/primary",
+      "product_handles": [
+        "amihan-bolero",
+        "dapithapon-bolero",
+        "luntian-bolero"
+      ],
+      "artwork_handles": []
+    },
+    {
+      "handle": "terno-sets",
+      "title": "Modern Terno Sets",
+      "description_html": "<p>Explore the modern terno sets sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Modern Terno Sets | TCPF Basics",
+        "description": "Explore the modern terno sets sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration."
+      },
+      "image_asset_id": "product/amihan-terno-set/primary",
+      "product_handles": [
+        "amihan-terno-set",
+        "dapithapon-terno-set"
+      ],
+      "artwork_handles": []
+    },
+    {
+      "handle": "skirts",
+      "title": "Printed Skirts",
+      "description_html": "<p>Explore the printed skirts sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Printed Skirts | TCPF Basics",
+        "description": "Explore the printed skirts sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront.."
+      },
+      "image_asset_id": "product/amihan-midi-skirt/primary",
+      "product_handles": [
+        "amihan-midi-skirt",
+        "dapithapon-midi-skirt"
+      ],
+      "artwork_handles": []
+    },
+    {
+      "handle": "dresses",
+      "title": "Printed Dresses",
+      "description_html": "<p>Explore the printed dresses sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Printed Dresses | TCPF Basics",
+        "description": "Explore the printed dresses sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront.."
+      },
+      "image_asset_id": "product/hiraya-halter-dress/primary",
+      "product_handles": [
+        "hiraya-halter-dress",
+        "sinag-wrap-dress"
+      ],
+      "artwork_handles": []
+    },
+    {
+      "handle": "tops",
+      "title": "Printed Tops",
+      "description_html": "<p>Explore the printed tops sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Printed Tops | TCPF Basics",
+        "description": "Explore the printed tops sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront.."
+      },
+      "image_asset_id": "product/luntian-blouse/primary",
+      "product_handles": [
+        "luntian-blouse"
+      ],
+      "artwork_handles": []
+    },
+    {
+      "handle": "amihan-garden",
+      "title": "Amihan Garden",
+      "description_html": "<p>Explore the amihan garden sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Amihan Garden | TCPF Basics",
+        "description": "Explore the amihan garden sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront.."
+      },
+      "image_asset_id": "artwork/amihan-garden",
+      "product_handles": [
+        "amihan-bolero",
+        "amihan-terno-set",
+        "amihan-midi-skirt"
+      ],
+      "artwork_handles": [
+        "amihan-garden"
+      ]
+    },
+    {
+      "handle": "dapithapon",
+      "title": "Dapithapon",
+      "description_html": "<p>Explore the dapithapon sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These sample pieces are unavailable for purchase.</p>",
+      "seo": {
+        "title": "Dapithapon | TCPF Basics",
+        "description": "Explore the dapithapon sample edit: modern silhouettes and original AI-generated textile concepts for the TCPF Basics demonstration storefront. These."
+      },
+      "image_asset_id": "artwork/dapithapon",
+      "product_handles": [
+        "dapithapon-bolero",
+        "dapithapon-terno-set",
+        "dapithapon-midi-skirt"
+      ],
+      "artwork_handles": [
+        "dapithapon"
+      ]
+    }
+  ]
+}

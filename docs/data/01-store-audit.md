@@ -1,6 +1,6 @@
 # Shopify data audit
 
-2026-10-05 · Read-only observations · `tcpfbasics.myshopify.com`.
+2026-10-05 · Before-import snapshot and schema readback · `tcpfbasics.myshopify.com`.
 
 ## Catalog
 
@@ -40,4 +40,8 @@ Theme access is separate: reading themes through this connection was denied for 
 
 ## Changes made
 
-No Shopify mutations have been performed. The approved brand documents are committed locally. Schema refinement, fresh generation, uploads, catalog replacement, and old-record cleanup remain to be implemented after the phase 2 design and plan reviews.
+The original metadata is preserved in [the before snapshot](../../data/shopify/snapshots/before-catalog-replacement.json). The four existing metaobject definitions have their approved merchant/display names and new typed fields; all legacy field types, required flags, and validations remain unchanged. Three product reference/context definitions and one collection artwork definition were added. Definition readback agrees with [the target schema](../../data/shopify/schema.json), allowing Shopify’s JSON whitespace normalization.
+
+The [local source catalog](../../data/shopify/catalog.json) contains ten products, five artwork concepts, ten garment-detail records, five size guides, twenty-five rows, and eight collections. No new product or image has been uploaded yet. Existing `terno-sets` and `dresses` collections contain only authorized old sample products and will be reused. Other existing collections remain intact.
+
+Merchant-owned metafield creation omits the admin access input; readback is `PUBLIC_READ_WRITE`, matching existing definitions. Explicit `MERCHANT_READ_WRITE` was rejected for this namespace. Operation receipts retain the returned errors and successful definitions.

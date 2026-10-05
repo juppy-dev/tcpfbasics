@@ -12,7 +12,7 @@
 
 **Dependencies:** [Maintained data and execution diagram](../diagrams/shopify-data-model.md).
 
-**Status:** Ready for plan review. No execution method has been selected; no tasks have begun.
+**Status:** Approved by the user’s “yes, proceed” response on 2026-10-05. Native execution in progress.
 
 ## Global Constraints
 
@@ -77,14 +77,14 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes the approved spec and sample brief. Produces complete source records, an ownership snapshot, and the definition-ID map used by tasks 4–5.
 
-- [ ] Read current products, definitions, relevant entries, file references, collections, publications, locations, and granted scopes through CLI 2026-10; capture sanitized metadata in the snapshot.
-- [ ] Populate `schema.json` and `catalog.json` from the approved documents, including all descriptions, five chart tables, contents, related contexts, and eight native manual collections: ready-to-wear, five categories, Amihan Garden, Dapithapon.
-- [ ] Compare source counts and references: 10 products, 5 artworks, 10 garment records, 5 charts, 25 rows, 50 expanded variants; two sets with matching bolero/skirt links; Luntian uses `same_artwork`; dresses have no related-product claims.
-- [ ] Confirm target handles are available or already belong to this import. Resolve an existing owned record through the state/snapshot map; do not overwrite a handle belonging to unrelated content.
-- [ ] Update the four existing definitions additively, using the exact fields and merchant/display names in the spec. Preserve legacy field types, required flags, and validations. Give new fields their specified choices/length/list/reference constraints; enforce positive measurements and all required new-record content in source acceptance without invalidating legacy records.
-- [ ] Create the three new PRODUCT definitions (`related_products`, `related_products_context`, `set_components`) and COLLECTION `artworks` definition under `tcpf`; make intended theme fields storefront readable and references constrained to the relevant types.
-- [ ] Read definitions back and compare every target key, type, access setting, display key, and new validation with `schema.json`; resolve mutation errors before continuing.
-- [ ] Commit intended source/schema/snapshot files with `feat(data): define reusable Shopify catalog schema`.
+- [x] Read current products, definitions, relevant entries, file references, collections, publications, locations, and granted scopes through CLI 2026-10; capture sanitized metadata in the snapshot.
+- [x] Populate `schema.json` and `catalog.json` from the approved documents, including all descriptions, five chart tables, contents, related contexts, and eight native manual collections: ready-to-wear, five categories, Amihan Garden, Dapithapon.
+- [x] Compare source counts and references: 10 products, 5 artworks, 10 garment records, 5 charts, 25 rows, 50 expanded variants; two sets with matching bolero/skirt links; Luntian uses `same_artwork`; dresses have no related-product claims.
+- [x] Confirm target handles are available or already belong to this import. Resolve an existing owned record through the state/snapshot map; do not overwrite a handle belonging to unrelated content.
+- [x] Update the four existing definitions additively, using the exact fields and merchant/display names in the spec. Preserve legacy field types, required flags, and validations. Give new fields their specified choices/length/list/reference constraints; enforce positive measurements and all required new-record content in source acceptance without invalidating legacy records.
+- [x] Create the three new PRODUCT definitions (`related_products`, `related_products_context`, `set_components`) and COLLECTION `artworks` definition under `tcpf`; make intended theme fields storefront readable and references constrained to the relevant types.
+- [x] Read definitions back and compare every target key, type, access setting, display key, and new validation with `schema.json`; resolve mutation errors before continuing.
+- [x] Commit intended source/schema/snapshot files with `feat(data): define reusable Shopify catalog schema`.
 
 ## Task 2: Generate Five Original Artwork Masters
 

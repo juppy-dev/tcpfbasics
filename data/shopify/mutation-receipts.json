@@ -1,0 +1,132 @@
+[
+  {
+    "operation": "refine-definitions",
+    "response": {
+      "u0": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339527350",
+          "type": "tcpf_size_measurement",
+          "name": "TCPF Size Measurement",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "u1": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339560118",
+          "type": "tcpf_size_chart",
+          "name": "TCPF Size Guide",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "u2": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339592886",
+          "type": "tcpf_apparel_details",
+          "name": "TCPF Garment Details",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "u3": {
+        "metaobjectDefinition": {
+          "id": "gid://shopify/MetaobjectDefinition/25339625654",
+          "type": "tcpf_design_concept",
+          "name": "TCPF Artwork",
+          "displayNameKey": "title"
+        },
+        "userErrors": []
+      },
+      "m0": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      },
+      "m1": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      },
+      "m2": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      },
+      "m3": {
+        "createdDefinition": null,
+        "userErrors": [
+          {
+            "field": [
+              "definition"
+            ],
+            "message": "Setting this access control is not permitted. It must be one of [\"public_read_write\"].",
+            "code": "INVALID"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "operation": "create-metafield-definitions-default-merchant-access",
+    "response": {
+      "m0": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539043510",
+          "namespace": "tcpf",
+          "key": "related_products",
+          "ownerType": "PRODUCT"
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539076278",
+          "namespace": "tcpf",
+          "key": "related_products_context",
+          "ownerType": "PRODUCT"
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539109046",
+          "namespace": "tcpf",
+          "key": "set_components",
+          "ownerType": "PRODUCT"
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "createdDefinition": {
+          "id": "gid://shopify/MetafieldDefinition/297539141814",
+          "namespace": "tcpf",
+          "key": "artworks",
+          "ownerType": "COLLECTION"
+        },
+        "userErrors": []
+      }
+    }
+  }
+]
