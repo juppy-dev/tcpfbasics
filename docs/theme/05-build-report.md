@@ -1,6 +1,6 @@
 # TCPF theme build report
 
-2026-10-05 · Protected preview built; final page observations and independent review are in progress.
+2026-10-05 · Protected preview and merchant handoff complete; independent source review and final page observations recorded.
 
 ## Source and preview
 
@@ -27,7 +27,7 @@ The five homepage sections are introduction/category routes, an eight-product RT
 - Admin Preferences explicitly showed password restriction on, enforced for this development store; anonymous HTTP read returned `/password`. The password was neither saved nor disclosed.
 - Native contact forms retain Shopify’s backend. Admin confirmed hCaptcha protection on contact forms. No inquiry or purchase submission was performed.
 
-Snapshots in `data/shopify/snapshots/`: before/after page/menu setup; catalog before/after activation; content after activation; publication readback; collections after publication. `theme-state.json` maps exact preview/page/menu/logo IDs. Mutation receipts contain response evidence, not signed targets or credentials.
+Snapshots in `data/shopify/snapshots/`: before/after page/menu setup; catalog before/after activation; content after activation; publication readback; collections after publication; final combined catalog/content/page/menu readback. `theme-state.json` maps exact preview/page/menu/logo IDs. Mutation receipts contain response evidence, not signed targets or credentials.
 
 ## Integration corrections
 
@@ -48,16 +48,20 @@ Native Arc storefront and Shopify editor views were inspected in this session. S
 | Set product | Gallery, native sizes/price, explicit included pieces, unavailable sample state, shared facts/artwork and ordered component cards. |
 | Set size disclosure | Separate bolero and skirt tables, XS–XL, relevant columns only, positive cm values and garment/sample explanations. |
 | Size-guide directory | Five native selected guides and their tables; readable contained mobile table observed. |
-| Bespoke | Required name/email/brief and optional phone/garment/date, visible labels and native submit button. No submission. |
+| Bespoke | Dapithapon outfit inspiration panel and explicit AI/concept caption; required name/email/brief and optional phone/garment/date, visible labels and native submit button. No submission. |
 | Contact | Required name/email/message, optional phone, visible labels and native submit button. No submission. |
-| Remaining paths | Our story, search, cart, password and 404 observations pending because concurrent Arc activity interrupted navigation. Source composition exists; no rendered conclusion is claimed yet. |
+| Our story | Tisha/Naga introduction, painted-fashion story, attributed Hiraya artwork and bespoke invitation. |
+| Search | Amihan search returns three sample cards with sample prices and Not for sale labels. |
+| Cart | Native Your cart is empty heading and recommendation area; this observation does not exercise populated/mixed carts. |
+| Password | Original art headline and protected-preview/sample explanation in TCPF Shop-first Preview. |
+| 404 | Page not found heading and branded footer in the preview. |
 
 ## Static lint and evaluation limits
 
 Latest static Theme Check: **0 errors, 6 unchanged upstream warnings** (header setting count and five unused divider documentation parameters). The local lint did not replace Shopify upload validation; server acceptance was checked separately.
 
-No tests were added or run, per the developer instruction. No contact/cart/checkout submissions, mixed-cart exercise, automated accessibility audit, performance benchmark, conversion experiment, or certification is claimed. Real merchandise paths and mixed-cart behavior have source inspection; any later requested functional evaluation must report its environment and results.
+No automated tests were added or run. Earlier implementation followed the then-active developer restriction; the final template-only correction used static lint, upload acceptance and rendered observation, consistent with the current guidance for low-impact changes. No contact/cart/checkout submissions, mixed-cart exercise, automated accessibility audit, performance benchmark, conversion experiment, or certification is claimed. Real merchandise paths and mixed-cart behavior have source inspection; any later requested functional evaluation must report its environment and results.
 
 ## Before live launch
 
-Client creative and merchandise approval, actual stock/measurements/material/care facts, verified artwork attribution, contact details, bespoke process, operating policies and commercial Shopify setup remain client decisions. The development store’s protected preview is not a live launch. Final independent code review is pending.
+Client creative and merchandise approval, actual stock/measurements/material/care facts, verified artwork attribution, contact details, bespoke process, operating policies and commercial Shopify setup remain client decisions. The development store’s protected preview is not a live launch. Independent source review found no Critical/Important issues. Its one Minor finding, missing bespoke example imagery, was completed using an existing section and attributed sample asset. See [review and decisions](06-review-and-decisions.md) for scope, evidence limits and execution rulings.

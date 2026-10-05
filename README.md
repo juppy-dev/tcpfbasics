@@ -26,3 +26,7 @@ See [the approved build plan](docs/plans/2026-10-05-shopify-theme.md), [source/l
 ## Merchant handoff
 
 The new [protected preview](https://tcpfbasics.myshopify.com/?preview_theme_id=188681584822) is unpublished theme 188681584822. The current live theme remains 188630696118. [Theme editing guide](docs/theme/04-merchant-guide.md), [build evidence](docs/theme/05-build-report.md), and [store setup](docs/theme/03-store-setup.md) describe the completed configuration and remaining client launch facts.
+
+Final source review and execution decisions are recorded in [review and decisions](docs/theme/06-review-and-decisions.md). Theme Check reports zero errors and six unchanged upstream warnings. Source and preview observations do not establish transaction, accessibility, performance or conversion certification.
+
+A portable [visual build handoff](docs/theme/tcpf-build-handoff.html) includes preview links, deliverables, evidence limits and execution decisions. It uses the approved TCPF identity and opens without the local review server.

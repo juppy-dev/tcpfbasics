@@ -36,4 +36,4 @@ The sample guard covers product/card/featured/recommendation/search/cart/structu
 
 See the [theme specification](../specs/2026-10-05-shopify-theme-design.md) and [data architecture](shopify-data-model.md).
 
-Current preview state: ten active concepts, 45 active entries, eight Online Store collections; tracked zero stock and DENY; client artwork approval pending. Size-guide picker selections use handles in their declared type, while API state records GIDs. See [build evidence](../theme/05-build-report.md).
+Current preview state: ten active concepts, 45 active entries, eight Online Store collections; tracked zero stock and DENY; client artwork approval pending. Size-guide picker selections use handles in their declared type, while API state records GIDs. All planned page views and final source review are recorded in [build evidence](../theme/05-build-report.md). Client launch remains pending.

@@ -46,6 +46,8 @@ Native filtering, sorting and pagination remain in Horizon. The present store ex
 
 Four pages are configured: `our-story` → `story`, `bespoke` → `bespoke`, `contact` → `contact`, `size-guide` → `size-guide`. General pages use the default template. Native page body copy and theme section copy are both editable; avoid repeating the same introduction in both.
 
+Bespoke includes a TCPF story panel with the Dapithapon sample outfit. Edit its image, heading, copy and attribution in the template; retain the AI/concept caption until approved real work replaces it.
+
 Contact and Bespoke use Shopify’s contact backend with visible labels and unique section-derived IDs. Bespoke adds optional garment/date fields. The client must confirm recipient/contact details and the operating process. Do not submit a test inquiry without authorization to send it.
 
 Menus: `TCPF Main Menu` / `tcpf-main-menu` and `TCPF Footer Menu` / `tcpf-footer-menu`. Edit native menu resources. The custom footer also exposes fallback destinations and hides policies without body content. Policy content itself stays in Shopify settings.

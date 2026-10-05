@@ -158,9 +158,9 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 - [x] Re-read theme list and record the live ID and intended new unpublished preview ID. Upload the complete theme using `shopify theme push --unpublished` or its exact recorded unpublished ID; persist results. Recover an uncertain response by exact ID/name before another creation.
 - [x] Inspect source/metadata results and authenticate any needed page/menu/template assignment. Verify password protection through Admin and an unauthenticated storefront read; do not save or disclose the password. If protection is unavailable, keep the catalog DRAFT and record the exact manual setup required.
 - [x] Once source guards/password and authorized sample demonstration review are established, activate the required 45 entries and ten products and publish only to the required protected channel. Keep `concept_only`, zero tracked inventory, DENY, and client `review_status` pending unless the client explicitly approves it. Read actual status/publication/inventory back.
-- [ ] Inspect actual rendered home/category/artwork/product/story/bespoke/contact/size-guide/search/cart/password/404 paths and desktop/mobile presentation without sending messages or exercising purchase submissions. Record screenshots/HTML observations and any visible Liquid errors or missing data; correct required integration problems.
+- [x] Inspect actual rendered home/category/artwork/product/story/bespoke/contact/size-guide/search/cart/password/404 paths and desktop/mobile presentation without sending messages or exercising purchase submissions. Record screenshots/HTML observations and any visible Liquid errors or missing data; correct required integration problems.
 - [x] Run final static Theme Check and document introduced versus upstream findings. Expected: no introduced syntax/schema errors; guarded, correctly linked protected preview where setup permits; live theme unchanged; factual report of any setup limitation. Do not claim tested conversion/performance/a11y certification.
-- [ ] Commit `feat(theme): configure protected TCPF preview and record integration`.
+- [x] Commit `feat(theme): configure protected TCPF preview and record integration`.
 
 
 ## Task 9: Deliver Theme Editing Guidance and Whole-branch Review
@@ -169,11 +169,11 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Produces a reviewable local theme source, preview/setup evidence, and client editing instructions. Phase 2 data/provenance remains available.
 
-- [ ] Document how to edit homepage order/categories/products, artwork edits, product facts/size guides, set/related labels, page/form copy, native menus/policies, and brand defaults. Identify native resources versus custom sections and explain sample-to-real launch requirements.
-- [ ] Record exact upstream revision, modified native integrations, preview ID/URL, resource statuses, source/lint/render/readback evidence, and any precise manual setup or client facts still needed. Update project context and diagrams in the same change.
-- [ ] Request one fresh whole-branch reviewer using the executing-plans workflow. Review focus covers native contracts, sample guards, missing fields, scope/write recovery, and mobile/loading. The reviewer uses source/rendered evidence; no tests or store writes. Correct Important/Critical findings in one pass with source/render/readback evidence; record rulings and any deferred minors.
-- [ ] Inspect final Git status, tracked theme files, source provenance, and preview state. Expected: complete theme source in the requested directory, no secrets or borrowed assets, actionable merchant handoff, and no unreported review findings. Do not mark live launch or client creative/merchandise approval complete.
-- [ ] Commit `docs(theme): deliver merchant guide and build evidence` and preserve the branch/workspace unless the user requests Git integration.
+- [x] Document how to edit homepage order/categories/products, artwork edits, product facts/size guides, set/related labels, page/form copy, native menus/policies, and brand defaults. Identify native resources versus custom sections and explain sample-to-real launch requirements.
+- [x] Record exact upstream revision, modified native integrations, preview ID/URL, resource statuses, source/lint/render/readback evidence, and any precise manual setup or client facts still needed. Update project context and diagrams in the same change.
+- [x] Request one fresh whole-branch reviewer using the executing-plans workflow. Review focus covers native contracts, sample guards, missing fields, scope/write recovery, and mobile/loading. The reviewer uses source/rendered evidence; no tests or store writes. Correct Important/Critical findings in one pass with source/render/readback evidence; record rulings and any deferred minors.
+- [x] Inspect final Git status, tracked theme files, source provenance, and preview state. Expected: complete theme source in the requested directory, no secrets or borrowed assets, actionable merchant handoff, and no unreported review findings. Do not mark live launch or client creative/merchandise approval complete.
+- [x] Commit `docs(theme): deliver merchant guide and build evidence` and preserve the branch/workspace unless the user requests Git integration.
 
 ## Plan Self-review and Execution Handoff
 

@@ -1,6 +1,6 @@
 # TCPF Basics — phase dependencies
 
-Updated: 2026-10-05. Brand, sample catalog and custom Horizon source are implemented; protected preview and final review form the current handoff.
+Updated: 2026-10-05. Brand, sample catalog and custom Horizon source are implemented; protected preview observations and final source review are complete; client launch approval remains pending.
 
 ```mermaid
 flowchart TD

@@ -41,7 +41,10 @@
     },
     "sampleCatalogVisible": true,
     "publicationId": "gid://shopify/Publication/222874861750",
-    "clientCreativeApproval": "pending"
+    "clientCreativeApproval": "pending",
+    "sourceReview": "complete",
+    "renderedObservations": "complete for planned page views; see build report for interaction limits",
+    "finalUploadErrors": []
   },
   "brandFiles": {
     "originalLogo": {

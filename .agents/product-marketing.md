@@ -1,6 +1,6 @@
 # TCPF Basics — product marketing context
 
-Updated: 2026-10-05. Brand system approved; phase 2 complete; shop-first phase 3 specification for written review.
+Updated: 2026-10-05. Brand system approved; phase 2 complete; custom shop-first Horizon preview implemented and source-reviewed.
 
 ## Confirmed business context
 
@@ -10,7 +10,7 @@ Updated: 2026-10-05. Brand system approved; phase 2 complete; shop-first phase 3
 
 **Business model:** Clothing ecommerce with bespoke inquiries. Ready-to-wear shopping leads the new website; bespoke is secondary. This priority was explicitly selected by the user.
 
-**Store:** `tcpfbasics.myshopify.com`; PHP currency confirmed by a read-only Shopify CLI query. The current catalog contains ten unpublished draft AI sample products; no real merchandise is claimed.
+**Store:** `tcpfbasics.myshopify.com`; PHP currency confirmed by a read-only Shopify CLI query. The current catalog contains ten ACTIVE AI sample products visible only on the protected Online Store demonstration; concept flags, zero inventory and DENY remain in place. No real merchandise is claimed.
 
 **Catalog decision:** Replace all six existing products. The user identifies borrowed imagery and asks for ten new sample products, each with 3–5 original AI-generated images. Create original demonstration concepts as drafts; do not attribute generated artwork to Tisha or represent invented specifications as verified inventory.
 

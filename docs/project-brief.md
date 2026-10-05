@@ -1,6 +1,6 @@
 # TCPF Basics — project brief
 
-Updated: 2026-10-05. Status: phase 1 complete; phase 2 complete; custom Horizon theme and protected preview implemented, with final observations and source review in progress.
+Updated: 2026-10-05. Status: phase 1 complete; phase 2 complete; custom Horizon theme, protected preview, final observations and source review complete. Client launch approval remains pending.
 
 ## Intended outcome
 
@@ -32,7 +32,7 @@ The [phase diagram](diagrams/project-phases.md) shows the dependencies. Each pha
 - The six pre-existing product records were snapshotted and removed after replacement readback. Their factual accuracy was not established.
 - Before replacement, a discovery read found six products total: three drafts and three active records. Observed active price points were PHP 950, 1,520, and 1,990. These are reference values, not independently verified client prices. The [catalog replacement decision](brand/research/catalog-replacement.md) records scope and reference values.
 - No logo was found among the 23 accessible Shopify file records. Reading theme settings was denied because the stored connection lacks `read_themes`. The user subsequently supplied a 2048 px Facebook JPEG of the gold needle/floral mark, saved intact in [brand assets](brand/assets/logo/tcpf-facebook-source.jpg).
-- Horizon is the requested theme foundation. Its main branch can contain unreleased features; the imported source and deployed-store compatibility will be recorded when work begins. [Shopify Horizon](https://github.com/Shopify/horizon).
+- Horizon is the requested theme foundation. Its main branch can contain unreleased features; the imported revision and preview evidence are recorded in the theme handoff. [Shopify Horizon](https://github.com/Shopify/horizon).
 
 ## Working principles
 
