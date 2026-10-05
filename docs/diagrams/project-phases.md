@@ -1,6 +1,6 @@
 # TCPF Basics — phase dependencies
 
-Updated: 2026-10-05. Brand and sample catalog are implemented; the Horizon theme build is next.
+Updated: 2026-10-05. Brand, sample catalog and custom Horizon source are implemented; protected preview and final review form the current handoff.
 
 ```mermaid
 flowchart TD
@@ -12,14 +12,14 @@ flowchart TD
     C --> G[Original sample artwork and garment concepts]
     G --> H[3–5 product images per product]
     H --> F
-    F --> I[Import latest Horizon and record source commit]
-    I --> J[Custom sections, blocks, and templates]
+    F --> I[Horizon 4.2.0 imported and source commit recorded]
+    I --> J[Implemented custom sections, blocks, and templates]
     C --> J
-    J --> K[Storefront review and client handover]
+    J --> K[Protected preview, source review and client handover]
 ```
 
 Ready-to-wear shopping is the primary journey. Bespoke commissions are a secondary offer. The selected direction is Contemporary Wearable Gallery, retaining the existing logo. Brand decisions determine both the information architecture and the visual treatment of the storefront.
 
-The user authorized replacing existing products because they carry borrowed imagery. Phase 2 preserved reference prices, generated fresh sample assets, and replaced the catalog. Samples remain drafts while their concepts are reviewed; generated paintings are not attributed to Tisha Chavez.
+The user authorized replacing existing products because they carry borrowed imagery. Phase 2 preserved reference prices, generated fresh sample assets, and replaced the catalog. Samples started as drafts and are now active for the authorized protected demonstration only. They remain concept flagged at tracked zero stock/DENY; generated paintings are not attributed to Tisha Chavez.
 
 See the [project brief](../project-brief.md) for deliverables and current observations.

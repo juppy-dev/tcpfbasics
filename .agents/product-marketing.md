@@ -32,7 +32,7 @@ Original artwork, an identifiable artist, and the translation from painting to g
 
 The connection between art and Filipiniana exists elsewhere in the category. Do not infer that TCPF invented it or is the only brand doing it. Individual artworks and founder authorship provide a more specific story.
 
-The user selected a shop-first homepage composition: category and product browsing lead; artwork stories and a smaller bespoke invitation follow. The [theme design](../docs/specs/2026-10-05-shopify-theme-design.md) is drafted for review.
+The user selected a shop-first homepage composition: category and product browsing lead; artwork stories and a smaller bespoke invitation follow. The [theme design](../docs/specs/2026-10-05-shopify-theme-design.md) and its Native implementation plan were approved; the protected custom Horizon preview is implemented.
 
 The user selected keeping current pricing while elevating the presentation. Public marketplace prices are research observations; confirm the exact catalog prices before creating or changing Shopify products.
 
@@ -65,3 +65,7 @@ Direct social-feed review is incomplete. Instagram browser access was denied; Fa
 **Secondary conversion:** Submit a suitable bespoke inquiry.
 
 **Performance evidence:** Establish a baseline and evaluate conversion after launch; no uplift is currently claimed.
+
+## Storefront implementation status
+
+Unpublished TCPF Shop-first Preview theme 188681584822 is uploaded. The ten AI concepts and shared entries are active for the protected demonstration only, at tracked zero stock/DENY with concept flags retained; final creative/merchandise approval remains pending. The theme uses the retained logo, approved fonts/palette, shop-first homepage and native Shopify commerce interfaces. See [theme evidence](../docs/theme/05-build-report.md) and [editing guidance](../docs/theme/04-merchant-guide.md).

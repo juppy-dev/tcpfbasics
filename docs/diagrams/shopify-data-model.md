@@ -1,6 +1,6 @@
 # TCPF Shopify data relationships
 
-2026-10-05 · Phase 2 schema and sample catalog implemented; entries/products remain drafts.
+2026-10-05 · Phase 2 schema and sample catalog implemented; phase 3 entries/products are active only for the protected demonstration.
 
 ```mermaid
 flowchart LR
@@ -27,12 +27,12 @@ flowchart LR
 stateDiagram-v2
     [*] --> DraftSample: Upload and populate
     DraftSample --> ReviewedSample: Product and image review
-    ReviewedSample --> ProtectedPreview: Later theme preview safeguards ready
+    ReviewedSample --> ProtectedPreview: Confirmed theme safeguards and password
     ProtectedPreview --> VerifiedMerchandise: Replace concept assets and confirm real facts
     VerifiedMerchandise --> LiveSale: Client launch decision
 ```
 
-Draft samples have zero inventory, deny overselling, and carry the concept flag. Normal collections cannot render draft products, so preview publication is a separate phase 3 handoff after password protection and sample purchase guards are confirmed. A reviewed AI sample is not automatically verified merchandise.
+Samples retain zero tracked inventory, DENY overselling, and the concept flag. After confirmed password protection and source guards, the user-authorized phase 3 demonstration activated the required data and published products/collections only to Online Store. A reviewed AI sample is not automatically verified merchandise.
 
 ## Phase 2 execution dependencies
 
@@ -51,4 +51,4 @@ See the [phase 2 design](../specs/2026-10-05-shopify-data-catalog-design.md) and
 
 ## Phase 3 consumers
 
-The proposed theme reads these typed references into artwork stories, garment facts, ordered size tables, set contents, and context-labeled recommendations. It shares the concept flag across product/card/search/cart/structured-data paths. The [theme architecture](shopify-theme-architecture.md) shows the native Horizon interfaces and protected-preview handoff; the [theme specification](../specs/2026-10-05-shopify-theme-design.md) records the shop-first composition.
+The implemented theme reads these typed references into artwork stories, garment facts, ordered size tables, set contents, and context-labeled recommendations. It shares the concept flag across product/card/search/cart/structured-data paths. The [theme architecture](shopify-theme-architecture.md) shows the native Horizon interfaces and protected-preview handoff; the [theme specification](../specs/2026-10-05-shopify-theme-design.md) records the shop-first composition.

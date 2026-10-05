@@ -1,23 +1,23 @@
 # TCPF Basics — theme architecture
 
-2026-10-05 · Proposed phase 3 design. Theme source has not yet been imported into the project.
+2026-10-05 · Implemented phase 3 architecture. Horizon 4.2.0 and custom source are in the project; protected preview 188681584822 is uploaded.
 
 ```mermaid
 flowchart TD
-    H[Latest Horizon revision + retained license] --> N[Native Liquid layout, blocks, commerce components]
+    H[Horizon 4.2.0 revision 5acd1b6 + retained license] --> N[Native Liquid layout, blocks, commerce components]
     B[Approved palette, fonts, supplied logo] --> UI[Custom TCPF sections and presentation]
     N --> UI
     P[Native products, variants, media, collections] --> UI
     A[Shared artwork entries] --> UI
     G[Garment details + size guides + rows] --> UI
     R[Related products + ordered set components] --> UI
-    E[Theme editor + native page/menu content] --> UI
+    E[Theme editor + four pages + two native menus] --> UI
     UI --> T[Homepage, collection, product, story, bespoke, contact, size guide]
     N --> C[Native cart, search, filters, variants, contact backend]
     S[Concept flag + zero stock + DENY] --> GUARD[Sample notices and purchase guards]
     GUARD --> T
     GUARD --> C
-    T --> V[Unpublished preview theme]
+    T --> V[Unpublished protected preview 188681584822]
     C --> V
 ```
 
@@ -26,7 +26,7 @@ stateDiagram-v2
     [*] --> DraftData: Phase 2 complete
     DraftData --> BuildTheme: Spec and plan approved
     BuildTheme --> GuardedTheme: Components and sample paths inspected
-    GuardedTheme --> ProtectedPreview: Password + image/content review + activation
+    GuardedTheme --> ProtectedPreview: Confirmed password + authorized demonstration + activation
     ProtectedPreview --> ClientReview: Sample catalog unavailable for purchase
     ClientReview --> RealMerchandise: Client facts, rights, policies and inventory verified
     RealMerchandise --> LiveTheme: Separate client launch decision
@@ -35,3 +35,5 @@ stateDiagram-v2
 The sample guard covers product/card/featured/recommendation/search/cart/structured-data paths. It is accompanied by store inventory safeguards; it is not a server-side checkout extension. Existing themes and uncertain old Files remain separate from the fresh-Horizon build.
 
 See the [theme specification](../specs/2026-10-05-shopify-theme-design.md) and [data architecture](shopify-data-model.md).
+
+Current preview state: ten active concepts, 45 active entries, eight Online Store collections; tracked zero stock and DENY; client artwork approval pending. Size-guide picker selections use handles in their declared type, while API state records GIDs. See [build evidence](../theme/05-build-report.md).
