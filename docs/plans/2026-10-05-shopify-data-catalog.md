@@ -135,14 +135,14 @@ Create the following during execution, with one role per file:
 
 **Interfaces:** Consumes native source records, ready media IDs, and content-entry IDs. Produces ten complete draft products with fifty variants, references, inventory safeguards, and eight manual collections.
 
-- [ ] Create or resolve the eight target manual collections with source titles, copy, SEO, images from the ready asset CDN URLs, and their permitted artwork references. Record IDs; preserve unrelated collections and memberships.
-- [ ] Use synchronous `productSet` on each owned product to supply the complete five-variant option list, native fields, intended metafields, and four ordered file associations. Include ready file IDs rather than uploading a second copy.
-- [ ] Supply full lists deliberately: `productSet` can remove list items omitted from its input. Use `metafieldsSet` for the later reference-only patch rather than an incomplete product synchronization. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/productSet).
-- [ ] Set each product `DRAFT`, `tcpf.concept_only = true`, and unpublished. Each variant uses source price/SKU, tracked inventory, and `DENY` policy; assign new inventory items to the recorded active store location and retain zero availability at every active inventory level.
-- [ ] If setting quantities is needed, read prior quantities and call `inventorySetQuantities` with `compareQuantity`, target zero, and a persisted unique `@idempotent(key: ...)` value. API 2026-10 requires this directive; retain the same key for a retry of the same operation. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/inventorySetQuantities).
-- [ ] Resolve `related_products`, `related_products_context`, `set_components`, artwork/garment fields, collection artwork fields, and manual membership after all ten product IDs exist.
-- [ ] Read all products/variants/media/metafields/collections/inventory back. Compare 10 products, 50 sizes, 40 usable product images in order, exact prices/SKUs, two component pairs, intended labels, zero stock, draft status, and no sales-channel publication.
-- [ ] Resolve errors or mismatched fields before marking the replacement set complete. Commit source/state/receipts/report with `feat(catalog): import ten complete draft sample products`.
+- [x] Create or resolve the eight target manual collections with source titles, copy, SEO, images from the ready asset CDN URLs, and their permitted artwork references. Record IDs; preserve unrelated collections and memberships.
+- [x] Use synchronous `productSet` on each owned product to supply the complete five-variant option list, native fields, intended metafields, and four ordered file associations. Include ready file IDs rather than uploading a second copy.
+- [x] Supply full lists deliberately: `productSet` can remove list items omitted from its input. Use `metafieldsSet` for the later reference-only patch rather than an incomplete product synchronization. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/productSet).
+- [x] Set each product `DRAFT`, `tcpf.concept_only = true`, and unpublished. Each variant uses source price/SKU, tracked inventory, and `DENY` policy; assign new inventory items to the recorded active store location and retain zero availability at every active inventory level.
+- [x] If setting quantities is needed, read prior quantities and call `inventorySetQuantities` with `compareQuantity`, target zero, and a persisted unique `@idempotent(key: ...)` value. API 2026-10 requires this directive; retain the same key for a retry of the same operation. [Official reference](https://shopify.dev/docs/api/admin-graphql/latest/mutations/inventorySetQuantities).
+- [x] Resolve `related_products`, `related_products_context`, `set_components`, artwork/garment fields, collection artwork fields, and manual membership after all ten product IDs exist.
+- [x] Read all products/variants/media/metafields/collections/inventory back. Compare 10 products, 50 sizes, 40 usable product images in order, exact prices/SKUs, two component pairs, intended labels, zero stock, draft status, and no sales-channel publication.
+- [x] Resolve errors or mismatched fields before marking the replacement set complete. Commit source/state/receipts/report with `feat(catalog): import ten complete draft sample products`.
 
 ## Task 6: Replace the Old Catalog and Deliver the Handoff
 

@@ -2794,5 +2794,776 @@
         "userErrors": []
       }
     }
+  },
+  {
+    "at": "2026-10-05T03:59:14.887988+00:00",
+    "operation": "import-collection-ready-to-wear",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928238262",
+          "handle": "ready-to-wear"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:19.083790+00:00",
+    "operation": "import-collection-boleros",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928271030",
+          "handle": "boleros"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:23.175820+00:00",
+    "operation": "import-collection-terno-sets",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511888359606",
+          "handle": "terno-sets"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:27.492352+00:00",
+    "operation": "import-collection-skirts",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928303798",
+          "handle": "skirts"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:31.697986+00:00",
+    "operation": "import-collection-dresses",
+    "response": {
+      "collectionUpdate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511888392374",
+          "handle": "dresses"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:35.855778+00:00",
+    "operation": "import-collection-tops",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928336566",
+          "handle": "tops"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:40.464576+00:00",
+    "operation": "import-collection-amihan-garden",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928369334",
+          "handle": "amihan-garden"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:44.687605+00:00",
+    "operation": "import-collection-dapithapon",
+    "response": {
+      "collectionCreate": {
+        "collection": {
+          "id": "gid://shopify/Collection/511928402102",
+          "handle": "dapithapon"
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:47.914454+00:00",
+    "operation": "import-product-amihan-bolero",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866894006",
+          "handle": "amihan-bolero",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386484918",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564354953398"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386517686",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564354986166"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386550454",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355018934"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386583222",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355051702"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386615990",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355084470"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:50.565771+00:00",
+    "operation": "import-product-dapithapon-bolero",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866926774",
+          "handle": "dapithapon-bolero",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386648758",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355117238"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386681526",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355150006"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386714294",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355182774"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386747062",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355215542"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386779830",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355248310"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:53.220606+00:00",
+    "operation": "import-product-luntian-bolero",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866959542",
+          "handle": "luntian-bolero",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386812598",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355281078"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386845366",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355313846"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386878134",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355346614"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386910902",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355379382"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583386943670",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355412150"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:59:57.048908+00:00",
+    "operation": "import-product-amihan-terno-set",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392866992310",
+          "handle": "amihan-terno-set",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583386976438",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355444918"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387009206",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355477686"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387041974",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355510454"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387074742",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355543222"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387107510",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355575990"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:00.264206+00:00",
+    "operation": "import-product-dapithapon-terno-set",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867025078",
+          "handle": "dapithapon-terno-set",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387140278",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355608758"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387173046",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355641526"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387205814",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355674294"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387238582",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355707062"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387271350",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355739830"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:03.128201+00:00",
+    "operation": "import-product-amihan-midi-skirt",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867057846",
+          "handle": "amihan-midi-skirt",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387304118",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355772598"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387336886",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355805366"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387369654",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355838134"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387402422",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355870902"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387435190",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355903670"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:05.867376+00:00",
+    "operation": "import-product-dapithapon-midi-skirt",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867090614",
+          "handle": "dapithapon-midi-skirt",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387467958",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355936438"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387500726",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564355969206"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387533494",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356001974"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387566262",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356034742"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387599030",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356067510"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:08.543204+00:00",
+    "operation": "import-product-hiraya-halter-dress",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867123382",
+          "handle": "hiraya-halter-dress",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387631798",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356100278"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387664566",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356133046"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387697334",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356165814"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387730102",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356198582"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387762870",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356231350"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:11.185337+00:00",
+    "operation": "import-product-sinag-wrap-dress",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867156150",
+          "handle": "sinag-wrap-dress",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387795638",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356264118"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387828406",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356296886"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387861174",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356329654"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387893942",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356362422"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387926710",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356395190"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:14.018729+00:00",
+    "operation": "import-product-luntian-blouse",
+    "response": {
+      "productSet": {
+        "product": {
+          "id": "gid://shopify/Product/15392867188918",
+          "handle": "luntian-blouse",
+          "status": "DRAFT",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/67583387959478",
+                "title": "XS",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356427958"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583387992246",
+                "title": "S",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356460726"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583388025014",
+                "title": "M",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356493494"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583388057782",
+                "title": "L",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356526262"
+                }
+              },
+              {
+                "id": "gid://shopify/ProductVariant/67583388090550",
+                "title": "XL",
+                "inventoryItem": {
+                  "id": "gid://shopify/InventoryItem/69564356559030"
+                }
+              }
+            ]
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T04:00:16.408690+00:00",
+    "operation": "import-product-links",
+    "response": {
+      "metafieldsSet": {
+        "metafields": [
+          {
+            "id": "gid://shopify/Metafield/190685608181942",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392867057846\",\"gid://shopify/Product/15392866992310\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608214710",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608247478",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392867090614\",\"gid://shopify/Product/15392867025078\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608280246",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608313014",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392867188918\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608345782",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "same_artwork"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608378550",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866894006\",\"gid://shopify/Product/15392867057846\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608411318",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608444086",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "set_components",
+            "value": "[\"gid://shopify/Product/15392866894006\",\"gid://shopify/Product/15392867057846\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608476854",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866926774\",\"gid://shopify/Product/15392867090614\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608509622",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608542390",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "set_components",
+            "value": "[\"gid://shopify/Product/15392866926774\",\"gid://shopify/Product/15392867090614\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608575158",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866894006\",\"gid://shopify/Product/15392866992310\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608607926",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608640694",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866926774\",\"gid://shopify/Product/15392867025078\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608673462",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "outfit"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608706230",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products",
+            "value": "[\"gid://shopify/Product/15392866959542\"]"
+          },
+          {
+            "id": "gid://shopify/Metafield/190685608738998",
+            "ownerType": "PRODUCT",
+            "namespace": "tcpf",
+            "key": "related_products_context",
+            "value": "same_artwork"
+          }
+        ],
+        "userErrors": []
+      }
+    }
   }
 ]

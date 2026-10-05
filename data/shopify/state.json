@@ -695,9 +695,276 @@
       ]
     }
   },
-  "products": {},
-  "variants": {},
-  "collections": {},
+  "products": {
+    "amihan-bolero": {
+      "id": "gid://shopify/Product/15392866894006",
+      "status": "DRAFT"
+    },
+    "dapithapon-bolero": {
+      "id": "gid://shopify/Product/15392866926774",
+      "status": "DRAFT"
+    },
+    "luntian-bolero": {
+      "id": "gid://shopify/Product/15392866959542",
+      "status": "DRAFT"
+    },
+    "amihan-terno-set": {
+      "id": "gid://shopify/Product/15392866992310",
+      "status": "DRAFT"
+    },
+    "dapithapon-terno-set": {
+      "id": "gid://shopify/Product/15392867025078",
+      "status": "DRAFT"
+    },
+    "amihan-midi-skirt": {
+      "id": "gid://shopify/Product/15392867057846",
+      "status": "DRAFT"
+    },
+    "dapithapon-midi-skirt": {
+      "id": "gid://shopify/Product/15392867090614",
+      "status": "DRAFT"
+    },
+    "hiraya-halter-dress": {
+      "id": "gid://shopify/Product/15392867123382",
+      "status": "DRAFT"
+    },
+    "sinag-wrap-dress": {
+      "id": "gid://shopify/Product/15392867156150",
+      "status": "DRAFT"
+    },
+    "luntian-blouse": {
+      "id": "gid://shopify/Product/15392867188918",
+      "status": "DRAFT"
+    }
+  },
+  "variants": {
+    "amihan-bolero/XS": {
+      "id": "gid://shopify/ProductVariant/67583386484918",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564354953398"
+    },
+    "amihan-bolero/S": {
+      "id": "gid://shopify/ProductVariant/67583386517686",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564354986166"
+    },
+    "amihan-bolero/M": {
+      "id": "gid://shopify/ProductVariant/67583386550454",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355018934"
+    },
+    "amihan-bolero/L": {
+      "id": "gid://shopify/ProductVariant/67583386583222",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355051702"
+    },
+    "amihan-bolero/XL": {
+      "id": "gid://shopify/ProductVariant/67583386615990",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355084470"
+    },
+    "dapithapon-bolero/XS": {
+      "id": "gid://shopify/ProductVariant/67583386648758",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355117238"
+    },
+    "dapithapon-bolero/S": {
+      "id": "gid://shopify/ProductVariant/67583386681526",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355150006"
+    },
+    "dapithapon-bolero/M": {
+      "id": "gid://shopify/ProductVariant/67583386714294",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355182774"
+    },
+    "dapithapon-bolero/L": {
+      "id": "gid://shopify/ProductVariant/67583386747062",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355215542"
+    },
+    "dapithapon-bolero/XL": {
+      "id": "gid://shopify/ProductVariant/67583386779830",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355248310"
+    },
+    "luntian-bolero/XS": {
+      "id": "gid://shopify/ProductVariant/67583386812598",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355281078"
+    },
+    "luntian-bolero/S": {
+      "id": "gid://shopify/ProductVariant/67583386845366",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355313846"
+    },
+    "luntian-bolero/M": {
+      "id": "gid://shopify/ProductVariant/67583386878134",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355346614"
+    },
+    "luntian-bolero/L": {
+      "id": "gid://shopify/ProductVariant/67583386910902",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355379382"
+    },
+    "luntian-bolero/XL": {
+      "id": "gid://shopify/ProductVariant/67583386943670",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355412150"
+    },
+    "amihan-terno-set/XS": {
+      "id": "gid://shopify/ProductVariant/67583386976438",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355444918"
+    },
+    "amihan-terno-set/S": {
+      "id": "gid://shopify/ProductVariant/67583387009206",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355477686"
+    },
+    "amihan-terno-set/M": {
+      "id": "gid://shopify/ProductVariant/67583387041974",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355510454"
+    },
+    "amihan-terno-set/L": {
+      "id": "gid://shopify/ProductVariant/67583387074742",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355543222"
+    },
+    "amihan-terno-set/XL": {
+      "id": "gid://shopify/ProductVariant/67583387107510",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355575990"
+    },
+    "dapithapon-terno-set/XS": {
+      "id": "gid://shopify/ProductVariant/67583387140278",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355608758"
+    },
+    "dapithapon-terno-set/S": {
+      "id": "gid://shopify/ProductVariant/67583387173046",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355641526"
+    },
+    "dapithapon-terno-set/M": {
+      "id": "gid://shopify/ProductVariant/67583387205814",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355674294"
+    },
+    "dapithapon-terno-set/L": {
+      "id": "gid://shopify/ProductVariant/67583387238582",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355707062"
+    },
+    "dapithapon-terno-set/XL": {
+      "id": "gid://shopify/ProductVariant/67583387271350",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355739830"
+    },
+    "amihan-midi-skirt/XS": {
+      "id": "gid://shopify/ProductVariant/67583387304118",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355772598"
+    },
+    "amihan-midi-skirt/S": {
+      "id": "gid://shopify/ProductVariant/67583387336886",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355805366"
+    },
+    "amihan-midi-skirt/M": {
+      "id": "gid://shopify/ProductVariant/67583387369654",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355838134"
+    },
+    "amihan-midi-skirt/L": {
+      "id": "gid://shopify/ProductVariant/67583387402422",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355870902"
+    },
+    "amihan-midi-skirt/XL": {
+      "id": "gid://shopify/ProductVariant/67583387435190",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355903670"
+    },
+    "dapithapon-midi-skirt/XS": {
+      "id": "gid://shopify/ProductVariant/67583387467958",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355936438"
+    },
+    "dapithapon-midi-skirt/S": {
+      "id": "gid://shopify/ProductVariant/67583387500726",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564355969206"
+    },
+    "dapithapon-midi-skirt/M": {
+      "id": "gid://shopify/ProductVariant/67583387533494",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356001974"
+    },
+    "dapithapon-midi-skirt/L": {
+      "id": "gid://shopify/ProductVariant/67583387566262",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356034742"
+    },
+    "dapithapon-midi-skirt/XL": {
+      "id": "gid://shopify/ProductVariant/67583387599030",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356067510"
+    },
+    "hiraya-halter-dress/XS": {
+      "id": "gid://shopify/ProductVariant/67583387631798",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356100278"
+    },
+    "hiraya-halter-dress/S": {
+      "id": "gid://shopify/ProductVariant/67583387664566",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356133046"
+    },
+    "hiraya-halter-dress/M": {
+      "id": "gid://shopify/ProductVariant/67583387697334",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356165814"
+    },
+    "hiraya-halter-dress/L": {
+      "id": "gid://shopify/ProductVariant/67583387730102",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356198582"
+    },
+    "hiraya-halter-dress/XL": {
+      "id": "gid://shopify/ProductVariant/67583387762870",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356231350"
+    },
+    "sinag-wrap-dress/XS": {
+      "id": "gid://shopify/ProductVariant/67583387795638",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356264118"
+    },
+    "sinag-wrap-dress/S": {
+      "id": "gid://shopify/ProductVariant/67583387828406",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356296886"
+    },
+    "sinag-wrap-dress/M": {
+      "id": "gid://shopify/ProductVariant/67583387861174",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356329654"
+    },
+    "sinag-wrap-dress/L": {
+      "id": "gid://shopify/ProductVariant/67583387893942",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356362422"
+    },
+    "sinag-wrap-dress/XL": {
+      "id": "gid://shopify/ProductVariant/67583387926710",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356395190"
+    },
+    "luntian-blouse/XS": {
+      "id": "gid://shopify/ProductVariant/67583387959478",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356427958"
+    },
+    "luntian-blouse/S": {
+      "id": "gid://shopify/ProductVariant/67583387992246",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356460726"
+    },
+    "luntian-blouse/M": {
+      "id": "gid://shopify/ProductVariant/67583388025014",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356493494"
+    },
+    "luntian-blouse/L": {
+      "id": "gid://shopify/ProductVariant/67583388057782",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356526262"
+    },
+    "luntian-blouse/XL": {
+      "id": "gid://shopify/ProductVariant/67583388090550",
+      "inventory_item_id": "gid://shopify/InventoryItem/69564356559030"
+    }
+  },
+  "collections": {
+    "ready-to-wear": {
+      "id": "gid://shopify/Collection/511928238262"
+    },
+    "boleros": {
+      "id": "gid://shopify/Collection/511928271030"
+    },
+    "terno-sets": {
+      "id": "gid://shopify/Collection/511888359606"
+    },
+    "skirts": {
+      "id": "gid://shopify/Collection/511928303798"
+    },
+    "dresses": {
+      "id": "gid://shopify/Collection/511888392374"
+    },
+    "tops": {
+      "id": "gid://shopify/Collection/511928336566"
+    },
+    "amihan-garden": {
+      "id": "gid://shopify/Collection/511928369334"
+    },
+    "dapithapon": {
+      "id": "gid://shopify/Collection/511928402102"
+    }
+  },
   "locations": [
     {
       "id": "gid://shopify/Location/91900346550",
