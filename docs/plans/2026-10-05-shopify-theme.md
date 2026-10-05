@@ -104,11 +104,11 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Consumes native collection filters/sort/pagination and card interfaces from Horizon. Artwork introduction consumes `collection.metafields.tcpf.artworks.value`. Produces compatible collection/card markup for home/search/recommendation consumers.
 
-- [ ] Create concise default and artwork introductions. Optional artwork fields render only when present, with correct origin/attribution; category navigation uses actual collection links.
-- [ ] Compose the collection templates around Horizon's native main-collection/filter/pagination contracts. Use only available useful filters; retain accessible pagination and an honest empty state.
-- [ ] Apply the distinctive card typography/crop/spacing and sample labels while preserving native element refs, variant-relevant links, and loading behavior. Ensure all meaningful information is visible on touch without hover.
-- [ ] Inspect absent/blank reference branches, filter/query URLs, long titles, card column sizing, and image crops in source. Static lint must show no introduced errors. Expected: usable empty collections and no duplicated filtering/card engine.
-- [ ] Commit `feat(theme): create custom collection and product card presentation`.
+- [x] Create concise default and artwork introductions. Optional artwork fields render only when present, with correct origin/attribution; category navigation uses actual collection links.
+- [x] Compose the collection templates around Horizon's native main-collection/filter/pagination contracts. Use only available useful filters; retain accessible pagination and an honest empty state.
+- [x] Apply the distinctive card typography/crop/spacing and sample labels while preserving native element refs, variant-relevant links, and loading behavior. Ensure all meaningful information is visible on touch without hover.
+- [x] Inspect absent/blank reference branches, filter/query URLs, long titles, card column sizing, and image crops in source. Static lint must show no introduced errors. Expected: usable empty collections and no duplicated filtering/card engine.
+- [x] Commit `feat(theme): create custom collection and product card presentation`.
 
 ## Task 5: Build Product Facts, Sizing, and Artwork Content
 

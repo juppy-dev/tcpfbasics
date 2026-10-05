@@ -114,6 +114,9 @@
         <p>
           {{ 'content.use_fewer_filters_html' | t: link: collection.url, class: 'main-collection-grid__empty-link' }}
         </p>
+        {% if template.name == 'collection' %}
+          <a class="tcpf-link" href="{{ routes.collections_url }}/ready-to-wear">Explore ready-to-wear</a>
+        {% endif %}
       </div>
     {% else %}
       {% if enable_infinite_scroll %}

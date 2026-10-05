@@ -21,6 +21,9 @@ body { font-optical-sizing: auto; }
 .tcpf-image { display: block; width: 100%; height: auto; }
 .tcpf-empty { border: 1px solid var(--tcpf-line); padding: 28px; }
 .tcpf-preview-bar { background: var(--tcpf-petal); color: var(--color-foreground); text-align: center; padding: 10px var(--tcpf-gutter); font-size: 13px; line-height: 1.5; }
+.tcpf-product-card { --product-card-gap: 8px; }
+.tcpf-product-card .text-block { line-height: 1.45; }
+.tcpf-card-notice { font: 400 12px/1.5 var(--font-body--family); color: var(--tcpf-muted); margin: 2px 0 0; }
 .header-logo { background: #fff; }
 .tcpf-footer { background: var(--color-foreground); color: var(--color-background); padding-block: 64px 28px; }
 .tcpf-footer__grid { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr) minmax(0, 1fr); gap: 40px; }

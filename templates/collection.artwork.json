@@ -20,7 +20,7 @@
           "dresses",
           "tops"
         ],
-        "show_artwork": false
+        "show_artwork": true
       }
     },
     "main": {

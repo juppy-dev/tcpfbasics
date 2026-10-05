@@ -1,4 +1,11 @@
 {
+  "tcpf": {
+    "not_for_sale": "Not for sale",
+    "sample_price": "Sample price",
+    "sample_notice": "AI-generated sample concept. Imagery and garment details are for demonstration. This piece is not available to purchase.",
+    "remove_samples": "Remove sample concepts to continue to checkout.",
+    "preview_notice": "Client preview · AI-generated sample pieces are not for sale."
+  },
   "blocks": {
     "load_video": "Įkelti vaizdo įrašą „{{ description }}“",
     "sold_out": "Išparduota",
