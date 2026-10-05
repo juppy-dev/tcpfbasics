@@ -1,6 +1,6 @@
 # TCPF Basics — custom Horizon theme design
 
-2026-10-05 · Draft for written review. Theme implementation starts after this specification and its implementation plan are approved.
+2026-10-05 · Written specification approved through the review page. Implementation-plan review precedes theme code changes.
 
 ## Intent and confirmed choices
 
@@ -114,7 +114,7 @@ Reuse the completed data library; no additional metaobject system is planned. Th
 - Homepage, default/artwork collection, product, Our story, Bespoke, Contact, Size guide, and general-page templates implement the selected hierarchy and reference the new catalog correctly.
 - Merchant controls are identifiable in the editor, native resources remain native, and shared data changes appear where intended. Empty/missing-reference states are handled.
 - Commerce interfaces remain native; every sample route and cart path carries the appropriate notice and guard. Initial product/content state stays DRAFT until the protected-preview conditions are met.
-- Source, rendered-page inspection, and authenticated state readback document implementation. No automated tests are added or run unless the user explicitly requests testing/verification. Any later requested accessibility/performance/functional evaluation reports its environment and limits.
+- Source, rendered-page inspection, and authenticated state readback document implementation. No tests are added or run unless the user explicitly requests testing/verification. Any later requested accessibility/performance/functional evaluation reports its environment and limits.
 - An unpublished theme preview, editing guide, source revision record, and precise remaining merchant setup are delivered. No live theme launch occurs as part of the build handoff.
 
 ## Review gate
