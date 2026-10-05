@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "intro": {
+      "type": "tcpf-page-header",
+      "settings": {
+        "eyebrow": "Tisha Chavez Painted Fashion",
+        "heading": "Art, with a life beyond the canvas.",
+        "introduction": "<p>A Naga City boutique bringing original artworks into modern Filipiniana clothing.</p>",
+        "show_page_content": true
+      }
+    },
+    "story": {
+      "type": "tcpf-story-panel",
+      "settings": {
+        "eyebrow": "From Naga City",
+        "heading": "A painted-fashion point of view.",
+        "copy": "<p>TCPF is owned and operated by Tisha Chavez. The boutique prints original paintings and artworks onto modern Filipiniana clothing, giving expressive imagery a place in the everyday wardrobe.</p>",
+        "image": "shopify://shop_images/tcpf-sample-artwork-hiraya-bloom-v1.png",
+        "caption": "AI-generated Hiraya sample artwork, used for the website demonstration.",
+        "link": "/collections/ready-to-wear",
+        "link_label": "Explore ready-to-wear"
+      }
+    },
+    "bespoke": {
+      "type": "tcpf-bespoke-invitation",
+      "settings": {}
+    }
+  },
+  "order": [
+    "intro",
+    "story",
+    "bespoke"
+  ]
+}

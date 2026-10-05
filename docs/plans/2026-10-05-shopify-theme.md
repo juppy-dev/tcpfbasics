@@ -129,12 +129,12 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** Native Shopify contact backend with unique section-derived IDs; reusable guides selected through typed theme settings. Produces actual page handles/resources where authorized access permits, or exact prepared manual setup where access is unavailable.
 
-- [ ] Prepare source-backed Our story copy and clear Bespoke/Contact/Size guide content. Proposed bespoke steps require client confirmation before live launch; no invented portrait, celebrity credit, address, email, price, or turnaround.
-- [ ] Build page layouts using custom editorial sections and native page content. Build the guide directory from reusable guides and task 5's table interface.
-- [ ] Build contact/bespoke form modes: required name/email/brief, optional phone, bespoke garment interest and occasion/date. Use visible labels, unique IDs, valid phone input without a restrictive invented pattern, native errors/success/spam protection. Do not submit a test inquiry.
-- [ ] Use available authenticated Shopify Admin access for the four pages and menu destinations when possible. Resolve exact handles and record IDs before retrying creation. If access is unavailable, provide exact titles/handles/template suffixes/copy/menu steps in `03-store-setup.md`; report the precise remaining action.
-- [ ] Inspect templates/form semantics, missing optional contact details, page URLs, and scope evidence. Expected: coherent Our story/Bespoke/Contact/Size guide templates plus general page; prepared content remains usable without unsupported claims. Static lint has no introduced errors.
-- [ ] Commit `feat(theme): add editorial pages and native inquiry forms`.
+- [x] Prepare source-backed Our story copy and clear Bespoke/Contact/Size guide content. Proposed bespoke steps require client confirmation before live launch; no invented portrait, celebrity credit, address, email, price, or turnaround.
+- [x] Build page layouts using custom editorial sections and native page content. Build the guide directory from reusable guides and task 5's table interface.
+- [x] Build contact/bespoke form modes: required name/email/brief, optional phone, bespoke garment interest and occasion/date. Use visible labels, unique IDs, valid phone input without a restrictive invented pattern, native errors/success/spam protection. Do not submit a test inquiry.
+- [x] Use available authenticated Shopify Admin access for the four pages and menu destinations when possible. Resolve exact handles and record IDs before retrying creation. If access is unavailable, provide exact titles/handles/template suffixes/copy/menu steps in `03-store-setup.md`; report the precise remaining action.
+- [x] Inspect templates/form semantics, missing optional contact details, page URLs, and scope evidence. Expected: coherent Our story/Bespoke/Contact/Size guide templates plus general page; prepared content remains usable without unsupported claims. Static lint has no introduced errors.
+- [x] Commit `feat(theme): add editorial pages and native inquiry forms`.
 
 ## Task 7: Complete Sample Guards and Supporting Templates
 

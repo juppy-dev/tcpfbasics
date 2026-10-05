@@ -1,0 +1,16 @@
+<section class="tcpf-section tcpf-wrap tcpf-guide-directory">
+  {% for guide in section.settings.guides %}
+    {% assign guide_prefix = section.id | append: '-' | append: forloop.index %}
+    <article>{% render 'tcpf-size-table', guide: guide, id_prefix: guide_prefix %}</article>
+  {% else %}
+    <p class="tcpf-empty">{% if request.design_mode %}Select the reusable TCPF size guides.{% else %}Size guidance is available with each piece. Contact TCPF if you need help choosing.{% endif %}</p>
+  {% endfor %}
+</section>
+{% stylesheet %}
+  .tcpf-guide-directory { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 44px; padding-top: 16px; }
+  .tcpf-guide-directory > * { min-width: 0; }
+  @media(max-width:749px) { .tcpf-guide-directory { grid-template-columns: minmax(0,1fr); } }
+{% endstylesheet %}
+{% schema %}
+{"name":"TCPF size-guide directory","enabled_on":{"templates":["page"]},"settings":[{"type":"metaobject_list","id":"guides","metaobject_type":"tcpf_size_chart","label":"Size guides","limit":10}]}
+{% endschema %}

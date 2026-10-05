@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "intro": {
+      "type": "tcpf-page-header",
+      "settings": {
+        "eyebrow": "A personal expression",
+        "heading": "Start with what you imagine.",
+        "introduction": "<p>An occasion, an artwork, a silhouette. Share the idea that brought you here.</p>",
+        "show_page_content": true
+      }
+    },
+    "inquiry": {
+      "type": "tcpf-contact",
+      "settings": {
+        "bespoke": true,
+        "heading": "Tell us your idea.",
+        "copy": "<p>Share your garment interest, the occasion, and any artwork direction you have in mind. TCPF can discuss the possibilities with you.</p>",
+        "submit_label": "Send a bespoke inquiry"
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "inquiry"
+  ]
+}
