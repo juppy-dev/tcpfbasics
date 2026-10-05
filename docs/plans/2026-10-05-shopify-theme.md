@@ -91,12 +91,12 @@ Do not introduce new metaobject definitions. Product artwork is `tcpf.design_con
 
 **Interfaces:** `tcpf-shop-intro` consumes five native collections; `tcpf-featured-collection` consumes a native collection/count and renders Horizon's static `_product-card` block with `closest.product`; artwork/edit sections consume collection and typed artwork references. Produces the selected homepage order.
 
-- [ ] Build the compact intro with the exact approved headline, RTW link, and five image-led category collection routes. Use real collection URLs/images, visible labels, and useful empty-editor states.
-- [ ] Build the curated RTW grid with native product-card block interfaces, four desktop/two mobile columns, names/prices, and View all. Preserve native card IDs/events and merchant order; do not create a parallel quick-add engine.
-- [ ] Build Amihan/Dapithapon artwork edits using matching masters/garments and explicit sample attribution. Add source-backed story and smaller bespoke sections using merchant text/image/link settings.
-- [ ] Seed the homepage JSON with the five sections in the approved order and the actual new collection/artwork resources. Reuse accepted imagery; generate no extra product photographs.
-- [ ] Inspect section schemas, DOM order, responsive image widths/dimensions/loading, and defaults. Expected: category/product browsing near the top; no invented proof or blank broken links; first prominent image eager/high priority, lower images lazy.
-- [ ] Commit `feat(theme): build shop-first TCPF homepage sections`.
+- [x] Build the compact intro with the exact approved headline, RTW link, and five image-led category collection routes. Use real collection URLs/images, visible labels, and useful empty-editor states.
+- [x] Build the curated RTW grid with native product-card block interfaces, four desktop/two mobile columns, names/prices, and View all. Preserve native card IDs/events and merchant order; do not create a parallel quick-add engine.
+- [x] Build Amihan/Dapithapon artwork edits using matching masters/garments and explicit sample attribution. Add source-backed story and smaller bespoke sections using merchant text/image/link settings.
+- [x] Seed the homepage JSON with the five sections in the approved order and the actual new collection/artwork resources. Reuse accepted imagery; generate no extra product photographs.
+- [x] Inspect section schemas, DOM order, responsive image widths/dimensions/loading, and defaults. Expected: category/product browsing near the top; no invented proof or blank broken links; first prominent image eager/high priority, lower images lazy.
+- [x] Commit `feat(theme): build shop-first TCPF homepage sections`.
 
 ## Task 4: Build Collection and Card Presentation
 
