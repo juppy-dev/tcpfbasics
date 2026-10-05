@@ -16,8 +16,685 @@
     "PRODUCT/tcpf.set_components": "gid://shopify/MetafieldDefinition/297539109046",
     "COLLECTION/tcpf.artworks": "gid://shopify/MetafieldDefinition/297539141814"
   },
-  "entries": {},
-  "files": {},
+  "entries": {
+    "tcpf_size_measurement/sample-bolero-xs": {
+      "id": "gid://shopify/Metaobject/616090075318",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-bolero-s": {
+      "id": "gid://shopify/Metaobject/616090108086",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-bolero-m": {
+      "id": "gid://shopify/Metaobject/616090140854",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-bolero-l": {
+      "id": "gid://shopify/Metaobject/616090173622",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-bolero-xl": {
+      "id": "gid://shopify/Metaobject/616090206390",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-skirt-xs": {
+      "id": "gid://shopify/Metaobject/616090239158",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-skirt-s": {
+      "id": "gid://shopify/Metaobject/616090271926",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-skirt-m": {
+      "id": "gid://shopify/Metaobject/616090304694",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-skirt-l": {
+      "id": "gid://shopify/Metaobject/616090337462",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-skirt-xl": {
+      "id": "gid://shopify/Metaobject/616090370230",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-halter-dress-xs": {
+      "id": "gid://shopify/Metaobject/616090402998",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-halter-dress-s": {
+      "id": "gid://shopify/Metaobject/616090435766",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-halter-dress-m": {
+      "id": "gid://shopify/Metaobject/616090468534",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-halter-dress-l": {
+      "id": "gid://shopify/Metaobject/616090501302",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-halter-dress-xl": {
+      "id": "gid://shopify/Metaobject/616090534070",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-wrap-dress-xs": {
+      "id": "gid://shopify/Metaobject/616090566838",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-wrap-dress-s": {
+      "id": "gid://shopify/Metaobject/616090599606",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-wrap-dress-m": {
+      "id": "gid://shopify/Metaobject/616090632374",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-wrap-dress-l": {
+      "id": "gid://shopify/Metaobject/616090665142",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-wrap-dress-xl": {
+      "id": "gid://shopify/Metaobject/616090697910",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-blouse-xs": {
+      "id": "gid://shopify/Metaobject/616090730678",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-blouse-s": {
+      "id": "gid://shopify/Metaobject/616090763446",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-blouse-m": {
+      "id": "gid://shopify/Metaobject/616090796214",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-blouse-l": {
+      "id": "gid://shopify/Metaobject/616090861750",
+      "status": "DRAFT"
+    },
+    "tcpf_size_measurement/sample-blouse-xl": {
+      "id": "gid://shopify/Metaobject/616090894518",
+      "status": "DRAFT"
+    },
+    "tcpf_size_chart/sample-bolero": {
+      "id": "gid://shopify/Metaobject/616090927286",
+      "status": "DRAFT"
+    },
+    "tcpf_size_chart/sample-skirt": {
+      "id": "gid://shopify/Metaobject/616090960054",
+      "status": "DRAFT"
+    },
+    "tcpf_size_chart/sample-halter-dress": {
+      "id": "gid://shopify/Metaobject/616090992822",
+      "status": "DRAFT"
+    },
+    "tcpf_size_chart/sample-wrap-dress": {
+      "id": "gid://shopify/Metaobject/616091025590",
+      "status": "DRAFT"
+    },
+    "tcpf_size_chart/sample-blouse": {
+      "id": "gid://shopify/Metaobject/616091058358",
+      "status": "DRAFT"
+    },
+    "tcpf_design_concept/amihan-garden": {
+      "id": "gid://shopify/Metaobject/616091189430",
+      "status": "DRAFT"
+    },
+    "tcpf_design_concept/dapithapon": {
+      "id": "gid://shopify/Metaobject/616091222198",
+      "status": "DRAFT"
+    },
+    "tcpf_design_concept/luntian": {
+      "id": "gid://shopify/Metaobject/616091254966",
+      "status": "DRAFT"
+    },
+    "tcpf_design_concept/hiraya-bloom": {
+      "id": "gid://shopify/Metaobject/616091287734",
+      "status": "DRAFT"
+    },
+    "tcpf_design_concept/sinag-field": {
+      "id": "gid://shopify/Metaobject/616091320502",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-amihan-bolero": {
+      "id": "gid://shopify/Metaobject/616091353270",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-dapithapon-bolero": {
+      "id": "gid://shopify/Metaobject/616091386038",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-luntian-bolero": {
+      "id": "gid://shopify/Metaobject/616091418806",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-amihan-terno-set": {
+      "id": "gid://shopify/Metaobject/616091451574",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-dapithapon-terno-set": {
+      "id": "gid://shopify/Metaobject/616091484342",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-amihan-midi-skirt": {
+      "id": "gid://shopify/Metaobject/616091517110",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-dapithapon-midi-skirt": {
+      "id": "gid://shopify/Metaobject/616091549878",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-hiraya-halter-dress": {
+      "id": "gid://shopify/Metaobject/616091582646",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-sinag-wrap-dress": {
+      "id": "gid://shopify/Metaobject/616091648182",
+      "status": "DRAFT"
+    },
+    "tcpf_apparel_details/sample-luntian-blouse": {
+      "id": "gid://shopify/Metaobject/616091680950",
+      "status": "DRAFT"
+    }
+  },
+  "files": {
+    "artwork/amihan-garden": {
+      "id": "gid://shopify/MediaImage/46390347759798",
+      "filename": "tcpf-sample-artwork-amihan-garden-v1.png",
+      "source_sha256": "4fe1b6c9287b0b0cfa18eabd42c74517f3e71a845f3cb2d758abb58562b3c2d3",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-artwork-amihan-garden-v1.png?v=1791171635",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "artwork/dapithapon": {
+      "id": "gid://shopify/MediaImage/46390347792566",
+      "filename": "tcpf-sample-artwork-dapithapon-v1.png",
+      "source_sha256": "2df23c0def992445f0834e550a52ccfc6ee4c848ceea3ed24a3ce6ad3a10ae0a",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-artwork-dapithapon-v1.png?v=1791171635",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "artwork/luntian": {
+      "id": "gid://shopify/MediaImage/46390347825334",
+      "filename": "tcpf-sample-artwork-luntian-v1.png",
+      "source_sha256": "110717cd58cff7fa0f381484babbf23ffe935d00402c497e54b40d95f804999c",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-artwork-luntian-v1.png?v=1791171635",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "artwork/hiraya-bloom": {
+      "id": "gid://shopify/MediaImage/46390347858102",
+      "filename": "tcpf-sample-artwork-hiraya-bloom-v1.png",
+      "source_sha256": "efd4628d914815e3031761c3d8400c19b8fb506b1a1e8d8f0f455f412445c371",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-artwork-hiraya-bloom-v1.png?v=1791171636",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "artwork/sinag-field": {
+      "id": "gid://shopify/MediaImage/46390347890870",
+      "filename": "tcpf-sample-artwork-sinag-field-v1.png",
+      "source_sha256": "89bcc22ce60d0ce7741b244394dfa2920ee02a9be5a304ced138cdc3b8abd83c",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-artwork-sinag-field-v1.png?v=1791171635",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "product/amihan-bolero/primary": {
+      "id": "gid://shopify/MediaImage/46390347923638",
+      "filename": "tcpf-sample-product-amihan-bolero-primary-v1.png",
+      "source_sha256": "b5db47b619aa048681b457c0e766c6cba942a4ad016cc41a0dc1978103681c1f",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-bolero-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-bolero/primary": {
+      "id": "gid://shopify/MediaImage/46390347956406",
+      "filename": "tcpf-sample-product-dapithapon-bolero-primary-v1.png",
+      "source_sha256": "ac05bc8829c47580b148e0e46e545ca786be1bdd559f98af02d0832d136fb01a",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-bolero-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-bolero/primary": {
+      "id": "gid://shopify/MediaImage/46390347989174",
+      "filename": "tcpf-sample-product-luntian-bolero-primary-v1.png",
+      "source_sha256": "c15fca5cf2a79f4a38dc6cf0b41b4892980af9200d22bba48eb54d099c972e68",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-bolero-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-midi-skirt/primary": {
+      "id": "gid://shopify/MediaImage/46390348021942",
+      "filename": "tcpf-sample-product-amihan-midi-skirt-primary-v1.png",
+      "source_sha256": "fb55150bb56223ec30c6bc190eea541ed17b1001029491616597027c4af26ffe",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-midi-skirt-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-midi-skirt/primary": {
+      "id": "gid://shopify/MediaImage/46390348054710",
+      "filename": "tcpf-sample-product-dapithapon-midi-skirt-primary-v1.png",
+      "source_sha256": "cb59ab59dd95d22a8cba42bb3e87f0b93cd08936456ba80790e3dc0f6779f783",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-midi-skirt-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/hiraya-halter-dress/primary": {
+      "id": "gid://shopify/MediaImage/46390348087478",
+      "filename": "tcpf-sample-product-hiraya-halter-dress-primary-v1.png",
+      "source_sha256": "49dafcaf55f8769c480d848804f9cedf50bda5da0055eef55e0fdaf67de67118",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-hiraya-halter-dress-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/sinag-wrap-dress/primary": {
+      "id": "gid://shopify/MediaImage/46390348120246",
+      "filename": "tcpf-sample-product-sinag-wrap-dress-primary-v1.png",
+      "source_sha256": "ad0f4856917ec87203751ab9fedd5fe2d0f9bd2efea8eb045e68bbef4791f304",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-sinag-wrap-dress-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-terno-set/primary": {
+      "id": "gid://shopify/MediaImage/46390348153014",
+      "filename": "tcpf-sample-product-amihan-terno-set-primary-v1.png",
+      "source_sha256": "706b868cec9b06e4c1456860a2e20ec2c982fd22b28de7b0e3cbfe8addd97813",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-terno-set-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-blouse/primary": {
+      "id": "gid://shopify/MediaImage/46390348185782",
+      "filename": "tcpf-sample-product-luntian-blouse-primary-v1.png",
+      "source_sha256": "f3bec844dcc66f7f1cd5cb24736a93a200a0c0b9c7699ce9f91b628539b3b71e",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-blouse-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-terno-set/primary": {
+      "id": "gid://shopify/MediaImage/46390348218550",
+      "filename": "tcpf-sample-product-dapithapon-terno-set-primary-v1.png",
+      "source_sha256": "bd40b5a28b8d9b9307ff30eee2a039e0fca3d1e78a40c8cc02943587962b8d9a",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-terno-set-primary-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-bolero/silhouette": {
+      "id": "gid://shopify/MediaImage/46390348251318",
+      "filename": "tcpf-sample-product-amihan-bolero-silhouette-v1.png",
+      "source_sha256": "6cb6bbc053073799bb021774f2ffe32d34ee3dcf920653e38d5ea0371c63bc69",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-bolero-silhouette-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-bolero/detail": {
+      "id": "gid://shopify/MediaImage/46390348284086",
+      "filename": "tcpf-sample-product-amihan-bolero-detail-v1.png",
+      "source_sha256": "7a42226a58313addb1f7ff44a48e957c3c0d0d9ac2905ba4d989d91af898419c",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-bolero-detail-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-bolero/styled": {
+      "id": "gid://shopify/MediaImage/46390348316854",
+      "filename": "tcpf-sample-product-amihan-bolero-styled-v1.png",
+      "source_sha256": "3383439f4315adb61eae1138ec1fb2f940dd5f9cf7f4b3741ebd74bba26db028",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-bolero-styled-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-bolero/silhouette": {
+      "id": "gid://shopify/MediaImage/46390348349622",
+      "filename": "tcpf-sample-product-dapithapon-bolero-silhouette-v1.png",
+      "source_sha256": "7435c1ccd4d2ebe407803c4562c566cd525418d58fc358efedcb31f45645917c",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-bolero-silhouette-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-bolero/detail": {
+      "id": "gid://shopify/MediaImage/46390348382390",
+      "filename": "tcpf-sample-product-dapithapon-bolero-detail-v1.png",
+      "source_sha256": "2a10cd2c1818f26e433dbd9c55ded07a48c5ba620b5f1a54e5002e78e4130799",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-bolero-detail-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-bolero/styled": {
+      "id": "gid://shopify/MediaImage/46390348415158",
+      "filename": "tcpf-sample-product-dapithapon-bolero-styled-v1.png",
+      "source_sha256": "9d89eee7c48d5b03f07609f010b81db97d271ff0939511d95305d2f8bf45a193",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-bolero-styled-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-bolero/silhouette": {
+      "id": "gid://shopify/MediaImage/46390348447926",
+      "filename": "tcpf-sample-product-luntian-bolero-silhouette-v1.png",
+      "source_sha256": "4b995ed08d8546aa40f1aaa9981d5b369f1dbfb8969adf6e3d4fe612bfa6db59",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-bolero-silhouette-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-bolero/detail": {
+      "id": "gid://shopify/MediaImage/46390348480694",
+      "filename": "tcpf-sample-product-luntian-bolero-detail-v1.png",
+      "source_sha256": "f0967a1e538567ac9700c0ba8fa8bb58b535c39cc78c77b2657ecf36c8499dea",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-bolero-detail-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-bolero/styled": {
+      "id": "gid://shopify/MediaImage/46390348513462",
+      "filename": "tcpf-sample-product-luntian-bolero-styled-v1.png",
+      "source_sha256": "eb1d4bc679902f8c756314bd98932774b0937116d66819e45ebb07c74d6ad386",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-bolero-styled-v1.png?v=1791171636",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-midi-skirt/silhouette": {
+      "id": "gid://shopify/MediaImage/46390348546230",
+      "filename": "tcpf-sample-product-amihan-midi-skirt-silhouette-v1.png",
+      "source_sha256": "22d0ad8cc7c7f19d014b4476158ab3af944374fe7635bb20c9893a23eac3492d",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-midi-skirt-silhouette-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-midi-skirt/detail": {
+      "id": "gid://shopify/MediaImage/46390348578998",
+      "filename": "tcpf-sample-product-amihan-midi-skirt-detail-v1.png",
+      "source_sha256": "6820f2a1431157a5987836cb04fb0b9f885a6a90a93672db5deb534819d4b0c6",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-midi-skirt-detail-v1.png?v=1791171636",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-midi-skirt/styled": {
+      "id": "gid://shopify/MediaImage/46390348611766",
+      "filename": "tcpf-sample-product-amihan-midi-skirt-styled-v1.png",
+      "source_sha256": "59ad66aafc5b0708828d186b51986cd27adc7e8cf105437e0d13ef8460035ac5",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-midi-skirt-styled-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-midi-skirt/silhouette": {
+      "id": "gid://shopify/MediaImage/46390348644534",
+      "filename": "tcpf-sample-product-dapithapon-midi-skirt-silhouette-v1.png",
+      "source_sha256": "4b85e2a092689f3a861ca789c775102dc2aa6a11a0a3de9e0ae7c80c061311f1",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-midi-skirt-silhouette-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-midi-skirt/detail": {
+      "id": "gid://shopify/MediaImage/46390348677302",
+      "filename": "tcpf-sample-product-dapithapon-midi-skirt-detail-v1.png",
+      "source_sha256": "a5dd35a049b1e01caf597356876f2fa3af1a57a5729363898c94789e0bd129c6",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-midi-skirt-detail-v1.png?v=1791171636",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-midi-skirt/styled": {
+      "id": "gid://shopify/MediaImage/46390348710070",
+      "filename": "tcpf-sample-product-dapithapon-midi-skirt-styled-v1.png",
+      "source_sha256": "eb2121e832a896d00eeca8a8a140e6603f7ffefbaa2097d9374e4ef969540ec7",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-midi-skirt-styled-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/hiraya-halter-dress/silhouette": {
+      "id": "gid://shopify/MediaImage/46390348742838",
+      "filename": "tcpf-sample-product-hiraya-halter-dress-silhouette-v1.png",
+      "source_sha256": "dcc04a7a99e92d0783be8220d0d74c5dfb6baf11036b56682f102a87a15b8b02",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-hiraya-halter-dress-silhouette-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/hiraya-halter-dress/detail": {
+      "id": "gid://shopify/MediaImage/46390348775606",
+      "filename": "tcpf-sample-product-hiraya-halter-dress-detail-v1.png",
+      "source_sha256": "1c46c69254439e73ec78df2b4f9bed51c29e90996ef32c84b22d0d076c1b52db",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-hiraya-halter-dress-detail-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/hiraya-halter-dress/styled": {
+      "id": "gid://shopify/MediaImage/46390348808374",
+      "filename": "tcpf-sample-product-hiraya-halter-dress-styled-v1.png",
+      "source_sha256": "0a4f89d4558cded05a3d144d29be6308d57d154a79ffd441ece9ae3d6a8acfd5",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-hiraya-halter-dress-styled-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/sinag-wrap-dress/silhouette": {
+      "id": "gid://shopify/MediaImage/46390348841142",
+      "filename": "tcpf-sample-product-sinag-wrap-dress-silhouette-v1.png",
+      "source_sha256": "8c628400678f712bb7f38a3940b58bfea5ed0a600fe330c25d0198d3881bcd26",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-sinag-wrap-dress-silhouette-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/sinag-wrap-dress/detail": {
+      "id": "gid://shopify/MediaImage/46390348873910",
+      "filename": "tcpf-sample-product-sinag-wrap-dress-detail-v1.png",
+      "source_sha256": "4c26bf60815b14b5513d198772ddf22cd8b8ee2b8224d9834c02d43751c43da4",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-sinag-wrap-dress-detail-v1.png?v=1791171635",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/sinag-wrap-dress/styled": {
+      "id": "gid://shopify/MediaImage/46390348906678",
+      "filename": "tcpf-sample-product-sinag-wrap-dress-styled-v1.png",
+      "source_sha256": "cb6bac54b6ea62c6befde943d27e5c501518e711d583b414f888b23cef089ef5",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-sinag-wrap-dress-styled-v1.png?v=1791171636",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-terno-set/silhouette": {
+      "id": "gid://shopify/MediaImage/46390495707318",
+      "filename": "tcpf-sample-product-amihan-terno-set-silhouette-v1.png",
+      "source_sha256": "166a3892a423b8d2278fd74253315d93c6a6efd3ebec9ab4c2b59ba6c9fbd5ed",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-terno-set-silhouette-v1.png?v=1791172267",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-terno-set/detail": {
+      "id": "gid://shopify/MediaImage/46390495740086",
+      "filename": "tcpf-sample-product-amihan-terno-set-detail-v1.png",
+      "source_sha256": "351d027ef6e2f0c991458c089e7dd55e7f5717a6edb67081d5d7fc82be1f8c8a",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-terno-set-detail-v1.png?v=1791172268",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/amihan-terno-set/styled": {
+      "id": "gid://shopify/MediaImage/46390495772854",
+      "filename": "tcpf-sample-product-amihan-terno-set-styled-v1.png",
+      "source_sha256": "7dc798d1b71f0ff6882b3362cb24818bec216b77a59fa851a97be84ea8236501",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-amihan-terno-set-styled-v1.png?v=1791172268",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-terno-set/silhouette": {
+      "id": "gid://shopify/MediaImage/46390495805622",
+      "filename": "tcpf-sample-product-dapithapon-terno-set-silhouette-v1.png",
+      "source_sha256": "fcfdcf2521adbc847a50fb7a237b927c0ed59cff12a1db4d07ae7916735dd3de",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-terno-set-silhouette-v1.png?v=1791172268",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-terno-set/detail": {
+      "id": "gid://shopify/MediaImage/46390495838390",
+      "filename": "tcpf-sample-product-dapithapon-terno-set-detail-v1.png",
+      "source_sha256": "d5d658f713004231e45ae0e250feed74b9c52f554b551d1634ddd1048e6b357c",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-terno-set-detail-v1.png?v=1791172268",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/dapithapon-terno-set/styled": {
+      "id": "gid://shopify/MediaImage/46390495871158",
+      "filename": "tcpf-sample-product-dapithapon-terno-set-styled-v1.png",
+      "source_sha256": "7080f89c6fc6d28de50e4244775c0dd0dab360ce2c67a2a303b8e583a971f16f",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-dapithapon-terno-set-styled-v1.png?v=1791172267",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-blouse/silhouette": {
+      "id": "gid://shopify/MediaImage/46390495903926",
+      "filename": "tcpf-sample-product-luntian-blouse-silhouette-v1.png",
+      "source_sha256": "9727b4b67ddf084d73819c310861f68b6fcb9484a0fdb862ccd6082fd831d2fc",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-blouse-silhouette-v1.png?v=1791172267",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-blouse/detail": {
+      "id": "gid://shopify/MediaImage/46390495936694",
+      "filename": "tcpf-sample-product-luntian-blouse-detail-v1.png",
+      "source_sha256": "e28337cb8c408d8f909075df97fc709475a3ed768096ae573b8d7dc9488b76fd",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-blouse-detail-v1.png?v=1791172268",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    "product/luntian-blouse/styled": {
+      "id": "gid://shopify/MediaImage/46390495969462",
+      "filename": "tcpf-sample-product-luntian-blouse-styled-v1.png",
+      "source_sha256": "9e9e39f594987afdbd4738ead15945ebe2ba54fe797b4e3a52d40cd4550d028a",
+      "status": "READY",
+      "cdn_url": "https://cdn.shopify.com/s/files/1/0792/0284/4854/files/tcpf-sample-product-luntian-blouse-styled-v1.png?v=1791172267",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  },
   "products": {},
   "variants": {},
   "collections": {},

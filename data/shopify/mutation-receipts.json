@@ -128,5 +128,2671 @@
         "userErrors": []
       }
     }
+  },
+  {
+    "at": "2026-10-05T03:40:33.765217+00:00",
+    "operation": "create-files-0",
+    "response": {
+      "fileCreate": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/46390347759798",
+            "alt": "AI-generated amihan garden botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347792566",
+            "alt": "AI-generated dapithapon botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347825334",
+            "alt": "AI-generated luntian botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347858102",
+            "alt": "AI-generated hiraya bloom botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347890870",
+            "alt": "AI-generated sinag field botanical artwork concept.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347923638",
+            "alt": "Sample amihan bolero, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347956406",
+            "alt": "Sample dapithapon bolero, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390347989174",
+            "alt": "Sample luntian bolero, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348021942",
+            "alt": "Sample amihan midi skirt, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348054710",
+            "alt": "Sample dapithapon midi skirt, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348087478",
+            "alt": "Sample hiraya halter dress, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348120246",
+            "alt": "Sample sinag wrap dress, front view on an anonymous model in the botanical print.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348153014",
+            "alt": "Sample amihan terno set, front view on an anonymous model.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348185782",
+            "alt": "Sample luntian blouse, front view on an anonymous model.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348218550",
+            "alt": "Sample Dapithapon Modern Terno Set, matching bolero and midi skirt in coral botanical print, front view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348251318",
+            "alt": "Sample amihan bolero, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348284086",
+            "alt": "Sample amihan bolero, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348316854",
+            "alt": "Sample amihan bolero, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348349622",
+            "alt": "Sample dapithapon bolero, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348382390",
+            "alt": "Sample dapithapon bolero, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348415158",
+            "alt": "Sample dapithapon bolero, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348447926",
+            "alt": "Sample luntian bolero, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348480694",
+            "alt": "Sample luntian bolero, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348513462",
+            "alt": "Sample luntian bolero, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348546230",
+            "alt": "Sample amihan midi skirt, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348578998",
+            "alt": "Sample amihan midi skirt, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348611766",
+            "alt": "Sample amihan midi skirt, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348644534",
+            "alt": "Sample dapithapon midi skirt, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348677302",
+            "alt": "Sample dapithapon midi skirt, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348710070",
+            "alt": "Sample dapithapon midi skirt, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348742838",
+            "alt": "Sample hiraya halter dress, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348775606",
+            "alt": "Sample hiraya halter dress, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348808374",
+            "alt": "Sample hiraya halter dress, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348841142",
+            "alt": "Sample sinag wrap dress, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348873910",
+            "alt": "Sample sinag wrap dress, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390348906678",
+            "alt": "Sample sinag wrap dress, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          }
+        ],
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:43:47.944743+00:00",
+    "operation": "populate-measurement_rows",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090075318",
+          "handle": "sample-bolero-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "84.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "40.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090108086",
+          "handle": "sample-bolero-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "41.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090140854",
+          "handle": "sample-bolero-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "42.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090173622",
+          "handle": "sample-bolero-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "43.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090206390",
+          "handle": "sample-bolero-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "104.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "44.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090239158",
+          "handle": "sample-skirt-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "66.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "75.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090271926",
+          "handle": "sample-skirt-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "70.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "98.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "76.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090304694",
+          "handle": "sample-skirt-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "74.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "102.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "77.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090337462",
+          "handle": "sample-skirt-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "78.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "106.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "78.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090370230",
+          "handle": "sample-skirt-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": null
+            },
+            {
+              "key": "waist_cm",
+              "value": "82.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "110.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "79.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m10": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090402998",
+          "handle": "sample-halter-dress-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "84.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "66.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "112.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m11": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090435766",
+          "handle": "sample-halter-dress-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "70.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "98.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "113.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m12": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090468534",
+          "handle": "sample-halter-dress-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "74.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "102.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "114.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m13": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090501302",
+          "handle": "sample-halter-dress-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "78.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "106.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "115.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m14": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090534070",
+          "handle": "sample-halter-dress-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "82.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "110.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "116.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m15": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090566838",
+          "handle": "sample-wrap-dress-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "88.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "68.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "110.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m16": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090599606",
+          "handle": "sample-wrap-dress-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "92.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "72.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "111.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m17": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090632374",
+          "handle": "sample-wrap-dress-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "96.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "76.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "104.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "112.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m18": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090665142",
+          "handle": "sample-wrap-dress-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "100.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "80.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "108.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "113.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m19": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090697910",
+          "handle": "sample-wrap-dress-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "104.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "84.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": "112.0"
+            },
+            {
+              "key": "length_cm",
+              "value": "114.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m20": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090730678",
+          "handle": "sample-blouse-xs",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XS"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — XS"
+            },
+            {
+              "key": "bust_cm",
+              "value": "90.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "78.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "56.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m21": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090763446",
+          "handle": "sample-blouse-s",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "S"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — S"
+            },
+            {
+              "key": "bust_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "82.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "57.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m22": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090796214",
+          "handle": "sample-blouse-m",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "M"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — M"
+            },
+            {
+              "key": "bust_cm",
+              "value": "98.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "86.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "58.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m23": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090861750",
+          "handle": "sample-blouse-l",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "L"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — L"
+            },
+            {
+              "key": "bust_cm",
+              "value": "102.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "90.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "59.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m24": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090894518",
+          "handle": "sample-blouse-xl",
+          "type": "tcpf_size_measurement",
+          "fields": [
+            {
+              "key": "size_label",
+              "value": "XL"
+            },
+            {
+              "key": "measurements_cm",
+              "value": null
+            },
+            {
+              "key": "measurement_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse — XL"
+            },
+            {
+              "key": "bust_cm",
+              "value": "106.0"
+            },
+            {
+              "key": "waist_cm",
+              "value": "94.0"
+            },
+            {
+              "key": "hip_cm",
+              "value": null
+            },
+            {
+              "key": "length_cm",
+              "value": "60.0"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:43:51.812001+00:00",
+    "operation": "populate-size_charts",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090927286",
+          "handle": "sample-bolero",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090075318\",\"gid://shopify/Metaobject/616090108086\",\"gid://shopify/Metaobject/616090140854\",\"gid://shopify/Metaobject/616090173622\",\"gid://shopify/Metaobject/616090206390\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Bolero sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090960054",
+          "handle": "sample-skirt",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090239158\",\"gid://shopify/Metaobject/616090271926\",\"gid://shopify/Metaobject/616090304694\",\"gid://shopify/Metaobject/616090337462\",\"gid://shopify/Metaobject/616090370230\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Midi skirt sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from waistband top to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616090992822",
+          "handle": "sample-halter-dress",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090402998\",\"gid://shopify/Metaobject/616090435766\",\"gid://shopify/Metaobject/616090468534\",\"gid://shopify/Metaobject/616090501302\",\"gid://shopify/Metaobject/616090534070\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Halter dress sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from centre-front neckline edge to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091025590",
+          "handle": "sample-wrap-dress",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090566838\",\"gid://shopify/Metaobject/616090599606\",\"gid://shopify/Metaobject/616090632374\",\"gid://shopify/Metaobject/616090665142\",\"gid://shopify/Metaobject/616090697910\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Wrap dress sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock. Circumferences use the nominal tied-closed position."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091058358",
+          "handle": "sample-blouse",
+          "type": "tcpf_size_chart",
+          "fields": [
+            {
+              "key": "unit",
+              "value": "cm"
+            },
+            {
+              "key": "measurements",
+              "value": "[\"gid://shopify/Metaobject/616090730678\",\"gid://shopify/Metaobject/616090763446\",\"gid://shopify/Metaobject/616090796214\",\"gid://shopify/Metaobject/616090861750\",\"gid://shopify/Metaobject/616090894518\"]"
+            },
+            {
+              "key": "chart_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Blouse sample size guide"
+            },
+            {
+              "key": "measurement_kind",
+              "value": "garment"
+            },
+            {
+              "key": "notes",
+              "value": "Sample garment measurements in centimetres; circumferences, not flat widths or body measurements. Length is measured from high shoulder to hem. Compare with a similar garment you own. These demonstration values have not been verified on physical stock."
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:43:56.762146+00:00",
+    "operation": "populate-artworks",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091189430",
+          "handle": "amihan-garden",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Amihan Garden"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented botanical composition with airy stems and loose lilac brushwork on a light canvas. Created as an AI textile concept for this demonstration collection."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347759798"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Ivory\",\"Plum\",\"Periwinkle\",\"Restrained leaf\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091222198",
+          "handle": "dapithapon",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Dapithapon"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented floral composition with warm rose and coral forms against ivory. Created as an AI textile concept, with no founder-provided memory or source painting claimed."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347792566"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Petal\",\"Coral\",\"Muted plum\",\"Ivory\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091254966",
+          "handle": "luntian",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Luntian"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented botanical rhythm of green leaves and light lavender accents. Generated for the sample collection rather than attributed to a physical painting."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347825334"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Ivory\",\"Leaf\",\"Soft lavender\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091287734",
+          "handle": "hiraya-bloom",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Hiraya Bloom"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented airy blue floral print with generous light space. Generated as a textile direction for the sample halter dress."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347858102"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Powder blue\",\"Ivory\",\"Soft slate\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091320502",
+          "handle": "sinag-field",
+          "type": "tcpf_design_concept",
+          "fields": [
+            {
+              "key": "title",
+              "value": "Sinag Field"
+            },
+            {
+              "key": "reference_name",
+              "value": null
+            },
+            {
+              "key": "reference_url",
+              "value": null
+            },
+            {
+              "key": "story",
+              "value": "An invented meadow-like print with soft flowers and warm light. Generated as the artwork source for the sample wrap dress."
+            },
+            {
+              "key": "review_status",
+              "value": "pending"
+            },
+            {
+              "key": "artwork_image",
+              "value": "gid://shopify/MediaImage/46390347890870"
+            },
+            {
+              "key": "origin",
+              "value": "ai_concept"
+            },
+            {
+              "key": "attribution",
+              "value": "AI-generated sample artwork"
+            },
+            {
+              "key": "medium",
+              "value": "AI-generated digital painterly textile concept"
+            },
+            {
+              "key": "palette",
+              "value": "[\"Warm ivory\",\"Ochre\",\"Soft rose\",\"Muted green\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:44:01.839759+00:00",
+    "operation": "populate-garments",
+    "response": {
+      "m0": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091353270",
+          "handle": "sample-amihan-bolero",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "bolero"
+            },
+            {
+              "key": "silhouette",
+              "value": "Waist-length open-front bolero with structured upright butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Single concealed hook at centre front."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Amihan Printed Bolero details"
+            },
+            {
+              "key": "included_items",
+              "value": "Bolero only. Styling camisole, skirt, and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m1": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091386038",
+          "handle": "sample-dapithapon-bolero",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "bolero"
+            },
+            {
+              "key": "silhouette",
+              "value": "Waist-length open-front bolero with structured upright butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Single concealed hook at centre front."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Dapithapon Printed Bolero details"
+            },
+            {
+              "key": "included_items",
+              "value": "Bolero only. Styling camisole, skirt, and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m2": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091418806",
+          "handle": "sample-luntian-bolero",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "bolero"
+            },
+            {
+              "key": "silhouette",
+              "value": "Waist-length open-front bolero with structured upright butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Single concealed hook at centre front."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Luntian Printed Bolero details"
+            },
+            {
+              "key": "included_items",
+              "value": "Bolero only. Styling camisole, skirt, and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m3": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091451574",
+          "handle": "sample-amihan-terno-set",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "terno_set"
+            },
+            {
+              "key": "silhouette",
+              "value": "Matching waist-length butterfly-sleeve bolero and A-line midi skirt."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Both pieces fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Bolero: single concealed centre-front hook. Skirt: concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Amihan Modern Terno Set details"
+            },
+            {
+              "key": "included_items",
+              "value": "One bolero and one matching midi skirt. Inner camisole and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\",\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m4": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091484342",
+          "handle": "sample-dapithapon-terno-set",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "terno_set"
+            },
+            {
+              "key": "silhouette",
+              "value": "Matching waist-length butterfly-sleeve bolero and A-line midi skirt."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Both pieces fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Bolero: single concealed centre-front hook. Skirt: concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Dapithapon Modern Terno Set details"
+            },
+            {
+              "key": "included_items",
+              "value": "One bolero and one matching midi skirt. Inner camisole and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090927286\",\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m5": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091517110",
+          "handle": "sample-amihan-midi-skirt",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "skirt"
+            },
+            {
+              "key": "silhouette",
+              "value": "A-line midi skirt with a fitted waistband and gentle flare."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Amihan Printed Midi Skirt details"
+            },
+            {
+              "key": "included_items",
+              "value": "Skirt only. Styling top and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m6": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091549878",
+          "handle": "sample-dapithapon-midi-skirt",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "skirt"
+            },
+            {
+              "key": "silhouette",
+              "value": "A-line midi skirt with a fitted waistband and gentle flare."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Concealed side zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Dapithapon Printed Midi Skirt details"
+            },
+            {
+              "key": "included_items",
+              "value": "Skirt only. Styling top and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090960054\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m7": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091582646",
+          "handle": "sample-hiraya-halter-dress",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "dress"
+            },
+            {
+              "key": "silhouette",
+              "value": "Halter-neck midi dress with fitted bodice and softly flared skirt."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Fully lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Back neck tie and concealed centre-back zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Hiraya Floral Halter Dress details"
+            },
+            {
+              "key": "included_items",
+              "value": "Dress only. Accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616090992822\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m8": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091648182",
+          "handle": "sample-sinag-wrap-dress",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "dress"
+            },
+            {
+              "key": "silhouette",
+              "value": "Midi wrap dress with defined waist and short softly structured butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Unlined."
+            },
+            {
+              "key": "closure",
+              "value": "Functional side waist tie and internal securing tie."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Sinag Printed Wrap Dress details"
+            },
+            {
+              "key": "included_items",
+              "value": "Dress and attached ties. Accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616091025590\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      },
+      "m9": {
+        "metaobject": {
+          "id": "gid://shopify/Metaobject/616091680950",
+          "handle": "sample-luntian-blouse",
+          "type": "tcpf_apparel_details",
+          "fields": [
+            {
+              "key": "garment_category",
+              "value": "top"
+            },
+            {
+              "key": "silhouette",
+              "value": "Hip-length blouse with a modest square neckline and structured butterfly sleeves."
+            },
+            {
+              "key": "fit_notes",
+              "value": "Sample garment measurements, not a body-size guide. Compare with a similar garment you own. Demonstration values have not been verified on physical stock."
+            },
+            {
+              "key": "fabric",
+              "value": "Sample lightweight woven fabric."
+            },
+            {
+              "key": "fiber_content",
+              "value": "Demonstration specification: 70% cotton / 30% polyester. Lining where present: ivory 100% polyester."
+            },
+            {
+              "key": "stretch",
+              "value": "No stretch (demonstration specification)."
+            },
+            {
+              "key": "lining",
+              "value": "Body lined in ivory 100% polyester."
+            },
+            {
+              "key": "closure",
+              "value": "Concealed centre-back zip."
+            },
+            {
+              "key": "pockets",
+              "value": "No pockets (sample specification)."
+            },
+            {
+              "key": "care_instructions",
+              "value": "Sample instructions: gently hand wash in cold water with mild detergent; do not bleach; dry in shade; do not tumble dry; use a cool iron on the reverse. Replace with manufacturer-approved instructions for real goods."
+            },
+            {
+              "key": "size_chart",
+              "value": null
+            },
+            {
+              "key": "data_status",
+              "value": "sample"
+            },
+            {
+              "key": "title",
+              "value": "Luntian Printed Blouse details"
+            },
+            {
+              "key": "included_items",
+              "value": "Blouse only. Styling skirt or trousers and accessories are excluded."
+            },
+            {
+              "key": "size_charts",
+              "value": "[\"gid://shopify/Metaobject/616091058358\"]"
+            }
+          ],
+          "capabilities": {
+            "publishable": {
+              "status": "DRAFT"
+            }
+          }
+        },
+        "userErrors": []
+      }
+    }
+  },
+  {
+    "at": "2026-10-05T03:51:06.056674+00:00",
+    "operation": "create-files-36",
+    "response": {
+      "fileCreate": {
+        "files": [
+          {
+            "id": "gid://shopify/MediaImage/46390495707318",
+            "alt": "Sample amihan terno set, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495740086",
+            "alt": "Sample amihan terno set, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495772854",
+            "alt": "Sample amihan terno set, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495805622",
+            "alt": "Sample dapithapon terno set, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495838390",
+            "alt": "Sample dapithapon terno set, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495871158",
+            "alt": "Sample dapithapon terno set, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495903926",
+            "alt": "Sample luntian blouse, rear view.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495936694",
+            "alt": "Sample luntian blouse, printed fabric and construction detail.",
+            "fileStatus": "UPLOADED"
+          },
+          {
+            "id": "gid://shopify/MediaImage/46390495969462",
+            "alt": "Sample luntian blouse, styled full outfit in an ivory gallery.",
+            "fileStatus": "UPLOADED"
+          }
+        ],
+        "userErrors": []
+      }
+    }
   }
 ]
