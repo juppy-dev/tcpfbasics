@@ -646,5 +646,76 @@
       1402
     ],
     "sha256": "9e9e39f594987afdbd4738ead15945ebe2ba54fe797b4e3a52d40cd4550d028a"
+  },
+  {
+    "asset_id": "product/hiraya-halter-dress/primary",
+    "path": "data/catalog/products/hiraya-halter-dress/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-7770d1d2-e62f-4ba4-91aa-364579a204b5.png",
+    "prompt": "Use case: product-mockup.\nAsset type: hiraya-halter-dress, primary product photograph for an AI sample catalog.\nInput image 1: exact original textile artwork reference, not the scene or painting prop.\nPhotorealistic premium Shopify catalog photograph, warm ivory seamless gallery studio, soft broad daylight from the left, gentle real floor shadow, natural color, matte finely woven fabric, crisp seams and realistic clothing construction. Photograph, not illustration, no embroidery: the reference artwork is PRINTED on fabric. All-over modest-scale repeated print, preserving the exact flowers, leaves, brush strokes, colors and ivory ground of the artwork reference. No words, logo, tags, watermark, collage or contact sheet. One photograph, 4:5 portrait composition, enough breathing room for the entire garment and both sleeve edges.\nSubject: An anonymous adult Filipina fashion model, dark hair in a simple low bun, natural skin texture and light makeup, calm confident expression. No resemblance to a public figure. Relaxed posture, hands naturally down and away from product, no hand-in-pocket pose.\nProduct construction and framing: A halter-neck midi dress in the exact blue-and-ivory reference floral print, modest high gathered halter neckline with neck straps tying at the back, sleeveless fitted bodice, defined plain waist seam, softly flared calf-length skirt, ivory lining, concealed centre-back zip, no pockets, belt, slit, buttons or extra trim. Minimal ivory sandals. Front-facing full-body view, entire neckline to hem visible with crop room.\nKeep printed botanical motifs roughly 10–18cm across flowers in garment scale, airy ivory space, realistic continuity over fabric folds. Make the silhouette easy to evaluate. The catalog item is the specified garment only.",
+    "referenced_source_paths": [
+      "data/catalog/artwork/hiraya-bloom/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample hiraya halter dress, front view on an anonymous model in the botanical print.",
+    "acceptance_notes": "Inspected: artwork palette/motifs preserved, correct garment silhouette, full sleeves/hem shown as applicable, natural anatomy, no text/logos.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "49dafcaf55f8769c480d848804f9cedf50bda5da0055eef55e0fdaf67de67118"
+  },
+  {
+    "asset_id": "product/hiraya-halter-dress/silhouette",
+    "path": "data/catalog/products/hiraya-halter-dress/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-835aea0d-9f1e-4b59-a434-fb8f2e3fc16c.png",
+    "prompt": "Use case: product-mockup.\nAsset type: hiraya-halter-dress, silhouette AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Straight back full-body catalog view. Show the halter straps tying neatly at the back neck, open upper back appropriate to the SAME halter cut, fitted bodice and a discreet concealed centre-back zip from upper bodice towards the waist. Same calf-length flare, no added waistband belt, no pockets. Hair in same low bun clear of tie.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/hiraya-halter-dress/01-primary.png",
+      "data/catalog/artwork/hiraya-bloom/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample hiraya halter dress, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "dcc04a7a99e92d0783be8220d0d74c5dfb6baf11036b56682f102a87a15b8b02"
+  },
+  {
+    "asset_id": "product/hiraya-halter-dress/detail",
+    "path": "data/catalog/products/hiraya-halter-dress/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-fa613160-c4d7-4a26-876c-442639fdcc61.png",
+    "prompt": "Use case: product-mockup.\nAsset type: hiraya-halter-dress, detail AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Close detail photograph from collarbone through the waist, focused on the SAME high halter neckline, fitted bodice and matte blue-and-ivory printed woven fabric. Preserve the neckline gathering and plain waist seam exactly.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. Sharp truthful textile detail; print ink on fabric, no embroidered or embossed flowers.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/hiraya-halter-dress/01-primary.png",
+      "data/catalog/artwork/hiraya-bloom/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample hiraya halter dress, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "1c46c69254439e73ec78df2b4f9bed51c29e90996ef32c84b22d0d076c1b52db"
+  },
+  {
+    "asset_id": "product/hiraya-halter-dress/styled",
+    "path": "data/catalog/products/hiraya-halter-dress/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-cf96a81d-acc1-4217-97e8-25ccd1aa4cc7.png",
+    "prompt": "Use case: product-mockup.\nAsset type: hiraya-halter-dress, styled AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. A lightly styled full-body editorial photograph: the SAME model takes a gentle small step in a bright warm ivory gallery doorway, with soft natural daylight and subtle architectural shadow. Same clothing and neutral ivory styling pieces as the primary, no handbag, belt or new jewellery. Three-quarter front angle, calm natural expression, arms relaxed away from the garment. Entire sleeves and hem visible, product stays clear and recognizable; no paintings or text in the background.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/hiraya-halter-dress/01-primary.png",
+      "data/catalog/artwork/hiraya-bloom/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample hiraya halter dress, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "0a4f89d4558cded05a3d144d29be6308d57d154a79ffd441ece9ae3d6a8acfd5"
   }
 ]
