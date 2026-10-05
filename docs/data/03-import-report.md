@@ -59,7 +59,7 @@ The six exact old records matched their snapshot immediately before deletion. Al
 
 After product removal, authenticated `referencedBy` reads found no remaining metafield references to the old garment/artwork records. Those were removed first, then the unused guides and rows: **48 superseded metaobjects** (6 garments, 6 artworks, 6 charts, 30 rows). Node readback confirmed all removed IDs no longer resolve. No shared or uncertain metaobject was deleted.
 
-**Seventeen old Files remain**, pending a theme/reference usage audit. Six of the 23 old file IDs no longer resolve after product/content cleanup; no separate `fileDelete` request was made. The current app lacks `read_themes`, and MediaImage exposes no usage connection, so the remaining Files were retained. All 45 new assets are READY; no replacement record points to an old product, content entry, or borrowed file. [Cleanup evidence](../../data/shopify/snapshots/catalog-cleanup.json).
+**Seventeen old Files remain**, pending a theme/reference usage audit. Six of the 23 old file IDs no longer resolve after product/content cleanup; no separate `fileDelete` request was made. The Admin connection lacks `read_themes`, but a separate theme CLI login successfully read text files from all five themes. Three surviving Files have explicit references in existing themes; fourteen have no text matches. MediaImage exposes no general usage connection, and other content contexts have not been exhaustively audited, so all 17 were retained. Image binaries were not downloaded into the project. All 45 new assets are READY; no replacement record points to an old product, content entry, or borrowed file. [Cleanup evidence](../../data/shopify/snapshots/catalog-cleanup.json).
 
 ## Collection IDs
 
@@ -88,7 +88,7 @@ Two other pre-existing collections, `frontpage` and `filipiniana-tops`, were pre
 
 No manual data or media import was needed. The CLI handled definitions, content, products, variants, collections, and staged-upload file creation. The [merchant guide](04-merchant-guide.md) explains native fields, shared content, typed measurements, included pieces, and sample safeguards.
 
-Phase 3 needs separate theme CLI authentication, latest-Horizon import, custom sections/templates, and protected-preview setup before any sample publication. The 17 retained old Files need a theme usage audit before removal. Client artwork review, actual garment/price/stock validation, policies, and launch approval remain outstanding. No preview or live-sale publication occurred in phase 2.
+Separate theme CLI authentication succeeded. Phase 3 needs latest-Horizon import, custom sections/templates, and protected-preview setup before any sample publication. Three of the 17 retained Files still have old-theme references; the other fourteen need a wider usage audit before removal. Client artwork review, actual garment/price/stock validation, policies, and launch approval remain outstanding. No preview or live-sale publication occurred in phase 2.
 
 ## Independent review
 

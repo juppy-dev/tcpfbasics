@@ -59,7 +59,7 @@ Manage membership, order, description, image, and search listing in native colle
 
 ## Phase 3 protected preview
 
-The theme build will authenticate separately through Shopify CLI and import the latest Horizon source. Before activating sample content for an actual storefront preview:
+The separate Shopify theme CLI login has succeeded. The theme build will import the latest Horizon source. Before activating sample content for an actual storefront preview:
 
 1. Confirm store password protection and the intended unpublished preview theme.
 2. Build visible sample notices and product purchase guards. Do not output fabricated sale availability or merchandise claims in structured data.
@@ -71,6 +71,6 @@ No preview publication or live-sale action was performed in phase 2. A live laun
 ## Remaining manual or later work
 
 - No manual product, metafield, metaobject, or media import is required; these were uploaded through the authenticated CLI and staged upload flow.
-- The 17 remaining pre-existing Files are retained pending an old-theme usage audit. They are absent from the new catalog. Do not bulk-delete Files until references in the old theme and other content are established.
+- The 17 remaining pre-existing Files are absent from the new catalog. A text audit of all five themes found explicit references to three of these files; fourteen had no text matches. Keep the three referenced files while those themes use them, and establish wider usage before deleting the other fourteen. Do not bulk-delete Files.
 - The existing logo is a white-background JPEG. It is preserved; a client-supplied original vector or transparent source would improve placement options without changing the logo.
 - Client artwork review, factual merchandise validation, operating policies, and protected-preview setup remain part of the next phase and launch handoff.
