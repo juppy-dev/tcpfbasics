@@ -73,5 +73,220 @@
       1254
     ],
     "sha256": "89bcc22ce60d0ce7741b244394dfa2920ee02a9be5a304ced138cdc3b8abd83c"
+  },
+  {
+    "asset_id": "product/amihan-bolero/primary",
+    "path": "data/catalog/products/amihan-bolero/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-b5bcf2b0-f2d3-46c9-87d7-aac09adfc594.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-bolero, primary product photograph for an AI sample catalog.\nInput image 1: exact original textile artwork reference, not the scene or painting prop.\nPhotorealistic premium Shopify catalog photograph, warm ivory seamless gallery studio, soft broad daylight from the left, gentle real floor shadow, natural color, matte finely woven fabric, crisp seams and realistic clothing construction. Photograph, not illustration, no embroidery: the reference artwork is PRINTED on fabric. All-over modest-scale repeated print, preserving the exact flowers, leaves, brush strokes, colors and ivory ground of the artwork reference. No words, logo, tags, watermark, collage or contact sheet. One photograph, 4:5 portrait composition, enough breathing room for the entire garment and both sleeve edges.\nSubject: An anonymous adult Filipina fashion model, dark hair in a simple low bun, natural skin texture and light makeup, calm confident expression. No resemblance to a public figure. Relaxed posture, hands naturally down and away from product, no hand-in-pocket pose.\nProduct construction and framing: Waist-length open-front bolero with a softly curved open centre, structured upright Filipiniana butterfly sleeves, fully lined matte ivory inner face, single invisible concealed centre-front hook, no pockets. Clearly separate open bolero edges over a plain ivory camisole; no lapels, buttons, lace, ties or embroidery. Style with a plain ivory fitted-waist midi skirt, all supporting pieces excluded. Front-facing view, model framed head to mid thigh, full sleeves and cropped hem visible.\nKeep printed botanical motifs roughly 10–18cm across flowers in garment scale, airy ivory space, realistic continuity over fabric folds. Make the silhouette easy to evaluate. The catalog item is the specified garment only.",
+    "referenced_source_paths": [
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan bolero, front view on an anonymous model in the botanical print.",
+    "acceptance_notes": "Inspected: artwork palette/motifs preserved, correct garment silhouette, full sleeves/hem shown as applicable, natural anatomy, no text/logos.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "b5db47b619aa048681b457c0e766c6cba942a4ad016cc41a0dc1978103681c1f"
+  },
+  {
+    "asset_id": "product/amihan-midi-skirt/primary",
+    "path": "data/catalog/products/amihan-midi-skirt/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-3fd9f0ac-bbb9-4248-8231-566a95b9d848.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-midi-skirt, primary product photograph for an AI sample catalog.\nInput image 1: exact original textile artwork reference, not the scene or painting prop.\nPhotorealistic premium Shopify catalog photograph, warm ivory seamless gallery studio, soft broad daylight from the left, gentle real floor shadow, natural color, matte finely woven fabric, crisp seams and realistic clothing construction. Photograph, not illustration, no embroidery: the reference artwork is PRINTED on fabric. All-over modest-scale repeated print, preserving the exact flowers, leaves, brush strokes, colors and ivory ground of the artwork reference. No words, logo, tags, watermark, collage or contact sheet. One photograph, 4:5 portrait composition, enough breathing room for the entire garment and both sleeve edges.\nSubject: An anonymous adult Filipina fashion model, dark hair in a simple low bun, natural skin texture and light makeup, calm confident expression. No resemblance to a public figure. Relaxed posture, hands naturally down and away from product, no hand-in-pocket pose.\nProduct construction and framing: A-line midi skirt in the exact reference botanical print, fitted clean waistband about 3cm deep, gentle flare, smooth paneled construction, calf-length hem, fully lined in ivory, concealed side zip, no pockets, slits, gathers, buttons or ties. Model wears a simple plain ivory sleeveless modest-neck top tucked into waistband and minimal ivory sandals; supporting pieces excluded. Front-facing full-body view, whole waistband and hem visible; skirt is hero and takes most of the frame.\nKeep printed botanical motifs roughly 10–18cm across flowers in garment scale, airy ivory space, realistic continuity over fabric folds. Make the silhouette easy to evaluate. The catalog item is the specified garment only.",
+    "referenced_source_paths": [
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan midi skirt, front view on an anonymous model in the botanical print.",
+    "acceptance_notes": "Inspected: artwork palette/motifs preserved, correct garment silhouette, full sleeves/hem shown as applicable, natural anatomy, no text/logos.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "fb55150bb56223ec30c6bc190eea541ed17b1001029491616597027c4af26ffe"
+  },
+  {
+    "asset_id": "product/amihan-terno-set/primary",
+    "path": "data/catalog/products/amihan-terno-set/01-primary.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-2143ed97-10d4-4b7b-9988-58be00c1f455.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-terno-set, primary AI sample product photograph.\nCreate a new premium catalog photograph of the MATCHING TWO-PIECE SET. Input 1 is the exact bolero and the model identity/studio lighting reference. Input 2 is the exact A-line midi skirt. Input 3 is the exact artwork print. Dress the model from image 1 in the identical bolero from image 1 AND the identical skirt from image 2. Preserve their construction, printed flower motifs, scale, colors, ivory ground, seam and hem shapes. Bolero is waist-length, open front over ivory camisole, upright structured Filipiniana butterfly sleeves and invisible centre-front hook. Skirt has fitted narrow waistband, gentle A-line calf-length flare, no pockets/slit/gathers; ivory lining, concealed side zip. Both pieces must be separately identifiable; do not make a one-piece dress. Plain ivory camisole and ivory sandals only, excluded styling pieces; no belt. Front-facing full-body portrait, entire sleeves and skirt hem visible, 4:5 composition with breathing room. Warm ivory seamless studio, soft natural light, realistic matte woven fabric and skin texture, relaxed hands down, photorealistic. No words, labels, logos, watermark, collage or contact sheet. One photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-bolero/01-primary.png",
+      "data/catalog/products/amihan-midi-skirt/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan terno set, front view on an anonymous model.",
+    "acceptance_notes": "Inspected: matching separate bolero and skirt design/print, distinct two-piece construction, full sleeves and midi hem, natural anatomy.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "706b868cec9b06e4c1456860a2e20ec2c982fd22b28de7b0e3cbfe8addd97813"
+  },
+  {
+    "asset_id": "product/amihan-bolero/silhouette",
+    "path": "data/catalog/products/amihan-bolero/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-e55a00a8-b610-4fba-8178-1c8fbcda75fe.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-bolero, silhouette AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Rear three-quarter catalog view, head to mid thigh, full upright butterfly sleeves and waist-length hem visible. Back panel closed and plain in construction; no back zip or ties. Keep the same ivory camisole and ivory skirt.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-bolero/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan bolero, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "6cb6bbc053073799bb021774f2ffe32d34ee3dcf920653e38d5ea0371c63bc69"
+  },
+  {
+    "asset_id": "product/amihan-bolero/detail",
+    "path": "data/catalog/products/amihan-bolero/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-dbe5d56d-eae2-44e2-8f33-3e639ceec36e.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-bolero, detail AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Close detail photograph from collarbone to waist, focused on the printed butterfly sleeve, its shoulder seam and clean front bolero edge over the same ivory camisole. Face may be outside the frame. Show realistic printed brushwork on matte woven fabric, ivory lining only subtly at the edge.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. Sharp truthful textile detail; print ink on fabric, no embroidered or embossed flowers.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-bolero/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan bolero, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "7a42226a58313addb1f7ff44a48e957c3c0d0d9ac2905ba4d989d91af898419c"
+  },
+  {
+    "asset_id": "product/amihan-bolero/styled",
+    "path": "data/catalog/products/amihan-bolero/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-a3ed61d9-d86a-429e-88b2-3494806f3f6c.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-bolero, styled AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. A lightly styled full-body editorial photograph: the SAME model takes a gentle small step in a bright warm ivory gallery doorway, with soft natural daylight and subtle architectural shadow. Same clothing and neutral ivory styling pieces as the primary, no handbag, belt or new jewellery. Three-quarter front angle, calm natural expression, arms relaxed away from the garment. Entire sleeves and hem visible, product stays clear and recognizable; no paintings or text in the background.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-bolero/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan bolero, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "3383439f4315adb61eae1138ec1fb2f940dd5f9cf7f4b3741ebd74bba26db028"
+  },
+  {
+    "asset_id": "product/amihan-midi-skirt/silhouette",
+    "path": "data/catalog/products/amihan-midi-skirt/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-a1310835-2c43-4013-8ef6-e047cb5c1a04.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-midi-skirt, silhouette AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Left-side rear three-quarter full-body view showing the fitted waistband, natural A-line flare and calf-length hem. Concealed zip is on the wearer's left side; no centre-back fastening or pockets. Same ivory sleeveless top and sandals.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-midi-skirt/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan midi skirt, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "22d0ad8cc7c7f19d014b4476158ab3af944374fe7635bb20c9893a23eac3492d"
+  },
+  {
+    "asset_id": "product/amihan-midi-skirt/detail",
+    "path": "data/catalog/products/amihan-midi-skirt/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-d3dd0aa7-c364-4e08-8d4f-c9187f7b7b26.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-midi-skirt, detail AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. Close detail photograph from the lower torso to mid-skirt, focused on the fitted narrow waistband, precise side seam and botanical print. Same tucked-in ivory top just above waistband. No added fastening, pockets, gathers or belt.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. Sharp truthful textile detail; print ink on fabric, no embroidered or embossed flowers.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-midi-skirt/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan midi skirt, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "6820f2a1431157a5987836cb04fb0b9f885a6a90a93672db5deb534819d4b0c6"
+  },
+  {
+    "asset_id": "product/amihan-midi-skirt/styled",
+    "path": "data/catalog/products/amihan-midi-skirt/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-08af289e-1292-4b2e-b64d-a757b0d92a77.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-midi-skirt, styled AI sample product photograph.\nInput 1: accepted primary photograph; preserve the exact adult model identity, garment construction, floral motifs, colors, print scale, cut, seams, sleeves, hem, closures and styling. Input 2: artwork reference for the exact printed motif, not a scene prop.\nCreate one NEW photograph for this same product. A lightly styled full-body editorial photograph: the SAME model takes a gentle small step in a bright warm ivory gallery doorway, with soft natural daylight and subtle architectural shadow. Same clothing and neutral ivory styling pieces as the primary, no handbag, belt or new jewellery. Three-quarter front angle, calm natural expression, arms relaxed away from the garment. Entire sleeves and hem visible, product stays clear and recognizable; no paintings or text in the background.\nPhotography: photorealistic natural skin and matte fine woven fabric, warm ivory gallery palette, soft broad daylight matching the primary. 4:5 portrait composition with crop room and accurate natural proportions.\nConstraints: Do not redesign the garment or print. Do not add pockets, lace, buttons, belts, accessories, extra layers or words. No logo, labels, watermarks, collage or contact sheet. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-midi-skirt/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan midi skirt, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent motif/palette, sleeve/cut/hem/closure, natural anatomy and framing; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "59ad66aafc5b0708828d186b51986cd27adc7e8cf105437e0d13ef8460035ac5"
+  },
+  {
+    "asset_id": "product/amihan-terno-set/silhouette",
+    "path": "data/catalog/products/amihan-terno-set/02-silhouette.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-724d178d-7b55-42ca-8c98-6841e0cbbb81.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-terno-set, silhouette AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Rear three-quarter FULL-BODY catalog view of the exact matching two-piece outfit, whole butterfly sleeves and calf-length skirt hem visible. Preserve the waist-length closed bolero back panel with no back zip, narrow fitted skirt waistband, A-line flare and concealed skirt side zip. No pockets or slit. Keep both pieces distinct.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-terno-set/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan terno set, rear view.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "166a3892a423b8d2278fd74253315d93c6a6efd3ebec9ab4c2b59ba6c9fbd5ed"
+  },
+  {
+    "asset_id": "product/amihan-terno-set/detail",
+    "path": "data/catalog/products/amihan-terno-set/03-detail.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-666a58cd-e477-427e-a458-42a850b4c316.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-terno-set, detail AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Close detail photograph from the shoulder to upper thighs showing the SAME printed bolero edge over ivory camisole and the matching skirt waistband. Both separate pieces visible together; exact florals, print scale, open front curves and waist-length crop. Crisp natural seams and matte printed woven fabric, no embroidery or belt.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-terno-set/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan terno set, printed fabric and construction detail.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "351d027ef6e2f0c991458c089e7dd55e7f5717a6edb67081d5d7fc82be1f8c8a"
+  },
+  {
+    "asset_id": "product/amihan-terno-set/styled",
+    "path": "data/catalog/products/amihan-terno-set/04-styled.png",
+    "generated_source_path": "/Users/juppy/.codex/generated_images/01a1076c-7204-7de0-ab50-01d97f1fbee7/exec-8eeab8b5-343a-4571-992e-adc53136da9c.png",
+    "prompt": "Use case: product-mockup.\nAsset type: amihan-terno-set, styled AI sample product photograph.\nInput 1 is the accepted primary: preserve the exact adult model identity, garment construction, colors, floral motifs, printed fabric scale, seam shapes, sleeves, hem and styling. Input 2 is the exact artwork print reference, not a scene prop.\nCreate ONE NEW photograph of the same product. Lightly styled FULL-BODY editorial photograph of the SAME anonymous adult model taking a small natural step in a bright warm ivory gallery doorway. Keep the exact outfit/garments, botanical print, sleeves, necklines, closures and hems from the primary. Same ivory styling pieces, simple ivory footwear, no handbag, belt or new jewellery. Three-quarter front angle, calm expression, hands relaxed away from the garment. Entire sleeves and hem visible, airy architectural space and subtle daylight shadows. No paintings or text in the scene.\nPhotorealistic natural skin and finely woven matte fabric, soft broad daylight, warm ivory gallery setting and natural colors. 4:5 portrait composition with crop room. Accurate anatomy and drape. No redesigned garment, added pockets, lace, buttons, accessories or false embroidery. No words, logo, watermark, label, contact sheet or collage. One separate photograph.",
+    "referenced_source_paths": [
+      "data/catalog/products/amihan-terno-set/01-primary.png",
+      "data/catalog/artwork/amihan-garden/master.png"
+    ],
+    "tool_mode": "built-in",
+    "alt_text": "Sample amihan terno set, styled full outfit in an ivory gallery.",
+    "acceptance_notes": "Inspected against accepted primary and artwork: consistent botanical print, exact garment cut and component construction, natural anatomy, framing and closures; separate generated photograph.",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "7dc798d1b71f0ff6882b3362cb24818bec216b77a59fa851a97be84ea8236501"
   }
 ]
