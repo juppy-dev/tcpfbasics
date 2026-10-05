@@ -9,6 +9,16 @@
         "show_page_content": true
       }
     },
+    "inspiration": {
+      "type": "tcpf-story-panel",
+      "settings": {
+        "eyebrow": "A starting point",
+        "heading": "Imagine the artwork in motion.",
+        "copy": "<p>A colour, a painted detail, a silhouette you love. Bring the elements that feel like you, and let them begin the conversation.</p>",
+        "image": "shopify://shop_images/tcpf-sample-product-dapithapon-terno-set-styled-v1.png",
+        "caption": "AI-generated Dapithapon sample outfit for creative inspiration. This concept is not a completed client commission."
+      }
+    },
     "inquiry": {
       "type": "tcpf-contact",
       "settings": {
@@ -21,6 +31,7 @@
   },
   "order": [
     "intro",
+    "inspiration",
     "inquiry"
   ]
 }
