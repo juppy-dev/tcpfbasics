@@ -29,12 +29,12 @@
     <div><label for="{{ form_id }}-phone">Phone (optional)</label><input type="tel" id="{{ form_id }}-phone" name="contact[phone]" autocomplete="tel" value="{{ form.phone | escape }}"></div>
     {% if section.settings.bespoke %}
       <div class="tcpf-form-row">
-        <div><label for="{{ form_id }}-garment">Garment interest (optional)</label><select id="{{ form_id }}-garment" name="contact[Garment interest]"><option value="">Select a garment</option><option>Bolero</option><option>Terno set</option><option>Skirt</option><option>Dress</option><option>Top</option><option>Still exploring</option></select></div>
+        <div><label for="{{ form_id }}-garment">Garment interest (optional)</label><select id="{{ form_id }}-garment" name="contact[Garment interest]"><option value="">Select a garment</option><option>Modern barong</option><option>Terno set</option><option>Skirt</option><option>Dress</option><option>Top</option><option>Still exploring</option></select></div>
         <div><label for="{{ form_id }}-date">Occasion date (optional)</label><input type="date" id="{{ form_id }}-date" name="contact[Occasion date]"></div>
       </div>
     {% endif %}
     <div><label for="{{ form_id }}-body">{% if section.settings.bespoke %}Tell us about your idea *{% else %}Your message *{% endif %}</label><textarea id="{{ form_id }}-body" name="contact[body]" rows="7" required>{{ form.body | escape }}</textarea></div>
-    {% if section.settings.bespoke %}<p class="tcpf-note">An inquiry starts a conversation. Price, feasibility, and timing are discussed before a commitment.</p>{% endif %}
+    {% if section.settings.bespoke %}<p class="tcpf-note">Share your occasion date and favourite colours so we can explore the right piece together.</p>{% endif %}
     <div><button class="tcpf-button" type="submit">{{ section.settings.submit_label | escape }}</button></div>
   {% endform %}
 </section>

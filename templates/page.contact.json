@@ -19,7 +19,9 @@
     },
     "contact": {
       "type": "tcpf-contact",
-      "settings": {}
+      "settings": {
+        "contact_details": "<p><strong>TCPF Studio</strong><br>Naga City, Camarines Sur, Philippines</p><p>For styling advice, sizes and bespoke pieces, send us a note or find <a href=\"https://www.instagram.com/tcpfbasics/\" target=\"_blank\">@tcpfbasics on Instagram</a>.</p>"
+      }
     }
   },
   "order": [

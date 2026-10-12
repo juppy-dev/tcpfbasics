@@ -49,14 +49,14 @@
       {% endif %}
     </div>
     {% if featured != blank %}
-      <div class="tcpf-hero__caption"><span>{{ artwork.title.value | default: featured.title | escape }}</span><span>{% if sample %}AI-generated sample{% else %}{{ section.settings.caption | escape }}{% endif %}</span></div>
+      <div class="tcpf-hero__caption"><span>{{ artwork.title.value | default: featured.title | escape }}</span><span>{% if sample and artwork.reference_url.value != blank %}Reconstructed preview{% elsif sample %}AI-generated sample{% else %}{{ section.settings.caption | escape }}{% endif %}</span></div>
       <div class="tcpf-hero__panels">
         <article class="tcpf-hero__panel" id="tcpf-hero-piece-{{ section.id }}" data-panel="piece" aria-labelledby="tcpf-hero-piece-title-{{ section.id }}">
           <button type="button" class="tcpf-hero__close" data-close hidden aria-label="Close product details">×</button>
           <p class="tcpf-eyebrow">The piece</p>
           <h2 id="tcpf-hero-piece-title-{{ section.id }}" tabindex="-1">{{ featured.title | escape }}</h2>
-          <p class="tcpf-hero__price">{% if sample %}<span>Sample price · </span>{% endif %}{% if featured.price_varies %}From {% endif %}{{ featured.price | money }}</p>
-          {% if sample %}<p class="tcpf-note">Concept preview · not available to purchase.</p>{% endif %}
+          <p class="tcpf-hero__price">{% if sample and featured.price == 0 %}{{ 'tcpf.pending_price' | t }}{% else %}{% if sample %}<span>Sample price · </span>{% endif %}{% if featured.price_varies %}From {% endif %}{{ featured.price | money }}{% endif %}</p>
+          {% if sample %}<p class="tcpf-note">Website preview · not available to purchase.</p>{% endif %}
           <a class="tcpf-link" href="{{ featured.url }}">View the piece</a>
         </article>
         {% if master != blank %}
@@ -66,7 +66,6 @@
             <h2 id="tcpf-hero-artwork-title-{{ section.id }}" tabindex="-1">{{ artwork.title.value | escape }}</h2>
             <div class="tcpf-hero__art-detail">{{ master | image_url: width: 700 | image_tag: widths: '280,420,700', sizes: '(max-width: 749px) 85vw, 320px', loading: 'lazy', alt: master.alt }}</div>
             {% if artwork.story.value != blank %}<p class="tcpf-hero__story">{{ artwork.story.value | escape }}</p>{% endif %}
-            {% if artwork.origin.value == 'ai_concept' %}<p class="tcpf-note">AI-generated sample artwork.</p>{% elsif artwork.attribution.value != blank %}<p class="tcpf-note">{{ artwork.attribution.value | escape }}</p>{% endif %}
             {% if artwork_url != blank %}<a class="tcpf-link" href="{{ artwork_url }}">Explore the print</a>{% endif %}
           </article>
         {% endif %}

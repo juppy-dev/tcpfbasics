@@ -14,14 +14,16 @@
       "settings": {
         "eyebrow": "Size and fit",
         "heading": "Get to know the fit.",
-        "introduction": "<p>Fit starts with the individual piece. Ask TCPF for current sizes and garment measurements before choosing.</p>",
+        "introduction": "<p>Find your size, from XS to 3XL. Start with your body measurements, then explore the fit notes on each piece.</p>",
         "show_page_content": true
       }
     },
     "guides": {
       "type": "tcpf-size-guides",
       "settings": {
-        "guides": []
+        "guides": [
+          "tcpf-body-size-guide"
+        ]
       }
     }
   },

@@ -15,7 +15,6 @@
             {% if master != blank %}{{ master | image_url: width: 480 | image_tag: widths: '180,280,360,480', sizes: '(max-width: 749px) 28vw, 14vw', loading: 'lazy', class: 'tcpf-art-edit__master', alt: master.alt }}{% endif %}
           </a>
           <div class="tcpf-art-edit__caption"><h3>{{ edit.title | escape }}</h3><a class="tcpf-link" href="{{ edit.url }}">Explore the print</a></div>
-          {% if artwork.origin.value == 'ai_concept' %}<p class="tcpf-note">AI-generated sample artwork · {{ artwork.title.value | escape }}</p>{% elsif artwork.attribution.value != blank %}<p class="tcpf-note">{{ artwork.attribution.value | escape }}</p>{% endif %}
         </article>
       {% elsif request.design_mode %}<p class="tcpf-empty" {{ block.shopify_attributes }}>Choose an artwork collection.</p>{% endif %}
     {% endfor %}

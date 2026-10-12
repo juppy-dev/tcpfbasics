@@ -36,9 +36,10 @@
   <section class="tcpf-section tcpf-wrap tcpf-product-story">
     {% if garment != blank %}
       <div class="tcpf-product-facts">
-        <div><p class="tcpf-eyebrow">The garment</p><h2 class="tcpf-heading">{{ section.settings.facts_heading | escape }}</h2>{% if garment.data_status.value == 'sample' %}<p class="tcpf-note">Demonstration specifications. Physical garment details require verification.</p>{% endif %}</div>
+        <div><p class="tcpf-eyebrow">The garment</p><h2 class="tcpf-heading">{{ section.settings.facts_heading | escape }}</h2></div>
         <dl>
           {% assign facts = 'Silhouette:silhouette|Fit:fit_notes|Fabric:fabric|Composition:fiber_content|Stretch:stretch|Lining:lining|Fastening:closure|Pockets:pockets|Care:care_instructions|Included pieces:included_items' | split: '|' %}
+          {% if garment.data_status.value == 'pending' %}{% assign facts = 'Silhouette:silhouette|Fit:fit_notes|Included pieces:included_items' | split: '|' %}{% endif %}
           {% for fact in facts %}
             {% assign pair = fact | split: ':' %}
             {% assign field_key = pair[1] %}
@@ -50,13 +51,12 @@
     {% endif %}
     {% if artwork != blank %}
       <article class="tcpf-product-artwork" id="tcpf-product-artwork">
-        {% if artwork.artwork_image.value != blank %}<figure>{{ artwork.artwork_image.value | image_url: width: 800 | image_tag: widths: '320,480,640,800', sizes: '(max-width: 749px) 90vw, 40vw', loading: 'lazy', class: 'tcpf-image', alt: artwork.artwork_image.value.alt }}{% if artwork.attribution.value != blank %}<figcaption class="tcpf-note">{{ artwork.attribution.value | escape }}</figcaption>{% endif %}</figure>{% endif %}
+        {% if artwork.artwork_image.value != blank %}<figure>{{ artwork.artwork_image.value | image_url: width: 800 | image_tag: widths: '320,480,640,800', sizes: '(max-width: 749px) 90vw, 40vw', loading: 'lazy', class: 'tcpf-image', alt: artwork.artwork_image.value.alt }}</figure>{% endif %}
         <div>
           <p class="tcpf-eyebrow">The artwork behind the print</p><h2 class="tcpf-heading">{{ artwork.title.value | escape }}</h2>
           {% if artwork.story.value != blank %}<p class="tcpf-copy">{{ artwork.story.value | escape | newline_to_br }}</p>{% endif %}
           {% if artwork.palette.value != blank %}<p class="tcpf-note">Palette: {{ artwork.palette.value | join: ', ' | escape }}</p>{% endif %}
-          {% if artwork.medium.value != blank %}<p class="tcpf-note">{{ artwork.medium.value | escape }}</p>{% endif %}
-          {% if artwork.origin.value == 'ai_concept' %}<p class="tcpf-note">AI-generated demonstration artwork. Artist attribution is pending client review.</p>{% endif %}
+          {% if artwork.reference_url.value != blank %}<a class="tcpf-link" href="{{ artwork.reference_url.value | escape }}" target="_blank" rel="noopener">See the piece on TCPF’s Instagram ↗</a>{% endif %}
         </div>
       </article>
     {% endif %}

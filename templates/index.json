@@ -11,6 +11,14 @@
   "sections": {
     "intro": {
       "type": "tcpf-shop-intro",
+      "settings": {
+        "shop": "ready-to-wear",
+        "heading_level": "h2",
+        "compact": true,
+        "eyebrow": "Shop by silhouette",
+        "heading": "Find your silhouette.",
+        "copy": ""
+      },
       "blocks": {
         "boleros": {
           "type": "category",
@@ -49,18 +57,16 @@
         "skirts",
         "dresses",
         "tops"
-      ],
-      "settings": {
-        "heading_level": "h2",
-        "compact": true,
-        "eyebrow": "Shop by silhouette",
-        "heading": "Find your silhouette.",
-        "copy": "",
-        "shop": "ready-to-wear"
-      }
+      ]
     },
     "edit": {
       "type": "tcpf-featured-collection",
+      "settings": {
+        "collection": "ready-to-wear",
+        "count": 8,
+        "eyebrow": "Seen on TCPF",
+        "heading": "Pieces with a painted point of view."
+      },
       "blocks": {
         "tcpf-edit-card": {
           "type": "_product-card",
@@ -144,16 +150,13 @@
             "price_EzJzMm"
           ]
         }
-      },
-      "settings": {
-        "eyebrow": "Seen on TCPF",
-        "heading": "Pieces with a painted point of view.",
-        "collection": "ready-to-wear",
-        "count": 8
       }
     },
     "art": {
       "type": "tcpf-artwork-edit",
+      "settings": {
+        "copy": "Follow a print from its artwork to the pieces that carry it."
+      },
       "blocks": {
         "amihan-garden": {
           "type": "edit",
@@ -171,17 +174,14 @@
       "block_order": [
         "amihan-garden",
         "dapithapon"
-      ],
-      "settings": {
-        "copy": "Follow a print from its artwork preview to the pieces that carry it."
-      }
+      ]
     },
     "story": {
       "type": "tcpf-story-panel",
       "settings": {
-        "product": "kalesa-modern-barong",
-        "caption": "Kalesa Modern Barong · AI-reconstructed preview from TCPF’s social imagery.",
-        "link": "/pages/our-story"
+        "caption": "Kalesa Modern Barong · A scene in sepia.",
+        "link": "/pages/our-story",
+        "product": "kalesa-modern-barong"
       }
     },
     "bespoke": {
@@ -193,11 +193,11 @@
     "hero": {
       "type": "tcpf-hotspot-hero",
       "settings": {
-        "copy": "Florals, landscapes and everyday silhouettes. Explore painted-fashion pieces seen on TCPF’s social pages.",
+        "product": "gumamela-terno-set",
         "shop": "ready-to-wear",
-        "product": "demo-social-gumamela-terno-set",
         "artwork_collection": "gumamela",
-        "caption": "Gumamela Terno Set · reconstructed preview",
+        "copy": "Florals, landscapes and everyday silhouettes. Discover modern Filipiniana that brings original art into the way you dress.",
+        "caption": "Gumamela Terno Set · Florals, worn together.",
         "product_x": 59,
         "product_y": 42
       }

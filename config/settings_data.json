@@ -86,7 +86,7 @@
       "color5": "#6B625A"
     },
     "tcpf_use_brand_fonts": true,
-    "tcpf_preview_notice": true,
+    "tcpf_preview_notice": false,
     "logo": "shopify://shop_images/tcpf-original-logo-v1.jpg",
     "page_background_color": "{{ settings.color_palette.background }}",
     "page_text_color": "{{ settings.color_palette.foreground }}",

@@ -48,6 +48,5 @@
     </div>
     {% if guide.measurement_kind.value == 'garment' %}<p class="tcpf-note">Garment measurements in centimetres. Bust, waist, and hip are circumferences. Compare with a similar garment you own.</p>{% endif %}
     {% if guide.notes.value != blank %}<p class="tcpf-note">{{ guide.notes.value | escape | newline_to_br }}</p>{% endif %}
-    {% if guide.chart_status.value == 'sample' %}<p class="tcpf-note"><strong>Demonstration guide:</strong> these values have not been verified on physical stock.</p>{% endif %}
   </div>
 {% endif %}

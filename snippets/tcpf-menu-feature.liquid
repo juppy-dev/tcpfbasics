@@ -17,6 +17,5 @@
     <span class="tcpf-eyebrow">From artwork to outfit</span>
     <span class="tcpf-menu-feature__title">{{ collection.title | escape }}</span>
     <span class="tcpf-menu-feature__link">Explore the print <span aria-hidden="true">↗</span></span>
-    {% if artwork.reference_url.value != blank %}<span class="tcpf-note">Reconstructed preview</span>{% elsif artwork.origin.value == 'ai_concept' %}<span class="tcpf-note">AI-generated sample</span>{% endif %}
   </div>
 </a>
