@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "intro": {
@@ -15,10 +24,10 @@
         "eyebrow": "From Naga City",
         "heading": "A painted-fashion point of view.",
         "copy": "<p>TCPF is owned and operated by Tisha Chavez. The boutique prints original paintings and artworks onto modern Filipiniana clothing, giving expressive imagery a place in the everyday wardrobe.</p>",
-        "image": "shopify://shop_images/tcpf-sample-artwork-hiraya-bloom-v1.png",
-        "caption": "AI-generated Hiraya sample artwork, used for the website demonstration.",
+        "caption": "Eliana Dress · AI-reconstructed preview from TCPF’s social imagery.",
         "link": "/collections/ready-to-wear",
-        "link_label": "Explore ready-to-wear"
+        "link_label": "Explore ready-to-wear",
+        "product": "demo-social-eliana-dress"
       }
     },
     "bespoke": {

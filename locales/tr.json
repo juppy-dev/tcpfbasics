@@ -1,5 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "tcpf": {
+    "pending_price": "Price to be confirmed",
+    "preview_piece": "Preview piece",
+    "reconstruction_notice": "A preview of a piece featured by TCPF. Images are AI reconstructions; final price, sizing and garment details still need confirmation. This demo does not accept orders.",
     "not_for_sale": "Not for sale",
     "sample_price": "Sample price",
     "sample_notice": "AI-generated sample concept. Imagery and garment details are for demonstration. This piece is not available to purchase.",

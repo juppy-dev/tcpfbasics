@@ -114,7 +114,7 @@
   >
     {{ children }}
     {% if product.metafields.tcpf.concept_only.value %}
-      <p class="tcpf-card-notice">Sample concept · {{ 'tcpf.not_for_sale' | t }}</p>
+      <p class="tcpf-card-notice">{{ 'tcpf.preview_piece' | t }} · {{ 'tcpf.not_for_sale' | t }}</p>
     {% endif %}
   </div>
 </product-card>

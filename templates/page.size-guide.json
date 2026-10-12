@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "intro": {
@@ -5,20 +14,14 @@
       "settings": {
         "eyebrow": "Size and fit",
         "heading": "Get to know the fit.",
-        "introduction": "<p>Compare garment measurements with a similar piece you own. Sample guides are demonstration values and require physical verification before sale.</p>",
+        "introduction": "<p>Fit starts with the individual piece. Ask TCPF for current sizes and garment measurements before choosing.</p>",
         "show_page_content": true
       }
     },
     "guides": {
       "type": "tcpf-size-guides",
       "settings": {
-        "guides": [
-          "sample-bolero",
-          "sample-skirt",
-          "sample-halter-dress",
-          "sample-wrap-dress",
-          "sample-blouse"
-        ]
+        "guides": []
       }
     }
   },

@@ -10,6 +10,12 @@
       {% if block.settings.link != blank %}<a class="tcpf-link" href="{{ block.settings.link }}">All size guides</a>{% endif %}
     </div>
   </details>
+{% elsif garment.data_status.value == 'pending' %}
+  <div class="tcpf-size-disclosure" {{ block.shopify_attributes }}>
+    <p class="tcpf-eyebrow">{{ block.settings.heading | escape }}</p>
+    <p class="tcpf-note">Sizes and garment measurements are being confirmed. Contact TCPF for guidance on this piece.</p>
+    {% if block.settings.link != blank %}<a class="tcpf-link" href="{{ block.settings.link }}">About sizing</a>{% endif %}
+  </div>
 {% elsif request.design_mode %}<p class="tcpf-note" {{ block.shopify_attributes }}>Add size-guide references to the product’s TCPF Garment Details.</p>{% endif %}
 {% schema %}
 {

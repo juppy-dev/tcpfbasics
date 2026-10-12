@@ -16,6 +16,11 @@
   assign price = selected_variant.price
   assign compare_at_price = selected_variant.compare_at_price
 
+  assign show_pending_price = false
+  if product_resource.metafields.tcpf.concept_only.value and selected_variant.price == 0
+    assign show_pending_price = true
+  endif
+
   assign show_compare_price = false
   if compare_at_price > price
     assign show_compare_price = true
@@ -78,6 +83,9 @@
 -%}
 
 <div ref="priceContainer">
+  {% if show_pending_price %}
+    <span class="tcpf-sample-price-label">{{ 'tcpf.pending_price' | t }}</span>
+  {% else %}
   {% if product_resource.metafields.tcpf.concept_only.value %}
     <span class="tcpf-sample-price-label">{{ 'tcpf.sample_price' | t }} · </span>
   {% endif %}
@@ -131,8 +139,9 @@
     -%}
     {% render 'unit-price', price: unit_price, measurement: selected_variant.unit_price_measurement %}
   {%- endif -%}
+  {% endif %}
 </div>
-{%- if has_volume_pricing -%}
+{%- if has_volume_pricing and show_pending_price == false -%}
   <small
     ref="volumePricingNote"
     class="volume-pricing-note"
