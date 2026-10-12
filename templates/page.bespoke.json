@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "intro": {
@@ -15,8 +24,8 @@
         "eyebrow": "A starting point",
         "heading": "Imagine the artwork in motion.",
         "copy": "<p>A colour, a painted detail, a silhouette you love. Bring the elements that feel like you, and let them begin the conversation.</p>",
-        "image": "shopify://shop_images/tcpf-sample-product-dapithapon-terno-set-styled-v1.png",
-        "caption": "AI-generated Dapithapon sample outfit for creative inspiration. This concept is not a completed client commission."
+        "caption": "Gumamela Terno Set · AI-reconstructed preview of a TCPF social reference, shown for inspiration. This is not a bespoke commission.",
+        "product": "demo-social-gumamela-terno-set"
       }
     },
     "inquiry": {
